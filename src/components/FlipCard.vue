@@ -1,16 +1,16 @@
 <template>
-  <a class="card" :href="url" target="_blank">
+  <div class="flip_card md:flip-card-md" @click="flipCard" :class="{'active': flipped}" :href="url" target="_blank">
     <div class="container">
       <div class="front">
         <slot name="image"></slot>
-
-        <slot name="front"></slot>
+        <slot name="front">
+        </slot>
       </div>
       <div class="back">
         <slot name="back"></slot>
       </div>
     </div>
-  </a>
+  </div>
 </template>
 
 <script>
@@ -21,17 +21,19 @@ export default {
     return {
       flipped: false
     };
+  },
+  methods: {
+    flipCard(){
+        this.flipped = !this.flipped
+    },
+    flipMobile(){
+      this.flipped = !this.flipped
+    }
   }
 };
 </script>
 
 <style type="text/css" scoped>
-.card {
-  position: relative;
-  -webkit-backface-visibility: hidden;
-  width: 280px !important;
-  height: 100%;
-}
 
 .container {
   -ms-transform-style: preserve-3d;
@@ -80,14 +82,7 @@ export default {
   padding-top: 10px;
 }
 
-.card:hover .front {
-  -ms-transform: rotateY(-180deg);
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
+
 
 .back {
   position: absolute;
@@ -101,12 +96,7 @@ export default {
   align-items: center;
   background: #fff !important;
   @apply rounded-lg pt-4 overflow-hidden;
-
-  -ms-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -115,12 +105,5 @@ export default {
   width: 80%;
 }
 
-.card:hover .back {
-  -ms-transform: rotateY(0deg);
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
+
 </style>

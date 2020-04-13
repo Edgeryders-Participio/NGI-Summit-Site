@@ -1,20 +1,20 @@
 <template>
-  <div class="section section-md" id="form">
-    <div class="section_title">
-      {{ custom.title }}
-    </div>
-    <div class="wrapper md:wrapper-md">
-      <div class="content section_text" v-html="custom.content">
+  <div class="section mt-10 md:section-md" id="form">
+    <div class="md:flex">
+      <div class="px-6 md:px-0 md:w-1/2 md:mr-8 md:pr-4 flex flex-col md:pt-8">
+        <h3 class="text-3xl font-bold mb-4">{{ custom.title }}</h3>
+        <div class="section_text" v-html="custom.content">
+        </div>
       </div>
-      <div class="form">
+      <div class="mt-4 px-6 md:px-0 md:mt-0 md:w-1/2 md:pt-10">
         <div class="even">
-          <Title class="even" v-bind="slide" />
-          <Body v-bind="slide" :response="response" :next="next" />
-          <Fields v-bind="slide" :response="response" :next="next" />
+          <Title class="even md:pl-3" v-bind="slide" />
+          <Body class="md:px-2" v-bind="slide" :response="response" :next="next" />
+          <Fields class="md:px-2" v-bind="slide" :response="response" :next="next" />
           <Error v-for="error in errors" :key="error" :error="error" />
         </div>
         <Progress :index="slide.index" :maxIndex="maxIndex" mobile />
-        <Navigation :back="back" :next="next" :maxIndex="maxIndex" v-bind="slide" />
+        <Navigation class="md:px-2" :back="back" :next="next" :maxIndex="maxIndex" v-bind="slide" />
       </div>
     </div>
   </div>
