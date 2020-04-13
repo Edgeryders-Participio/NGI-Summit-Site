@@ -2,49 +2,30 @@
   <div class="section_terms md:p-10" id="terms">
     <div class="md:w-3/4 md:px-4 md:pr-10">
       <h1 class="text-white font-bold">
-        TERMS OF PARTICIPATION &amp; PRIVACY POLICY
+        ABOUT THIS WEBSITE
       </h1>
       <p class="text-white mt-2">
-        The Edgeryders online platform and activities are intended for people to
-        cooperate within and across projects trying to build a better world. The
-        word "better" has here a fairly broad range of meaning. These
+        The NGI Policy Summit is organised by the  
         <a
           class="underline"
-          href="https://edgeryders.eu/t/netiquette/45"
+          href="https://www.amsterdam.nl/"
           target="_blank"
-          >Community Guidelines</a
+          >City of Amsterdam</a
         >
-        are here to help you understand what it means to be a member of
-        Edgeryders. Don’t forget that your use of Edgeryders is subject to these
-        Community Guidelines and our
+        and 
         <a
           class="underline"
-          href="https://edgeryders.eu/t/id/44"
+          href="https://www.nesta.org.uk/"
           targert="_blank"
-          >Terms of Service</a
-        >.
-      </p>
+          >Nesta</a
+        >, in collaboration with the European Commission.
+      </p><p class="text-white mt-2">This website is run by NGI Forward, which is part of the NGI initiative. NGI Forward has received funding from the European Union’s Horizon 2020 research and innovation programme under the Grant Agreement no 825652. The content of this website does not represent the opinion of the European Union, and the European Union is not responsible for any use that might be made of such content.</p>
+
     </div>
 
     <div class="md:w-1/4 pt-6 md:p-0 md:px-6 border-gray-100 md:border-l">
-      <h1 class="text-white font-bold">Contact Us</h1>
-      <p class="text-white mt-2">
-        <a class="underline" href="mailto:contact@edgeryders.eu" target="_blank"
-          >Email</a
-        ><br />
-        <a
-          class="underline"
-          href="https://twitter.com/edgeryders"
-          target="_blank"
-          >Twitter</a
-        ><br />
-        <a
-          class="underline"
-          href="https://facebook.com/edgeryders"
-          target="_blank"
-          >Facebook</a
-        >
-      </p>
+      <div class="w-full h-16 mb-4 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(' + require('../assets/img/bandiera_stelle.png') + ')'}"></div>
+      <a href="https://ngi.eu/" target="_blank" ><div class="w-full h-16 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(' + require('../assets/img/logo-footer.svg') + ')'}"></div></a>
     </div>
   </div>
 </template>

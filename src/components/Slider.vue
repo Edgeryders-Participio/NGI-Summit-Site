@@ -4,16 +4,6 @@
     @mouseover="clear_interval"
     @mouseleave="toggle_play"
   >
-    <div class="toggle_menu md:flex">
-      <div
-        class="toggle previous"
-        @click="changeSlide('previous')"
-      ></div>
-      <div
-        class="toggle next"
-        @click="changeSlide('next')"
-      ></div>
-    </div>
 
     <transition-group tag="div" class="slider" :name="currentTransition" mode="out-in">
       <div v-for="number in [currentIndex]" :key="number" class="slide md:slide-md" v-touch:swipe.left="next" v-touch:swipe.right="prev">
@@ -30,7 +20,7 @@
           </div>
           <Profile class="ml-3" v-if="show('author')" :data="currentSlide.author" />
         </div>
-        <div v-html="cooked || currentSlide.excerpt" class="excerpt md:excerpt-md"></div>
+        <div v-html="currentSlide.excerpt" class="excerpt md:excerpt-md"></div>
       </div>
     </transition-group>
 
@@ -60,9 +50,11 @@ export default {
     },
     next() {
       this.changeSlide('next');
+      this.set_interval();
     },
     prev() {
       this.changeSlide('previous');
+      this.set_interval();
     },
     changeSlide(dir) {
       this.currentIndex = dir === 'next' ? this.currentIndex + 1 : this.currentIndex - 1;
@@ -79,6 +71,14 @@ export default {
         this.interval = false;
       }
     },
+    set_interval() {
+      this.clear_interval();
+      var self = this;
+      this.interval = setInterval(function() {
+        self.changeSlide('next');
+      }, this.autoplay);
+      this.play = true;
+    },
     getPermalink(slug) {
       return "https://edgeryders.eu/t/" + slug;
     },
@@ -88,11 +88,7 @@ export default {
         this.clear_interval();
       }
       if (this.autoplay && !this.interval) {
-        var self = this;
-        this.interval = setInterval(function() {
-          self.changeSlide('next');
-        }, this.autoplay);
-        this.play = true;
+        this.set_interval()
       }
     }
   },
@@ -117,7 +113,7 @@ export default {
       this.users = this.custom.users.slice(0);
     }
     if (this.autoplay != undefined) {
-      this.toggle_play(this.autoplay);
+      this.toggle_play();
     }
   },
   filters: {
@@ -130,14 +126,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.slider_container {
+  width: 100%;
+}
 .slider{
   overflow: hidden;
   position: relative;
   height: 20em;
-  margin: 10px auto 0;
   border-radius: 10px;
-  width: 95%;
+  width: 100%;
 }
 
 .slider .slide {

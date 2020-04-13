@@ -1,8 +1,10 @@
 <template>
   <div class="flex flex-col w-full">
-    <Nav style="margin-bottom: 60px" :data="selectedComponents" />
 
-    <Hero :baseUrl="data.baseUrl" :custom="getSectionData('hero')" :category="getCategoryMetadata()"/>
+    <Nav style="margin-bottom: 60px" :data="navItems" :open="openMenu" ref="childComponent" @toggle="toggleMenu" />
+    <MobileMenu :open="openMenu" :data="navItems" @toggle="toggleMenu" />
+  
+    <Hero :baseUrl="data.baseUrl" :custom="getSectionData('hero')"/>
 
     <div v-for="section in data.sections" :key="section.title" :id="section.id">
       <Custom v-if="section.type == 'custom'" :custom="section" html=true />
@@ -18,13 +20,14 @@
     </div>
 
     <Terms />
-  </div>
+</div>
 </template>
 
 <script>
 import data from "@/data/config.json";
 
 import Nav from "@/components/Navigation.vue";
+import MobileMenu from "@/components/views/MobileMenu.vue";
 import Hero from "@/components/Hero.vue";
 import Custom from "@/components/Custom.vue";
 import Events from "@/components/Events.vue";
@@ -44,7 +47,23 @@ export default {
     return {
       data,
       category: { users: [] },
-      categories: []
+      categories: [],
+      sections: null,
+      openMenu: false,
+      menus: {
+        slide: { buttonText: 'Slide' },
+        push: { buttonText: 'Push' },
+        pushRotate: { buttonText: 'Push Rotate' },
+        reveal: { buttonText: 'Reveal' },
+        scaleDown: { buttonText: 'Scale Down' },
+        scaleRotate: { buttonText: 'Scale Rotate' },
+        // elastic: { buttonText: 'Elastic - (WIP)' },
+        // stack: { buttonText: 'Stack - (WIP)' },
+        bubble: { buttonText: 'Bubble' },
+        fallDown: { buttonText: 'Fall Down' }
+      },
+      side: 'left',
+      currentMenu: 'reveal'
     };
   },
   components: {
@@ -54,6 +73,7 @@ export default {
     Events,
     Hero,
     Nav,
+    MobileMenu,
     Custom,
     Partners,
     Edgeryders,
@@ -61,44 +81,42 @@ export default {
     Terms
   },
   created() {
-    this.fetchData();
+    if (this.data.configId) {
+      axios.get(
+        `https://edgeryders.eu/webkit_components/topics.json?serializer=event&tags=webcontent`
+      ).then(({ data }) => {
+        var post = data.find(post => post.id === this.data.configId);
+        var json = this.getJson(post.cooked);
+        this.sections = json.sections;
+      });
+    } else {
+      this.sections = this.data.sections;
+    }
   },
   methods: {
-    fetchData() {
-      axios
-        .get(`${this.data.baseUrl}/webkit_components/categories.json`)
-        .then(this.applyCategory);
-    },
-    applyCategory({ data }) {
-      this.categories = data;
-    },
-    getCategoryMetadata() {
-      var hero_data = this.getSectionData('hero');
-      if (hero_data.category) {
-         return this.categories.find(category => category.id === hero_data.category) || {};
-      } else {
-        return null
-      }
-    },
     getSectionData(type) {
-      return this.data.sections.find(section => section.type === type) || {};
+      return this.sections.find(section => section.type === type) || {};
+    },
+    toggleMenu() {
+      this.openMenu = !this.openMenu;
     }
   },
   computed: {
-    selectedComponents() {
-    var navArray = this.data.sections.map(function(el) {
-            if (el.id) {
-              return {
-                title: el.title,
-                id: el.id,
-              } 
-            }
-          });
-    return navArray.filter(function (el) {
-        return el != null;
-    });
-    
+    navItems() {
+      var navArray = this.sections.map(function(el) {
+              if (el.id) {
+                return {
+                  title: el.title,
+                  id: el.id,
+                } 
+              }
+            });
+      return navArray.filter(function (el) {
+          return el != null;
+      });
     }
   }
 };
 </script>
+
+

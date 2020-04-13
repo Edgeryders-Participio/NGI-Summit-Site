@@ -1,10 +1,10 @@
 <template>
-  <div class="row">
-    <div class="card_row" ref="content" v-dragscroll.x="true" v-if="users">
+  <div class="row md:row-md">
+    <div class="card_row" ref="content" v-if="users">
       <Card
         v-for="(item, index) in users"
         :key="index"
-        class="card"
+        class="card md:card-md"
         :url="item.url"
       >
         <template slot="front">
@@ -30,12 +30,13 @@
         </template>
       </Card>
     </div>
-    <div class="card_row" ref="content" v-dragscroll.x="true" v-if="topics">
+    <div class="card_row md:card_row-md" ref="content" v-if="topics">
       <Card
         v-for="item in topics"
         :key="item"
+        ref="flipCard"
         :url="item.url"
-        class="card topic"
+        class="card topic md:card-md"
       >
         <template slot="image">
           <div
@@ -48,12 +49,13 @@
             <div class="topic_title" v-if="show('title')">
               <h2>{{ item.title }}</h2>
             </div>
+
             <Profile v-if="show('author')" :data="item.author" />
           </div>
         </template>
         <template slot="back">
           <div class="card_excerpt" v-html="item.excerpt"></div>
-          <div class="card_footer">Read more on this topic</div>
+          <a class="card_footer" :href="item.url" target="_blank">Discuss this topic</a>
         </template>
       </Card>
     </div>
@@ -70,9 +72,17 @@ export default {
     Card,
     Profile
   },
+  data() {
+    return {
+      flip: false
+    };
+  },
   methods: {
     show(value) {
       return this.display.includes(value);
+    },
+    toggleCard(){
+      this.$refs.flipCard.flipMobile();
     },
     scroll() {
       this.$nextTick(() => {
@@ -89,19 +99,6 @@ export default {
 </script>
 
 <style lang="scss">
-.row {
-  @apply w-full;
-  height: 430px;
-  width: 98%;
-  margin: 0 auto;
-}
-.jump {
-  display: inline-block;
-}
-.button.next {
-  width: 100px;
-  height: 40px;
-  display: inline-block;
-  background: black;
-}
+
+
 </style>

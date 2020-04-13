@@ -4,7 +4,7 @@
         <img :src="data.image.url" />
       </div>
       <div class="hero_info md:hero_info-md">
-        <h1 class="hero_title">{{ data.title }}</h1>
+        <h1 class="hero_title" v-html="data.title"></h1>
         <div class="hero_text" v-html="data.text.content" :style="{textAlign: data.text.align}"></div>
         <div class="action_container">
           <a class="action" v-for="item in data.text.buttons" :style="styleObj(item)" :href="item.url" :key="item.url" target="_blank">

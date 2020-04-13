@@ -22,10 +22,6 @@
         class='slide md:slide-md'
         :key="slide">
         <div class="logo" :style="{background: 'url(' + getImg(slide.logo) + ')'}"></div>
-        <div class="info">
-          <h4> {{ slide.title }} </h4>
-          <div><p class="date">{{ slide.date }}</p></div>
-        </div>
       </a>
     </div>
   </div>
@@ -153,7 +149,6 @@ export default {
     background-position: center center !important;
     background-size: 120px !important;
     padding-bottom: 20px;
-    border-bottom: 1px solid #efefef;
   }
   .info {
     display: inline-block;
