@@ -226,6 +226,29 @@
           "logo": "assets/img/logos/eucom.png"
         }
       ]
+    } ,   {
+      "type": "custom",
+      "id": "contact us",
+      "image": {
+        "url": "",
+        "width": 0
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "Use the link below to contact us about the Policy Summit.",
+        "position": "left",
+        "buttons": [
+          {
+            "text": "Contact us",
+            "url": "mailto:ngisummit@nesta.org.uk?subject=Query from Policy Summit website",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
+          }
+        ]
+      }
     }
   ]
 }
