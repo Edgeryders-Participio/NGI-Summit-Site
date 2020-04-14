@@ -113,21 +113,6 @@
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
       "tagOthers": "webcontent-ngi-summit-2020-bio-small"
-    },  
-    {
-      "type": "custom",
-      "title": "",
-      "image": {
-        "url": ""
-      },
-      "video": {
-        "src": "",
-        "poster": ""
-      },
-      "text": {
-        "content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics:</p>",
-        "position": "left"
-      }
     }, 
     {
       "type": "topics",
@@ -135,7 +120,7 @@
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
       "text": {
-        "content": "",
+        "content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics:</p>",
         "position": "left"
       },
       "sort_by": {
