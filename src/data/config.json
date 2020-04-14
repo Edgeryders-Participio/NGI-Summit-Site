@@ -88,11 +88,6 @@
       "title": "Programme",
       "id": "programme",
       "tag": "event-ngi-summit-2020",
-      "filters": {
-        "team": "blue",
-        "outreach": "green",
-        "community": "orangered"
-      }
     },
     {
       "type": "topics",
