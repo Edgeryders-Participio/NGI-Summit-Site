@@ -113,30 +113,6 @@
       }
     },
     {
-      "type": "custom",
-      "id": "policy lab",
-      "image": {
-        "url": "https://research.ngi.eu/wp-content/uploads/2019/09/markus-spiske-70Rir5vB96U-unsplash-800x533.jpg",
-        "width": 400
-      },
-      "video": {
-        "src": "",
-        "poster": ""
-      },
-      "text": {
-        "content": "This event forms part of <strong>NGI Forward</strong>, the strategy and policy arm of the Next Generation Internet (NGI), a flagship initiative by the European Commission, which seeks to build a more democratic, resilient and inclusive future internet. The project is tasked with setting out an ambitious vision for what we want the future internet to look like, and identifying the concrete building blocks - from new technologies to policy interventions - that might help bring us closer towards that vision. You can find out more about our work at <a class='underline' href='https://research.ngi.eu/'>NGI Forward’s Policy Lab</a>. ",
-        "position": "left",
-        "buttons": [
-          {
-            "text": "NGI Policy Lab",
-            "url": "https://research.ngi.eu",
-            "background": "rgb(255, 219, 106)",
-            "color": "#333"
-          }
-        ]
-      }
-    },
-    {
       "type": "form",
       "title": "Join the discussion",
       "id": "community",
