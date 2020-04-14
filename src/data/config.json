@@ -61,6 +61,37 @@
       }
     },
     {
+      "type": "partners",
+      "title": "Organised by",
+      "id": "organisers",
+      "display": {
+        "slides": 3
+      },
+      "content": [
+        {
+          "title": "City of Amsterdam",
+          "outlet": "City of Amsterdam",
+          "url":
+            "https://www.amsterdam.nl/en/",
+          "logo": "city_of_amsterdam.png"        
+        },
+        {
+          "title": "Nesta",
+          "outlet": "Nesta",
+          "url": " https://www.nesta.org.uk/",
+          "logo": "nesta.png"
+        },
+        {
+          "title":
+            "European Commission",
+          "outlet": "European Commission",
+          "url":
+            "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "eucom.png"
+        }
+      ]
+    }  ,
+    {
       "type": "people",
       "title": "Speakers",
       "id": "speakers",
@@ -172,38 +203,7 @@
         "email": "It seems you already have an account on our forum using this e-mail address, or have entered an invalid address. Please choose a different e-mail address and click again on \"Send\".",
         "default": "Sorry, we were unable to store your response due to an unknown error. Please try clicking on \"Send\" again."
       }
-    },
-    {
-      "type": "partners",
-      "title": "Organised by",
-      "id": "organisers",
-      "display": {
-        "slides": 3
-      },
-      "content": [
-        {
-          "title": "City of Amsterdam",
-          "outlet": "City of Amsterdam",
-          "url":
-            "https://www.amsterdam.nl/en/",
-          "logo": "city_of_amsterdam.png"        
-        },
-        {
-          "title": "Nesta",
-          "outlet": "Nesta",
-          "url": " https://www.nesta.org.uk/",
-          "logo": "nesta.png"
-        },
-        {
-          "title":
-            "European Commission",
-          "outlet": "European Commission",
-          "url":
-            "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
-          "logo": "eucom.png"
-        }
-      ]
-    }  , {
+    }, {
       "type": "custom",
       "id": "contact us",
       "image": {
