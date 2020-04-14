@@ -203,7 +203,7 @@
           "logo": "eucom.png"
         }
       ]
-    }   {
+    }  , {
       "type": "custom",
       "id": "contact us",
       "image": {
