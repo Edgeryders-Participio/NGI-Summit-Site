@@ -90,7 +90,21 @@
           "logo": "eucom.png"
         }
       ]
-    }  ,
+    } ,    {
+      "type": "custom",
+      "title": "",
+      "image": {
+        "url": ""
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>The NGI Policy Summit is organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It forms part of the Next Generation Internet (NGI) programme, the Commission's flagship initiative to build a more democratic inclusive and resilient future internet. You can learn more about the NGI here and follow our policy and strategy work at the NGI Policy Lab.</p>",
+        "position": "left"
+      }
+    },
     {
       "type": "people",
       "title": "Speakers",
