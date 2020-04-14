@@ -90,7 +90,8 @@
           "logo": "eucom.png"
         }
       ]
-    } ,    {
+    } ,
+   {
       "type": "custom",
       "title": "",
       "image": {
@@ -101,7 +102,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;">The NGI Policy Summit is organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It forms part of the <strong>Next Generation Internet (NGI) programme</strong>, the Commission&#39;s flagship initiative to build a more democratic inclusive and resilient future internet. You can <a href="https://www.ngi.eu/about/" rel="noopener noreferrer" target="_blank">learn more about the NGI here</a> and follow our policy and strategy work at the <a href="https://research.ngi.eu/" rel="noopener noreferrer" target="_blank">NGI Policy Lab</a>.</p>",
+        "content": "<p>The NGI Policy Summit is organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It forms part of the <strong>Next Generation Internet (NGI) programme</strong>, the Commission&#39;s flagship initiative to build a more democratic inclusive and resilient future internet. You can <a href="https://www.ngi.eu/about/" rel="noopener noreferrer" target="_blank">learn more about the NGI here</a> and follow our policy and strategy work at the <a href="https://research.ngi.eu/" rel="noopener noreferrer" target="_blank">NGI Policy Lab</a>.</p>",
         "position": "left"
       }
     },
@@ -112,14 +113,29 @@
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
       "tagOthers": "webcontent-ngi-summit-2020-bio-small"
-    },
+    },  
+    {
+      "type": "custom",
+      "title": "",
+      "image": {
+        "url": ""
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics:</p>",
+        "position": "left"
+      }
+    }, 
     {
       "type": "topics",
       "id": "topics",
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
       "text": {
-        "content": "<p>NGI Policy Summit will explore three themes – visions for the future internet; empowering policy makers; and strengthening ecosystems – across a range of topics, from the environmental footprint of the internet to new models for the data economy.</p>",
+        "content": "",
         "position": "left"
       },
       "sort_by": {
