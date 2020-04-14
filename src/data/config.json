@@ -231,16 +231,8 @@
         "poster": ""
       },
       "text": {
-        "content": "Use the link below to contact us about the Policy Summit.",
-        "position": "left",
-        "buttons": [
-          {
-            "text": "Contact us",
-            "url": "mailto:ngisummit@nesta.org.uk?subject=Query from Policy Summit website",
-            "background": "rgb(255, 219, 106)",
-            "color": "#333"
-          }
-        ]
+        "content": "<p>For questions or feedback, you can <a href=\"https://www.surveygizmo.com/s3/5549616/NGI-Policy-Summit-Contact-Form\" rel=\"noopener noreferrer\" target=\"_blank\">get in touch with us here</a>.</p>",
+        "position": "left"
       }
     }
   ]
