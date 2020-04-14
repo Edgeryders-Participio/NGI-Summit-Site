@@ -29,6 +29,7 @@
     },
     {
       "type": "custom",
+      "title": "About the Summit",
       "id": "about",
       "image": {
         "url": "",
@@ -39,14 +40,14 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>Join us online and in Amsterdam from 28 to 30 September, as we bring together Europe’s leading policymakers and changemakers to set out a shared vision for the future of the internet. Together, we will explore how policy, innovation and citizen engagement can make the internet more sustainable, democratic and inclusive. Register now to secure your spot at the NGI Policy Summit 2020 and join the discussion on our Community Platform!</p><p>The Summit is aimed at policymakers at EU, national and local levels. We also welcome researchers, innovators and civil society organisations interested in building a more human-centric internet. The Summit is a space for participants to share knowledge and best practices and coordinate shared action towards common goals.</p>",
+        "content": "<p>From 28 to 30 September, the NGI Policy Summit will bring together Europe&rsquo;s leading policymakers and changemakers to set out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. Register your interest now to join us online or live in Amsterdam.</p>",
         "position": "left",
         "buttons": []
       }
     },
    {
       "type": "custom",
-      "title": "What is the format of the Policy Summit?",
+      "title": "Worried about planning ahead?",
       "image": {
         "url": ""
       },
@@ -55,7 +56,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>The Summit will take place over two days (29-30 June), with an additional day of fringe activity (1 July). Beyond keynotes from thought leaders and panels with political decision makers, the Summit will harness the collective intelligence of our wider audience in live and online discussions, interactive plenaries, and workshops.</p>",
+        "content": "We are closely following official guidance on the public health situation and encourage our prospective attendees to do the same before making travel arrangements. The Summit is designed as an innovative hybrid online event, meaning that you can join us either in-person or remotely - we will ask you to confirm your status a few weeks ahead of time.",
         "position": "left"
       }
     },
