@@ -231,7 +231,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>For questions or feedback, you can <a href=\"https://www.surveygizmo.com/s3/5549616/NGI-Policy-Summit-Contact-Form\" rel=\"noopener noreferrer\" target=\"_blank\">get in touch with us here</a>.</p>",
+        "content": "<p>For questions or feedback, you can <a class=\"underline\" href=\"https://www.surveygizmo.com/s3/5549616/NGI-Policy-Summit-Contact-Form\" rel=\"noopener noreferrer\" target=\"_blank\">get in touch with us here</a>.</p>",
         "position": "left"
       }
     }
