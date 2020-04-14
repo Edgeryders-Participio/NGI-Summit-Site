@@ -207,6 +207,29 @@
           "logo": "eucom.png"
         }
       ]
+    }   {
+      "type": "custom",
+      "id": "contact us",
+      "image": {
+        "url": "https://research.ngi.eu/wp-content/uploads/2019/09/markus-spiske-70Rir5vB96U-unsplash-800x533.jpg",
+        "width": 400
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "Use the link below to contact us about the Policy Summit.",
+        "position": "left",
+        "buttons": [
+          {
+            "text": "Contact us",
+            "url": "mailto:ngisummit@nesta.org.uk?subject=Query from Policy Summit website",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
+          }
+        ]
+      }
     }
   ]
 }
