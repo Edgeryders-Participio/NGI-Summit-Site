@@ -235,6 +235,7 @@
       }
     }, {
       "type": "custom",
+      "title": "Contact Us",
       "id": "contact us",
       "image": {
         "url": "",
