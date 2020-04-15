@@ -183,9 +183,9 @@
       },
       "slides": [{
         "index": 1,
-        "title": "This will create an account for you on the NGI Exchange platform, hosted by Edgeryders.",
+        "title": "",
         "nextTitle": "SIGN UP",
-        "body": "test",
+        "body": "Use this form to sign up for the NGI exchange platform.",
         "fields": [{
           "name": "name",
           "type": "text",
