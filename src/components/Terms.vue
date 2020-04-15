@@ -19,7 +19,12 @@
           targert="_blank"
           >Nesta</a
         >, in collaboration with the European Commission.
-      </p><p class="text-white mt-2">This website is run by NGI Forward, which is part of the NGI initiative. NGI Forward has received funding from the European Union’s Horizon 2020 research and innovation programme under the Grant Agreement no 825652. The content of this website does not represent the opinion of the European Union, and the European Union is not responsible for any use that might be made of such content.</p>
+      </p><p class="text-white mt-2">Our <a
+          class="underline"
+          href="https://research.ngi.eu/privacy-policy/"
+          targert="_blank"
+          >Privacy Policy</a
+        > explains how we use data on this website.</p><p class="text-white mt-2">This website is run by NGI Forward, which is part of the NGI initiative. NGI Forward has received funding from the European Union’s Horizon 2020 research and innovation programme under the Grant Agreement no 825652. The content of this website does not represent the opinion of the European Union, and the European Union is not responsible for any use that might be made of such content.</p>
 
     </div>
 
