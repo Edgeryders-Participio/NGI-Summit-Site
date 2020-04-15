@@ -163,7 +163,7 @@
       "type": "form",
       "title": "Join the discussion",
       "id": "community",
-      "content": "What should the internet - and all it encompasses, which means pretty much everything - really do for humanity? How should it work? How should it be governed? Join in the conversation on Edgeryders and get to know the other participants of the NGI Summit. We want to know what you have to say, and we want others to connect and collaborate with you.",
+      "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and get to know the other participants on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
       "slideDefaults": {
         "title": "Q{{index}}",
         "backText": "BACK",
@@ -185,7 +185,7 @@
         "index": 1,
         "title": "This will create an account for you on the NGI Exchange platform, hosted by Edgeryders.",
         "nextTitle": "SIGN UP",
-        "body": "",
+        "body": "test",
         "fields": [{
           "name": "name",
           "type": "text",
