@@ -1,6 +1,7 @@
 <template>
-  <div class="section_terms md:p-10" id="terms">
-    <div class="md:w-3/4 md:px-4 md:pr-10">
+  <div class="section_terms md:py-10" id="terms">
+    <div class="flex justify-between w-full mx-auto" style="max-width: 80%">
+    <div class="md:w-5/6 md:pr-6">
       <h1 class="text-white font-bold">
         ABOUT THIS WEBSITE
       </h1>
@@ -28,10 +29,11 @@
 
     </div>
 
-    <div class="md:w-1/4 pt-6 md:p-0 md:px-6 border-gray-100 md:border-l">
+    <div class="md:w-1/6 pt-6 md:p-0 md:pl-6 border-gray-100 md:border-l">
       <div class="w-full h-16 mb-4 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(' + require('../assets/img/bandiera_stelle.png') + ')'}"></div>
       <a href="https://ngi.eu/" target="_blank" ><div class="w-full h-16 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(' + require('../assets/img/logo-footer.svg') + ')'}"></div></a>
     </div>
+  </div>
   </div>
 </template>
 
@@ -39,6 +41,7 @@
 export default {
   data() {
     return {};
-  }
+  },
+  props: ["stylesheet", "data"]
 };
 </script>

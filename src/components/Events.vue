@@ -1,14 +1,15 @@
 <template>
   <div class="section px-5 md:px-0 md:section-md events" id="events">
-    <div class="section_title md:section_title-md">
-      <h3>{{custom.title}}</h3>
-    </div>
-    <div class="wrapper md:wrapper-md events_wrapper md:events_wrapper-md">
-      <Timeline :config="getEventFilters()" :items="data" :data="data" />
-      <div class="sidebar md:sidebar-md">
+
+    <div class="wrapper md:wrapper-md bg-gray-100 rounded-lg overflow-hidden">
+      <div class="w-full py-4 px-3 events_title">{{data.title}}</div>
+      <div class="flex">
+      <Timeline :custom="data" :config="getEventFilters()" :items="events" :data="events" />
+      <div class="w-full flex flex-col border-l sidebar_black">
         <Search v-if="isView('search') || $mq == 'sm'" />
-        <Calendar v-if="isView('calendar')  && data.length" :dates="dataReverse" :items="data" :config="getEventFilters()" />
-        <Filters v-if="isView('filter') && data.length" :items="data" :config="getEventFilters()" />
+        <Calendar v-if="isView('calendar')  && events.length" :dates="dataReverse" :items="events" :config="getEventFilters()" />
+        <Filters v-if="isView('filter') && events.length" :items="events" :config="getEventFilters()" />
+      </div>
       </div>
     </div>
   </div>
@@ -24,11 +25,11 @@ import Filters from "@/components/views/Filters.vue";
 import { bus } from '@/main';
 
 export default {
-  props: ["custom", "baseUrl"],
+  props: ["data", "stylesheet", "baseUrl"],
   data() {
     return {
       view: null,
-      data: [],
+      events: [],
     };
   },
    components: {
@@ -38,6 +39,18 @@ export default {
     Filters
   },
   methods: {
+    titleObj() {
+      var titleObj = {
+        maxWidth: ''
+      };
+      if (this.stylesheet && this.stylesheet.wrapper) {
+        titleObj["maxWidth"] = this.stylesheet.title;
+      };
+      if (this.data.style && this.data.style.wrapper) {
+        titleObj["maxWidth"] = this.data.style.title;
+      };
+      return titleObj;
+    },
     isView(type) {
       if (this.$mq == "md") {
         return true
@@ -74,8 +87,8 @@ export default {
       }
     },
     getEventFilters() {
-      if (this.custom.filters) {
-        return this.custom.filters;
+      if (this.data.filters) {
+        return this.data.filters;
       } else {
         return false
       }
@@ -84,7 +97,7 @@ export default {
       axios.get(
         `${this.baseUrl}/webkit_components/topics.json?serializer=event&tags=${tag}&per=500`
       ).then(({ data }) => {
-        this.data = data.filter(({ event }) => event)
+        this.events = data.filter(({ event }) => event)
           .map(event => ({
             ...event,
             date: this.formatDate(event.event.start),
@@ -98,10 +111,20 @@ export default {
     }
   },
   created() {
-    this.getEvents(this.custom.tag);
+    this.getEvents(this.data.tag);
   }
 };
 </script>
 <style lang="scss" scoped>
-
+.sidebar_black {
+  background: rgba(0,0,0,0.01);
+  border-radius: 0 10px 10px 0;
+  padding: 30px 20px 0 20px;
+}
+.events_title {
+  @apply text-2xl font-bold;
+background: linear-gradient(60deg, #2EA48A 0%, rgba(0,189,146,0.2) 55%, rgba(0,189,146,0) 100%);
+  color: #fff;
+  padding: 20px 30px;
+}
 </style>

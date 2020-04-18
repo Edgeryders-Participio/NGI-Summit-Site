@@ -1,8 +1,8 @@
 <template>
-  <div class="filters md:filters-md"> 
-      <h4 class="border-b font-bold pb-1 text-xl w-full mb-3 mt-2 hidden md:block">Filters</h4>
+  <div class="filters md:filters-md mt-4"> 
+      <h4 class="font-bold pb-2 text-lg w-full mb-3 border-b pl-1 mt-0 hidden md:block">Filters</h4>
       <div v-for="option in types" :key="option" class="tag" @click="selectType(option)" :class="{active: type == option}" >
-          <span class="event_color" :style="'background: ' + eventColor(option)"></span>
+          <span class="event_color" v-if="eventColor(option)" :style="'background: ' + eventColor(option)"></span>
           {{option}}
       </div>
   </div>
@@ -98,8 +98,9 @@ input {
 }
 
 .tag {
-  @apply mr-2 py-1 mb-2 font-bold px-2 float-left border;
-  border-radius: 3px;
+  @apply mr-2 py-2 mb-2 font-bold px-3 float-left border;
+  border-radius: 10px;
+  background: white;
   font-size: 14px;
 
   &:hover {
@@ -108,15 +109,17 @@ input {
   }
   &.active {
     opacity: 1;
-    @apply bg-black;
-            border: 1px solid black;
+    background: #2EA48A;
+            border: 1px solid #2EA48A;
 
     color: white;
+    transition: padding .4s ease;
     &:hover {
+    padding-left: 26px;
 
-        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 40'%3E%3Cpath fill='white' d='M16 2a14 14 0 100 28 14 14 0 000-28zm6 18a1.5 1.5 0 11-2 2l-4-3.9-4 4a1.5 1.5 0 01-2 0c-.6-.6-.6-1.6 0-2.2l3.9-3.9-4-4a1.5 1.5 0 112.2-2l3.9 3.9 4-4a1.5 1.5 0 112 2.2L18.2 16l4 4z'/%3E%3C/svg%3E") no-repeat 7px 9px #000 !important;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 40'%3E%3Cpath fill='white' d='M16 2a14 14 0 100 28 14 14 0 000-28zm6 18a1.5 1.5 0 11-2 2l-4-3.9-4 4a1.5 1.5 0 01-2 0c-.6-.6-.6-1.6 0-2.2l3.9-3.9-4-4a1.5 1.5 0 112.2-2l3.9 3.9 4-4a1.5 1.5 0 112 2.2L18.2 16l4 4z'/%3E%3C/svg%3E") no-repeat 7px 68% #2EA48A !important;
         color: white;
-        background-size: 14px !important;
+        background-size: 15px !important;
         .event_color {
         opacity: 0
       }

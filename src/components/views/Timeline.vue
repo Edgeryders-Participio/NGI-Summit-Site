@@ -2,7 +2,9 @@
   <div class="timeline_container md:timeline_container-md">
 
   <div class="timeline"  id="events_container">
-    <div class="filters md:filters-md w-full" v-if="filtered()">
+
+    <div class="ml-8 mt-6">
+    <div class="filters md:filters-md mb-4 w-full" v-if="filtered()">
       <div class="filter_icon"></div>
       <div class="filter type" v-if="type" @click="clear('type')">
         <p class="key">type</p><p>{{type}}</p>
@@ -17,6 +19,7 @@
         <p class="key">search</p><p>{{search}}</p>
       </div>
     </div>
+
     <transition-group name="list" tag="div" class="events_list">
     <div v-for="(item, index) in filteredItems" :key='index' class="day md:day-md" :class="{active: isActive(item.event.start) }">
       <h4 v-if="newDate(index, item.event.start)" class="md:pb-4" :id="'day-' + dateId(item.event.start)">{{item.event.start | formatDate}}</h4>
@@ -40,13 +43,14 @@
             <div class="excerpt" v-if="item.excerpt">
               <p>{{item.event.start | formatDate}} at {{item.event.start | formatTime}}</p>
               <p class="mt-2 pb-2 w-full">{{item.excerpt}}</p>
-              <a class="p-2 inline-block border rounded-lg" :href="item.url" target="_blank">Find out more</a>
+              <a class="p-2 inline-block rounded-sm find_out" :href="item.url" target="_blank">Find out more</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </transition-group>
+  </div>
   </div>
 </div>
 </template>
@@ -219,7 +223,7 @@ export default {
       }
     }
   },
-  props: ["data", "config", "items", "eventsdata"]
+  props: ["data", "config", "custom", "items", "eventsdata"]
 }
 </script>
 
@@ -355,6 +359,11 @@ export default {
       }
     }
   }
+}
+.find_out {
+  background: #2EA48A;
+  color: white;
+  border: none;
 }
 
 

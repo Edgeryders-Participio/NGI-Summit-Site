@@ -41,6 +41,11 @@
 
 
   .slide .item_title {
+    @apply pr-4 text-lg font-bold;
+    line-height: 30px
+  }
+
+    .slide .item_title-md {
     @apply pr-4 text-xl font-bold;
     line-height: 45px
   }

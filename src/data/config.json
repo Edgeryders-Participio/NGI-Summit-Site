@@ -1,6 +1,13 @@
 {
   "category": 237,
   "baseUrl" :"https://edgeryders.eu",
+  "style": {
+    "wrapper": "70%",
+    "title": {
+      "mobile": "text-2xl",
+      "desktop": "text-4xl"
+    }
+  },
   "sections": [
     {
       "type": "hero",
@@ -31,6 +38,9 @@
       "type": "custom",
       "title": "About the Summit",
       "id": "about",
+      "style": {
+        "wrapper": "70%"
+      },
       "image": {
         "url": "",
         "width": 420
@@ -63,6 +73,12 @@
     {
       "type": "partners",
       "title": "Organised by",
+      "style": {
+        "title": {
+          "desktop": "text-3xl",
+          "mobile": "text-2xl"
+        }
+      },
       "id": "",
       "display": {
         "slides": 3
@@ -93,6 +109,10 @@
     } ,
    {
       "type": "custom",
+      "style": {
+        "background": "#FFDB6A",
+        "wrapper": "70%"
+      },
       "title": "",
       "image": {
         "url": ""
@@ -110,6 +130,12 @@
       "type": "people",
       "title": "Speakers",
       "id": "speakers",
+      "style": {
+        "background": "#fafafa",
+        "title": "70%",
+        "wrapper": "80%"
+      },
+      "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
       "tagOthers": "webcontent-ngi-summit-2020-bio-small"
@@ -132,6 +158,10 @@
    {
       "type": "events",
       "title": "Programme",
+      "style": {
+        "title": "70%",
+        "wrapper": "80%"
+      },
       "id": "programme",
       "tag": "event-ngi-summit-2020",
       "filters": {
@@ -146,6 +176,11 @@
       "id": "stories",
       "view": "featured",
       "tag": "ngi-summit-stories",
+      "style": {
+        "background": "#fafafa",
+        "title": "70%",
+        "wrapper": "80%"
+      },
       "sort_by": {
         "property": "title",
         "order": "ascending"
@@ -227,6 +262,14 @@
       "type": "custom",
       "title": "Contact Us",
       "id": "contact us",
+      "style": {
+        "wrapper": "70%",
+        "padding": "0 0 60px",
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-3xl"
+        }
+      },
       "image": {
         "url": "",
         "width": 0

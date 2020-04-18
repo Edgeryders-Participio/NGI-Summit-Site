@@ -1,12 +1,12 @@
 <template>
-  <div class="section mt-10 md:section-md" id="form">
-    <div class="md:flex">
-      <div class="px-6 md:px-0 md:w-1/2 md:mr-8 md:pr-4 flex flex-col md:pt-8">
-        <h3 class="text-3xl font-bold mb-4">{{ custom.title }}</h3>
-        <div class="section_text" v-html="custom.content">
+  <div class="section w-full mt-6 mb-6 md:section-md" :style="{background: data.style && data.style.background}" id="form">
+    <div class="md:flex w-full mx-auto" :style="wrapperWidth()">
+      <div class="w-full md:px-0 md:w-1/2 md:mr-8 md:pr-4 flex flex-col md:pt-8">
+        <h3 class="text-3xl font-bold mb-4">{{ data.title }}</h3>
+        <div class="section_text" v-html="data.content">
         </div>
       </div>
-      <div class="mt-4 px-6 md:px-0 md:mt-0 md:w-1/2 md:pt-10">
+      <div class="md:mt-0 md:w-1/2 md:pt-10">
         <div class="even">
           <Title class="even md:pl-3" v-bind="slide" />
           <Body class="md:px-2" v-bind="slide" :response="response" :next="next" />
@@ -30,12 +30,12 @@ import Navigation from "./form/Navigation.vue";
 import submit from "../helpers/discourse";
 
 export default {
-  props: ["custom", "baseUrl"],
+  props: ["data", "stylesheet", "baseUrl"],
   data() {
     return { form: {}, currentIndex: 0, errors: [] };
   },
   created() {
-    this.$set(this.form, 'settings', { createTopic: this.custom.settings });
+    this.$set(this.form, 'settings', { createTopic: this.data.settings });
     this.slides
       .filter(s => s.index)
       .forEach(({ index, body, settings, fields }) => {
@@ -62,7 +62,7 @@ export default {
   },
   computed: {
     slides() {
-      return this.custom.slides.map(slide => Object.assign({}, this.custom.slideDefaults, slide))
+      return this.data.slides.map(slide => Object.assign({}, this.data.slideDefaults, slide))
     },
     slide() {
       return this.slides[this.currentIndex];

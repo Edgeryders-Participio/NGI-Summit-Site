@@ -1,8 +1,8 @@
 <template>
-  <div class="md:mt-2" :class="{'section-md': custom.view == 'featured' && $mq == 'md' }">
-    <div class="section_title items-center md:section_title-md justify-between">
-      <h1 class="pt-1 px-6 md:px-0 leading-tight">{{ custom.title }}</h1>
-      <div class="toggle_menu mr-6 md:flex md:mr-0" v-if="custom.view == 'featured' && $mq == 'md'">
+  <div class="section md:section-md mt-10" :style="{background: data.style && data.style.background}" id="people">
+    <div class="section_title md:section_title-md justify-between items-center pt-8" v-if="data.title" :style="titleWidth()" >
+      <h3 class="text-2xl md:text-4xl">{{ data.title }}</h3>
+      <div class="toggle_menu mr-6 md:flex md:mr-0" v-if="data.view == 'featured' && $mq == 'md'">
         <div
           class="toggle previous"
           @click="changeSlide('previous')"
@@ -14,23 +14,25 @@
       </div>
     </div>
     <div
-      class="wrapper md:wrapper-md"
-      v-if="custom.text"
-      :class="{ reverse: custom.text.position == 'left' }"
+      class="wrapper md:wrapper-md mx-auto"
+      v-if="data.text"
+      :style="wrapperWidth()"
     >
-      <div v-if="custom.text.content" class="w-full font-light px-6 pb-3 md:w-2/3 md:pt-5 md:px-0 md:pb-0 md:text-2xl md:pl-2 md:leading-normal md:font-light section_text" v-html="custom.text.content">
+      <div v-if="data.text.content" class="section_text" v-html="data.text.content">
       </div>
     </div>
 
     <Slider
-      v-if="topics && custom.view == 'featured'"
+      v-if="topics && data.view == 'featured'"
       :autoplay="5000"
-      :custom="topics"
+      :data="topics"
+      :style="titleWidth()"
+      class="mx-auto  pb-10"
       ref="slider"
-      :display="custom.display"
+      :display="data.display"
     />
 
-    <Row v-if="topics && custom.view == 'cards'" :topics="topics" :display="custom.display" />
+    <Row v-if="topics && data.view == 'cards'" :topics="topics" :display="data.display" />
   </div>
 </template>
 
@@ -40,7 +42,7 @@ import Row from "@/components/Row.vue";
 import axios from "axios";
 
 export default {
-  props: ["custom", "baseUrl"],
+  props: ["data", "stylesheet", "baseUrl"],
   data() {
     return {
       topics: null,
@@ -52,11 +54,11 @@ export default {
     Row
   },
   created() {
-    if (this.custom.tag) {
-      this.getTopics(this.custom.tag, 'tags');
+    if (this.data.tag) {
+      this.getTopics(this.data.tag, 'tags');
     }
-    if (this.custom.category) {
-      this.getTopics(this.custom.category, 'category');
+    if (this.data.category) {
+      this.getTopics(this.data.category, 'category');
     }
   },
   methods: {
@@ -65,8 +67,8 @@ export default {
         `${this.baseUrl}/webkit_components/topics.json?${filter}=${value}&per=500&serializer=organizer`
       ).then(({ data }) => {
         this.topics = data;
-        if (this.custom.sort) {
-          this.sortBy(data, this.custom.sort_by.property, this.custom.sort_by.order)
+        if (this.data.sort) {
+          this.sortBy(data, this.data.sort_by.property, this.data.sort_by.order)
         }
       });
     },

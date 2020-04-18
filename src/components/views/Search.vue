@@ -1,6 +1,6 @@
 <template>
-  <div class="md:mb-4">
-    <input v-model="search" placeholder="search events" />
+  <div class="md:mb-2">
+    <input class="rounded-lg" v-model="search" placeholder="search events" />
   </div>
 </template>
 

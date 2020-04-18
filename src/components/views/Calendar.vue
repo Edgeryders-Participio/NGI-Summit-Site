@@ -1,5 +1,5 @@
 <template>
- <div class="container">
+ <div class="container border">
   <div class="navigation">
     <div class="nav left" @click="previous"></div>
     <div class="month">{{months[selected][0].format('MMMM YYYY')}}</div> 
@@ -91,8 +91,9 @@ export default {
       if (this.filterEvent(date) !== null) {
         // var color = this.eventColor(this.filterEvent(date).event_type);
         var obj = {
-          "border": ".5px solid #ddd",
           "display": "flex",
+          "color": "white",
+          "background": "#2EA48A",
           "align-items": "center",
           "justify-content": "center",
           "width": "32px",
@@ -130,14 +131,12 @@ export default {
 <style lang="scss" scoped>
 .navigation {
   width: 100%;
-  height: 45px;
+  height: 40px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
-  background: rgba(0,0,0,0.01);
-  border-bottom: 1px solid rgba(0,0,0,0.04);
   position: relative;
-  border-radius: 4px; 
+  border-bottom: 1px solid #efefef;
   overflow: hidden;
   .month {
     font-weight: bold;
@@ -166,11 +165,13 @@ export default {
 }
 .container {
   align-items: center;
-  background: #fff;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   font: 14px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  padding: 5px 10px 15px;
   width: 100%;
   justify-content: center;
 }
@@ -196,11 +197,12 @@ export default {
   width: 1px;
 }
 
-#calendar .active{
-  background: #fafafa !important;
-  border: .5px solid black !important;
-}
 .day {
+  font-size: 12px;
+  &.active {
+   
+  border: 2px solid rgba(255,255,255,0.2) !important;
+}
   &:hover {
   cursor: pointer;
 }
