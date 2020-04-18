@@ -1,0 +1,121 @@
+@responsive {
+  
+  .user_grid {
+    @apply w-full whitespace-no-wrap h-20 mb-3 float-left;
+    width: 100%;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .user_grid-md {
+    @apply flex flex-wrap w-full float-left h-auto whitespace-normal;
+    align-content: flex-start;
+    width: 150%;
+  }
+
+  .user_grid .user_avatar {
+    @apply bg-cover inline-block;
+    width: 78px;
+    height: 78px;
+  }
+
+  .user_avatar:hover {
+    cursor: pointer;
+  }
+
+  .user_avatar.active {
+    border: 3px solid #FAD964;
+  }
+
+  .user_avatar-md {
+    @apply flex w-1/5 h-auto justify-center items-center bg-black;
+  }
+  .user_avatar-md.active img {
+    @apply w-11/12;
+    border-radius: 3px;
+    border: none;
+  }
+
+  .user_list {
+    @apply w-full border border-gray-200 rounded-lg overflow-hidden bg-white;
+    max-height: 400px;
+  }
+
+  .user_list-md {
+    @apply mr-6;
+  }
+
+  .user_list input {
+    @apply p-4 top-0 border-b w-full;
+  }
+
+  .user_list ul {
+    @apply overflow-scroll;
+    height: 340px;
+  }
+
+  .user_list li {
+    @apply flex items-center font-bold border-b border-gray-200 px-4 py-2;
+    p {
+      @apply font-normal p-0 m-0;
+      &:first-child {
+        @apply font-bold text-lg;
+      }
+      &:last-child {
+        @apply font-light text-xs;
+      }
+    }
+    &:last-child {
+      @apply border-none;
+    }
+  }
+
+  .user_list li:hover {
+    cursor: pointer;
+  }
+
+  .user_list li.active {
+    @apply bg-gray-200;
+  }
+
+  .user_list .user_avatar {
+    @apply w-12 h-12 bg-cover inline-block mr-3 rounded-lg;
+    flex-shrink: 0;
+  }
+
+  .user_info {
+    @apply pl-0 w-full hidden;
+  }
+
+  .user_info-md {
+    @apply pl-2 inline-block;
+
+  }
+
+  .user_bio {
+    @apply text-left p-2 pb-4 px-0 overflow-scroll;
+    max-height: 240px;
+  }
+
+  .user_bio-md {
+    @apply overflow-visible;
+    max-height: 100%;
+    img {
+      display: none;
+    }
+  }
+
+  .user_name {
+    @apply text-2xl font-bold text-left w-full inline-block pb-2 border-b;
+  }
+
+  .user_name-md {
+    @apply px-2;
+  }
+
+
+
+
+}

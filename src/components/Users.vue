@@ -2,7 +2,7 @@
   <div class="section md:section-md" id="users">
     <div class="section_title">
       {{ custom.title }}
-      <div class="toggle_menu flex md:toggle_menu-md">
+      <div v-if="$mq == 'md'" class="toggle_menu md:toggle_menu-md">
         <div
           class="toggle list"
           v-if="$mq == 'md'"
@@ -68,7 +68,7 @@
         </ul>
       </div>
 
-      <div class="w-full px-6" v-if="allusers[selected]">
+      <div class="w-full user_info md:user_info-md" v-if="allusers[selected]">
         <a
           class="user_name"
           :href="'https://edgeryders.eu/u/' + allusers[selected].username"
@@ -149,4 +149,7 @@ export default {
 </script>
 <style lang="scss">
 @import "../assets/index.scss";
+.hide {
+  display: none
+}
 </style>

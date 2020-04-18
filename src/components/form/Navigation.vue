@@ -3,7 +3,7 @@
     <div v-if="!allowBack" />
     <button
       :title="backTitle"
-      class="text-white bg-primary border border-primary text-xm font-semibold rounded-lg px-4 py-3 mt-6 leading-normal"
+      class="custom_form_button"
       v-if="allowBack"
       v-on:click="back"
     >
@@ -12,7 +12,7 @@
     <Progress :index="index" :maxIndex="maxIndex" />
     <button
       :title="nextTitle"
-      class="text-white bg-primary border border-primary text-xm font-semibold rounded-lg px-4 py-3 leading-normal"
+      class="custom_form_button"
       v-if="allowNext"
       v-on:click="next"
     >

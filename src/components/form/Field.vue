@@ -9,11 +9,11 @@
       v-on:keyup.meta.enter="next"
       v-on:keyup.ctrl.enter="next"
     />
-    <div class="checkbox" v-if="isCheckbox">
-        <input type="checkbox" id="check" :ref="name" :name="name" v-model="response[name].value" />
-        <label for="check">
-          <span></span>{{ placeholder }}
-        </label>
+    <div class="checkbox pl-1" v-if="isCheckbox">
+      <input type="checkbox" id="check" :ref="name" :name="name" v-model="response[name].value"/>
+      <label class="ml-1 font-bold" for="check">
+        {{ placeholder }}
+      </label>
     </div>
     <label class="label" v-else>
       <input
@@ -99,96 +99,18 @@ export default {
 }
 
 .input {
-  @apply border;
+  @apply border-2 font-bold;
   width: 100%;
-  padding: 1rem .75rem;
-  border-radius: 10px;
-  font-size: 14px;
+  padding: .84rem .7rem;
+  border-radius: 4px;
+  font-size: 15px;
   margin: 0 0 10px 0;
 }
 
 input:focus, textarea:focus {
-  border: 1px solid #00ACC2;
+  border: 2px solid #FAD964;
 }
-
 .checkbox {
-  @apply pt-1 flex items-center mb-0;
- display: flex; // to center the item
-    width: 100%;
-    height: 100%;
-   align-items: center;
-  label {
-  @apply p-2 pr-4 rounded-lg border;
-    display: flex;
-    font-size: 13px;
-    align-items: center;
-    color: #000;
-    cursor: pointer;
-    position: relative;
-    span {
-      display: inline-block;
-      transform: scale(.8);
-      position: relative;
-      background-color: transparent;
-      width: 30px;
-      height: 30px;
-      transform-origin: center;
-      border: 2px solid #ddd;
-      border-radius: 50%;
-      margin-right: 7px;
-      transition: all 450ms 0ms;
-    &:before {
-      content: "";
-      width: 0px;
-      height: 2px;
-      border-radius: 2px;
-      background: #1790b5;
-      position: absolute;
-      transform: rotate(45deg);
-      top: 13px;
-      left: 8px;
-      transition: width 50ms ease 50ms;
-      transform-origin: 0% 0%;
-    }
-  
-    &:after {
-      content: "";
-      width: 0;
-      height: 2px;
-      border-radius: 2px;
-      background: #1790b5;
-      position: absolute;
-      transform: rotate(305deg);
-      top: 18.0px; 
-      left: 10px;
-      transition: width 50ms ease;
-      transform-origin: 0% 0%;
-    }
-  }
-} 
-}
 
-
-.checkbox input {
-    display: none;
-  &:checked {
-    + label {
-      span {
-        background-color: #1790b5;
-         border: 2px solid #1790b5;       
-        &:after {
-          width: 12px;
-          background: #fff;
-          transition: width 150ms ease 200ms; 
-        }
-        
-        &:before {
-          width: 6px;
-          background: #fff;
-          transition: width 150ms ease 100ms;
-        }
-      }
-    }
-  }
 }
 </style>

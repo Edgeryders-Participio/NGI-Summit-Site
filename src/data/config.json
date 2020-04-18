@@ -1,39 +1,48 @@
 {
   "category": 237,
   "baseUrl" :"https://edgeryders.eu",
+  "style": {
+    "wrapper": "70%",
+    "title": {
+      "mobile": "text-2xl",
+      "desktop": "text-4xl"
+    }
+  },
   "sections": [
     {
       "type": "hero",
+      "summit": "true",
       "background": {
-        "color": "#fafafa"
+        "url": "/summit%20hero%20image.jpg",
+        "color": "linear-gradient(63.1deg,#009c8e 9.02%,#ffdb6a 90.81%)"
       },
-      "title": "Custom Title",
+      "title": "Next Generation Internet <br> Policy Summit",
       "text": {
-        "content": "<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "content": "<p><strong>Register your interest now</strong> for the NGI Policy Summit 2020, hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong> - Main conference <br><strong>30 September</strong> - Fringe Day</p><br><p>Online and at Het Sieraad, Amsterdam</p><p>Free of charge</p>",
         "align": "left",
         "buttons": [
           {
-            "text": "Call to Action",
-            "url": "https://edgeryders.eu",
-            "background": "orangered"
-          },
-          {
-            "text": "More Information",
-            "url": "https://edgeryders.eu"
+            "text": "Register interest",
+            "url": "https://www.surveygizmo.com/s3/5366792/NGI-Policy-Summit-2020-Register",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
           }
         ]
       },
       "image": {
-        "url": "https://dummyimage.com/640x360/fff/aaa",
-        "width": 450
+        "url": "",
+        "width": 0
       }
     },
     {
       "type": "custom",
-      "title": "Custom Title",
-      "id": "custom",
+      "title": "About the Summit",
+      "id": "about",
+      "style": {
+        "wrapper": "70%"
+      },
       "image": {
-        "url": "https://dummyimage.com/640x360/fff/aaa",
+        "url": "",
         "width": 420
       },
       "video": {
@@ -41,32 +50,14 @@
         "poster": ""
       },
       "text": {
-        "content": "<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "content": "<p>From 28 to 30 September, the NGI Policy Summit will bring together Europe&rsquo;s leading policymakers and changemakers to set out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. Register your interest now to join us online or live in Amsterdam.</p>",
         "position": "left",
-        "buttons": [
-          {
-            "text": "Call to Action",
-            "url": "https://edgeryders.eu",
-            "background": "orangered"
-          },
-          {
-            "text": "More Information",
-            "url": "https://edgeryders.eu"
-          }
-        ]
+        "buttons": []
       }
     },
-    {
-      "type": "topics",
-      "title": "Stories",
-      "id": "stories",
-      "view": "featured",
-      "tag": "ngi-summit-stories",
-      "sort_by": {
-        "property": "title",
-        "order": "ascending"
-      },
-      "display": ["title", "author", "date"],
+   {
+      "type": "custom",
+      "title": "Worried about planning ahead?",
       "image": {
         "url": ""
       },
@@ -75,167 +66,139 @@
         "poster": ""
       },
       "text": {
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "content": "<p>We are closely following official guidance on the public health situation and encourage our prospective attendees to do the same before making travel arrangements. <strong>The Summit is designed as an innovative hybrid online event, meaning that you can join us either in-person or remotely</strong> - we will ask you to confirm your status a few weeks ahead of time.</p>",
         "position": "left"
       }
     },
     {
-      "type": "events",
-      "title": "Events",
-      "id": "events",
-      "tag": "event"
-    },
-    {
-      "type": "users",
-      "title": "Users",
-      "id": "users",
-      "category": "campfire",
-      "only_bios": true
-    },
-    {
-      "type": "people",
-      "title": "People",
-      "id": "people",
-      "tag": "webcontent-festival-organiser-bio"
-    },
-    {
       "type": "partners",
-      "title": "Press",
-      "id": "press",
+      "title": "Organised by",
+      "style": {
+        "title": {
+          "desktop": "text-3xl",
+          "mobile": "text-2xl"
+        }
+      },
+      "id": "",
       "display": {
         "slides": 3
       },
       "content": [
         {
-          "title": "DIY and Open Source care solutions",
-          "outlet": "IlSole",
-          "date": "7 May 2017",
+          "title": "City of Amsterdam",
+          "outlet": "City of Amsterdam",
           "url":
-            "http://nova.ilsole24ore.com/progetti/soluzioni-di-cura-in-co-design/",
-          "logo": "assets/img/press/ilsole24ore.png",
-          "excerpt":
-            "Whether it is a ramp for disabled people or self-produced insulin, OpenCare's projects arise from collaboration between users and innovators"
+            "https://www.amsterdam.nl/en/",
+          "logo": "city_of_amsterdam.png"        
         },
         {
-          "title": "DIY and Open Source care solutions",
+          "title": "Nesta",
           "outlet": "Nesta",
-          "date": "11 April 2016",
-          "url": "http://www.nesta.org.uk/blog/era-development-mutants",
-          "logo": "assets/img/press/nesta.png",
-          "excerpt": "Social movements led by self-organising citizens are becoming the cutting edge of development. Establishing effective partnerships with them requires abandoning much of the implicit paternalism that informs development work"
+          "url": " https://www.nesta.org.uk/",
+          "logo": "nesta.png"
         },
         {
           "title":
-            "Eleven tips for councils on thinking creatively about adult social care",
-          "outlet": "The Guardian",
-          "date": "28 April 2014",
+            "European Commission",
+          "outlet": "European Commission",
           "url":
-            "https://www.theguardian.com/local-government-network/2014/apr/28/eleven-tips-councils-thinking-creatively-adult-social-care",
-          "logo": "assets/img/press/guardian.jpg",
-          "excerpt":
-            "They have brought together a whole range of people mainly (but not all!) young and radical. They are doing some incredible work there. Am sorely tempted to head off there and alter the age demographic."
-        },
-        {
-          "title":
-            "Can Monasteries Be a Model for Reclaiming Tech Culture for Good?",
-          "outlet": "The Nation",
-          "date": "27 August 2014",
-          "url":
-            "https://www.thenation.com/article/can-monasteries-be-model-reclaiming-tech-culture-good/",
-          "logo": "assets/img/press/nation.png",
-          "excerpt":
-            "What united [Edgeryders] was not a political ideology, but the dead-end conditions of austerity and the hope of figuring out better ways forward."
-        },
-        {
-          "title": "Eleven tips for councils on thinking creatively about adult social care",
-          "outlet": "The New Yorker",
-          "date": "27 April 2015",
-          "url": "https://www.newyorker.com/magazine/2015/04/27/a-cave-with-a-view",
-          "logo": "assets/img/press/newyorker.jpg",
-          "excerpt": "a group of self-described 'civic hackers' who run a 'social clinic' that embeds 'skilled individuals within communities that could benefit from their presence'."
-        },
-        {
-          "title": "When hacktivists live like monks",
-          "outlet": "Krautreporter",
-          "date": "12 November 2014",
-          "url": "https://krautreporter.de/111--wenn-hacktivisten-wie-monche-leben",
-          "logo": "assets/img/press/krautreporter.png",
-          "excerpt": "..steps towards solving the major problems plaguing small towns such as Matera: massive land run-off, reduction of social services in the wake of European austerity measures, and not least unused housing stock."
-        },
-        {
-          "title": "Mutiny at UnMonastery, coworking in the land of Edgeryders",
-          "outlet": "Mutinerie",
-          "date": "11 November 2013",
-          "url": "http://magazine.mutinerie.org/edgeryders-unmonastery-coworking/",
-          "logo": "assets/img/press/mutinerie.png",
-          "excerpt": "..an agile organization of individuals pooling know-how and professional networks at the service of social innovation."
-        },
-        {
-          "title": "Care by communities: non-zero sum provision of health and social care",
-          "outlet": "Re:publica",
-          "date": "4 May 2016",
-          "url": "https://16.re-publica.de/16/session/care-communities-non-zero-sum-provision-health-and-social-care",
-          "logo": "assets/img/press/republica.png",
-          "excerpt": "We explore amazing care services that communities are providing - right now - to people that the state and private business have let down."
-        },
-        {
-          "title": "The unMonastery: a commune for the internet age",
-          "outlet": "Dazed",
-          "date": "25 November 2014",
-          "url": "http://www.dazeddigital.com/artsandculture/article/22717/1/the-unmonastery-a-commune-for-the-internet-age",
-          "logo": "assets/img/press/dazed.png",
-          "excerpt": "Edgeryders built an Internet commune in Matera, a city similar to Petra in Jordan. They are both among the oldest inhabited settlements in the world."
-        },
-        {
-          "title": "UNDP Innovation Facility driving multiple projects in Indonesia through broad partnerships",
-          "outlet": "OpenGov",
-          "date": "18 July 2017",
-          "url": "http://www.opengovasia.com/articles/7815-undp-innovation-facility-driving-multiple-projects-in-indonesia-through-broad-partnerships",
-          "logo": "assets/img/press/opengov.png",
-          "excerpt": "Edgeryders is a leading innovation partner of UNDP for testing new ways of working."
-        },
-        {
-          "title": "'No patriarchy. No hierarchy. No God.' - unMonastery is a monastery for tech utopians",
-          "outlet": "Wired",
-          "date": "29 January 2015",
-          "url": "https://www.wired.de/collection/life/das-kommt-heraus-wenn-tech-utopisten-ein-kloster-grunden",
-          "logo": "assets/img/press/wired.png",
-          "excerpt": ""
-        },
-        {
-          "title": "New Thinker's Dream Government",
-          "outlet": "Di",
-          "date": "10 April 2014",
-          "url": "http://www.di.se/artiklar/2014/4/10/nytankarens-dromregering/",
-          "logo": "assets/img/press/di.png",
-          "excerpt": "Our co-founder Nadia EL-Imam was named Minister of Labour in an ideal government for Sweden in the country's leading financial newspaper."
-        },
-        {
-          "title": "La Politica Tecnologica",
-          "outlet": "HuffPost",
-          "date": "4 June 2013",
-          "url": "http://www.huffingtonpost.it/andrea-latino/la-politica-tecnologica_b_3382521.html",
-          "logo": "assets/img/press/huffpost.jpg",
-          "excerpt": "Now imagine those data available to ministries, entrusted to qualified young people of our best faculties, and listening to citizens through massive open collaboration, on the model of the European Edgeryders project."
+            "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "eucom.png"
         }
       ]
+    } ,
+   {
+      "type": "custom",
+      "style": {
+        "background": "#FFDB6A",
+        "wrapper": "70%"
+      },
+      "title": "",
+      "image": {
+        "url": ""
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>The NGI Policy Summit is organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It forms part of the <strong>Next Generation Internet (NGI) programme</strong>, the Commission&#39;s flagship initiative to build a more democratic inclusive and resilient future internet. You can <a class=\"underline\" href=\"https://www.ngi.eu/about/\" rel=\"noopener noreferrer\" target=\"_blank\">learn more about the NGI here</a> and follow our policy and strategy work at the <a class=\"underline\" href=\"https://research.ngi.eu/\" rel=\"noopener noreferrer\" target=\"_blank\">NGI Policy Lab</a>.</p>",
+        "position": "left"
+      }
     },
     {
-      "type": "edgeryders",
-      "id": "edgeryders",
-      "title": "We are Edgeryders"
+      "type": "people",
+      "title": "Speakers",
+      "id": "speakers",
+      "style": {
+        "background": "#fafafa",
+        "title": "70%",
+        "wrapper": "80%"
+      },
+      "views": ["custom_ngi_people"],
+      "tag": "webcontent-ngi-summit-2020-bio",
+      "tagHeadliners": "webcontent-ngi-summit-2020-bio",
+      "tagOthers": "webcontent-ngi-summit-2020-bio-small"
+    }, 
+    {
+      "type": "topics",
+      "id": "topics",
+      "view": "cards",
+      "tag": "webcontent-ngi-summit-2020-topics",
+      "text": {
+        "content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics:</p>",
+        "position": "left"
+      },
+      "sort_by": {
+        "property": "title",
+        "order": "ascending"
+      },
+      "display": ["title"]
+    },
+   {
+      "type": "events",
+      "title": "Programme",
+      "style": {
+        "title": "70%",
+        "wrapper": "80%"
+      },
+      "id": "programme",
+      "tag": "event-ngi-summit-2020",
+      "filters": {
+        "team": "blue",
+        "outreach": "green",
+        "community": "orangered"
+      }
     },
     {
-      "type": "terms"
+      "type": "topics",
+      "title": "Stories from the community",
+      "id": "stories",
+      "view": "featured",
+      "tag": "ngi-summit-stories",
+      "style": {
+        "background": "#fafafa",
+        "title": "70%",
+        "wrapper": "80%"
+      },
+      "sort_by": {
+        "property": "title",
+        "order": "ascending"
+      },
+      "display": ["title"],
+      "image": {
+        "url": ""
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      }
     },
     {
       "type": "form",
-      "title": "Join us",
-      "id": "join",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "settings": {
-        "createTopic": false
-      },
+      "title": "Join the discussion",
+      "id": "community",
+      "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and get to know the other participants on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
       "slideDefaults": {
         "title": "Q{{index}}",
         "backText": "BACK",
@@ -255,22 +218,17 @@
       },
       "slides": [{
         "index": 1,
-        "title": "This will create an account for you.",
+        "title": "",
         "nextTitle": "SIGN UP",
-        "body": "",
+        "body": "Use this form to sign up for the NGI exchange platform.",
         "fields": [{
           "name": "name",
           "type": "text",
           "placeholder": "Name/nickname",
-          "half": true,
+          "half": false,
           "required": true,
           "autofocus": false,
           "error": "Please enter your name"
-        }, {
-          "name": "age",
-          "type": "integer",
-          "placeholder": "Age (optional)",
-          "half": true
         }, {
           "name": "email",
           "type": "email",
@@ -299,6 +257,30 @@
         "username": "It seems somebody has already chosen your preferred username / nickname. Please enter a different one and click again on \"Send\".",
         "email": "It seems you already have an account on our forum using this e-mail address, or have entered an invalid address. Please choose a different e-mail address and click again on \"Send\".",
         "default": "Sorry, we were unable to store your response due to an unknown error. Please try clicking on \"Send\" again."
+      }
+    }, {
+      "type": "custom",
+      "title": "Contact Us",
+      "id": "contact us",
+      "style": {
+        "wrapper": "70%",
+        "padding": "0 0 60px",
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-3xl"
+        }
+      },
+      "image": {
+        "url": "",
+        "width": 0
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>For questions or feedback, you can <a class=\"underline\" href=\"https://www.surveygizmo.com/s3/5549616/NGI-Policy-Summit-Contact-Form\" rel=\"noopener noreferrer\" target=\"_blank\">get in touch with us here</a>.</p>",
+        "position": "left"
       }
     }
   ]

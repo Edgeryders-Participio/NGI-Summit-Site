@@ -1,29 +1,94 @@
 <template>
-  <div class="section md:section-md" id="people">
-    <div class="section_title">
-      {{ custom.title }}
+  <div class="section md:section-md" :style="{background: data.style && data.style.background}" id="people">
+    <div class="section_title md:section_title-md justify-between items-center pt-8" :style="titleWidth()" >
+      <h3 class="text-2xl md:text-4xl">{{ data.title }}</h3>
+      <div class="toggle_menu" v-if="data.views.length > 1">
+        <div
+          class="toggle list"
+          v-if="data.view.includes('list')"
+          :class="{ active: view == 'list' }"
+          @click="toggleView('list')"
+        ></div>
+        <div
+          class="toggle grid"
+          v-if="data.view.includes('grid')"
+          :class="{ active: view == 'grid' }"
+          @click="toggleView('grid')"
+        ></div>
+      </div>
+      <div class="toggle_menu" v-if="data.views.includes('custom_ngi_people') && $mq=='md'">
+          <div
+          class="toggle previous"
+          @click="previous"
+          ></div>
+          <div
+            class="toggle next"
+            @click="next"
+          ></div>
+      </div>
     </div>
-    <div class="wrapper md:wrapper-md">
-      <div class="user_grid md:user_grid-md">
+    <div
+      class="flex mx-auto"
+      :style="wrapperWidth()"
+    >
+      <div class="user_grid md:user_grid-md" v-if="$mq=='md'">
+        <a
+          class="user_avatar md:user_avatar-md"
+          v-for="item in people.slice(thumbnail_index, thumbnail_index + thumbnail_count)"
+          :key="item.name"
+          :href="item.url"
+          target="_blank"
+          :style="{ backgroundImage: 'url(' + item.image + ')' }"
+        >
+          <div class="profile_info">
+            <h2>{{item.name}}</h2>
+            <p>{{item.excerpt}}</p>
+          </div>
+        </a>
+      </div>
+      <div class="user_grid md:user_grid-md" v-if="view == 'grid'">
         <div
           class="user_avatar md:user_avatar-md"
           v-for="(item, index) in people"
           :key="index"
-          @click="setActive(index)"
-          :class="{ active: selected === index }"
+          @click="setActive(item.id)"
+          :class="{ active: selected.id === item.id }"
           :style="{ backgroundImage: 'url(' + item.image_url + ')' }"
-        ></div>
+        >
+        </div>
       </div>
-      <div class="w-full px-6 md:px-6 md:pt-2" v-if="people[selected]">
+      <div class="user_list md:user_list-md" v-if="$mq=='sm'">
+        <input v-model="search" placeholder="search speakers.." />
+        <ul>
+          <li
+            v-for="(item, index) in filteredPeople"
+            :key="index"
+            @click="setActive(item.id)"
+            :class="{ active: selected.id === item.id }"
+          >
+            <div
+              class="user_avatar"
+              :style="{ backgroundImage: 'url(' + item.image + ')' }"
+            ></div>
+            <div class="h-full items-start justify-start">
+              <p class="m-0 p-0 inline-block w-full">{{ item.name }}</p>
+              <p class="m-0 p-0">{{ item.excerpt.substring(0,80) }}..</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="user_info md:user_info-md" v-if="selected && (view == 'grid' || view == 'list')">
         <a
-          class="user_name border-b mb-2 pb-2"
-          :href="people[selected].url"
+          class="user_name"
+          :href="selected.url"
           target="_blank"
         >
-          {{ people[selected].title }} <span>{{ getUser(people[selected].excerpt) }}</span>
+          {{ selected.title }} <span>{{ getUser(selected.excerpt) }}</span>
         </a>
 
-        <div class="bio" v-html="people[selected].cooked" />
+        <div class="user_bio md:user_bio-md">
+          {{selected.excerpt}}
+        </div>
       </div>
     </div>
   </div>
@@ -32,16 +97,37 @@
 <script>
 import axios from "axios";
 export default {
-  props: ["custom", "baseUrl"],
+  props: ["data", "stylesheet", "baseUrl"],
   data() {
     return {
       people: [],
-      selected: 0
+      thumbnail_count: 12,
+      thumbnail_index: 0,
+      selected: null,
+      search: '',
+      view: 'custom_ngi_people'
     };
   },
   methods: {
-    setActive(index) {
-      this.selected = index;
+    previous() {
+      if (this.thumbnail_index - this.thumbnail_count < 0) {
+        this.thumbnail_index = 0;
+      } else {
+        this.thumbnail_index = this.thumbnail_index - this.thumbnail_count;
+      }
+    },
+    next() {
+      if (this.thumbnail_index + this.thumbnail_count > this.people.length) {
+        this.thumbnail_index = 0;
+      } else {
+        this.thumbnail_index = this.thumbnail_index + this.thumbnail_count;
+      }
+    },
+    setActive(value) {
+      this.selected = this.people.filter(x => x.id == value)[0];
+    },
+    toggleView(view) {
+      this.view = view;
     },
     getUser(excerpt) {
       var username = excerpt.match(/(@[^\s]*(?=<\/a>))/g);
@@ -54,31 +140,33 @@ export default {
     getPeople(tag) {
       axios.get(
         `${this.baseUrl}/webkit_components/topics.json?serializer=organizer&tags=${tag}&per=500`
-      ).then(({ data }) => this.people = data);
+      ).then(({ data }) => {
+        function mapProfile(entry) {
+          var obj = {
+            id: entry.id,
+            name: entry.title,
+            excerpt: entry.excerpt,
+            image: entry.image_url,
+            url: entry.url
+          }
+          return obj
+        }
+        this.people = data.map(mapProfile)
+        this.selected = this.people[0];
+      });
+    }
+  },
+  computed: {
+    filteredPeople() {
+      return this.people.filter(item => {
+        return item.name.toLowerCase().includes(this.search.toLowerCase())
+      })
     }
   },
   mounted: function() {
-    this.getPeople(this.custom.tag);
+    this.getPeople(this.data.tag);
+    this.view = this.data.views[0]
   }
 };
 </script>
-<style lang="scss" scoped>
-@import "../assets/index.scss";
-.section#people {
-  @apply px-0;
-  .section_title {
-    @apply mx-6;
-  }
-}
-#people .user_avatar {
-  height: 65px !important;
-  border: 4px solid white;
-  &.active {
-    border: 4px solid black;
-  }
-}
 
-.user_grid {
-  align-content: flex-start;
-}
-</style>

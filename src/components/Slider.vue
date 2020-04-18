@@ -4,21 +4,14 @@
     @mouseover="clear_interval"
     @mouseleave="toggle_play"
   >
-    <div class="toggle_menu md:flex">
-      <div
-        class="toggle previous"
-        @click="changeSlide('previous')"
-      ></div>
-      <div
-        class="toggle next"
-        @click="changeSlide('next')"
-      ></div>
-    </div>
 
     <transition-group tag="div" class="slider" :name="currentTransition" mode="out-in">
-      <div v-for="number in [currentIndex]" :key="number" class="slide md:slide-md" v-touch:swipe.left="next" v-touch:swipe.right="prev">
-        <div class="item_post md:item_post-md" :style="{ background: 'url(' + currentSlide.image_url + ')' }">
-          <div class="item_title md:item_title-md">
+      <div v-for="number in [currentIndex]" :key="number" class="slide md:slide-md border rounded-lg overflow-hidden" v-touch:swipe.left="next" v-touch:swipe.right="prev">
+        <div v-if="$mq == 'md'" class="item_post md:item_post-md" :style="{ background: 'url(' + currentSlide.image_url + ')' }">
+          <Profile class="ml-3" v-if="show('author')" :data="currentSlide.author" />
+        </div>
+        <div class="w-full md:w-1/2 p-6 bg-white flex items-start flex-col overflow-scroll md:overflow-auto">
+            <div class="item_title md:item_title-md">
             <div v-if="show('title')">
               <a :href="currentSlide.url" target="_blank">
                 <h4>{{ currentSlide.title }}</h4>
@@ -28,9 +21,8 @@
                 <b>{{ currentSlide.created_at | formatDate }}</b>
               </p>
           </div>
-          <Profile class="ml-3" v-if="show('author')" :data="currentSlide.author" />
+          <div class="mt-3" v-html="currentSlide.excerpt"></div>
         </div>
-        <div v-html="cooked || currentSlide.excerpt" class="excerpt md:excerpt-md"></div>
       </div>
     </transition-group>
 
@@ -60,9 +52,11 @@ export default {
     },
     next() {
       this.changeSlide('next');
+      this.set_interval();
     },
     prev() {
       this.changeSlide('previous');
+      this.set_interval();
     },
     changeSlide(dir) {
       this.currentIndex = dir === 'next' ? this.currentIndex + 1 : this.currentIndex - 1;
@@ -79,6 +73,14 @@ export default {
         this.interval = false;
       }
     },
+    set_interval() {
+      this.clear_interval();
+      var self = this;
+      this.interval = setInterval(function() {
+        self.changeSlide('next');
+      }, this.autoplay);
+      this.play = true;
+    },
     getPermalink(slug) {
       return "https://edgeryders.eu/t/" + slug;
     },
@@ -88,11 +90,7 @@ export default {
         this.clear_interval();
       }
       if (this.autoplay && !this.interval) {
-        var self = this;
-        this.interval = setInterval(function() {
-          self.changeSlide('next');
-        }, this.autoplay);
-        this.play = true;
+        this.set_interval()
       }
     }
   },
@@ -110,14 +108,14 @@ export default {
     }
   },
   created() {
-    if (this.custom.length) {
-      this.slides = this.custom.slice(0);
+    if (this.data.length) {
+      this.slides = this.data.slice(0);
     }
-    else if (this.custom.users && this.custom.users.length) {
-      this.users = this.custom.users.slice(0);
+    else if (this.data.users && this.data.users.length) {
+      this.users = this.data.users.slice(0);
     }
     if (this.autoplay != undefined) {
-      this.toggle_play(this.autoplay);
+      this.toggle_play();
     }
   },
   filters: {
@@ -125,19 +123,20 @@ export default {
       return moment(String(value)).format("dddd, MMMM DD YYYY");
     }
   },
-  props: ["autoplay", "custom", "display"]
+  props: ["autoplay", "data", "display"]
 };
 </script>
 
 <style lang="scss" scoped>
-
+.slider_container {
+  width: 100%;
+}
 .slider{
   overflow: hidden;
   position: relative;
   height: 20em;
-  margin: 10px auto 0;
   border-radius: 10px;
-  width: 95%;
+  width: 100%;
 }
 
 .slider .slide {
@@ -152,6 +151,7 @@ export default {
 
 .slider .excerpt {
   overflow: auto;
+  background: white;
 }
 
 .slider .slide .item_title {
@@ -165,18 +165,18 @@ export default {
       font-size: 14px;
     }
     p.excerpt {
+          margin-top: 10px;
+
       font-size: 14px;
     }
   h4 {
       font-weight: bold;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-      background: white;
+      background: #2EA48A;
+      color: white;
       display: inline;
       box-decoration-break: clone;
       -webkit-box-decoration-break: clone;
-      padding: 15px 10px;
-      line-height: 35px !important;
-      margin: 10px;
+      padding: 10px 10px;
     }
 }
 .slide-md {

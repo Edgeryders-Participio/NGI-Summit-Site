@@ -1,7 +1,17 @@
 <template>
   <div class='carousel-view' @mouseover="clear_interval" @mouseleave="toggle_play">
-    <div class="section_title w-full border-none mb-0">
+    <div class="section_title w-full md:w-auto border-none mb-0">
       <div>{{ custom.title }}</div>
+        <div class='toggle_menu md:flex'>
+          <div
+          class="toggle previous"
+          @click="previous"
+          ></div>
+          <div
+            class="toggle next"
+            @click="next"
+          ></div>
+          </div>
     </div>
 
     <div
@@ -10,8 +20,12 @@
       <a :href="slide.url" target="_blank" 
         v-for="slide in slides.slice(slideIndex, slideIndex + slideCount)" 
         class='slide md:slide-md'
-        :key="slide.url">
+        :key="slide">
         <div class="logo" :style="{background: 'url(' + getImg(slide.logo) + ')'}"></div>
+        <div class="info">
+          <h4> {{ slide.title }} </h4>
+          <div><p class="date">{{ slide.date }}</p></div>
+        </div>
       </a>
     </div>
   </div>
@@ -33,7 +47,7 @@ export default {
       if (this.$mq == "sm") {
        slideCount = 1;
       };
-      if (this.slideIndex + slideCount >= this.slides.length) {
+      if (this.slideIndex + slideCount > this.slides.length) {
         this.slideIndex = 0
       } else {
         this.slideIndex = this.slideIndex + slideCount;
@@ -112,11 +126,11 @@ export default {
   align-items: flex-start;
   overflow: hidden;
   width: 100% !important;
-  height: 14em;
+  height: 22em;
 }
 .slide {
     flex-basis: 30%;
-    height: 10em;
+    height: 20em;
     margin: 1em;
     display: flex;
     flex-direction: column;
@@ -129,15 +143,17 @@ export default {
     animation-delay: .1s;
   .logo {
     width: 100%;
-    flex-basis: 100%;
+    flex-basis: 120px;
+    margin: 0px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #ff !important;
     background-repeat: no-repeat !important;
-    background-position: left center !important;
-    background-size: 80% !important;
+    background-position: center center !important;
+    background-size: 120px !important;
     padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
   }
   .info {
     display: inline-block;
