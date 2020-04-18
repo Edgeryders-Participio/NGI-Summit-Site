@@ -66,7 +66,7 @@
         "wrapper": "70%",
         "title": {
           "mobile": "text-2xl",
-          "desktop": "text-4xl"
+          "desktop": "text-3xl"
         }
       },
       "image": {
@@ -88,13 +88,7 @@
         "wrapper": "70%",
         "title": {
           "mobile": "text-2xl",
-          "desktop": "text-2xl"
-        }
-      },
-      "style": {
-        "title": {
-          "desktop": "text-3xl",
-          "mobile": "text-2xl"
+          "desktop": "text-3xl"
         }
       },
       "id": "",
