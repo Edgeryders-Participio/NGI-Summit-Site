@@ -39,7 +39,11 @@
       "title": "About the Summit",
       "id": "about",
       "style": {
-        "wrapper": "70%"
+        "wrapper": "70%",
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-4xl"
+        }
       },
       "image": {
         "url": "",
@@ -58,6 +62,13 @@
    {
       "type": "custom",
       "title": "Worried about planning ahead?",
+      "style": {
+        "wrapper": "70%",
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-4xl"
+        }
+      },
       "image": {
         "url": ""
       },
@@ -73,6 +84,13 @@
     {
       "type": "partners",
       "title": "Organised by",
+      "style": {
+        "wrapper": "70%",
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-2xl"
+        }
+      },
       "style": {
         "title": {
           "desktop": "text-3xl",
