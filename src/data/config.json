@@ -42,7 +42,7 @@
         "wrapper": "70%",
         "title": {
           "mobile": "text-2xl",
-          "desktop": "text-4xl"
+          "desktop": "text-3xl"
         }
       },
       "image": {
