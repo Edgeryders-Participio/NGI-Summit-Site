@@ -39,7 +39,14 @@
       "title": "About the Summit",
       "id": "about",
       "style": {
-        "wrapper": "70%"
+        "wrapper": {
+          "desktop": "70%",
+          "mobile": "90%"
+        },
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-3xl"
+        }
       },
       "image": {
         "url": "",
@@ -58,6 +65,16 @@
    {
       "type": "custom",
       "title": "Worried about planning ahead?",
+      "style": {
+        "wrapper": {
+          "desktop": "70%",
+          "mobile": "90%"
+        },
+        "title": {
+          "mobile": "text-2xl",
+          "desktop": "text-3xl"
+        }
+      },
       "image": {
         "url": ""
       },
@@ -74,9 +91,13 @@
       "type": "partners",
       "title": "Organised by",
       "style": {
+        "wrapper": {
+          "desktop": "70%",
+          "mobile": "90%"
+        },
         "title": {
-          "desktop": "text-3xl",
-          "mobile": "text-2xl"
+          "mobile": "text-2xl",
+          "desktop": "text-3xl"
         }
       },
       "id": "",
@@ -111,7 +132,10 @@
       "type": "custom",
       "style": {
         "background": "#FFDB6A",
-        "wrapper": "70%"
+        "wrapper": {
+          "desktop": "70%",
+          "mobile": "90%"
+        }
       },
       "title": "",
       "image": {
@@ -130,10 +154,113 @@
       "type": "people",
       "title": "Speakers",
       "id": "speakers",
+      "profiles": [
+        {
+          "id": 1,
+          "name": "Anna-Sophie Harling",
+          "excerpt": "Anna-Sophie Harling is Managing Director for Europe at NewsGuard, based in London and New York. Prior to joining NewsGuard, Harling worked as Business Development Manager for a technology company in London and at an international law firm in Germany. She has previously worked at two German newspapers, Der Tagesspiegel and the Märkische Allgemeine. Harling graduated from Yale University, where she was a Yale Journalism Scholar.",
+          "image": "img/speakers/cropped/Anna_Sophie_Harling.png",
+          "url": "#"
+        },
+        {
+          "id": 2,
+          "name": "Axel Voss",
+          "excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
+          "image": "img/speakers/cropped/Axel_Voss.jpg",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "name": "Harry Armstrong",
+          "excerpt": "",
+          "image": "img/speakers/cropped/Harry_Armstrong.jpg",
+          "url": "#"
+        },
+        {
+          "id": 4,
+          "name": "Ingrid Schneider",
+          "excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications. From 1996, she has advised several European Parliaments and the European Commission, and is Board Member of various European Scientific Associations and Research Projects. Current research projects are PRODIGEES - Promoting Research on Digitalisation in Emerging Powers and Europe Towards Sustainable Development (2020-2024, EU funded) and “Governance of and by Algorithms” (2019-2021, BMBF funded).",
+          "image": "img/speakers/cropped/Ingrid_Schneider.png",
+          "url": "#"
+        },
+        {
+          "id": 5,
+          "name": "Jack Hardinges",
+          "excerpt": "Jack is Programme Lead for Data Institutions at the Open Data Institute. He is responsible for the strategic direction of the ODI's work to explore different approaches to data stewardship, such as through data trusts, and leading the delivery of related projects. Jack joined the ODI in July 2014 and has delivered research and advisory projects with startup, multinational corporate and government clients.",
+          "image": "img/speakers/cropped/Jack_Hardinges.jpg",
+          "url": "#"
+        },
+        {
+          "id": 6,
+          "name": "Katja Bego",
+          "excerpt": "",
+          "image": "img/speakers/cropped/Katja_Bego.jpg",
+          "url": "#"
+        },
+        {
+          "id": 7,
+          "name": "Marco Zappalorto",
+          "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
+          "image": "img/speakers/cropped/Marco_Zappalorto.jpg",
+          "url": "#"
+        },
+        {
+          "id": 8,
+          "name": "Martin Brynskov",
+          "excerpt": "Martin is Associate Professor in Interaction Technologies at Aarhus University and Chair of Open and Agile Smart Cities.",
+          "image": "img/speakers/cropped/Martin_Brynskov.jpg",
+          "url": "#"
+        },
+        {
+          "id": 9,
+          "name": "Paul Keller",
+          "excerpt": "",
+          "image": "img/speakers/cropped/Paul_Keller.jpg",
+          "url": "#"
+        },
+        {
+          "id": 10,
+          "name": "Peter Bihr",
+          "excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
+          "image": "img/speakers/cropped/Peter_Bihr.jpg",
+          "url": "#"
+        },
+        {
+          "id": 11,
+          "name": "Silva Arapi",
+          "excerpt": "Digital Rights Advocate and free software enthusiast for more than 5 years. Board Member at Open Labs Albania.",
+          "image": "img/speakers/cropped/Silva_Arapi.jpg",
+          "url": "#"
+        },
+        {
+          "id": 12,
+          "name": "Suzanne Dumouchel",
+          "excerpt": "Suzanne is responsible for partnerships and strategy. She holds a PhD in French Literature. Research Engineer at Huma-Num, CNRS, she coordinates the TRIPLE project (H2020). Suzanne is deeply involved in the Open Science movement, especially in the SSH perspective.",
+          "image": "img/speakers/cropped/Suzanne_Dumouchel.jpg",
+          "url": "#"
+        },
+        {
+          "id": 13,
+          "name": "Sylvie Delacroix",
+          "excerpt": "Professor Delacroix focuses on the intersection between law and ethics, with a particular interest in data and machine Ethics. Her current research focuses on the design of computer systems meant for morally-loaded contexts. She is also considering the potential inherent in ‘bottom-up’ Data Trusts as a mechanism to address power imbalances between data-subjects and data-controllers. Professor Delacroix has recently served on the Public Policy Commission on the use of algorithms in the justice system (Law Society of England and Wales). She is also a Fellow of the Alan Turing Institute and a Mozilla Fellow (from 01/04/2020).",
+          "image": "img/speakers/cropped/Sylvie_Delacroix.jpeg",
+          "url": "#"
+        },
+        {
+          "id": 14,
+          "name": "Geert-Jan Bogaerts",
+          "excerpt": "Geert-Jan is Initiator of PublicSpaces Foundation and Head of Innovation and Digital Media at VPRO. He trained as a political scientist, was raised as a reporter, foreign correspondent and editor at de Volkskrant, and is currently mainly trying to join forces with those who want to make the Internet a safer, more ethical place.",
+          "image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg",
+          "url": "#"
+        }
+      ],
       "style": {
         "background": "#fafafa",
         "title": "70%",
-        "wrapper": "80%"
+        "wrapper": {
+          "desktop": "80%",
+          "mobile": "90%"
+        }
       },
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
@@ -160,7 +287,10 @@
       "title": "Programme",
       "style": {
         "title": "70%",
-        "wrapper": "80%"
+        "wrapper": {
+          "desktop": "80%",
+          "mobile": "100%"
+        }
       },
       "id": "programme",
       "tag": "event-ngi-summit-2020",
@@ -179,7 +309,10 @@
       "style": {
         "background": "#fafafa",
         "title": "70%",
-        "wrapper": "80%"
+        "wrapper": {
+          "desktop": "80%",
+          "mobile": "90%"
+        }
       },
       "sort_by": {
         "property": "title",
@@ -197,6 +330,12 @@
     {
       "type": "form",
       "title": "Join the discussion",
+      "style": {
+        "wrapper": {
+          "desktop": "80%",
+          "mobile": "90%"
+        }
+      },
       "id": "community",
       "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and get to know the other participants on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
       "slideDefaults": {
@@ -263,7 +402,10 @@
       "title": "Contact Us",
       "id": "contact us",
       "style": {
-        "wrapper": "70%",
+        "wrapper": {
+          "desktop": "80%",
+          "mobile": "50%"
+        },
         "padding": "0 0 60px",
         "title": {
           "mobile": "text-2xl",
