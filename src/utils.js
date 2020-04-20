@@ -29,12 +29,15 @@ export default {
         var styleObj = {
           maxWidth: '85%'
         };
+          if (this.stylesheet && this.stylesheet.wrapper && this.stylesheet.wrapper.mobile) {
+            styleObj["maxWidth"] = this.stylesheet.wrapper.mobile;
+          }
         if (this.$mq=='md') {
           if (this.stylesheet && this.stylesheet.wrapper) {
-            styleObj["maxWidth"] = this.stylesheet.wrapper;
+            styleObj["maxWidth"] = this.stylesheet.wrapper.desktop;
           };
           if (this.data.style && this.data.style.wrapper) {
-            styleObj["maxWidth"] = this.data.style.wrapper;
+            styleObj["maxWidth"] = this.data.style.wrapper.desktop;
           };
         }
         return styleObj;
