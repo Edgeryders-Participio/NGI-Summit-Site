@@ -23,7 +23,7 @@
           <div
             class="item_image"
             v-if="item[image] && type == 'user'"
-            :style="{backgroundImage: 'url(' + item[image] + ')'}"
+            :style="{backgroundImage: 'url(' + getAsset(item[image]) + ')'}"
           >
           </div>
           <div class="item_text">

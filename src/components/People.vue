@@ -31,7 +31,7 @@
     <div
       class="flex mx-auto px-5"
     >
-      <List v-if="$mq=='sm'" :header="data.title" :items="data.profiles" image="image" title="name" info="excerpt" filter="name" url="url" :search="true" type="user" />
+      <List v-if="$mq=='sm'" :header="data.title" :items="data.profiles" image="image" title="name" info="excerpt" filter="name" :search="true" type="user" />
 
       <div class="user_grid md:user_grid-md mx-auto pb-8" v-if="$mq=='md'" 
       style="width: 80vw">
@@ -41,7 +41,7 @@
           :key="item.name"
           :href="item.url"
           target="_blank"
-          :style="{ backgroundImage: 'url(' + item.image + ')' }"
+          :style="{ backgroundImage: 'url(' + getAsset(item.image) + ')' }"
         >
           <div class="profile_info">
             <h2>{{item.name}}</h2>
