@@ -52,7 +52,7 @@
         </div>
         <p class="list_item_description">{{selected[info]}}</p>
         <a v-if="url && type=='event'" class="list_event_url" :href="selected[url]" target="_blank">Discuss this event</a>
-        <a v-if="url && type!='event'" class="list_item_url mt-4" :href="selected[url]" target="_blank">Read More</a>
+        <a v-if="url && selected[url] && type!='event'" class="list_item_url mt-4" :href="selected[url]" target="_blank">Read More</a>
 
       </div>
     </div>
