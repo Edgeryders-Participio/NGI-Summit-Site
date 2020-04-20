@@ -154,6 +154,13 @@
 					"image": "https://edgeryders.eu/uploads/default/original/2X/8/82d84fd4a221d3d6b8c43e6c4ac7a25fb7f2aba3.jpeg",
 					"url": "https://edgeryders.eu/t/axel-voss-mep/13223"
 				},
+				     				{
+					"id": 13215,
+					"name": "Rasmus Kleis Nielsen",
+					"excerpt": "Rasmus is Director of the Reuters Institute for the Study of Journalism and Professor of Political Communication at Oxford.",
+					"image": "https://edgeryders.eu/uploads/default/original/2X/9/9ab70beacf5fafa5b45652d87dad00cdcf7b33cb.jpeg",
+					"url": ""
+				},
 				{
 					"id": 13212,
 					"name": "Ingrid Schneider",
@@ -161,13 +168,7 @@
 					"image": "https://edgeryders.eu/uploads/default/original/2X/9/9a9b0fbd819000fb5be2a79ee9c795678b4faa62.jpeg",
 					"url": "https://edgeryders.eu/t/ingrid-schneider/13212"
 				},
-				{
-					"id": 13215,
-					"name": "Rasmus Kleis Nielsen",
-					"excerpt": "Rasmus is Director of the Reuters Institute for the Study of Journalism and Professor of Political Communication at Oxford.",
-					"image": "https://edgeryders.eu/uploads/default/original/2X/9/9ab70beacf5fafa5b45652d87dad00cdcf7b33cb.jpeg",
-					"url": "https://edgeryders.eu/t/rasmus-kleis-nielsen/13215"
-				},
+
 				{
 					"id": 13214,
 					"name": "Marleen Stikker",
