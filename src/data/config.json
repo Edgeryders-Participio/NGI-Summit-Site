@@ -366,7 +366,7 @@
         "background": "#fafafa",
         "title": "70%",
         "wrapper": {
-          "desktop": "80%",
+          "desktop": "70%",
           "mobile": "90%"
         }
       },
