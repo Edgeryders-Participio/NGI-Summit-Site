@@ -314,7 +314,7 @@
         "background": "#fafafa",
         "title": "70%",
         "wrapper": {
-          "desktop": "70%",
+          "desktop": "90%",
           "mobile": "90%"
         }
       },
