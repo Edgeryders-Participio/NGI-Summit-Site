@@ -1,0 +1,134 @@
+@responsive {
+  .body_container {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .section {
+    @apply w-full;
+    &.no-title {
+      @apply pt-8 pb-4;
+    }
+    p {
+      @apply mb-4;
+    }
+    &.section-full {
+      width: 100% !important;
+    }
+  }
+
+  .section-md {
+    width: 100%;
+  }
+
+  .wrapper {
+    @apply flex flex-col;
+  }
+
+  .wrapper-md {
+    @apply mx-auto;
+    max-width: 960px;
+  }
+
+  .section_image {
+    @apply mb-4;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+
+  .section_image-md {
+    @apply mr-6;
+    width: 400px;
+  }
+
+  .content_wrapper {
+    @apply flex flex-col w-full relative;
+    z-index: 10;
+  }
+
+  .content_wrapper-md {
+    @apply flex flex-row items-start;
+  }
+
+  .section_title {
+    @apply font-display text-xl flex items-center font-bold text-left pb-2 mb-3 mx-auto;
+  }
+
+  .section_title-md {
+    @apply text-3xl;
+  }
+
+  .section_custom {
+    @apply flex flex-col;
+  }
+
+  .section_custom-md {
+    @apply flex-row;
+  }
+
+  .section_text {
+    @apply text-lg text-left;
+  }
+
+  .section_text-md {
+    @apply border-gray-200 border-l pl-6;
+  }
+
+  .section_video {
+    @apply w-full mr-4 pr-5;
+  }
+
+  .section_custom.reverse {
+    @apply flex-col-reverse;
+  }
+
+  .wrapper-md.reverse {
+    @apply flex-row-reverse;
+  }
+
+  .wrapper-md.reverse .section_text {
+    @apply border-r pr-6 border-l-0 pl-0;
+  }
+
+  .wrapper-md.reverse .section_image {
+    @apply mr-0 ml-6;
+  }
+
+  .wrapper.reverse .section_video {
+    @apply ml-4 pl-5;
+  }
+
+  .section_terms {
+    @apply w-full bg-black p-6 text-left flex;
+  }
+
+  .partners_wrapper {
+    @apply flex flex-row justify-between my-4;
+  }
+
+  .partners_wrapper-md {
+    @apply flex flex-row;
+  }
+
+  .partner {
+    width: 100%;
+    height: 100px;
+    border-right: 1px solid #efefef;
+
+    @apply flex flex-col bg-gray-100 items-center justify-center;
+    &:last-child {
+      border: none
+    }
+    img {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+  .partner-md {
+    width: 33%;
+    height: 200px;
+    img {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  }
+}
