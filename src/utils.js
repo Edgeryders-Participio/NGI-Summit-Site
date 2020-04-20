@@ -11,6 +11,9 @@ export default {
       		return null
       	}
       },
+      getAsset(path) {
+        return require('@/assets/' + path);
+      },
       titleWidth() {
         var styleObj = {
           maxWidth: '85%'
