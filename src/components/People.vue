@@ -103,7 +103,7 @@ export default {
       }
     },
     next() {
-      if (this.thumbnail_index + this.thumbnail_count > this.people.length) {
+      if (this.thumbnail_index + this.thumbnail_count > this.data.profiles.length) {
         this.thumbnail_index = 0;
       } else {
         this.thumbnail_index = this.thumbnail_index + this.thumbnail_count;
