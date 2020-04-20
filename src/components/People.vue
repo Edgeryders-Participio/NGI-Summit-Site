@@ -31,7 +31,7 @@
     <div
       class="flex mx-auto px-5"
     >
-      <List v-if="$mq=='sm'" :header="data.title" :items="people" image="image" title="name" info="excerpt" filter="name" url="url" :search="true" type="user" />
+      <List v-if="$mq=='sm'" :header="data.title" :items="data.profiles" image="image" title="name" info="excerpt" filter="name" url="url" :search="true" type="user" />
 
       <div class="user_grid md:user_grid-md mx-auto pb-8" v-if="$mq=='md'" 
       style="width: 80vw">
@@ -103,14 +103,14 @@ export default {
       }
     },
     next() {
-      if (this.thumbnail_index + this.thumbnail_count > this.people.length) {
+      if (this.thumbnail_index + this.thumbnail_count > this.data.profiles.length) {
         this.thumbnail_index = 0;
       } else {
         this.thumbnail_index = this.thumbnail_index + this.thumbnail_count;
       }
     },
     setActive(value) {
-      this.selected = this.people.filter(x => x.id == value)[0];
+      this.selected = this.data.profiles.filter(x => x.id == value)[0];
       this.toggle = !this.toggle;
     },
     toggleView(view) {
@@ -145,7 +145,7 @@ export default {
   },
   computed: {
     filteredPeople() {
-      return this.people.filter(item => {
+      return this.data.profiles.filter(item => {
         return item.name.toLowerCase().includes(this.search.toLowerCase())
       })
     }
