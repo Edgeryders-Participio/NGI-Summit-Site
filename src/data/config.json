@@ -266,6 +266,9 @@
     },
     {
       "type": "topics",
+      "title": "Topics",
+      "style": {
+        "title": "70%"},
       "id": "topics",
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
@@ -329,7 +332,7 @@
       "title": "Join the discussion",
       "style": {
         "wrapper": {
-          "desktop": "80%",
+          "desktop": "70%",
           "mobile": "90%"
         }
       },
@@ -410,8 +413,8 @@
       "id": "contact us",
       "style": {
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "50%"
+          "desktop": "70%",
+          "mobile": "90%"
         },
         "padding": "0 0 60px",
         "title": {
