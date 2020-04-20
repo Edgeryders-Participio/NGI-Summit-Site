@@ -1,16 +1,17 @@
 <template>
   <div
-    class="slider_container"
+    class="wrapper md:wrapper-md"
     @mouseover="clear_interval"
     @mouseleave="toggle_play"
   >
 
     <transition-group tag="div" class="slider" :name="currentTransition" mode="out-in">
-      <div v-for="number in [currentIndex]" :key="number" class="slide md:slide-md border rounded-lg overflow-hidden" v-touch:swipe.left="next" v-touch:swipe.right="prev">
+      <div v-for="number in [currentIndex]" :key="number" class="slide md:slide-md" v-touch:swipe.left="next" v-touch:swipe.right="back">
+        <div class="slider_container md:slider_container-md">
         <div v-if="$mq == 'md'" class="item_post md:item_post-md" :style="{ background: 'url(' + currentSlide.image_url + ')' }">
           <Profile class="ml-3" v-if="show('author')" :data="currentSlide.author" />
         </div>
-        <div class="w-full md:w-1/2 p-6 bg-white flex items-start flex-col overflow-scroll md:overflow-auto">
+        <div class="w-full md:w-1/2 md:p-6 bg-white flex items-start flex-col overflow-scroll md:overflow-auto">
             <div class="item_title md:item_title-md">
             <div v-if="show('title')">
               <a :href="currentSlide.url" target="_blank">
@@ -21,7 +22,8 @@
                 <b>{{ currentSlide.created_at | formatDate }}</b>
               </p>
           </div>
-          <div class="mt-3" v-html="currentSlide.excerpt"></div>
+          <div class="slide_excerpt md:slide_excerpt-md" v-html="currentSlide.excerpt"></div>
+        </div>
         </div>
       </div>
     </transition-group>
@@ -54,8 +56,8 @@ export default {
       this.changeSlide('next');
       this.set_interval();
     },
-    prev() {
-      this.changeSlide('previous');
+    back() {
+      this.changeSlide('back');
       this.set_interval();
     },
     changeSlide(dir) {
@@ -136,12 +138,15 @@ export default {
   position: relative;
   height: 20em;
   border-radius: 10px;
-  width: 100%;
+  @apply flex items-center rounded-lg;
+  width: 105%;
+  margin: 0 0 0 -2.5%;
 }
 
 .slider .slide {
   position: absolute;
   width: 100%;
+  padding: 0 2.5%;
   border-radius: 10px;
   top: 0;
   left: 0;
@@ -168,15 +173,6 @@ export default {
           margin-top: 10px;
 
       font-size: 14px;
-    }
-  h4 {
-      font-weight: bold;
-      background: #2EA48A;
-      color: white;
-      display: inline;
-      box-decoration-break: clone;
-      -webkit-box-decoration-break: clone;
-      padding: 10px 10px;
     }
 }
 .slide-md {
@@ -224,9 +220,9 @@ export default {
 
 .next-leave-active,
 .next-enter-active,
-.previous-leave-active,
-.previous-enter-active {
-  transition: 1s;
+.back-leave-active,
+.back-enter-active {
+  transition: 1s cubic-bezier(0.25, 1, 0.5, 1);;
 }
 .next-enter {
   transform: translate(100%, 0);
@@ -234,10 +230,10 @@ export default {
 .next-leave-to {
   transform: translate(-100%, 0);
 }
-.previous-enter {
+.back-enter {
   transform: translate(-100%, 0);
 }
-.previous-leave-to {
+.back-leave-to {
   transform: translate(100%, 0);
 }
 

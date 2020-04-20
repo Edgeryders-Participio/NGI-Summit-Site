@@ -1,7 +1,8 @@
 <template>
   <div class="section md:section-md" :style="{background: data.style && data.style.background}" id="people">
-    <div class="section_title md:section_title-md justify-between items-center pt-8" :style="titleWidth()" >
-      <h3 class="text-2xl md:text-4xl">{{ data.title }}</h3>
+    <div class="section_title md:section_title-md justify-between items-center pt-4 md:pt-8" :style="titleWidth()" >
+      <h3 v-if="$mq=='md'" class="text-2xl md:text-4xl">{{ data.title }}</h3>
+
       <div class="toggle_menu" v-if="data.views.length > 1">
         <div
           class="toggle list"
@@ -28,13 +29,15 @@
       </div>
     </div>
     <div
-      class="flex mx-auto"
-      :style="wrapperWidth()"
+      class="flex mx-auto px-5"
     >
-      <div class="user_grid md:user_grid-md" v-if="$mq=='md'">
+      <List v-if="$mq=='sm'" :header="data.title" :items="people" image="image" title="name" info="excerpt" filter="name" url="url" :search="true" type="user" />
+
+      <div class="user_grid md:user_grid-md mx-auto pb-8" v-if="$mq=='md'" 
+      style="width: 80vw">
         <a
           class="user_avatar md:user_avatar-md"
-          v-for="item in people.slice(thumbnail_index, thumbnail_index + thumbnail_count)"
+          v-for="item in data.profiles.slice(thumbnail_index, thumbnail_index + thumbnail_count)"
           :key="item.name"
           :href="item.url"
           target="_blank"
@@ -49,7 +52,7 @@
       <div class="user_grid md:user_grid-md" v-if="view == 'grid'">
         <div
           class="user_avatar md:user_avatar-md"
-          v-for="(item, index) in people"
+          v-for="(item, index) in data.profiles"
           :key="index"
           @click="setActive(item.id)"
           :class="{ active: selected.id === item.id }"
@@ -57,26 +60,7 @@
         >
         </div>
       </div>
-      <div class="user_list md:user_list-md" v-if="$mq=='sm'">
-        <input v-model="search" placeholder="search speakers.." />
-        <ul>
-          <li
-            v-for="(item, index) in filteredPeople"
-            :key="index"
-            @click="setActive(item.id)"
-            :class="{ active: selected.id === item.id }"
-          >
-            <div
-              class="user_avatar"
-              :style="{ backgroundImage: 'url(' + item.image + ')' }"
-            ></div>
-            <div class="h-full items-start justify-start">
-              <p class="m-0 p-0 inline-block w-full">{{ item.name }}</p>
-              <p class="m-0 p-0">{{ item.excerpt.substring(0,80) }}..</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+      
       <div class="user_info md:user_info-md" v-if="selected && (view == 'grid' || view == 'list')">
         <a
           class="user_name"
@@ -96,6 +80,7 @@
 
 <script>
 import axios from "axios";
+import List from "@/components/MobileList.vue";
 export default {
   props: ["data", "stylesheet", "baseUrl"],
   data() {
@@ -104,6 +89,7 @@ export default {
       thumbnail_count: 12,
       thumbnail_index: 0,
       selected: null,
+      toggle: false,
       search: '',
       view: 'custom_ngi_people'
     };
@@ -125,6 +111,7 @@ export default {
     },
     setActive(value) {
       this.selected = this.people.filter(x => x.id == value)[0];
+      this.toggle = !this.toggle;
     },
     toggleView(view) {
       this.view = view;
@@ -163,8 +150,10 @@ export default {
       })
     }
   },
+  components: {
+    List
+  },
   mounted: function() {
-    this.getPeople(this.data.tag);
     this.view = this.data.views[0]
   }
 };
