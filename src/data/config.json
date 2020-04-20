@@ -325,6 +325,7 @@
     }, 
     {
       "type": "topics",
+            "title": "Topics",
       "id": "topics",
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
