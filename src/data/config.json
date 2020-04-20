@@ -321,9 +321,6 @@
 			"title": "Topics",
 			"id": "topics",
 			"view": "cards",
-			"style": {
-				"title": "70%"
-			},
 			"tag": "webcontent-ngi-summit-2020-topics",
 			"text": {
 				"content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics:</p>",
