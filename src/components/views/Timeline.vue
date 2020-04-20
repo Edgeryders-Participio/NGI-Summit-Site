@@ -296,10 +296,6 @@ export default {
   }
   &.active {
     width: 90%;
-    h4 {
-      @apply pt-2 mt-4 mb-2 ;
-      font-size: 1.2rem;
-    }
     &.last {
       @apply pb-6;
     }

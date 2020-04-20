@@ -98,10 +98,11 @@ input {
 }
 
 .tag {
-  @apply mr-2 py-2 mb-2 font-bold px-3 float-left border;
-  border-radius: 10px;
+  @apply float-left mr-2 mb-2 py-2 px-3 font-light border;
+  border-radius: 5px;
   background: white;
-  font-size: 14px;
+  font-size: 12.5px;
+    transition: padding .4s ease;
 
   &:hover {
     cursor: pointer;
@@ -110,19 +111,16 @@ input {
   &.active {
     opacity: 1;
     background: #2EA48A;
-            border: 1px solid #2EA48A;
-
+    border: 1px solid #2EA48A;
+    padding-left: 25px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 40'%3E%3Cpath fill='white' d='M16 2a14 14 0 100 28 14 14 0 000-28zm6 18a1.5 1.5 0 11-2 2l-4-3.9-4 4a1.5 1.5 0 01-2 0c-.6-.6-.6-1.6 0-2.2l3.9-3.9-4-4a1.5 1.5 0 112.2-2l3.9 3.9 4-4a1.5 1.5 0 112 2.2L18.2 16l4 4z'/%3E%3C/svg%3E") no-repeat 3.3% 65% #2EA48A !important;
+    background-size: 15px !important;
     color: white;
-    transition: padding .4s ease;
     &:hover {
-    padding-left: 26px;
-
-        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 40'%3E%3Cpath fill='white' d='M16 2a14 14 0 100 28 14 14 0 000-28zm6 18a1.5 1.5 0 11-2 2l-4-3.9-4 4a1.5 1.5 0 01-2 0c-.6-.6-.6-1.6 0-2.2l3.9-3.9-4-4a1.5 1.5 0 112.2-2l3.9 3.9 4-4a1.5 1.5 0 112 2.2L18.2 16l4 4z'/%3E%3C/svg%3E") no-repeat 7px 68% #2EA48A !important;
-        color: white;
-        background-size: 15px !important;
-        .event_color {
-        opacity: 0
-      }
+      color: white;
+      .event_color {
+      opacity: 0
+    }
     }
   }
 }

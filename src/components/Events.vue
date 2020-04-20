@@ -1,7 +1,8 @@
 <template>
   <div class="section px-5 md:px-0 md:section-md events" id="events">
+    <List v-if="$mq=='sm'" :header="data.title" :items="events" image="image_url" title="title" info="excerpt" filter="id" url="url" :search="true" type="event" :share="true" />
 
-    <div class="wrapper md:wrapper-md bg-gray-100 rounded-lg overflow-hidden">
+    <div v-else class="wrapper md:wrapper-md bg-gray-100 rounded-lg overflow-hidden">
       <div class="w-full py-4 px-3 events_title">{{data.title}}</div>
       <div class="flex">
       <Timeline :custom="data" :config="getEventFilters()" :items="events" :data="events" />
@@ -18,6 +19,7 @@
 <script>
 import axios from "axios";
 import moment from "moment";
+import List from "@/components/MobileList.vue";
 import Timeline from "@/components/views/Timeline.vue";
 import Calendar from "@/components/views/Calendar.vue";
 import Search from "@/components/views/Search.vue";
@@ -33,6 +35,7 @@ export default {
     };
   },
    components: {
+    List,
     Timeline,
     Calendar,
     Search,
