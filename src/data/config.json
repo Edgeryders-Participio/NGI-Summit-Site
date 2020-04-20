@@ -314,7 +314,7 @@
         "background": "#fafafa",
         "title": "70%",
         "wrapper": {
-          "desktop": "80%",
+          "desktop": "70%",
           "mobile": "90%"
         }
       },
@@ -388,7 +388,7 @@
       "title": "Join the discussion",
       "style": {
         "wrapper": {
-          "desktop": "80%",
+          "desktop": "70%",
           "mobile": "90%"
         }
       },
@@ -459,8 +459,8 @@
       "id": "contact us",
       "style": {
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "50%"
+          "desktop": "70%",
+          "mobile": "90%"
         },
         "padding": "0 0 60px",
         "title": {
