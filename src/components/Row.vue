@@ -54,7 +54,7 @@
           </div>
         </template>
         <template slot="back">
-          <div class="card_excerpt" v-html="item.excerpt"></div>
+          <div class="card_excerpt" v-html="stripHtml(item.excerpt)"></div>
           <a class="card_footer" :href="item.url" target="_blank">Discuss this topic</a>
         </template>
       </Card>
@@ -78,6 +78,13 @@ export default {
     };
   },
   methods: {
+    stripHtml(value) {
+      return value.replace(
+        'class="lightbox-wrapper"',
+        'class="lightbox-wrapper hidden"',
+        'class="meta"'
+      ).replace('<br>', '');
+    },
     show(value) {
       return this.display.includes(value);
     },

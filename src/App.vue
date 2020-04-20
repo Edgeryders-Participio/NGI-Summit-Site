@@ -5,7 +5,6 @@
     <MobileMenu :open="openMenu" :data="navItems" @toggle="toggleMenu" />
   
     <Hero :baseUrl="data.baseUrl" :custom="getSectionData('hero')"/>
-
     <div v-for="section in data.sections" :key="section.title" :id="section.id">
       <Custom v-if="section.type == 'custom'" :stylesheet="data.style" :data="section" html=true />
       <Topics v-if="section.type == 'topics'" :baseUrl="data.baseUrl" :stylesheet="data.style" :data="section" />
@@ -48,6 +47,7 @@ export default {
       data,
       category: { users: [] },
       categories: [],
+      navItems: null,
       sections: null,
       openMenu: false,
       menus: {
@@ -88,9 +88,11 @@ export default {
         var post = data.find(post => post.id === this.data.configId);
         var json = this.getJson(post.cooked);
         this.sections = json.sections;
+        this.getNavElements(json.sections);
       });
     } else {
       this.sections = this.data.sections;
+      this.getNavElements(this.data.sections);
     }
   },
   methods: {
@@ -99,22 +101,24 @@ export default {
     },
     toggleMenu() {
       this.openMenu = !this.openMenu;
+    },
+    getNavElements(sections) {
+      if (sections.length) {
+      var navArray = this.sections.map(function(el) {
+            if (el.id) {
+              return {
+                title: el.title,
+                id: el.id,
+              } 
+            }
+          });
+      this.navItems = navArray.filter(function (el) {
+          return el != null;
+      });
+      }
     }
   },
   computed: {
-    navItems() {
-      var navArray = this.sections.map(function(el) {
-              if (el.id) {
-                return {
-                  title: el.title,
-                  id: el.id,
-                } 
-              }
-            });
-      return navArray.filter(function (el) {
-          return el != null;
-      });
-    }
   }
 };
 </script>

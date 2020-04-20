@@ -31,7 +31,6 @@
       ref="slider"
       :display="data.display"
     />
-
     <Row v-if="topics && data.view == 'cards'" :topics="topics" :display="data.display" />
   </div>
 </template>
