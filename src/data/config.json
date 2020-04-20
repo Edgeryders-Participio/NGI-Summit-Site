@@ -13,7 +13,7 @@
       "type": "hero",
       "summit": "true",
       "background": {
-        "url": "/summit%20hero%20image.jpg",
+        "url": "img/summit%20hero%20image.jpg",
         "color": "linear-gradient(63.1deg,#009c8e 9.02%,#ffdb6a 90.81%)"
       },
       "title": "Next Generation Internet <br> Policy Summit",
