@@ -6,8 +6,8 @@
     margin: 0 auto;
   }
   .row-md {
-    @apply py-6 px-10;
-    height: 450px;
+    @apply px-4;
+    height: 410px;
   }
   .card_row {
     @apply flex;
@@ -115,7 +115,9 @@
     box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.1);
   }
   .card_excerpt {
-    @apply flex-grow relative w-full mx-auto mt-2 pb-4 text-sm font-bold text-left;
+    @apply flex-grow relative w-full mx-auto mt-2 pb-4 text-left;
+    font-size: 16px;
+    line-height: 22px;
     height: 80%;
     width: 80%;
     text-align: left;
