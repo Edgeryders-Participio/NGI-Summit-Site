@@ -3,19 +3,18 @@
 
     <Nav style="margin-bottom: 60px" :data="navItems" :open="openMenu" ref="childComponent" @toggle="toggleMenu" />
     <MobileMenu :open="openMenu" :data="navItems" @toggle="toggleMenu" />
-  
     <Hero :baseUrl="data.baseUrl" :custom="getSectionData('hero')"/>
-    <div v-for="section in data.sections" :key="section.title" :id="section.id">
-      <Custom v-if="section.type == 'custom'" :stylesheet="data.style" :data="section" html=true />
-      <Topics v-if="section.type == 'topics'" :baseUrl="data.baseUrl" :stylesheet="data.style" :data="section" />
-      <Events v-if="section.type == 'events'" :baseUrl="data.baseUrl" :stylesheet="data.style" :data="section" />
+    <div v-for="section in sections" :key="section.title" :id="section.id">
+      <Custom v-if="section.type == 'custom'" :stylesheet="stylesheet" :data="section" html=true />
+      <Topics v-if="section.type == 'topics'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
+      <Events v-if="section.type == 'events'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
       <Users v-if="section.type == 'users'" :baseUrl="data.baseUrl" :custom="section" />
-      <People v-if="section.type == 'people'" :baseUrl="data.baseUrl" :stylesheet="data.style" :data="section" />
-      <Partners v-if="section.type == 'partners'" :stylesheet="data.style" :data="section"
+      <People v-if="section.type == 'people'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
+      <Partners v-if="section.type == 'partners'" :stylesheet="stylesheet" :data="section"
       />
       <Edgeryders v-if="section.type == 'edgeryders'" :custom="section"
       />
-      <Form v-if="section.type == 'form'" :baseUrl="data.baseUrl" :stylesheet="data.style" :data="section" />
+      <Form v-if="section.type == 'form'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
     </div>
 
     <Terms :stylesheet="data.style" :data="getSectionData('terms')" />
@@ -49,6 +48,7 @@ export default {
       categories: [],
       navItems: null,
       sections: null,
+      stylesheet: null,
       openMenu: false,
       menus: {
         slide: { buttonText: 'Slide' },
@@ -88,10 +88,12 @@ export default {
         var post = data.find(post => post.id === this.data.configId);
         var json = this.getJson(post.cooked);
         this.sections = json.sections;
+        this.stylesheet = json.style;
         this.getNavElements(json.sections);
       });
     } else {
       this.sections = this.data.sections;
+      this.stylesheet = this.data.style;
       this.getNavElements(this.data.sections);
     }
   },
