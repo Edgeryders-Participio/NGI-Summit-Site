@@ -1,6 +1,6 @@
 <template>
-  <div class="section md:section-md" :style="{background: data.style && data.style.background}" id="people">
-    <div class="section_title md:section_title-md justify-between items-center pt-4 md:pt-8" :style="titleWidth()" >
+  <div class="section md:section-md" :style="containerStyle()">
+    <div class="section_title md:section_title-md justify-between items-center pt-4 md:pt-8" :style="titleStyle()" >
       <h3 v-if="$mq=='md'" class="text-2xl md:text-4xl">{{ data.title }}</h3>
 
       <div class="toggle_menu" v-if="data.views.length > 1">

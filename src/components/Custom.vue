@@ -1,11 +1,11 @@
 <template>
-  <div class="section md:section-md" :style="{background: data.style && data.style.background, padding: data.style && data.style.padding}" :class="{'no-title': !data.title}">
+  <div class="section md:section-md" :style="containerStyle()">
     <div
       class="wrapper md:wrapper-md mx-auto"
-      :style="wrapperWidth()"
+      :style="wrapperStyle()"
     >
-      <div class="flex mb-3" :style="titleWidth()" v-if="data.title" >
-      <h3 class="font-bold" :class="titleSize()">{{ data.title }}</h3>
+      <div class="flex mb-3" :style="titleStyle()" v-if="data.title" >
+      <h3 class="font-bold" :class="titleClassSize()">{{ data.title }}</h3>
       </div>
       <div class="content_wrapper md:content_wrapper-md">
       <div v-if="data.image.url" class="section_image md:section_image-md">

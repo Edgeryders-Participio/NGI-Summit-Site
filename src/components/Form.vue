@@ -1,7 +1,7 @@
 <template>
-  <div class="section w-full mt-6 mb-6 md:section-md" :style="{background: data.style && data.style.background}" id="form">
-    <div class="md:flex w-full mx-auto" :style="wrapperWidth()">
-      <div class="w-full md:px-0 md:w-1/2 md:mr-8 md:pr-4 flex flex-col md:pt-8">
+  <div class="section w-full mt-6 mb-6 md:section-md" :style="containerStyle()" id="form">
+    <div class="md:flex w-full mx-auto" :style="wrapperStyle()">
+      <div class="w-full md:px-0 md:w-1/2 md:mr-8 md:pr-4 flex flex-col">
         <h3 class="text-3xl font-bold mb-4">{{ data.title }}</h3>
         <div class="section_text" v-html="data.content">
         </div>

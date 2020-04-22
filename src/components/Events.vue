@@ -1,5 +1,5 @@
 <template>
-  <div class="section px-5 md:px-0 md:section-md events" id="events">
+  <div class="section px-5 md:px-0 md:section-md events" id="events" :style="containerStyle()">
     <List v-if="$mq=='sm'" :header="data.title" :items="events" image="image_url" title="title" info="excerpt" filter="id" url="url" :search="true" type="event" :share="true" />
 
     <div v-else class="wrapper md:wrapper-md bg-gray-100 rounded-lg overflow-hidden">

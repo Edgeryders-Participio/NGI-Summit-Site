@@ -11,56 +11,69 @@ export default {
       		return null
       	}
       },
-      titleWidth() {
-        var styleObj = {
-          maxWidth: '85%'
-        };
+      MediaQueryIndex() {
+        var index = 0;
         if (this.$mq=='md') {
-          if (this.stylesheet && this.stylesheet.wrapper) {
-            styleObj["maxWidth"] = this.stylesheet.title;
-          };
-          if (this.data.style && this.data.style.wrapper) {
-           styleObj["maxWidth"] = this.data.style.title;
-          };
+          index = 1;
         }
+        return index;
+      },
+      ElementStyle(element, property) {
+        var index = this.MediaQueryIndex();
+        if (this.data.style && this.data.style[element] && this.data.style[element][property]) {
+          if (this.data.style[element][property][index]) {
+            return this.data.style[element][property][index];
+          }
+          else {
+            return this.data.style[element][property][0];
+          }
+        } else if (this.stylesheet && this.stylesheet[element] && this.stylesheet[element][property]) {
+          if (this.stylesheet[element][property][index]) {
+            return this.stylesheet[element][property][index];
+          } else {
+            return this.stylesheet[element][property][0];
+          }
+        } else {
+          return ''
+        }
+      },
+      titleStyle() {
+        var styleObj = {
+          maxWidth: '',
+          textAlign: '',
+          backgroundColor: '',
+          padding: ''
+        };
+       
+        styleObj["backgroundColor"] = this.ElementStyle('title', 'background');
+        styleObj["textAlign"] = this.ElementStyle('title', 'align');
+        styleObj["maxWidth"] = this.ElementStyle('title', 'width');
+        styleObj["padding"] = this.ElementStyle('title', 'padding');
+        return styleObj;
+ 
+      },
+      containerStyle() {
+        var styleObj = {
+          padding: '',
+          backgroundColor: ''
+        };
+        styleObj["backgroundColor"] = this.ElementStyle('container', 'background');
+        styleObj["padding"] = this.ElementStyle('container', 'padding');
         return styleObj;
       },
-      wrapperWidth() {
+      wrapperStyle() {
         var styleObj = {
-          maxWidth: '85%'
+          maxWidth: '',
+          padding: '',
+          backgroundColor: '',
         };
-          if (this.stylesheet && this.stylesheet.wrapper && this.stylesheet.wrapper.mobile) {
-            styleObj["maxWidth"] = this.stylesheet.wrapper.mobile;
-          }
-        if (this.$mq=='md') {
-          if (this.stylesheet && this.stylesheet.wrapper) {
-            styleObj["maxWidth"] = this.stylesheet.wrapper.desktop;
-          };
-          if (this.data.style && this.data.style.wrapper) {
-            styleObj["maxWidth"] = this.data.style.wrapper.desktop;
-          };
-        }
+        styleObj["backgroundColor"] = this.ElementStyle('wrapper', 'background');
+        styleObj["padding"] = this.ElementStyle('wrapper', 'padding');
+        styleObj["maxWidth"] = this.ElementStyle('wrapper', 'width');
         return styleObj;
       },
-      titleSize() {
-        var titleClass = '';
-        if (this.$mq=='sm') {
-          if (this.stylesheet && this.stylesheet.title) {
-            titleClass = this.stylesheet.title.mobile;
-          }
-          if (this.data.style && this.data.style.title) {
-            titleClass = this.data.style.title.mobile;
-          }
-        }
-        if (this.$mq=='md') {
-          if (this.stylesheet && this.stylesheet.title) {
-            titleClass = this.stylesheet.title.desktop;
-          }
-          if (this.data.style && this.data.style.title) {
-            titleClass = this.data.style.title.desktop;
-          }
-        }
-        return titleClass;
+      titleClassSize() {
+        return this.ElementStyle('title', 'size')
       }
   	}
 }

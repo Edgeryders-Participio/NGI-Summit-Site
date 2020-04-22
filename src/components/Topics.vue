@@ -1,7 +1,7 @@
 <template>
-  <div class="section md:section-md mt-10" :style="{background: data.style && data.style.background}" id="people">
-    <div class="section_title md:section_title-md justify-between items-center pt-8 mx-auto text-center" v-if="data.title" :style="titleWidth()" >
-      <h3 class="text-2xl md:text-4xl text-center md:text-left w-full">{{ data.title }}</h3>
+  <div class="section md:section-md" :style="containerStyle()">
+    <div class="flex font-bold justify-between items-center p-0 mb-2 mx-auto" v-if="data.title" :style="titleStyle()" >
+      <h3 class="m-0 p-0 w-full" :class="titleClassSize()">{{ data.title }}</h3>
       <div class="toggle_menu mr-6 md:flex md:mr-0" v-if="data.view == 'featured' && $mq == 'md'">
         <div
           class="toggle previous"
@@ -16,7 +16,7 @@
     <div
       class="wrapper md:wrapper-md mx-auto"
       v-if="data.text"
-      :style="wrapperWidth()"
+      :style="wrapperStyle()"
     >
       <div v-if="data.text.content" class="section_text" v-html="data.text.content">
       </div>
@@ -26,11 +26,11 @@
       v-if="topics && data.view == 'featured'"
       :autoplay="5000"
       :data="topics"
-      :style="titleWidth()"
       class="mx-auto  pb-10"
       ref="slider"
       :display="data.display"
     />
+
     <Row v-if="topics && data.view == 'cards'" :topics="topics" :display="data.display" />
   </div>
 </template>

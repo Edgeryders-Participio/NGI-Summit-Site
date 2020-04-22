@@ -2,10 +2,17 @@
   "configId": 13267,
   "baseUrl" :"https://edgeryders.eu",
   "style": {
-    "wrapper": "70%",
     "title": {
-      "mobile": "text-2xl",
-      "desktop": "text-4xl"
+      "width": ["90%", "75%"],
+      "align": ["center", "left"],
+      "size": ["text-2xl", "text-3xl"]
+    },
+    "container": {
+      "padding": ["0"]
+    },
+    "wrapper": {
+      "width": ["90%", "75%"],
+      "padding": ["15px 15px 0", "10px 0 0"]
     }
   },
   "sections": [
@@ -13,7 +20,7 @@
       "type": "hero",
       "summit": "true",
       "background": {
-        "url": "/summit%20hero%20image.jpg",
+        "url": "img/summit%20hero%20image.jpg",
         "color": "linear-gradient(63.1deg,#009c8e 9.02%,#ffdb6a 90.81%)"
       },
       "title": "Next Generation Internet <br> Policy Summit",
@@ -39,13 +46,11 @@
       "title": "About the Summit",
       "id": "about",
       "style": {
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
+        "container": {
+          "padding": ["0"]
         },
-        "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
         }
       },
       "image": {
@@ -62,17 +67,24 @@
         "buttons": []
       }
     },
-   {
+    {
       "type": "custom",
       "title": "Worried about planning ahead?",
       "style": {
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        },
         "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "background": ["yellow", "turquoise"],
+          "size": ["text-2xl", "text-3xl"]
+        },
+        "container": {
+          "background": ["green", "orange"],
+          "padding": ["30px 0 0", "0"]
+        },
+        "wrapper": {
+          "width": ["90%", "75%"],
+          "background": ["purple", "green"],
+          "padding": ["15px 15px 0", "10px 0 0"]
         }
       },
       "image": {
@@ -91,13 +103,11 @@
       "type": "partners",
       "title": "Organised by",
       "style": {
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        },
         "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "background": ["yellow", "turquoise"],
+          "size": ["text-2xl", "text-3xl"]
         }
       },
       "id": "",
@@ -108,9 +118,8 @@
         {
           "title": "City of Amsterdam",
           "outlet": "City of Amsterdam",
-          "url":
-            "https://www.amsterdam.nl/en/",
-          "logo": "city_of_amsterdam.png"        
+          "url": "https://www.amsterdam.nl/en/",
+          "logo": "city_of_amsterdam.png"
         },
         {
           "title": "Nesta",
@@ -119,24 +128,15 @@
           "logo": "nesta.png"
         },
         {
-          "title":
-            "European Commission",
+          "title": "European Commission",
           "outlet": "European Commission",
-          "url":
-            "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
           "logo": "eucom.png"
         }
       ]
-    } ,
-   {
+    },
+    {
       "type": "custom",
-      "style": {
-        "background": "#FFDB6A",
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        }
-      },
       "title": "",
       "image": {
         "url": ""
@@ -154,107 +154,135 @@
       "type": "people",
       "title": "Speakers",
       "id": "speakers",
+      "style": {
+        "container": {
+          "background": ["#fafafa"]
+        }
+      },
       "profiles": [
         {
           "id": 1,
           "name": "Anna-Sophie Harling",
           "excerpt": "Anna-Sophie Harling is Managing Director for Europe at NewsGuard, based in London and New York. Prior to joining NewsGuard, Harling worked as Business Development Manager for a technology company in London and at an international law firm in Germany. She has previously worked at two German newspapers, Der Tagesspiegel and the Märkische Allgemeine. Harling graduated from Yale University, where she was a Yale Journalism Scholar.",
-          "image": "img/speakers/cropped/Anna_Sophie_Harling.png"
+          "image": "img/speakers/cropped/Anna_Sophie_Harling.png",
+          "url": "#"
         },
         {
           "id": 2,
           "name": "Axel Voss",
           "excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
-          "image": "img/speakers/cropped/Axel_Voss.jpg"
+          "image": "img/speakers/cropped/Axel_Voss.jpg",
+          "url": "#"
         },
         {
           "id": 3,
           "name": "Harry Armstrong",
           "excerpt": "",
-          "image": "img/speakers/cropped/Harry_Armstrong.jpg"
+          "image": "img/speakers/cropped/Harry_Armstrong.jpg",
+          "url": "#"
         },
         {
           "id": 4,
           "name": "Ingrid Schneider",
           "excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications. From 1996, she has advised several European Parliaments and the European Commission, and is Board Member of various European Scientific Associations and Research Projects. Current research projects are PRODIGEES - Promoting Research on Digitalisation in Emerging Powers and Europe Towards Sustainable Development (2020-2024, EU funded) and “Governance of and by Algorithms” (2019-2021, BMBF funded).",
-          "image": "img/speakers/cropped/Ingrid_Schneider.png"
+          "image": "img/speakers/cropped/Ingrid_Schneider.png",
+          "url": "#"
         },
         {
           "id": 5,
           "name": "Jack Hardinges",
           "excerpt": "Jack is Programme Lead for Data Institutions at the Open Data Institute. He is responsible for the strategic direction of the ODI's work to explore different approaches to data stewardship, such as through data trusts, and leading the delivery of related projects. Jack joined the ODI in July 2014 and has delivered research and advisory projects with startup, multinational corporate and government clients.",
-          "image": "img/speakers/cropped/Jack_Hardinges.jpg"
+          "image": "img/speakers/cropped/Jack_Hardinges.jpg",
+          "url": "#"
         },
         {
           "id": 6,
           "name": "Katja Bego",
           "excerpt": "",
-          "image": "img/speakers/cropped/Katja_Bego.jpg"
+          "image": "img/speakers/cropped/Katja_Bego.jpg",
+          "url": "#"
         },
         {
           "id": 7,
           "name": "Marco Zappalorto",
           "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
-          "image": "img/speakers/cropped/Marco_Zappalorto.jpg"
+          "image": "img/speakers/cropped/Marco_Zappalorto.jpg",
+          "url": "#"
         },
         {
           "id": 8,
           "name": "Martin Brynskov",
           "excerpt": "Martin is Associate Professor in Interaction Technologies at Aarhus University and Chair of Open and Agile Smart Cities.",
-          "image": "img/speakers/cropped/Martin_Brynskov.jpg"
+          "image": "img/speakers/cropped/Martin_Brynskov.jpg",
+          "url": "#"
         },
         {
           "id": 9,
           "name": "Paul Keller",
           "excerpt": "",
-          "image": "img/speakers/cropped/Paul_Keller.jpg"
+          "image": "img/speakers/cropped/Paul_Keller.jpg",
+          "url": "#"
         },
         {
           "id": 10,
           "name": "Peter Bihr",
           "excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
-          "image": "img/speakers/cropped/Peter_Bihr.jpg"
+          "image": "img/speakers/cropped/Peter_Bihr.jpg",
+          "url": "#"
         },
         {
           "id": 11,
           "name": "Silva Arapi",
           "excerpt": "Digital Rights Advocate and free software enthusiast for more than 5 years. Board Member at Open Labs Albania.",
-          "image": "img/speakers/cropped/Silva_Arapi.jpg"
+          "image": "img/speakers/cropped/Silva_Arapi.jpg",
+          "url": "#"
         },
         {
           "id": 12,
           "name": "Suzanne Dumouchel",
           "excerpt": "Suzanne is responsible for partnerships and strategy. She holds a PhD in French Literature. Research Engineer at Huma-Num, CNRS, she coordinates the TRIPLE project (H2020). Suzanne is deeply involved in the Open Science movement, especially in the SSH perspective.",
-          "image": "img/speakers/cropped/Suzanne_Dumouchel.jpg"
+          "image": "img/speakers/cropped/Suzanne_Dumouchel.jpg",
+          "url": "#"
         },
         {
           "id": 13,
           "name": "Sylvie Delacroix",
           "excerpt": "Professor Delacroix focuses on the intersection between law and ethics, with a particular interest in data and machine Ethics. Her current research focuses on the design of computer systems meant for morally-loaded contexts. She is also considering the potential inherent in ‘bottom-up’ Data Trusts as a mechanism to address power imbalances between data-subjects and data-controllers. Professor Delacroix has recently served on the Public Policy Commission on the use of algorithms in the justice system (Law Society of England and Wales). She is also a Fellow of the Alan Turing Institute and a Mozilla Fellow (from 01/04/2020).",
-          "image": "img/speakers/cropped/Sylvie_Delacroix.jpeg"
+          "image": "img/speakers/cropped/Sylvie_Delacroix.jpeg",
+          "url": "#"
         },
         {
           "id": 14,
           "name": "Geert-Jan Bogaerts",
           "excerpt": "Geert-Jan is Initiator of PublicSpaces Foundation and Head of Innovation and Digital Media at VPRO. He trained as a political scientist, was raised as a reporter, foreign correspondent and editor at de Volkskrant, and is currently mainly trying to join forces with those who want to make the Internet a safer, more ethical place.",
-          "image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg"
+          "image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg",
+          "url": "#"
         }
       ],
-      "style": {
-        "background": "#fafafa",
-        "title": "70%",
-        "wrapper": {
-          "desktop": "80%",
-          "mobile": "90%"
-        }
-      },
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
       "tagOthers": "webcontent-ngi-summit-2020-bio-small"
-    }, 
+    },
     {
       "type": "topics",
+      "title": "Topics",
+      "style": {
+        "title": {
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "background": ["#fff"],
+          "size": ["text-4xl", "text-3xl"]
+        },
+        "container": {
+          "padding": ["30px 0 0", "30px 0 0 0"]
+        },
+        "wrapper": {
+          "width": ["90%", "75%"],
+          "background": ["#efefef", "#fff"],
+          "padding": ["15px 15px 0", "10px 0 0"]
+        }
+      },
       "id": "topics",
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
@@ -268,14 +296,21 @@
       },
       "display": ["title"]
     },
-   {
+    {
       "type": "events",
       "title": "Programme",
       "style": {
-        "title": "70%",
+        "title": {
+          "size": ["text-2xl", "text-4xl"],
+          "padding": ["0 0 10px"],
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "padding": ["30px 20px 30px", "30px 0"]
+        },
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "100%"
+          "width": ["90%", "90%"]
         }
       },
       "id": "programme",
@@ -293,11 +328,18 @@
       "view": "featured",
       "tag": "ngi-summit-stories",
       "style": {
-        "background": "#fafafa",
-        "title": "70%",
+        "title": {
+          "size": ["text-2xl", "text-3xl"],
+          "padding": ["0 0 10px"],
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "background": ["#fafafa"],
+          "padding": ["20px 30px 0", "20px 0 0"]
+        },
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "90%"
+          "width": ["75%", "90%"]
         }
       },
       "sort_by": {
@@ -316,13 +358,20 @@
     {
       "type": "form",
       "title": "Join the discussion",
+      "id": "community",
       "style": {
+        "title": {
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "background": ["#fff"],
+          "padding": ["20px 30px 0", "0"]
+        },
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "90%"
+          "padding": ["0"]
         }
       },
-      "id": "community",
       "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and get to know the other participants on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
       "slideDefaults": {
         "title": "Q{{index}}",
@@ -330,72 +379,76 @@
         "nextText": "NEXT",
         "backTitle": "Go back",
         "nextTitle": "Continue",
-        "fields": [{
-          "name": "message",
-          "type": "textarea",
-          "placeholder": "write here...",
-          "required": true,
-          "autofocus": true,
-          "error": "Please write a response!"
-        }],
+        "fields": [
+          {
+            "name": "message",
+            "type": "textarea",
+            "placeholder": "write here...",
+            "required": true,
+            "autofocus": true,
+            "error": "Please write a response!"
+          }
+        ],
         "diagram": {},
         "settings": { "omitFields": true }
       },
-      "slides": [{
-        "index": 1,
-        "title": "",
-        "nextTitle": "SIGN UP",
-        "body": "Use this form to sign up for the NGI exchange platform.",
-        "fields": [{
-          "name": "name",
-          "type": "text",
-          "placeholder": "Name/nickname",
-          "half": false,
-          "required": true,
-          "autofocus": false,
-          "error": "Please enter your name"
-        }, {
-          "name": "email",
-          "type": "email",
-          "placeholder": "E-mail",
-          "required": true,
-          "error": "Please enter your email address",
-          "settings": { "omit": true }
-        }, {
-          "name": "consent",
-          "type": "checkbox",
-          "placeholder": "I consent to the terms and conditions",
-          "required": true,
-          "error": "Please consent to the terms and conditions",
-          "settings": { "omit": true }
-        }],
-        "nextText": "SEND",
-        "submit": true,
-        "settings": { "omitBody": true }
-      }, {
-        "title": "Well done!",
-        "body": "Thank you for taking the time to create an account on Edgeryders!",
-        "fields": []
-      }],
+      "slides": [
+        {
+          "index": 1,
+          "title": "",
+          "nextTitle": "SIGN UP",
+          "body": "Use this form to sign up for the NGI exchange platform.",
+          "fields": [
+            {
+              "name": "name",
+              "type": "text",
+              "placeholder": "Name/nickname",
+              "half": false,
+              "required": true,
+              "autofocus": false,
+              "error": "Please enter your name"
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "placeholder": "E-mail",
+              "required": true,
+              "error": "Please enter your email address",
+              "settings": { "omit": true }
+            },
+            {
+              "name": "consent",
+              "type": "checkbox",
+              "placeholder": "I consent to the terms and conditions",
+              "required": true,
+              "error": "Please consent to the terms and conditions",
+              "settings": { "omit": true }
+            }
+          ],
+          "nextText": "SEND",
+          "submit": true,
+          "settings": { "omitBody": true }
+        },
+        {
+          "title": "Well done!",
+          "body": "Thank you for taking the time to create an account on Edgeryders!",
+          "fields": []
+        }
+      ],
       "errorMessages": {
         "networkError": "Sorry, we were unable to store your response due to a network connectivity issue. Please try clicking on \"Send\" again.",
         "username": "It seems somebody has already chosen your preferred username / nickname. Please enter a different one and click again on \"Send\".",
         "email": "It seems you already have an account on our forum using this e-mail address, or have entered an invalid address. Please choose a different e-mail address and click again on \"Send\".",
         "default": "Sorry, we were unable to store your response due to an unknown error. Please try clicking on \"Send\" again."
       }
-    }, {
+    },
+    {
       "type": "custom",
       "title": "Contact Us",
       "id": "contact us",
       "style": {
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "50%"
-        },
-        "padding": "0 0 60px",
-        "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+          "padding": ["0 20px 30px", "0 0 30px"]
         }
       },
       "image": {

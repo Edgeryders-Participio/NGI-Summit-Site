@@ -1,13 +1,13 @@
 <template>
-  <div class="section md:section-md md:my-6" :style="{background: data.style && data.style.background}" id="partners">
+  <div class="section md:section-md" :style="containerStyle()" id="partners">
     <div
       class="wrapper md:wrapper-md mx-auto"
-      :style="wrapperWidth()"
+      :style="wrapperStyle()"
     >
-      <h3 class="font-bold text-left" :class="titleSize()">
+      <h3 class="font-bold text-left" :class="titleClassSize()">
         Organised by
       </h3>
-      <div class="flex mt-4 mb-10">
+      <div class="flex mt-4">
         <a class="partner md:partner-md" v-for="item in data.content" :key="item.title" :href="item.url">
         	<img :src="getImg(item.logo)" />
         </a>
