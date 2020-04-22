@@ -2,10 +2,17 @@
   "category": 237,
   "baseUrl": "https://edgeryders.eu",
   "style": {
-    "wrapper": "70%",
     "title": {
-      "mobile": "text-2xl",
-      "desktop": "text-4xl"
+      "width": ["90%", "75%"],
+      "align": ["center", "left"],
+      "size": ["text-2xl", "text-3xl"]
+    },
+    "container": {
+      "padding": ["0"]
+    },
+    "wrapper": {
+      "width": ["90%", "75%"],
+      "padding": ["15px 15px 0", "10px 0 0"]
     }
   },
   "sections": [
@@ -39,13 +46,11 @@
       "title": "About the Summit",
       "id": "about",
       "style": {
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
+        "container": {
+          "padding": ["0"]
         },
-        "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
         }
       },
       "image": {
@@ -66,13 +71,20 @@
       "type": "custom",
       "title": "Worried about planning ahead?",
       "style": {
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        },
         "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "background": ["yellow", "turquoise"],
+          "size": ["text-2xl", "text-3xl"]
+        },
+        "container": {
+          "background": ["green", "orange"],
+          "padding": ["30px 0 0", "0"]
+        },
+        "wrapper": {
+          "width": ["90%", "75%"],
+          "background": ["purple", "green"],
+          "padding": ["15px 15px 0", "10px 0 0"]
         }
       },
       "image": {
@@ -91,13 +103,11 @@
       "type": "partners",
       "title": "Organised by",
       "style": {
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        },
         "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "background": ["yellow", "turquoise"],
+          "size": ["text-2xl", "text-3xl"]
         }
       },
       "id": "",
@@ -127,13 +137,6 @@
     },
     {
       "type": "custom",
-      "style": {
-        "background": "#FFDB6A",
-        "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        }
-      },
       "title": "",
       "image": {
         "url": ""
@@ -151,6 +154,11 @@
       "type": "people",
       "title": "Speakers",
       "id": "speakers",
+      "style": {
+        "container": {
+          "background": ["#fafafa"]
+        }
+      },
       "profiles": [
         {
           "id": 1,
@@ -251,14 +259,6 @@
           "url": "#"
         }
       ],
-      "style": {
-        "background": "#fafafa",
-        "title": "70%",
-        "wrapper": {
-          "desktop": "80%",
-          "mobile": "90%"
-        }
-      },
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
@@ -268,7 +268,21 @@
       "type": "topics",
       "title": "Topics",
       "style": {
-        "title": "70%"},
+        "title": {
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "background": ["#fff"],
+          "size": ["text-4xl", "text-3xl"]
+        },
+        "container": {
+          "padding": ["30px 0 0", "30px 0 0 0"]
+        },
+        "wrapper": {
+          "width": ["90%", "75%"],
+          "background": ["#efefef", "#fff"],
+          "padding": ["15px 15px 0", "10px 0 0"]
+        }
+      },
       "id": "topics",
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
@@ -286,10 +300,17 @@
       "type": "events",
       "title": "Programme",
       "style": {
-        "title": "70%",
+        "title": {
+          "size": ["text-2xl", "text-4xl"],
+          "padding": ["0 0 10px"],
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "padding": ["30px 20px 30px", "30px 0"]
+        },
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "100%"
+          "width": ["90%", "90%"]
         }
       },
       "id": "programme",
@@ -307,11 +328,18 @@
       "view": "featured",
       "tag": "ngi-summit-stories",
       "style": {
-        "background": "#fafafa",
-        "title": "70%",
+        "title": {
+          "size": ["text-2xl", "text-3xl"],
+          "padding": ["0 0 10px"],
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "background": ["#fafafa"],
+          "padding": ["20px 30px 0", "20px 0 0"]
+        },
         "wrapper": {
-          "desktop": "80%",
-          "mobile": "90%"
+          "width": ["75%", "90%"]
         }
       },
       "sort_by": {
@@ -330,13 +358,20 @@
     {
       "type": "form",
       "title": "Join the discussion",
+      "id": "community",
       "style": {
+        "title": {
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "background": ["#fff"],
+          "padding": ["20px 30px 0", "0"]
+        },
         "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
+          "padding": ["0"]
         }
       },
-      "id": "community",
       "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and get to know the other participants on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
       "slideDefaults": {
         "title": "Q{{index}}",
@@ -413,13 +448,7 @@
       "id": "contact us",
       "style": {
         "wrapper": {
-          "desktop": "70%",
-          "mobile": "90%"
-        },
-        "padding": "0 0 60px",
-        "title": {
-          "mobile": "text-2xl",
-          "desktop": "text-3xl"
+          "padding": ["0 20px 30px", "0 0 30px"]
         }
       },
       "image": {
