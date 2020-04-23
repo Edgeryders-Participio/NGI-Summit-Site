@@ -23,7 +23,7 @@
               </p>
           </div>
           <div class="slide_excerpt md:slide_excerpt-md" v-html="currentSlide.excerpt"></div>
-          <a class="slide_link" href="#">Read more</a>
+          <a class="slide_link" target="_blank" :href="currentSlide.url">Read more</a>
         </div>
         </div>
       </div>
