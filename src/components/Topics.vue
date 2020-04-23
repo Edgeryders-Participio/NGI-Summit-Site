@@ -65,10 +65,10 @@ export default {
       axios.get(
         `${this.baseUrl}/webkit_components/topics.json?${filter}=${value}&per=500&serializer=organizer`
       ).then(({ data }) => {
-        this.topics = data;
-        if (this.data.sort) {
-          this.sortBy(data, this.data.sort_by.property, this.data.sort_by.order)
+        if (this.data.sort_by) {
+          data = this.sortBy(data, this.data.sort_by.property, this.data.sort_by.order)
         }
+        this.topics = data;
       });
     },
     sortBy(data, value, order) {
@@ -77,7 +77,7 @@ export default {
         ord_val = 1;
       };
       var sorted = data.sort((a,b) => (a[value] > b[value]) ? ord_val : ((b[value] > a[value]) ? -ord_val : 0));
-      this.data = sorted;
+      return sorted
     },
     changeSlide(value) {
       if(value == 'next') {

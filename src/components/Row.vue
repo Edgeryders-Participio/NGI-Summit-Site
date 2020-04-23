@@ -54,7 +54,7 @@
           </div>
         </template>
         <template slot="back">
-          <div class="card_excerpt" v-html="item.excerpt"></div>
+          <div class="card_excerpt" v-html="strippedCooked(item.cooked)"></div>
           <a class="card_footer" :href="item.url" target="_blank">Discuss this topic</a>
         </template>
       </Card>
@@ -78,6 +78,10 @@ export default {
     };
   },
   methods: {
+    strippedCooked(cooked) {
+      let stripped = cooked.replace( /(<span([^>].*)<\/span>)/ig, '');
+      return stripped.replace( /(<([^>]+)>)/ig, '');
+    },
     show(value) {
       return this.display.includes(value);
     },

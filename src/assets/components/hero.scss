@@ -1,11 +1,11 @@
 @responsive {
   
   .hero {
-    @apply w-full flex flex-col justify-center p-8 mb-8 pb-0 relative items-center overflow-hidden bg-gray-100;
+    @apply w-full flex flex-col justify-center mb-8 pb-0 relative items-center overflow-hidden bg-gray-100;
   }
 
   .hero-md {
-    @apply px-20 py-10 pb-0 flex-col;
+    @apply py-10 pb-0 flex-col;
   }
 
   .hero .content_wrapper {
@@ -13,6 +13,7 @@
   }
   .hero .content_wrapper-md {
     @apply flex;
+    max-width: 75%;
   }
 
   .hero_image {
