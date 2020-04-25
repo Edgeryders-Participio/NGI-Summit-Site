@@ -3,6 +3,7 @@
 .toggle_menu {
     @apply bg-gray-200 items-center ml-4;
     border-radius: 4px;
+    background: black !important;
     overflow: hidden;
     flex-shrink: 0;
 }

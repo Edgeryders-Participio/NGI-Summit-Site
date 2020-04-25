@@ -25,6 +25,10 @@ module.exports = {
             );
           },
           whitelist: [
+            "text-xl",
+            "text-2xl",
+            "text-3xl",
+            "text-4xl",
             "swiper-container",
             "section_slider",
             "swiper-container-initialized",

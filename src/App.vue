@@ -1,101 +1,67 @@
 <template>
   <div class="flex flex-col w-full">
 
-    <Nav style="margin-bottom: 60px" :data="navItems" :open="openMenu" ref="childComponent" @toggle="toggleMenu" />
-    <MobileMenu :open="openMenu" :data="navItems" @toggle="toggleMenu" />
-    <Hero :baseUrl="data.baseUrl" :custom="getSectionData('hero')"/>
-    <div v-for="section in sections" :key="section.title" :id="section.id">
-      <Custom v-if="section.type == 'custom'" :stylesheet="stylesheet" :data="section" html=true />
-      <Topics v-if="section.type == 'topics'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
-      <Events v-if="section.type == 'events'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
-      <Users v-if="section.type == 'users'" :baseUrl="data.baseUrl" :custom="section" />
-      <People v-if="section.type == 'people'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
-      <Partners v-if="section.type == 'partners'" :stylesheet="stylesheet" :data="section"
-      />
-      <Edgeryders v-if="section.type == 'edgeryders'" :custom="section"
-      />
-      <Form v-if="section.type == 'form'" :baseUrl="data.baseUrl" :stylesheet="stylesheet" :data="section" />
+    <Nav style="margin-bottom: 60px" :data="navItems" :globalStyle="globalStyleSheet" :stylesheet="this.config.style" :open="openMenu" ref="childComponent" @toggle="toggleMenu" />
+    <MobileMenu :open="openMenu" :data="navItems" :globalStyle="globalStyleSheet" @toggle="toggleMenu" />
+{{globalStyle}}
+<div v-if="globalStyleSheet">
+    <div v-for="(section, index) in sections" :key="index" :id="section.id">
+      <component v-bind:is="section.type" :key="componentKey + index" :baseUrl="config.baseUrl" :globalStyle="globalStyleSheet" :data="section"></component>
     </div>
-
-    <Terms :stylesheet="data.style" :data="getSectionData('terms')" />
+</div>
 </div>
 </template>
 
 <script>
-import data from "@/data/config.json";
 
-import Nav from "@/components/Navigation.vue";
-import MobileMenu from "@/components/views/MobileMenu.vue";
-import Hero from "@/components/Hero.vue";
-import Custom from "@/components/Custom.vue";
-import Events from "@/components/Events.vue";
-import Topics from "@/components/Topics.vue";
-import People from "@/components/People.vue";
-import Users from "@/components/Users.vue";
-import Partners from "@/components/Partners.vue";
-import Edgeryders from "@/components/Edgeryders.vue";
-import Form from "@/components/Form.vue";
-import Terms from "@/components/Terms.vue";
+import Nav from "@/components/ui/Navigation.vue";
+import MobileMenu from "@/components/ui/Mobile_Menu.vue";
 
-import axios from "axios";
+import hero from "@/components/core/Hero.vue";
+import custom from "@/components/core/Custom.vue";
+import events from "@/components/edgeryders/Events.vue";
+import topics from "@/components/core/Topics.vue";
+import people from "@/components/core/People.vue";
+import users from "@/components/core/Users.vue";
+import partners from "@/components/edgeryders/Partners.vue";
+import edgeryders from "@/components/edgeryders/About.vue";
+import custom_form from "@/components/core/Form.vue";
+import terms from "@/components/edgeryders/Terms.vue";
 
 export default {
   name: "home",
   data() {
     return {
-      data,
       category: { users: [] },
       categories: [],
-      navItems: null,
-      sections: null,
+      componentKey: 0,
       stylesheet: null,
-      openMenu: false,
-      menus: {
-        slide: { buttonText: 'Slide' },
-        push: { buttonText: 'Push' },
-        pushRotate: { buttonText: 'Push Rotate' },
-        reveal: { buttonText: 'Reveal' },
-        scaleDown: { buttonText: 'Scale Down' },
-        scaleRotate: { buttonText: 'Scale Rotate' },
-        // elastic: { buttonText: 'Elastic - (WIP)' },
-        // stack: { buttonText: 'Stack - (WIP)' },
-        bubble: { buttonText: 'Bubble' },
-        fallDown: { buttonText: 'Fall Down' }
-      },
-      side: 'left',
-      currentMenu: 'reveal'
+      openMenu: false
     };
   },
   components: {
-    People,
-    Users,
-    Topics,
-    Events,
-    Hero,
+    people,
+    users,
+    topics,
+    events,
+    hero,
     Nav,
     MobileMenu,
-    Custom,
-    Partners,
-    Edgeryders,
-    Form,
-    Terms
+    custom,
+    partners,
+    edgeryders,
+    custom_form,
+    terms
   },
   created() {
-    if (this.data.configId) {
-      axios.get(
-        `https://edgeryders.eu/webkit_components/topics.json?serializer=event&tags=webcontent`
-      ).then(({ data }) => {
-        var post = data.find(post => post.id === this.data.configId);
-        var json = this.getJson(post.cooked);
-        this.sections = json.sections;
-        this.stylesheet = json.style;
-        this.getNavElements(json.sections);
-      });
-    } else {
-      this.sections = this.data.sections;
-      this.stylesheet = this.data.style;
-      this.getNavElements(this.data.sections);
-    }
+   this.getData();
+    
+    // this.sections.map(section => {
+    //   return Vue.component(section.type, require(section.path + '.vue'))
+    // });
+  },
+  mounted() {
+
   },
   methods: {
     getSectionData(type) {
@@ -103,21 +69,6 @@ export default {
     },
     toggleMenu() {
       this.openMenu = !this.openMenu;
-    },
-    getNavElements(sections) {
-      if (sections.length) {
-      var navArray = this.sections.map(function(el) {
-            if (el.id) {
-              return {
-                title: el.title,
-                id: el.id,
-              } 
-            }
-          });
-      this.navItems = navArray.filter(function (el) {
-          return el != null;
-      });
-      }
     }
   },
   computed: {

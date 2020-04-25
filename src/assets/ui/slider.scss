@@ -1,5 +1,13 @@
 @responsive {
 
+.slide_link {
+  @apply ml-4 mb-3 px-3 py-2 text-sm;
+  border-radius: 4px;
+}
+
+.slide_link-md {
+  @apply ml-0 mt-1;
+}
 
   .slider_container  {
     @apply flex mx-auto border rounded-lg overflow-hidden;
