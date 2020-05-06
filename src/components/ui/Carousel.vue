@@ -145,7 +145,7 @@ export default {
     padding: 10px 10px;
     align-items: start;
     h4 {
-      background: #fafafa;
+      background: #ffffff;
       color: black;
       padding: 10px 10px;
       line-height: 30px;

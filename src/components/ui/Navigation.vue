@@ -116,7 +116,7 @@ export default {
   }
   &.edgeryders {
     background: url("data:image/svg+xml,%3Csvg viewBox='0 0 500 500' version='1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='orangered' d='M0 250a250 250 0 1 1 500 0 250 250 0 0 1-500 0zm250 183V250H67a183 183 0 1 1 183 183z' fill-rule='evenodd'/%3E%3C/svg%3E")
-    no-repeat center #fafafa;
+    no-repeat center #ffffff;
     background-size: 45%;
     min-width: 65px;
     padding: 0 50px 0 20px;

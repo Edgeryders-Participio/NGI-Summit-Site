@@ -57,7 +57,7 @@ export default {
   -webkit-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #fafafa !important;
+  background: #fff !important;
 }
 
 .front .image {
