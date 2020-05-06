@@ -31,7 +31,7 @@
 
     <div class="md:w-1/6 pt-6 md:p-0 md:pl-6 border-gray-100 md:border-l">
       <div class="w-full h-16 mb-4 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(img/logos/bandiera_stelle.png)'}"></div>
-      <a href="https://ngi.eu/" target="_blank" ><div class="w-full h-16 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(img/logos/logo-footer.svg)'}"></div></a>
+      <a href="https://ngi.eu/" target="_blank" ><div class="w-full h-16 bg-contain bg-no-repeat " :style="{backgroundImage: 'url(img/logos/logo-footer.png)'}"></div></a>
     </div>
   </div>
   </div>
