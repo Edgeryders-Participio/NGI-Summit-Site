@@ -1,6 +1,6 @@
 <template>
   <div class="section_terms md:py-10" id="terms">
-    <div class="flex justify-between w-full mx-auto" style="max-width: 80%">
+    <div class="flex justify-between w-full mx-auto" style="max-width: 75%">
     <div class="md:w-5/6 md:pr-6">
       <h1 class="text-white font-bold">
         ABOUT THIS WEBSITE
