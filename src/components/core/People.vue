@@ -21,7 +21,7 @@
 
       <List v-if="$mq=='sm'" :header="data.title" :items="data.profiles" image="image" title="name" info="excerpt" filter="name" url="url" :search="true" type="user" />
 
-      <div class="user_grid md:user_grid-md mx-auto pb-8" v-else style="width: 80vw">
+      <div class="user_grid md:user_grid-md mx-auto pb-8" v-else style="width: 100vw">
         <a
           class="user_avatar md:user_avatar-md"
           v-for="item in data.profiles.slice(thumbnail_index, thumbnail_index + thumbnail_count)"
