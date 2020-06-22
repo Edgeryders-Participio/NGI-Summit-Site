@@ -1,11 +1,10 @@
 <template>
   <div class="section md:section-md" :style="containerStyle(data.style)">
-    <div
-      class="wrapper md:wrapper-md mx-auto"
+    <div class="wrapper md:wrapper-md mx-auto"
       :style="wrapperStyle(data.style)"
     >
       <div class="flex" :style="textStyle('title', data.style)" v-if="data.title" >
-        <h3 :class="titleClassSize(data.style)">{{ data.title }}</h3>
+        <h3 :class="m-0 p-0 w-full">{{ data.title }}</h3>
       </div>
       <div class="content_wrapper md:content_wrapper-md">
       <div v-if="data.image.url" class="section_image md:section_image-md">
