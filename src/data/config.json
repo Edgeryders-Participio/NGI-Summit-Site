@@ -1,4 +1,440 @@
 {
-  "configId": 13267,
-  "baseUrl": "https://edgeryders.eu"
+  "baseUrl": "https://edgeryders.eu",
+  "style": {
+    "fonts": ["Roboto:300,500,700,800,900"],
+    "title": {
+      "width": ["90%", "75%"],
+      "padding": ["0 0 10px"],
+      "align": ["left"],
+      "font": ["Roboto"],
+      "weight": ["700"],
+      "size": ["text-2xl", "text-3xl"]
+    },
+    "paragraph": {
+      "font": ["Roboto"],
+      "weight": ["300"]
+    },
+    "wrapper": {
+      "width": ["90%", "75%"],
+      "padding": ["15px 15px 0", "10px 0 0"]
+    },
+    "toggle": {
+      "background": ["#2ea48a"]
+    },
+    "action": {
+      "background": ["rgb(255, 219, 106)"],
+      "color": ["rgb(51, 51, 51)"]
+    },
+    "highlight": {
+      "color": ["white"],
+      "background": ["#2ea48a"]
+    }
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "summit": "true",
+      "background": {
+        "url": "/img/hero_islands.jpg",
+        "color": "linear-gradient(63.1deg,#009c8e 9.02%,#ffdb6a 90.81%)"
+      },
+      "title": "Next Generation Internet <br>Policy Summit",
+      "text": {
+        "content": "<p><strong>Register your interest now</strong> for the NGI Policy Summit 2020, hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong><br><p>Online</p><p>Free of charge</p>",
+        "align": "left",
+        "buttons": [
+          {
+            "text": "Register interest",
+            "url": "https://summit.ngi.eu/register/",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
+          }
+        ]
+      },
+      "image": {
+        "url": "",
+        "width": 0
+      },
+      "style": {
+        "title": {
+          "weight": ["500"]
+        }
+      }
+    },
+    {
+      "type": "custom",
+      "title": "About the Summit",
+      "id": "about",
+      "style": {
+        "container": {
+          "padding": ["0"]
+        },
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
+        }
+      },
+      "image": {
+        "url": "",
+        "width": 420
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>Bringing together a coalition of internet changemakers from 28-29 September, the Summit will lay out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. <a href=\"https://summit.ngi.eu/register/\" class=\"underline\">Register your interest now to join us online</a>.</p>",
+        "position": "left",
+        "buttons": []
+      }
+    },
+    {
+      "type": "partners",
+      "title": "Organised by",
+      "style": {
+        "title": {
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "size": ["text-2xl", "text-3xl"]
+        },
+        "container": {
+          "padding": ["20px 0 0"]
+        }
+      },
+      "display": {
+        "slides": 3
+      },
+      "content": [
+        {
+          "title": "City of Amsterdam",
+          "outlet": "City of Amsterdam",
+          "url": "https://www.amsterdam.nl/en/",
+          "logo": "/img/logos/city_of_amsterdam.png"
+        },
+        {
+          "title": "Nesta",
+          "outlet": "Nesta",
+          "url": " https://www.nesta.org.uk/",
+          "logo": "/img/logos/nesta.png"
+        },
+        {
+          "title": "European Commission",
+          "outlet": "European Commission",
+          "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "/img/logos/eucom.png"
+        }
+      ]
+    },
+    {
+      "type": "custom",
+      "title": "",
+      "image": {
+        "url": ""
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>The NGI Policy Summit is organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It forms part of the <strong>Next Generation Internet (NGI) programme</strong>, the Commission&#39;s flagship initiative to build a more democratic inclusive and resilient future internet. You can <a class=\"underline\" href=\"https://www.ngi.eu/about/\" rel=\"noopener noreferrer\" target=\"_blank\">learn more about the NGI here</a> and follow our policy and strategy work at the <a class=\"underline\" href=\"https://research.ngi.eu/\" rel=\"noopener noreferrer\" target=\"_blank\">NGI Policy Lab</a>.</p>",
+        "position": "left"
+      },
+      "style": {
+        "container": {
+          "padding": ["0 0 20px"]
+        }
+      }
+    },
+    {
+      "type": "people",
+      "title": "Initial speakers confirmed",
+      "id": "speakers",
+      "style": {
+        "container": {
+          "padding": ["30px 0 0"],
+          "background": ["#fafafa"],
+          "width": ["70%"]
+        },
+        "title": {
+          "padding": ["0 0 20px"]
+        }
+      },
+      "profiles": [
+        {
+          "id": 1,
+          "name": "Payal Arora",
+          "excerpt": "Payal Arora is a digital anthropologist and author of award-winning books including the “The Next Billion Users” with Harvard Press. Her expertise lies in digital experience and user values among low-income communities worldwide and comes with more than a decade of fieldwork experience in such contexts.",
+          "image": "img/speakers/cropped/Payal_Arora.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Anu Bradford",
+          "excerpt": "A leading scholar on the EU’s regulatory power and a sought-after commentator on the European Union and Brexit, Anu Bradford coined the term the Brussels Effect to describe the European Union’s outsize influence on global markets. Most recently, she is the author of The Brussels Effect: How the European Union Rules the World (2020).",
+          "image": "img/speakers/cropped/Anu_Bradford.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Suzanne Dumouchel",
+          "excerpt": "Suzanne is responsible for partnerships and strategy. She holds a PhD in French Literature. Research Engineer at Huma-Num, CNRS, she coordinates the TRIPLE project (H2020). Suzanne is deeply involved in the Open Science movement, especially in the SSH perspective.",
+          "image": "img/speakers/cropped/Suzanne_Dumouchel.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Gus Hosein",
+          "excerpt": "Gus is Executive Director of Privacy International. He has worked at the intersection of technology and human rights for over twenty years. He developed national, regional, and global campaigns on communications privacy. He worked on national security and anti-terrorism policy, and led global advocacy against border registration, biometric collection, tracking of migration, travel profiling, and mass surveillance of financial data flows.",
+          "image": "img/speakers/cropped/Gus_Hosein.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "Frederike Kaltheuner",
+          "excerpt": "Frederike is an advocate for justice in an automated world that’s made of data. She is currently a public-interest Tech Policy Fellow at the Mozilla Foundation. Previously, she was Director of the Corporate Exploitation Programme at Privacy International. She advises governments and businesses on emerging technologies, digital strategy and privacy.",
+          "image": "img/speakers/cropped/Frederike_Kaltheuner.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "Charlton McIlwain",
+          "excerpt": "Charlton's recent work focuses on the intersections of race, digital media, and racial justice activism. He recently wrote Racial Formation, Inequality & the Political Economy of Web Traffic, in the journal Information, Communication & Society, and co-authored, with Deen Freelon and Meredith Clark, the recent report Beyond the Hashtags: Ferguson, #BlackLivesMatter, and the Online Struggle for Offline Justice, published by the Center for Media & Social Impact, and supported by the Spencer Foundation. He has also written Black Software: The Internet & Racial Justice, From the AfroNet to Black Lives Matter, forthcoming from Oxford University Press.",
+          "image": "img/speakers/cropped/Charlton_McIlwain.png"
+        },
+        {
+          "id": 7,
+          "name": "Ingrid Schneider",
+          "excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
+          "image": "img/speakers/cropped/Ingrid_Schneider.png"
+        },
+        {
+          "id": 8,
+          "name": "Axel Voss",
+          "excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
+          "image": "img/speakers/cropped/Axel_Voss.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Silva Arapi",
+          "excerpt": "Digital Rights Advocate and free software enthusiast for more than 5 years. Board Member at Open Labs Albania.",
+          "image": "img/speakers/cropped/Silva_Arapi.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Peter Bihr",
+          "excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
+          "image": "img/speakers/cropped/Peter_Bihr.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Geert-Jan Bogaerts",
+          "excerpt": "Geert-Jan is Initiator of PublicSpaces Foundation and Head of Innovation and Digital Media at VPRO. He trained as a political scientist, was raised as a reporter, foreign correspondent and editor at de Volkskrant, and is currently mainly trying to join forces with those who want to make the Internet a safer, more ethical place.",
+          "image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Martin Brynskov",
+          "excerpt": "Martin is Associate Professor in Interaction Technologies at Aarhus University and Chair of Open and Agile Smart Cities.",
+          "image": "img/speakers/cropped/Martin_Brynskov.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Sylvie Delacroix",
+          "excerpt": "Professor Delacroix focuses on the intersection between law and ethics, with a particular interest in data and machine Ethics. Her current research focuses on the design of computer systems meant for morally-loaded contexts. She is also considering the potential inherent in ‘bottom-up’ Data Trusts as a mechanism to address power imbalances between data-subjects and data-controllers.",
+          "image": "img/speakers/cropped/Sylvie_Delacroix.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "Manon den Dunnen",
+          "excerpt": "Manon’s main focus is on raising awareness about the consequences of digitisation for our constitutional values. Together with several public institutions she's working on an independent public trust infrastructure for responsible data sharing.",
+          "image": "img/speakers/cropped/Manon_den_Dunnen.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Jack Hardinges",
+          "excerpt": "Jack is Programme Lead for Data Institutions at the Open Data Institute. He is responsible for the strategic direction of the ODI's work to explore different approaches to data stewardship, such as through data trusts, and leading the delivery of related projects. Jack joined the ODI in July 2014 and has delivered research and advisory projects with startup, multinational corporate and government clients.",
+          "image": "img/speakers/cropped/Jack_Hardinges.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Anna-Sophie Harling",
+          "excerpt": "Anna-Sophie Harling is Managing Director for Europe at NewsGuard, based in London and New York. Prior to joining NewsGuard, Harling worked as Business Development Manager for a technology company in London and at an international law firm in Germany.",
+          "image": "img/speakers/cropped/Anna_Sophie_Harling.png"
+        },
+        {
+          "id": 17,
+          "name": "Ana Jiménez Train",
+          "excerpt": "",
+          "image": "img/speakers/cropped/Ana_Jimenez_Train.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Paul Keller",
+          "excerpt": "Paul Keller is a public interest policy advocate and researcher operating at the intersection of technology, copyright, culture & public policy. Since 2019 Paul has been a senior research fellow at the Institute of Information Law at the University of Amsterdam focussing on strategic policy development for the open movement.",
+          "image": "img/speakers/cropped/Paul_Keller2.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Bill Thompson",
+          "excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online. A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio. He is an Adjunct Professor at Southampton University.",
+          "image": "img/speakers/cropped/Bill_Thompson.JPG"
+        },
+        {
+          "id": 20,
+          "name": "Marco Zappalorto",
+          "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
+          "image": "img/speakers/cropped/Marco_Zappalorto.jpg"
+        },
+        {
+          "id": 21,
+          "name": "Harry Armstrong",
+          "excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
+          "image": "img/speakers/cropped/Harry_Armstrong.jpg"
+        },
+        {
+          "id": 22,
+          "name": "Katja Bego",
+          "excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
+          "image": "img/speakers/cropped/Katja_Bego.jpg"
+        }
+      ],
+      "views": ["custom_ngi_people"],
+      "tag": "webcontent-ngi-summit-2020-bio",
+      "tagHeadliners": "webcontent-ngi-summit-2020-bio",
+      "tagOthers": "webcontent-ngi-summit-2020-bio-small"
+    },
+    {
+      "type": "topics",
+      "title": "Topics",
+      "style": {
+        "container": {
+          "padding": ["30px 0 0", "30px 0 0 0"]
+        },
+        "wrapper": {
+          "width": ["90%", "75%"],
+          "background": ["#efefef", "#fff"],
+          "padding": ["15px 15px 0", "10px 0 0"]
+        },
+        "highlight": {
+          "color": ["black"],
+          "background": ["white"]
+        }
+      },
+      "id": "topics",
+      "view": "cards",
+      "tag": "webcontent-ngi-summit-2020-topics",
+      "text": {
+        "content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics. Click a topic to find out more and join in a discussion on our Exchange Platform.</p>",
+        "position": "left"
+      },
+      "sort_by": {
+        "property": "bumped_at",
+        "order": "descending"
+      },
+      "display": ["title"]
+    },
+    {
+      "type": "custom",
+      "title": "Join our community",
+      "id": "Community",
+      "style": {
+        "container": {
+          "padding": ["0"]
+        },
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
+        }
+      },
+      "image": {
+        "url": "",
+        "width": 420
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and connect with NGI innovators on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
+        "position": "left",
+        "buttons": [
+          {
+            "text": "Sign up to join the community",
+            "url": "https://edgeryders.eu/c/ioh/ngi-policy-summit-2020",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
+          }
+        ]
+      }
+    },
+    {
+      "type": "topics",
+      "title": "Featured community posts",
+      "view": "featured",
+      "tag": "ngi-summit-stories",
+      "text": {
+        "content": "",
+        "position": "left"
+      },
+      "style": {
+        "title": {
+          "size": ["text-2xl", "text-3xl"],
+          "padding": ["10px 0 20px"],
+          "width": ["100%", "75%"],
+          "align": ["center", "left"]
+        },
+        "container": {
+          "background": ["#fafafa"],
+          "padding": ["20px 30px 0", "20px 0 0"]
+        },
+        "wrapper": {
+          "width": ["75%", "75%"]
+        },
+        "action": {
+          "color": ["white"],
+          "background": ["#2ea48a"],
+          "weight": ["800"]
+        }
+      },
+      "sort_by": {
+        "property": "title",
+        "order": "ascending"
+      },
+      "display": ["title"],
+      "image": {
+        "url": ""
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      }
+    },
+
+    {
+      "type": "custom",
+      "title": "Contact Us",
+      "id": "contact us",
+      "style": {
+        "wrapper": {
+          "padding": ["0 20px 30px", "0 0 30px"]
+        }
+      },
+      "image": {
+        "url": "",
+        "width": 0
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>For questions or feedback, you can send us an email.</p>",
+        "position": "left",
+        "buttons": [
+          {
+            "text": "Contact us",
+            "url": "mailto:ngisummit@nesta.org.uk",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
+          }
+        ]
+      }
+    },
+    {
+      "type": "terms"
+    }
+  ]
 }
