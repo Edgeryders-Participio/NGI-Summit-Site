@@ -161,99 +161,99 @@
       "profiles": [
 {
 "id": 1,
-"name": "Harry Armstrong",
-"excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
-"image": "img/speakers/cropped/Harry_Armstrong.jpg"
-}, {
-"id": 2,
 "name": "Payal Arora",
 "excerpt": "Payal Arora is a digital anthropologist and author of award-winning books including the “The Next Billion Users” with Harvard Press. Her expertise lies in digital experience and user values among low-income communities worldwide and comes with more than a decade of fieldwork experience in such contexts.",
 "image": "img/speakers/cropped/Payal_Arora.jpg"
 }, {
-"id": 3,
-"name": "Katja Bego",
-"excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
-"image": "img/speakers/cropped/Katja_Bego.jpg"
-}, {
-"id": 4,
-"name": "Peter Bihr",
-"excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
-"image": "img/speakers/cropped/Peter_Bihr.jpg"
-}, {
-"id": 5,
-"name": "Geert-Jan Bogaerts",
-"excerpt": "Geert-Jan is Initiator of PublicSpaces Foundation and Head of Innovation and Digital Media at VPRO. He trained as a political scientist, was raised as a reporter, foreign correspondent and editor at de Volkskrant, and is currently mainly trying to join forces with those who want to make the Internet a safer, more ethical place.",
-"image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg"
-}, {
-"id": 6,
+"id": 2,
 "name": "Anu Bradford",
 "excerpt": "A leading scholar on the EU’s regulatory power and a sought-after commentator on the European Union and Brexit, Anu Bradford coined the term the Brussels Effect to describe the European Union’s outsize influence on global markets. Most recently, she is the author of The Brussels Effect: How the European Union Rules the World (2020).",
 "image": "img/speakers/cropped/Anu_Bradford.jpg"
 }, {
-"id": 7,
-"name": "Olivier Bringer",
-"excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
-"image": "img/speakers/cropped/Olivier_Bringer.jpg"
-}, {
-"id": 8,
-"name": "Martin Brynskov",
-"excerpt": "Martin is Associate Professor in Interaction Technologies at Aarhus University and Chair of Open and Agile Smart Cities.",
-"image": "img/speakers/cropped/Martin_Brynskov.jpg"
-}, {
-"id": 9,
-"name": "Sylvie Delacroix",
-"excerpt": "Professor Delacroix focuses on the intersection between law and ethics, with a particular interest in data and machine Ethics. Her current research focuses on the design of computer systems meant for morally-loaded contexts. She is also considering the potential inherent in ‘bottom-up’ Data Trusts as a mechanism to address power imbalances between data-subjects and data-controllers.",
-"image": "img/speakers/cropped/Sylvie_Delacroix.jpeg"
-}, {
-"id": 10,
-"name": "Manon den Dunnen",
-"excerpt": "Manon’s main focus is on raising awareness about the consequences of digitisation for our constitutional values. Together with several public institutions she's working on an independent public trust infrastructure for responsible data sharing.",
-"image": "img/speakers/cropped/Manon_den_Dunnen.jpg"
-}, {
-"id": 11,
+"id": 3,
 "name": "Suzanne Dumouchel",
 "excerpt": "Suzanne is responsible for partnerships and strategy. She holds a PhD in French Literature. Research Engineer at Huma-Num, CNRS, she coordinates the TRIPLE project (H2020). Suzanne is deeply involved in the Open Science movement, especially in the SSH perspective.",
 "image": "img/speakers/cropped/Suzanne_Dumouchel.jpg"
 }, {
-"id": 12,
-"name": "Anna-Sophie Harling",
-"excerpt": "Anna-Sophie Harling is Managing Director for Europe at NewsGuard, based in London and New York. Prior to joining NewsGuard, Harling worked as Business Development Manager for a technology company in London and at an international law firm in Germany.",
-"image": "img/speakers/cropped/Anna_Sophie_Harling.png"
+"id": 4,
+"name": "Toomas Hendrik Ilves",
+"excerpt": "",
+"image": "img/speakers/cropped/Toomas_Ilves.jpg"
 }, {
-"id": 13,
+"id": 5,
 "name": "Gus Hosein",
 "excerpt": "Gus is the Executive Director of Privacy International, a London-based global technology and rights non-profit. Of relevance to this panel, he led advocacy around EU policy-making post-9/11, and his organisation led work on GDPR, e-privacy directive, and EU funding for surveillance measures in third countries.",
 "image": "img/speakers/cropped/Gus_Hosein.jpg"
 }, {
-"id": 14,
-"name": "Ana Jiménez Train",
-"excerpt": "",
-"image": "img/speakers/cropped/Ana_Jimenez_Train.jpg"
-}, {
-"id": 15,
+"id": 6,
 "name": "Frederike Kaltheuner",
 "excerpt": "Frederike Kaltheuner is a tech policy analyst and 2019-2020 Mozilla Fellow. Previously she was a Programme Director at Privacy International. Her upcoming book with OUP is about Technological (in)justice.",
 "image": "img/speakers/cropped/Frederike_Kaltheuner.jpeg"
 }, {
-"id": 16,
-"name": "Paul Keller",
-"excerpt": "Paul Keller is a public interest policy advocate and researcher operating at the intersection of technology, copyright, culture & public policy. Since 2019 Paul has been a senior research fellow at the Institute of Information Law at the University of Amsterdam focussing on strategic policy development for the open movement.",
-"image": "img/speakers/cropped/Paul_Keller2.jpg"
-}, {
-"id": 17,
+"id": 7,
 "name": "Charlton McIlwain",
 "excerpt": "Charlton's recent work focuses on the intersections of race, digital media, and racial justice activism. He recently wrote Racial Formation, Inequality & the Political Economy of Web Traffic, in the journal Information, Communication & Society, and co-authored, with Deen Freelon and Meredith Clark, the recent report Beyond the Hashtags: Ferguson, #BlackLivesMatter, and the Online Struggle for Offline Justice, published by the Center for Media & Social Impact, and supported by the Spencer Foundation. He has also written Black Software: The Internet & Racial Justice, From the AfroNet to Black Lives Matter, forthcoming from Oxford University Press.",
 "image": "img/speakers/cropped/Charlton_McIlwain.png"
 }, {
-"id": 18,
+"id": 8,
 "name": "Ingrid Schneider",
 "excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
 "image": "img/speakers/cropped/Ingrid_Schneider.png"
 }, {
+"id": 9,
+"name": "Axel Voss",
+"excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
+"image": "img/speakers/cropped/Axel_Voss.jpg"
+}, {
+"id": 10,
+"name": "Peter Bihr",
+"excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
+"image": "img/speakers/cropped/Peter_Bihr.jpg"
+}, {
+"id": 11,
+"name": "Geert-Jan Bogaerts",
+"excerpt": "Geert-Jan is Initiator of PublicSpaces Foundation and Head of Innovation and Digital Media at VPRO. He trained as a political scientist, was raised as a reporter, foreign correspondent and editor at de Volkskrant, and is currently mainly trying to join forces with those who want to make the Internet a safer, more ethical place.",
+"image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg"
+}, {
+"id": 12,
+"name": "Jaya Klara Brekke",
+"excerpt": "",
+"image": "img/speakers/cropped/Jaya_Klara_Brekke.png"
+}, {
+"id": 13,
+"name": "Martin Brynskov",
+"excerpt": "Martin is Associate Professor in Interaction Technologies at Aarhus University and Chair of Open and Agile Smart Cities.",
+"image": "img/speakers/cropped/Martin_Brynskov.jpg"
+}, {
+"id": 14,
+"name": "Sylvie Delacroix",
+"excerpt": "Professor Delacroix focuses on the intersection between law and ethics, with a particular interest in data and machine Ethics. Her current research focuses on the design of computer systems meant for morally-loaded contexts. She is also considering the potential inherent in ‘bottom-up’ Data Trusts as a mechanism to address power imbalances between data-subjects and data-controllers.",
+"image": "img/speakers/cropped/Sylvie_Delacroix.jpeg"
+}, {
+"id": 15,
+"name": "Manon den Dunnen",
+"excerpt": "Manon’s main focus is on raising awareness about the consequences of digitisation for our constitutional values. Together with several public institutions she's working on an independent public trust infrastructure for responsible data sharing.",
+"image": "img/speakers/cropped/Manon_den_Dunnen.jpg"
+}, {
+"id": 16,
+"name": "Anna-Sophie Harling",
+"excerpt": "Anna-Sophie Harling is Managing Director for Europe at NewsGuard, based in London and New York. Prior to joining NewsGuard, Harling worked as Business Development Manager for a technology company in London and at an international law firm in Germany.",
+"image": "img/speakers/cropped/Anna_Sophie_Harling.png"
+}, {
+"id": 17,
+"name": "Ana Jiménez Train",
+"excerpt": "",
+"image": "img/speakers/cropped/Ana_Jimenez_Train.jpg"
+}, {
+"id": 18,
+"name": "Paul Keller",
+"excerpt": "Paul Keller is a public interest policy advocate and researcher operating at the intersection of technology, copyright, culture & public policy. Since 2019 Paul has been a senior research fellow at the Institute of Information Law at the University of Amsterdam focussing on strategic policy development for the open movement.",
+"image": "img/speakers/cropped/Paul_Keller2.jpg"
+}, {
 "id": 19,
-"name": "Marleen Stikker",
-"excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
-"image": "img/speakers/cropped/Marleen_Stikker.jpg"
+"name": "Juha Leppänen",
+"excerpt": "Juha Leppänen is the Chief Executive of Demos Helsinki, leading independent Nordic think tank. Juha is social scientist and previously worked as theme area lead at Demos Helsinki. At Demos, Juha has lead multiple strategy, foresight and innovation processes for both public and private institutions. Juha is an experienced speaker and advisor on strategy, policy and innovation and serves as a Royal Society of Arts Fellow.",
+"image": "img/speakers/cropped/Juha_Leppanen.jpg"
 }, {
 "id": 20,
 "name": "Bill Thompson",
@@ -261,9 +261,9 @@
 "image": "img/speakers/cropped/Bill_Thompson.JPG"
 }, {
 "id": 21,
-"name": "Axel Voss",
-"excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
-"image": "img/speakers/cropped/Axel_Voss.jpg"
+"name": "Tricia Wang",
+"excerpt": "",
+"image": "img/speakers/cropped/Tricia_Wang.jpg"
 }, {
 "id": 22,
 "name": "Marco Zappalorto",
@@ -271,10 +271,30 @@
 "image": "img/speakers/cropped/Marco_Zappalorto.jpg"
 }, {
 "id": 23,
-"name": "Toomas Hendrik Ilves",
+"name": "Thomas Zerdick",
 "excerpt": "",
-"image": "img/speakers/cropped/Toomas_Ilves.jpg"
-}      ],
+"image": "img/speakers/cropped/Thomas_Zerdick.jpg"
+}, {
+"id": 24,
+"name": "Harry Armstrong",
+"excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
+"image": "img/speakers/cropped/Harry_Armstrong.jpg"
+}, {
+"id": 25,
+"name": "Katja Bego",
+"excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
+"image": "img/speakers/cropped/Katja_Bego.jpg"
+}, {
+"id": 26,
+"name": "Olivier Bringer",
+"excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
+"image": "img/speakers/cropped/Olivier_Bringer.jpg"
+}, {
+"id": 27,
+"name": "Marleen Stikker",
+"excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
+"image": "img/speakers/cropped/Marleen_Stikker.jpg"
+}     ],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
