@@ -177,7 +177,7 @@
 }, {
 "id": 4,
 "name": "Toomas Hendrik Ilves",
-"excerpt": "",
+"excerpt": "Toomas Hendrik Ilves is an Estonian politician who served as the fourth President of Estonia from 2006 until 2016. Ilves worked as a diplomat and journalist, and he was the leader of the Social Democratic Party in the 1990s. He served in the government as Minister of Foreign Affairs from 1996 to 1998 and again from 1999 to 2002. Later, he was a Member of the European Parliament from 2004 to 2006.",
 "image": "img/speakers/cropped/Toomas_Ilves.jpg"
 }, {
 "id": 5,
@@ -217,7 +217,7 @@
 }, {
 "id": 12,
 "name": "Jaya Klara Brekke",
-"excerpt": "",
+"excerpt": "Jaya is an ESRC Research Fellow at Durham University Geography department, developing findings from her PhD thesis, which was a political analysis of ‘blockchain’ – a technological intervention into questions of political economy, finance and data governance through decentralised technologies.",
 "image": "img/speakers/cropped/Jaya_Klara_Brekke.png"
 }, {
 "id": 13,
@@ -262,7 +262,7 @@
 }, {
 "id": 21,
 "name": "Tricia Wang",
-"excerpt": "",
+"excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it. She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
 "image": "img/speakers/cropped/Tricia_Wang.jpg"
 }, {
 "id": 22,
@@ -272,28 +272,28 @@
 }, {
 "id": 23,
 "name": "Thomas Zerdick",
-"excerpt": "",
+"excerpt": "Thomas is Head of the Unit "Technology and Privacy" in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
 "image": "img/speakers/cropped/Thomas_Zerdick.jpg"
 }, {
 "id": 24,
+"name": "Marleen Stikker",
+"excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
+"image": "img/speakers/cropped/Marleen_Stikker.jpg"
+}, {
+"id": 25,
 "name": "Harry Armstrong",
 "excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
 "image": "img/speakers/cropped/Harry_Armstrong.jpg"
 }, {
-"id": 25,
+"id": 26,
 "name": "Katja Bego",
 "excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
 "image": "img/speakers/cropped/Katja_Bego.jpg"
 }, {
-"id": 26,
+"id": 27,
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
 "image": "img/speakers/cropped/Olivier_Bringer.jpg"
-}, {
-"id": 27,
-"name": "Marleen Stikker",
-"excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
-"image": "img/speakers/cropped/Marleen_Stikker.jpg"
 }     ],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
