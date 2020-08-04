@@ -202,7 +202,7 @@
 }, {
 "id": 9,
 "name": "Ingrid Schneider",
-"excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
+"excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of  Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
 "image": "img/speakers/cropped/Ingrid_Schneider.png"
 }, {
 "id": 10,
@@ -267,12 +267,12 @@
 }, {
 "id": 22,
 "name": "Bill Thompson",
-"excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online. A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio. He is an Adjunct Professor at Southampton University.",
+"excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online.  A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio.  He is an Adjunct Professor at Southampton University.",
 "image": "img/speakers/cropped/Bill_Thompson.JPG"
 }, {
 "id": 23,
 "name": "Tricia Wang",
-"excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it. She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
+"excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it.  She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
 "image": "img/speakers/cropped/Tricia_Wang.jpg"
 }, {
 "id": 24,
@@ -282,7 +282,7 @@
 }, {
 "id": 25,
 "name": "Thomas Zerdick",
-"excerpt": "Thomas is Head of the Unit "Technology and Privacy" in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
+"excerpt": "Thomas is Head of the Technology and Privacy Unit in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
 "image": "img/speakers/cropped/Thomas_Zerdick.jpg"
 }, {
 "id": 26,
@@ -299,7 +299,7 @@
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
 "image": "img/speakers/cropped/Olivier_Bringer.jpg"
-}     ],
+}    ],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
