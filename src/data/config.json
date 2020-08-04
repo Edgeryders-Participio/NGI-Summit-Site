@@ -443,6 +443,61 @@
     },
     {
       "type": "terms"
+    },
+    {
+      "type": "partners",
+      "title": "Organised by",
+      "style": {
+        "title": {
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "size": ["text-2xl", "text-3xl"]
+        },
+        "container": {
+          "padding": ["20px 0 0"]
+        }
+      },
+      "display": {
+        "slides": 3
+      },
+      "content": [
+        {
+          "title": "City of Amsterdam",
+          "outlet": "City of Amsterdam",
+          "url": "https://www.amsterdam.nl/en/",
+          "logo": "/img/logos/city_of_amsterdam.png"
+        },
+        {
+          "title": "Nesta",
+          "outlet": "Nesta",
+          "url": " https://www.nesta.org.uk/",
+          "logo": "/img/logos/nesta.png"
+        },
+        {
+          "title": "European Commission",
+          "outlet": "European Commission",
+          "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "/img/logos/eucom.png"
+        },
+        {
+          "title": "European Commission",
+          "outlet": "European Commission",
+          "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "/img/logos/eucom.png"
+        },
+        {
+          "title": "European Commission",
+          "outlet": "European Commission",
+          "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "/img/logos/eucom.png"
+        },
+        {
+          "title": "European Commission",
+          "outlet": "European Commission",
+          "url": "https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en",
+          "logo": "/img/logos/eucom.png"
+        }
+      ]
     }
   ]
 }
