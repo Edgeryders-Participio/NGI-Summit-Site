@@ -202,12 +202,12 @@
 }, {
 "id": 9,
 "name": "Ingrid Schneider",
-"excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of  Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.<br><a href=\"https://www.inf.uni-hamburg.de/en/inst/ab/eit/team/schneider.html\"><img src=\"img/Link.png\" width="30px" height="30px">",
+"excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of  Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.<br><a href=\"https://www.inf.uni-hamburg.de/en/inst/ab/eit/team/schneider.html\"><img src=\"img/Link.png\" width=\"30px\" height=\"30px\">",
 "image": "img/speakers/cropped/Ingrid_Schneider.png"
 }, {
 "id": 10,
 "name": "Axel Voss",
-"excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.<br><a href=\"https://en.wikipedia.org/wiki/Axel_Voss\"><img src=\"img/Link.png\" width="30px" height="30px">",
+"excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.<br><a href=\"https://en.wikipedia.org/wiki/Axel_Voss\"><img src=\"img/Link.png\" width=\"30px\" height=\"30px\">",
 "image": "img/speakers/cropped/Axel_Voss.jpg"
 }, {
 "id": 11,
@@ -299,7 +299,7 @@
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
 "image": "img/speakers/cropped/Olivier_Bringer.jpg"
-}   ],
+} ],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
