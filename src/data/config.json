@@ -250,60 +250,55 @@
 "image": "img/speakers/cropped/Anna_Sophie_Harling.png"
 }, {
 "id": 17,
-"name": "Ana Jiménez Train",
-"excerpt": "",
-"image": "img/speakers/cropped/Ana_Jimenez_Train.jpg"
-}, {
-"id": 18,
 "name": "Paul Keller",
 "excerpt": "Paul Keller is a public interest policy advocate and researcher operating at the intersection of technology, copyright, culture & public policy. Since 2019 Paul has been a senior research fellow at the Institute of Information Law at the University of Amsterdam focussing on strategic policy development for the open movement.",
 "image": "img/speakers/cropped/Paul_Keller2.jpg"
 }, {
-"id": 19,
+"id": 18,
 "name": "Juha Leppänen",
 "excerpt": "Juha Leppänen is the Chief Executive of Demos Helsinki, leading independent Nordic think tank. Juha is social scientist and previously worked as theme area lead at Demos Helsinki. At Demos, Juha has lead multiple strategy, foresight and innovation processes for both public and private institutions. Juha is an experienced speaker and advisor on strategy, policy and innovation and serves as a Royal Society of Arts Fellow.",
 "image": "img/speakers/cropped/Juha_Leppanen.jpg"
 }, {
-"id": 20,
+"id": 19,
 "name": "Marleen Stikker",
 "excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
 "image": "img/speakers/cropped/Marleen_Stikker.jpg"
 }, {
-"id": 21,
+"id": 20,
 "name": "Bill Thompson",
 "excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online.  A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio.  He is an Adjunct Professor at Southampton University.",
 "image": "img/speakers/cropped/Bill_Thompson.JPG"
 }, {
-"id": 22,
+"id": 21,
 "name": "Tricia Wang",
 "excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it.  She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
 "image": "img/speakers/cropped/Tricia_Wang.jpg"
 }, {
-"id": 23,
+"id": 22,
 "name": "Marco Zappalorto",
 "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
 "image": "img/speakers/cropped/Marco_Zappalorto.jpg"
 }, {
-"id": 24,
+"id": 23,
 "name": "Thomas Zerdick",
 "excerpt": "Thomas is Head of the Technology and Privacy Unit in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
 "image": "img/speakers/cropped/Thomas_Zerdick.jpg"
 }, {
-"id": 25,
+"id": 24,
 "name": "Harry Armstrong",
 "excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
 "image": "img/speakers/cropped/Harry_Armstrong.jpg"
 }, {
-"id": 26,
+"id": 25,
 "name": "Katja Bego",
 "excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
 "image": "img/speakers/cropped/Katja_Bego.jpg"
 }, {
-"id": 27,
+"id": 26,
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
 "image": "img/speakers/cropped/Olivier_Bringer.jpg"
-} ],
+}],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
       "tagHeadliners": "webcontent-ngi-summit-2020-bio",
