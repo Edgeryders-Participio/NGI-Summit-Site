@@ -409,6 +409,40 @@
         "poster": ""
       }
     },
+{
+      "type": "partners",
+      "title": "Organised by",
+      "style": {
+        "title": {
+          "width": ["90%", "75%"],
+          "align": ["center", "left"],
+          "size": ["text-2xl", "text-3xl"]
+        },
+        "container": {
+          "padding": ["0"]
+        },
+        "wrapper": {
+          "padding": ["30px 20px 30px", "0 0 20px"]
+        }
+      },
+      "display": {
+        "slides": 3
+      },
+      "content": [
+        {
+          "title": "Cities Coalition for Digital Rights",
+          "outlet": "Cities Coalition for Digital Rights",
+          "url": "https://citiesfordigitalrights.org/",
+          "logo": "/img/partners/CC4DR.png"
+        },
+        {
+          "title": "ThingsCon",
+          "outlet": "ThingsCon",
+          "url": " https://www.thingscon.org/",
+          "logo": "/img/partners/ThingsCon.png"
+        }
+      ]
+    },
 
     {
       "type": "custom",
