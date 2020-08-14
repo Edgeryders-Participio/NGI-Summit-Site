@@ -1,15 +1,14 @@
 <template>
-  <div class="section px-5 md:px-0 md:section-md events" id="events" :style="containerStyle(data.style)">
-    <List v-if="$mq=='sm'" :header="data.title" :items="events" image="image_url" title="title" info="excerpt" filter="id" url="url" :search="true" type="event" :share="true" />
+  <div class="section px-5 md:px-0 md:section-md md:my-10 events" id="events" :style="containerStyle(data.style)">
+    <List v-if="$mq=='sm'" :header="data.title" :items="eventsData.data" image="image_url" title="title" info="text" filter="id" url="url" :search="true" type="event" :share="true" />
 
     <div v-else class="wrapper md:wrapper-md bg-gray-100 rounded-lg overflow-hidden">
       <div class="events_title" :style="textStyle('title', data.style)" :class="titleClassSize(data.style)">{{data.title}}</div>
       <div class="flex">
-      <Timeline :custom="data" :filters="getEventFilters()" :globalStyle="globalStyle" :items="events" :data="events" />
+      <Timeline :custom="data" :filters="getEventFilters()" :globalStyle="globalStyle" :items="eventsData.data" :data="eventsData.data" />
       <div class="w-full flex flex-col border-l events_sidebar">
         <Search v-if="isView('search') || $mq == 'sm'" :stylesheet="data.style" :globalStyle="globalStyle"/>
-        <Calendar v-if="isView('calendar')  && events.length" :dates="dataReverse" :stylesheet="data.style" :items="events" :filters="getEventFilters()" :globalStyle="globalStyle" />
-        <Filters v-if="isView('filter') && events.length" :stylesheet="data.style" :items="events" :filters="getEventFilters()" :globalStyle="globalStyle" />
+        <Filters  :stylesheet="data.style" :items="events" :filters="getEventFilters()" :globalStyle="globalStyle" />
       </div>
       </div>
     </div>
@@ -21,15 +20,17 @@ import axios from "axios";
 import moment from "moment";
 import List from "@/components/ui/List.vue";
 import Timeline from "@/components/ui/Timeline.vue";
-import Calendar from "@/components/ui/Calendar.vue";
 import Search from "@/components/ui/Search.vue";
 import Filters from "@/components/ui/Filters.vue";
 import { bus } from '@/main';
+
+import eventsData from "@/data/events.json"
 
 export default {
   props: ["data", "stylesheet", "baseUrl", "globalStyle"],
   data() {
     return {
+      eventsData,
       view: null,
       events: [],
     };
@@ -37,7 +38,6 @@ export default {
    components: {
     List,
     Timeline,
-    Calendar,
     Search,
     Filters
   },
@@ -125,7 +125,8 @@ export default {
   padding: 30px 20px 0 20px;
 }
 .events_title {
-    @apply text-2xl font-bold;
+    @apply text-3xl font-bold;
+    color: rgb(46, 164, 138);
 
   padding: 20px 30px !important;
 }
