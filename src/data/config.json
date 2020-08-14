@@ -411,7 +411,8 @@
     },
 {
       "type": "partners",
-      "title": "Organised by",
+      "title": "Partners",
+      "id": "Partners",
       "style": {
         "title": {
           "width": ["90%", "75%"],
