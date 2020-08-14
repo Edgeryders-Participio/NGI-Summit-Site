@@ -172,152 +172,132 @@
 "id": 1,
 "name": "Payal Arora",
 "excerpt": "Payal Arora is a digital anthropologist and author of award-winning books including the “The Next Billion Users” with Harvard Press. Her expertise lies in digital experience and user values among low-income communities worldwide and comes with more than a decade of fieldwork experience in such contexts.",
-"image": "http://ngisummit.imgix.net/Payal_Arora.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Payal_Arora.jpg"
 }, {
 "id": 2,
 "name": "Anu Bradford",
 "excerpt": "A leading scholar on the EU’s regulatory power and a sought-after commentator on the European Union and Brexit, Anu Bradford coined the term the Brussels Effect to describe the European Union’s outsize influence on global markets. Most recently, she is the author of The Brussels Effect: How the European Union Rules the World (2020).",
-"image": "http://ngisummit.imgix.net/Anu_Bradford.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Anu_Bradford.jpg"
 }, {
 "id": 3,
 "name": "Toomas Hendrik Ilves",
 "excerpt": "Toomas Hendrik Ilves is an Estonian politician who served as the fourth President of Estonia from 2006 until 2016. Ilves worked as a diplomat and journalist, and he was the leader of the Social Democratic Party in the 1990s. He served in the government as Minister of Foreign Affairs from 1996 to 1998 and again from 1999 to 2002. Later, he was a Member of the European Parliament from 2004 to 2006.",
-"image": "http://ngisummit.imgix.net/Toomas_Ilves.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Toomas_Ilves.jpg"
 }, {
 "id": 4,
 "name": "Gus Hosein",
 "excerpt": "Gus is the Executive Director of Privacy International, a London-based global technology and rights non-profit. Of relevance to this panel, he led advocacy around EU policy-making post-9/11, and his organisation led work on GDPR, e-privacy directive, and EU funding for surveillance measures in third countries.",
-"image": "http://ngisummit.imgix.net/Gus_Hosein.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Gus_Hosein.jpg"
 }, {
 "id": 5,
 "name": "Asim Hussain",
-"excerpt": "Asim is a developer, author and speaker with over 19 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is the Green Developer Relations Lead. He’s also co-organiser of climateaction.tech and host of theclimatefix.com podcast.",
-"image": "http://ngisummit.imgix.net/Asim_Hussain.png?fit=facearea&w=400&h=400&facepad=3"
+"excerpt": "Asim is Green Cloud Advocacy Lead at Microsoft. He advocates to, and on-behalf of, the global audience of climate-conscious technologists. He investigates best practices for building green sustainable applications on the Cloud and innovative techniques of advocacy that cause less harm to our environment. Previously he led Cloud Advocacy for EMEA at Microsoft and freelanced for various companies including Google. He has also been a Vice President at Morgan Stanley and JP Morgan investment banks.",
+"image": "img/speakers/cropped/Asim_Hussain.png"
 }, {
 "id": 6,
 "name": "Frederike Kaltheuner",
 "excerpt": "Frederike Kaltheuner is a tech policy analyst and 2019-2020 Mozilla Fellow. Previously she was a Programme Director at Privacy International. Her upcoming book with OUP is about Technological (in)justice.",
-"image": "http://ngisummit.imgix.net/Frederike_Kaltheuner.jpeg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Frederike_Kaltheuner.jpeg"
 }, {
 "id": 7,
 "name": "Charlton McIlwain",
 "excerpt": "Charlton's recent work focuses on the intersections of race, digital media, and racial justice activism. He recently wrote Racial Formation, Inequality & the Political Economy of Web Traffic, in the journal Information, Communication & Society, and co-authored, with Deen Freelon and Meredith Clark, the recent report Beyond the Hashtags: Ferguson, #BlackLivesMatter, and the Online Struggle for Offline Justice, published by the Center for Media & Social Impact, and supported by the Spencer Foundation. He has also written Black Software: The Internet & Racial Justice, From the AfroNet to Black Lives Matter, forthcoming from Oxford University Press.",
-"image": "http://ngisummit.imgix.net/Charlton_McIlwain.png?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Charlton_McIlwain.png"
 }, {
 "id": 8,
 "name": "Ingrid Schneider",
 "excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of  Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
-"image": "http://ngisummit.imgix.net/Ingrid_Schneider.png?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Ingrid_Schneider.png"
 }, {
 "id": 9,
 "name": "Axel Voss",
 "excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
-"image": "http://ngisummit.imgix.net/Axel_Voss.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Axel_Voss.jpg"
 }, {
 "id": 10,
 "name": "Peter Bihr",
 "excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
-"image": "http://ngisummit.imgix.net/Peter_Bihr.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Peter_Bihr.jpg"
 }, {
 "id": 11,
 "name": "Geert-Jan Bogaerts",
 "excerpt": "Geert-Jan is Initiator of PublicSpaces Foundation and Head of Innovation and Digital Media at VPRO. He trained as a political scientist, was raised as a reporter, foreign correspondent and editor at de Volkskrant, and is currently mainly trying to join forces with those who want to make the Internet a safer, more ethical place.",
-"image": "http://ngisummit.imgix.net/Geert_Jan_Bogaerts.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Geert_Jan_Bogaerts.jpg"
 }, {
 "id": 12,
 "name": "Jaya Klara Brekke",
-"excerpt": "Jaya Klara is a researcher, technologist and cultural producer working on the political economies of network technologies. Currently researching the impact of cryptography on the data economy, and developing CoBox, peer-to-peer cryptographic cloud software. Jaya is also co-founder of Magma Think and Do Tank.",
-"image": "http://ngisummit.imgix.net/Jaya_Klara_Brekke.png?fit=facearea&w=400&h=400&facepad=3"
+"excerpt": "Jaya is an ESRC Research Fellow at Durham University Geography department, developing findings from her PhD thesis, which was a political analysis of ‘blockchain’ – a technological intervention into questions of political economy, finance and data governance through decentralised technologies.",
+"image": "img/speakers/cropped/Jaya_Klara_Brekke.png"
 }, {
 "id": 13,
 "name": "Martin Brynskov",
 "excerpt": "Martin is Associate Professor in Interaction Technologies at Aarhus University and Chair of Open and Agile Smart Cities.",
-"image": "http://ngisummit.imgix.net/Martin_Brynskov.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Martin_Brynskov.jpg"
 }, {
 "id": 14,
 "name": "Sylvie Delacroix",
 "excerpt": "Professor Delacroix focuses on the intersection between law and ethics, with a particular interest in data and machine Ethics. Her current research focuses on the design of computer systems meant for morally-loaded contexts. She is also considering the potential inherent in ‘bottom-up’ Data Trusts as a mechanism to address power imbalances between data-subjects and data-controllers.",
-"image": "http://ngisummit.imgix.net/Sylvie_Delacroix.jpeg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Sylvie_Delacroix.jpeg"
 }, {
 "id": 15,
 "name": "Manon den Dunnen",
 "excerpt": "Manon’s main focus is on raising awareness about the consequences of digitisation for our constitutional values. Together with several public institutions she's working on an independent public trust infrastructure for responsible data sharing.",
-"image": "http://ngisummit.imgix.net/Manon_den_Dunnen.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Manon_den_Dunnen.jpg"
 }, {
 "id": 16,
 "name": "Anna-Sophie Harling",
 "excerpt": "Anna-Sophie Harling is Managing Director for Europe at NewsGuard, based in London and New York. Prior to joining NewsGuard, Harling worked as Business Development Manager for a technology company in London and at an international law firm in Germany.",
-"image": "http://ngisummit.imgix.net/Anna_Sophie_Harling.png?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Anna_Sophie_Harling.png"
 }, {
 "id": 17,
 "name": "Paul Keller",
 "excerpt": "Paul Keller is a public interest policy advocate and researcher operating at the intersection of technology, copyright, culture & public policy. Since 2019 Paul has been a senior research fellow at the Institute of Information Law at the University of Amsterdam focussing on strategic policy development for the open movement.",
-"image": "http://ngisummit.imgix.net/Paul_Keller2.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Paul_Keller2.jpg"
 }, {
 "id": 18,
 "name": "Juha Leppänen",
 "excerpt": "Juha Leppänen is the Chief Executive of Demos Helsinki, leading independent Nordic think tank. Juha is social scientist and previously worked as theme area lead at Demos Helsinki. At Demos, Juha has lead multiple strategy, foresight and innovation processes for both public and private institutions. Juha is an experienced speaker and advisor on strategy, policy and innovation and serves as a Royal Society of Arts Fellow.",
-"image": "http://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Juha_Leppanen.jpg"
 }, {
 "id": 19,
 "name": "Marleen Stikker",
 "excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
-"image": "http://ngisummit.imgix.net/Marleen_Stikker.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Marleen_Stikker.jpg"
 }, {
 "id": 20,
 "name": "Bill Thompson",
 "excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online.  A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio.  He is an Adjunct Professor at Southampton University.",
-"image": "http://ngisummit.imgix.net/Bill_Thompson.JPG?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Bill_Thompson.JPG"
 }, {
 "id": 21,
 "name": "Tricia Wang",
 "excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it.  She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
-"image": "http://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Tricia_Wang.jpg"
 }, {
 "id": 22,
 "name": "Marco Zappalorto",
 "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
-"image": "http://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Marco_Zappalorto.jpg"
 }, {
 "id": 23,
 "name": "Thomas Zerdick",
 "excerpt": "Thomas is Head of the Technology and Privacy Unit in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
-"image": "http://ngisummit.imgix.net/Thomas_Zerdick.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Thomas_Zerdick.jpg"
 }, {
 "id": 24,
 "name": "Harry Armstrong",
 "excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
-"image": "http://ngisummit.imgix.net/Harry_Armstrong.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Harry_Armstrong.jpg"
 }, {
 "id": 25,
 "name": "Katja Bego",
 "excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
-"image": "http://ngisummit.imgix.net/Katja_Bego.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Katja_Bego.jpg"
 }, {
 "id": 26,
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
-"image": "http://ngisummit.imgix.net/Olivier_Bringer.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 27,
-"name": "Wouter Welling",
-"excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
-"image": "http://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 28,
-"name": "Meeri Haataja",
-"excerpt": "Meeri is the CEO and Co-Founder of Saidot, a start-up providing technology & services on AI transparency. Saidot helps public and private organizations operate their AI registers and communicate openly of their AI. Meeri is also the chair of IEEE’s Ethics Certification Program, and an affiliate of the Berkman Klein Center for Internet & Society at Harvard University.",
-"image": "http://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 29,
-"name": "Ella Jakubowska",
-"excerpt": "Ella works in the policy team at EDRi, a coalition of civil society organisations protecting fundamental rights in the digital age. She focuses on biometics and mass surveillance, and has a background researching the intersection of social and technical systems. She previously worked in digital business transformation.",
-"image": "http://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 30,
-"name": "Mathias Vermeulen",
-"excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
-"image": "http://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3"
+"image": "img/speakers/cropped/Olivier_Bringer.jpg"
 }],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
@@ -353,6 +333,16 @@
         "order": "descending"
       },
       "display": ["title"]
+    },
+    {
+      "type": "events",
+      "title": "Programme",
+      "id": "programme",
+      "filters": {
+        "team": "blue",
+        "outreach": "green",
+        "community": "orangered"
+      }
     },
     {
       "type": "custom",
@@ -447,7 +437,7 @@
         }
       },
       "display": {
-        "slides": 2
+        "slides": 3
       },
       "content": [
         {
@@ -464,7 +454,6 @@
         }
       ]
     },
-
     {
       "type": "custom",
       "title": "Contact Us",
