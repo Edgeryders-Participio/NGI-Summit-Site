@@ -51,7 +51,7 @@
           <p v-if="selected.event">{{ formatDate(selected.event.start) }} at {{ formatTime(selected.event.start) }}</p>
         </div>
         <p class="list_item_description">{{selected[info]}}</p>
-        <a v-if="url && type=='event'" class="list_event_url" :href="selected[url]" target="_blank">Discuss this event</a>
+        <a v-if="url && type=='event'" class="event_url" :href="selected[url]" target="_blank">Find out more</a>
         <a v-if="url && selected[url] && type!='event'" class="list_item_url mt-4" :href="selected[url]" target="_blank">Read More</a>
 
       </div>
@@ -143,6 +143,10 @@ export default {
     transform: translateX(0%);
     transition: transform .35s ease;
   }
+}
+
+.event_url {
+  @apply font-bold p-4 bg-gray-200 w-full block;
 }
 
 </style>

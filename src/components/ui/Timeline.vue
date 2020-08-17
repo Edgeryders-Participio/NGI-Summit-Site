@@ -3,11 +3,11 @@
 
   <div class="timeline"  id="events_container">
 
-    <div class="ml-8 mt-6">
+    <div class="ml-8">
     <div class="filters md:filters-md mb-4 w-full" v-if="filtered()">
       <div class="filter_icon"></div>
       <div class="filter type" v-if="type" @click="clear('type')">
-        <p class="key" :style="uiStyle('highlight', custom.style)">type</p><p>{{type}}</p>
+        <p class="key">type</p><p>{{type}}</p>
       </div>
       <div class="filter type" v-if="selectedDate" @click="clear('selectedDate')">
         <p class="key">date</p><p>{{selectedDate | formatDate}}</p>
@@ -22,28 +22,26 @@
 
     <transition-group name="list" tag="div" class="events_list">
     <div v-for="(item, index) in filteredItems" :key='index' class="day md:day-md" :class="{active: isActive(item.event.start) }" :style="textStyle('paragraph', custom.style)">
-      <h4 v-if="newDate(index, item.event.start)" class="md:pb-4 font-bold" :id="'day-' + dateId(item.event.start)">{{item.event.start | formatDate}}</h4>
+      <h4 v-if="newDate(index, item.event.start)" class="md:pb-4 font-bold" :class="{'first_date': index == 0}" :id="'day-' + dateId(item.event.start)">{{item.event.start | formatDate}}</h4>
       <div class="event md:event-md">
         <div class="time md:time-md">{{item.event.start | formatTime}}</div>
 
         <div class="info md:info-md" :style="hoverStyle(custom.style)">
-          <div class="title md:hide">
-            <p :href="item.url" :style="textStyle('paragraph', custom.style)" target="_blank">{{item.title}}</p>
-          </div>
-          <div class="hidden md:title-md">
-            <a :style="'border-bottom: 1px solid ' + eventColor(item.event_type)"  :href="item.url" target="_blank">{{item.title}}</a>
-            <div class="options md:options-md">
-              <a class="icon information" :href="item.url" target="_blank"></a>
-                <a class="icon twitter" :href="'https://twitter.com/home?status=Check out this upcoming event: ' + item.title + ' - ' + item.url + ' #edgeryders'" target="_blank"></a>
-                <a class="icon facebook" :href="'https://www.facebook.com/sharer/sharer.php?u=' + item.url" target="_blank"></a>
-                <a class="icon email" :href="'mailto:?subject=Check out this upcoming event by Edgeryders&body=' + item.title + ' - ' +  item.url" target="_blank"></a>
+          <div class="block ml-4 mr-6">
+            <p class="event_title">{{item.title}}</p>
+            <div class="participants block w-full">
+              <div class="participant" v-for="(person, index) in item.participants" :key="index">
+                <div class="avatar" v-if="person.image" :style="{background: 'url(' + person.image + ')'}"></div>
+                <a :href="person.url" target="_blank" v-if="person.url">{{person.name}}</a>
+                <p v-else>{{person.name}}</p>
+              </div>
             </div>
           </div>
           <div class="description md:description-md">
-            <div class="excerpt" v-if="item.excerpt">
+            <div class="excerpt" v-if="item.text">
               <p>{{item.event.start | formatDate}} at {{item.event.start | formatTime}}</p>
-              <p class="mt-2 pb-2 w-full">{{item.excerpt}}</p>
-              <a class="read_more" :href="item.url" target="_blank" :style="uiStyle('highlight', custom.style)">Find out more</a>
+              <p class="mt-2 pb-2 mt-6 w-full">{{item.text}}</p>
+              <a class="read_more" v-if="item.url" :href="item.url" target="_blank" :style="uiStyle('highlight', custom.style)">Find out more</a>
             </div>
           </div>
         </div>
@@ -280,7 +278,7 @@ export default {
       }
     }
     p.key {
-      @apply bg-black font-bold;
+      @apply font-bold;
       text-transform: uppercase;
       font-size: 10px;
       padding-top: 1px;
@@ -311,7 +309,7 @@ export default {
 .day {
   transition: padding .3s ease;
   h4 {
-    @apply font-bold;
+    @apply font-bold mt-6 text-xl;
   }
   &.active {
     width: 90%;
@@ -395,5 +393,34 @@ a.read_more {
   color: white;
 }
 
+.participants {
+  @apply pt-2 mt-2;
+  border-top: 1px dashed rgba(0,0,0,0.08);
+}
+.participant {
+  @apply inline-flex items-center mr-4 text-sm ;
+  font-weight: 100;
+  .avatar {
+    @apply float-left inline-block mr-2;
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    background-size: cover !important;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+p.event_title {
+  margin: 1rem 0 0;
+  font-weight: 400;
+  @apply text-base;
+}
+
+.day h4.first_date {
+  margin: 0 !important;
+}
 
 </style>

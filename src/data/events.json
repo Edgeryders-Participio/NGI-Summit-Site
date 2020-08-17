@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "title": "Opening: 'A Shared Vision for the Future Internet'",
+      "text": "HOST CITY: Welcome by Femke Halsema, Mayor of Amsterdam - A welcome and short history of the internet in Amsterdam (up to 10 min) MEMBER STATE: Brief statement by Raymond Knops, Secretary of State for the Interior - Dutch approach to the future of the internet (up to 15 min) ",
+      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "event": {
+        "start": "2020-09-28T09:30:00+02:00",
+        "end": "2020-09-28T09:55:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [
+        {
+          "name": "Femke Halsema",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Femke_Halsema_2.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Raymond Knops",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Uitreiking_Stuiveling_Open_Data_Award_%28SODA%29_%2845117150741%29_%28cropped%29_2.jpg/500px-Uitreiking_Stuiveling_Open_Data_Award_%28SODA%29_%2845117150741%29_%28cropped%29_2.jpg",
+          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Talks: ‘Alternative Futures for the Internet’",
+      "text": "A series of short lightning talks and collective intelligence exercises. Speakers set out quirky alternative futures (“What if…”) for the internet. The audience is invited to react to each, as well as provide their own  visions through our audience interaction tool.",
+      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "event": {
+        "start": "2020-09-28T10:00:00+02:00",
+        "end": "2020-09-28T10:30:00+02:00",
+        "timezone": "Europe/Amsterdam"
+      },
+      "participants": [
+        {
+          "name": "Katja Bego",
+          "image": "/img/speakers/Katja_Bego.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Marleen Stikker",
+          "image": "/img/speakers/Marleen_Stikker.jpg",
+          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
+        },
+        {
+          "name": "Juha Leppänen",
+          "image": "/img/speakers/Juha_Leppanen.jpg",
+          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
+        },
+        {
+          "name": "Heba Y. Amin",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Heba_Amin%2C_May_2013.jpg",
+          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
+        }
+      ]
+    },
+    {
+      "title": "Keynote: European Commission",
+      "text": "Keynote by Roberto Viola, Director-General, DG Connect, setting out the European Commission’s work programme and approach to the NGI, placing it in the context of Europe’s COVID-19 recovery and the green digital twin transition.",
+      "event": {
+        "start": "2020-09-28T10:40:00+02:00",
+        "end": "2020-09-28T11:00:00+02:00",
+        "timezone": "Europe/Amsterdam"
+      },
+      "participants": [
+        {
+          "name": "Roberto Viola",
+          "image": "https://ec.europa.eu/info/sites/info/files/styles/person_160px_2x/public/roberto-viola_0.jpg?itok=1gzx1yvD&timestamp=1592483007",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        }
+      ]
+    },
+    {
+      "title": "The Case for a European Data Economy",
+      "text": "A group discussion setting out a positive vision for Europe’s data economy, looking at data spaces and trusts, the concept of data sovereignty and the European Commission’s key initiatives in this space. We will focus on opportunities for Europe to build more equitable economic models by harnessing innovation, entrepreneurship and standard-setting powers.",
+      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "event": {
+        "start": "2020-09-28T11:00:00+02:00",
+        "end": "2020-09-28T12:00:00+02:00",
+        "timezone": "Europe/Amsterdam"
+      },
+      "participants": [
+        {
+          "name": "Olivier Bringer",
+          "image": "/img/speakers/Olivier_Bringer.jpeg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Prof. Ingrid Schneider",
+          "image": "/img/speakers/Ingrid_Schneider.png",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Prof. Sylvie Delacroix",
+          "image": "/img/speakers/Sylvie_Delacroix.jpeg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Thomas Zerdick",
+          "image": "/img/speakers/Thomas_Zerdick.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Jaya Klara Brekke",
+          "image": "/img/speakers/Jaya_Klara_Brekke.png",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        }
+      ]
+    },
+    {
+      "title": "A Roadmap for Digital Policy: Defining Europe’s Role After COVID-19",
+      "text": "A scene-setting panel discussion of current and upcoming digital policy proposals from across Europe and MS. This will also serve to map out the road to 2030, looking at some of the big policy problems that will need to be resolved over the coming years, including on the conference’s main topics.",
+      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "event": {
+        "start": "2020-09-28T12:15:00+02:00",
+        "end": "2020-09-28T13:00:00+02:00",
+        "timezone": "Europe/Amsterdam"
+      },
+      "participants": [
+        {
+          "name": "Axel Voss",
+          "image": "/img/speakers/Axel_Voss.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Anu Bradford",
+          "image": "/img/speakers/Anu_Bradford.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Mara Balestrini",
+          "image": "https://iaac.net/wp-content/uploads/2015/09/mara-ok.png",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Ben Cerveny",
+          "image": "https://sonarplusd.com/system/attached_images/28261/medium/Ben_Cerveny.jpg?1560427621",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        }
+      ]
+    },
+    {
+      "title": "Workshop: Public Control over AI - Part 1: The Why & How of Accountable AI",
+      "text": "AI is a technology of strategic importance. Provided it is designed in a human-centric, ethical and sustainable way, respecting fundamental rights and values, AI offers many benefits for citizens, companies and society as a whole. How can we exert the right controls to make sure that transparency and fair use are guaranteed? Join us for an expert Q&A exploring procurement guidelines, registry, and data-ethics decision aid, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace.",
+      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "event": {
+        "start": "2020-09-29T12:15:00+02:00",
+        "end": "2020-09-29T13:00:00+02:00",
+        "timezone": "Europe/Amsterdam"
+      },
+      "participants": [
+        {
+          "name": "Matthias Vermeulen",
+          "image": "https://lsts.research.vub.be/sites/default/files/styles/large/public/thumbnails/image/mathias_vermeulen_2-170x227.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Amba Kak",
+          "image": "https://pbs.twimg.com/profile_images/1176565482901692417/bSHgLnc8_400x400.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        },
+        {
+          "name": "Roel Dobbe",
+          "image": "https://pbs.twimg.com/profile_images/1252562086246432770/UDcxl2_n_400x400.jpg",
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
+        }
+      ]
+    }
+  ]
+}
