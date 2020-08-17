@@ -335,16 +335,6 @@
       "display": ["title"]
     },
     {
-      "type": "events",
-      "title": "Programme",
-      "id": "programme",
-      "filters": {
-        "team": "blue",
-        "outreach": "green",
-        "community": "orangered"
-      }
-    },
-    {
       "type": "custom",
       "title": "Join our community",
       "id": "Community",
