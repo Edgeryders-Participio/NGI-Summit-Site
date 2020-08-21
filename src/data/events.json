@@ -217,7 +217,7 @@
         }]
     },{
       "title": "[Workshop] AI and public control I: the why and how of accountable AI",
-      "text": "AI is a technology of strategic importance. Provided it is designed in a human-centric, ethical and sustainable way, respecting fundamental rights and values, AI offers many benefits for citizens, companies and society as a whole. How can we exert the right controls to make sure that transparency and fair use are guaranteed? Join us for an expert Q&A exploring procurement guidelines, registry, and data-ethics decision aid, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace.",
+      "text": "AI offers many benefits for citizens, companies and society as a whole - provided it is designed in a human-centric, ethical and sustainable way, with respect for fundamental rights and values. How can we control this technology,to ensure transparency and fair use? Join us for an expert Q&A, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace, in which we explore procurement guidelines, registry, and data-ethics decisions.",
       "url": "",
       "event": {
         "start": "2020-09-29T09:30:00+02:00",
@@ -241,7 +241,7 @@
         }]
     },{
       "title": "[Workshop] AI and public control II: tools for AI accountability",
-      "text": "AI is a technology of strategic importance. Provided it is designed in a human-centric, ethical and sustainable way, respecting fundamental rights and values, AI offers many benefits for citizens, companies and society as a whole. How can we exert the right controls to make sure that transparency and fair use are guaranteed? Join us for an expert Q&A exploring procurement guidelines, registry, and data-ethics decision aid, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace.",
+      "text": "AI offers many benefits for citizens, companies and society as a whole - provided it is designed in a human-centric, ethical and sustainable way, with respect for fundamental rights and values. How can we control this technology,to ensure transparency and fair use? Join us for an expert Q&A, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace, in which we explore procurement guidelines, registry, and data-ethics decisions.",
       "url": "",
       "event": {
         "start": "2020-09-29T10:15:00+02:00",
@@ -269,7 +269,7 @@
         }]
     },{
       "title": "[Workshop] What future internet do we want?",
-      "text": "Join Nesta Italia for an immersive futures workshop, in which our audience gets to decide on key design principles for the internet, and explores what future scenarios their decisions might yield.",
+      "text": "In this immersive futures workshop, hosted by Nesta Italia, our audience gets to decide on key design principles for the internet, and explores what future scenarios their decisions might yield. ",
       "url": "",
       "event": {
         "start": "2020-09-29T11:00:00+02:00",
@@ -300,7 +300,7 @@
       },
       "participants": [{
           "name": "Rasmus Kleis Nielsen",
-          "image": "http://ngisummit.imgix.net/Rasmus Kleis Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "image": "http://ngisummit.imgix.net/Rasmus_Kleis_Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Anna-Sophie Harling",
@@ -312,8 +312,8 @@
           "url": ""
         }]
     },{
-      "title": "The twin transition: ceating a sustainable digital future",
-      "text": "The defining challenge of this decade will be the twin transition towards a more sustainable and connected future. Join us for a conversation about the internet's hidden environmental costs and what Europe can do to address it.",
+      "title": "Europe's twin transition: creating a sustainable digital future ",
+      "text": "The defining challenge of this decade will be the twin transition towards a more sustainable and connected future. Join us for a conversation about how we can reduce the internet's hidden environmental costs and harness its transformative potential for environmental action.",
       "url": "",
       "event": {
         "start": "2020-09-29T14:00:00+02:00",
