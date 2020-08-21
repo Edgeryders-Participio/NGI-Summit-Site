@@ -481,6 +481,12 @@
           "outlet": "ThingsCon",
           "url": " https://www.thingscon.org/",
           "logo": "/img/partners/ThingsCon.png"
+        },
+        {
+          "title": "Nesta Italia",
+          "outlet": "Nesta Italia",
+          "url": " https://www.nestaitalia.org/en/",
+          "logo": "/img/partners/Nesta_Italia.png"
         }
       ]
     },
