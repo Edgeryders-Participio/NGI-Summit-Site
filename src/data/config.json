@@ -35,7 +35,7 @@
       "type": "hero",
       "summit": "true",
       "background": {
-        "url": "/img/hero_islands.jpg",
+        "url": "/img/pixelbanner.png",
         "color": "linear-gradient(63.1deg,#009c8e 9.02%,#ffdb6a 90.81%)"
       },
       "title": "Next Generation Internet <br>Policy Summit",
@@ -152,7 +152,7 @@
     },
     {
       "type": "people",
-      "title": "Initial speakers confirmed",
+      "title": "Confirmed speakers",
       "id": "speakers",
       "style": {
         "container": {
