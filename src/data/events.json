@@ -12,11 +12,11 @@
       },
       "participants": [{
           "name": "City of Amsterdam speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Government minister (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -32,24 +32,24 @@
       },
       "participants": [{
           "name": "Katja Bego",
-          "image": "http://ngisummit.imgix.net/Katja_Bego.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Katja_Bego.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Marleen Stikker",
-          "image": "http://ngisummit.imgix.net/Marleen_Stikker.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Marleen_Stikker.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Juha Leppänen",
-          "image": "http://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Heba Amin",
-          "image": "http://ngisummit.imgix.net/?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
       "title": "Keynote: European Commission",
-      "text": "Join us for the first keynote of the Summit, where we'll hear from the European Commission about their ambitions for the Next Generation Internet—and a Next Generation Europe.",
+      "text": "Join us for the first keynote of the Summit, where we'll hear from the European Commission about their ambitions for the Next Generation Internet.",
       "url": "",
       "event": {
         "start": "2020-09-28T10:40:00+02:00",
@@ -60,7 +60,7 @@
       },
       "participants": [{
           "name": "European Commission speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -76,19 +76,19 @@
       },
       "participants": [{
           "name": "Olivier Bringer",
-          "image": "http://ngisummit.imgix.net/Olivier_Bringer.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Olivier_Bringer.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Ingrid Schneider",
-          "image": "http://ngisummit.imgix.net/Ingrid_Schneider.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Ingrid_Schneider.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Sylvie Delacroix",
-          "image": "http://ngisummit.imgix.net/Sylvie_Delacroix.jpeg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Sylvie_Delacroix.jpeg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Jaya Klara Brekke",
-          "image": "http://ngisummit.imgix.net/Jaya_Klara_Brekke.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Jaya_Klara_Brekke.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -104,23 +104,23 @@
       },
       "participants": [{
           "name": "Axel Voss",
-          "image": "http://ngisummit.imgix.net/Axel_Voss.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Axel_Voss.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Anu Bradford",
-          "image": "http://ngisummit.imgix.net/Anu_Bradford.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Anu_Bradford.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Mara Balestrini",
-          "image": "http://ngisummit.imgix.net/Mara_Balestrini.webp?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Mara_Balestrini.webp?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
-      "title": "Decentralising the Internet: The 'Blockchains for Social Good' Prize",
+      "title": "Decentralising the internet: the 'Blockchains for Social Good' prize",
       "text": "With the 'Blockchains for Social Good' Prize, the European Innovatoin Council (EIC) recognises and supports the recent efforts of developers and civil society to decentralise and apply blockchains for social innovation. Meet the winners of €5 million award and join us for a brief look at the six challenge areas that our innovators are tackling: traceability and fair trade, financial inclusion, decentralised circular economy, transparency of public processes, participation in democratic decision-making, and management of public records.",
       "url": "",
       "event": {
@@ -132,11 +132,11 @@
       },
       "participants": [{
           "name": "Marco Zappalorto",
-          "image": "http://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "European Commission speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -152,11 +152,11 @@
       },
       "participants": [{
           "name": "Andreas de Kok ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Wouter Welling",
-          "image": "http://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -172,19 +172,19 @@
       },
       "participants": [{
           "name": "Tamas Erkelens ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Ella Jakubowska",
-          "image": "http://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -200,19 +200,19 @@
       },
       "participants": [{
           "name": "Malcolm Bain ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Daniel Sarasa Funes ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -228,15 +228,15 @@
       },
       "participants": [{
           "name": "Mathias Vermeulen",
-          "image": "http://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Amba Kak ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Roel Dobbe ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -252,19 +252,19 @@
       },
       "participants": [{
           "name": "Meeri Haataja",
-          "image": "http://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Jeroen Naves ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Mirko Tobias Schäfer ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Iris Muis ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -280,11 +280,11 @@
       },
       "participants": [{
           "name": "Giacomo Mariotti ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Simona Bielli ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -300,19 +300,15 @@
       },
       "participants": [{
           "name": "Rasmus Nielsen",
-          "image": "http://ngisummit.imgix.net/Rasmus Kleis Nielsen.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Rasmus Kleis Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Anna-Sophie Harling",
-          "image": "http://ngisummit.imgix.net/Anna_Sophie_Harling.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Anna_Sophie_Harling.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Geert-Jan Bogaerts",
-          "image": "http://ngisummit.imgix.net/Geert_Jan_Bogaerts.jpg?fit=facearea&w=22&h=22&facepad=3",
-          "url": ""
-        },{
-          "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Geert_Jan_Bogaerts.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -328,19 +324,19 @@
       },
       "participants": [{
           "name": "Asim Hussain",
-          "image": "http://ngisummit.imgix.net/Asim_Hussain.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Asim_Hussain.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -356,19 +352,19 @@
       },
       "participants": [{
           "name": "Charlton McIlwain",
-          "image": "http://ngisummit.imgix.net/Charlton_McIlwain.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Charlton_McIlwain.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Frederike Kaltheuner",
-          "image": "http://ngisummit.imgix.net/Frederike_Kaltheuner.jpeg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Frederike_Kaltheuner.jpeg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Tricia Wang",
-          "image": "http://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
-      "title": "City Coalition for Digital Rights: Tackling the City Challenge",
+      "title": "Tackling the city challenge: cities for digital rights",
       "text": "From ensuring the fairness of AI-assisted decisionmaking to the sustainability IoT-enabled smart city concepts - the Next Generation Internet will be central to the daily lives of city dwellers. Join us for the launch of the City Coalition for Digital Rights (CC4DR) Challenge and an interactive look at some of the European cities that are already pursuing meaningful digital transformation by putting people and their environment first.",
       "url": "",
       "event": {
@@ -380,19 +376,19 @@
       },
       "participants": [{
           "name": "City of Milan speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City of Berlin speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City of Bordeaux speaker (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City of Barcelona speaker (tbc ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -408,19 +404,19 @@
       },
       "participants": [{
           "name": "Toomas Hendrik Ilves",
-          "image": "http://ngisummit.imgix.net/Toomas_Ilves.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Toomas_Ilves.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Eva Kaili",
-          "image": "http://ngisummit.imgix.net/Eva_Kaili.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Eva_Kaili.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Lalana Kagal",
-          "image": "http://ngisummit.imgix.net/?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Lalana_Kagal.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Gus Hosein",
-          "image": "http://ngisummit.imgix.net/Gus_Hosein.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Gus_Hosein.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -436,7 +432,7 @@
       },
       "participants": [{
           "name": "Payal Arora",
-          "image": "http://ngisummit.imgix.net/Payal_Arora.jpg?fit=facearea&w=22&h=22&facepad=3",
+          "image": "http://ngisummit.imgix.net/Payal_Arora.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     }  ]
