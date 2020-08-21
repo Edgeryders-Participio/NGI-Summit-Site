@@ -1,7 +1,7 @@
 {
   "data": [{
       "title": "Welcome to the NGI Policy Summit 2020",
-      "text": "Join us for a brief welcome from the City of Amsterdam and the Dutch Ministry for the Interior and Kingdom Relations. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe.",
+      "text": "Join us for a brief welcome from our Dutch hosts and the City of Amsterdam. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe.",
       "url": "",
       "event": {
         "start": "2020-09-28T09:30:00+02:00",
@@ -43,7 +43,7 @@
           "image": "http://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Heba Amin ",
+          "name": "Heba Amin (tbc) ",
           "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
@@ -365,7 +365,7 @@
         }]
     },{
       "title": "Tackling the city challenge: cities for digital rights",
-      "text": "From ensuring the fairness of AI-assisted decisionmaking to the sustainability IoT-enabled smart city concepts - the Next Generation Internet will be central to the daily lives of city dwellers. Join us for the launch of the City Coalition for Digital Rights (CC4DR) Challenge and an interactive look at some of the European cities that are already pursuing meaningful digital transformation by putting people and their environment first.",
+      "text": "From ensuring the fairness of AI-assisted decisionmaking to the sustainability challenge of IoT-enabled smart cities - how we design the Next Generation Internet will have a significant impact on the daily lives of city dwellers. Join the City Coalition for Digital Rights (CC4DR) for the launch of the City Challenge and an interactive look at some of the European cities that are already pursuing meaningful digital transformation by putting people and their environment first.",
       "url": "",
       "event": {
         "start": "2020-09-29T15:40:00+02:00",
@@ -393,7 +393,7 @@
         }]
     },{
       "title": "Who is who? The future of digital identity, trust and privacy",
-      "text": "Questions of identity, trust, privacy and data ownership are at the core of many of the internet's oldest and still most formidable challenges. Join us for a look at the development of identity, trust and data models in Europe and beyond - looking at nascent use cases and the challenges still in front of us.",
+      "text": "Questions of identity, trust and data ownership are at the core of many of the internet's oldest and most formidable challenges. But they also hold great potential to empower individuals and make the internet more human-centric. Join us for a look at the latest developments in trust and identity in Europe and beyond - from nascent use cases to the challenges still in front of us.",
       "url": "",
       "event": {
         "start": "2020-09-29T16:30:00+02:00",
@@ -421,7 +421,7 @@
         }]
     },{
       "title": "Towards a more inclusive internet: a call to action",
-      "text": "Join us for our interactive closing session, and explore with us how the internet of the future can drive inclusion and social empowerment - both in Europe and at a global scale.",
+      "text": "In this interactive closing session, we will explore how the internet of the future can, once again, become a driver for inclusion and social empowerment - both in Europe and at a global scale.",
       "url": "",
       "event": {
         "start": "2020-09-29T17:30:00+02:00",
