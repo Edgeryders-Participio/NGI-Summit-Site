@@ -1,9 +1,8 @@
 {
-  "data": [
-    {
-      "title": "Opening: 'A Shared Vision for the Future Internet'",
-      "text": "HOST CITY: Welcome by Femke Halsema, Mayor of Amsterdam - A welcome and short history of the internet in Amsterdam (up to 10 min) MEMBER STATE: Brief statement by Raymond Knops, Secretary of State for the Interior - Dutch approach to the future of the internet (up to 15 min) ",
-      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+  "data": [{
+      "title": "Welcome to the NGI Policy Summit 2020",
+      "text": "Join us for a brief welcome from the City of Amsterdam and the Dutch Ministry for the Interior and Kingdom Relations. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe.",
+      "url": "",
       "event": {
         "start": "2020-09-28T09:30:00+02:00",
         "end": "2020-09-28T09:55:00+02:00",
@@ -11,162 +10,430 @@
         "location": "",
         "type": ""
       },
-      "participants": [
-        {
-          "name": "Femke Halsema",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Femke_Halsema_2.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Raymond Knops",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Uitreiking_Stuiveling_Open_Data_Award_%28SODA%29_%2845117150741%29_%28cropped%29_2.jpg/500px-Uitreiking_Stuiveling_Open_Data_Award_%28SODA%29_%2845117150741%29_%28cropped%29_2.jpg",
-          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
-        }
-      ]
-    },
-    {
-      "title": "Lightning Talks: ‘Alternative Futures for the Internet’",
-      "text": "A series of short lightning talks and collective intelligence exercises. Speakers set out quirky alternative futures (“What if…”) for the internet. The audience is invited to react to each, as well as provide their own  visions through our audience interaction tool.",
-      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "participants": [{
+          "name": "City of Amsterdam speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Government minister (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Visions for the future Internet: what if?",
+      "text": "In this series of short lightning talks, we will hear from speakers about possible—and sometimes quirky—futures for the internet. Join us to share your own thoughts and visions for digital life in 2030.",
+      "url": "",
       "event": {
         "start": "2020-09-28T10:00:00+02:00",
         "end": "2020-09-28T10:30:00+02:00",
-        "timezone": "Europe/Amsterdam"
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
       },
-      "participants": [
-        {
-          "name": "Katja Bego",
-          "image": "/img/speakers/Katja_Bego.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Marleen Stikker",
-          "image": "/img/speakers/Marleen_Stikker.jpg",
-          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
-        },
-        {
-          "name": "Juha Leppänen",
-          "image": "/img/speakers/Juha_Leppanen.jpg",
-          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
-        },
-        {
-          "name": "Heba Y. Amin",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Heba_Amin%2C_May_2013.jpg",
-          "url": "https://en.wikipedia.org/wiki/Raymond_Knops"
-        }
-      ]
-    },
-    {
+      "participants": [{
+          "name": "Katja Bego ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Marleen Stikker ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Juha Leppänen ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Heba Y. Amin ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
       "title": "Keynote: European Commission",
-      "text": "Keynote by Roberto Viola, Director-General, DG Connect, setting out the European Commission’s work programme and approach to the NGI, placing it in the context of Europe’s COVID-19 recovery and the green digital twin transition.",
+      "text": "Join us for the first keynote of the Summit, where we'll hear from the European Commission about their ambitions for the Next Generation Internet—and a Next Generation Europe.",
+      "url": "",
       "event": {
         "start": "2020-09-28T10:40:00+02:00",
         "end": "2020-09-28T11:00:00+02:00",
-        "timezone": "Europe/Amsterdam"
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
       },
-      "participants": [
-        {
-          "name": "Roberto Viola",
-          "image": "https://ec.europa.eu/info/sites/info/files/styles/person_160px_2x/public/roberto-viola_0.jpg?itok=1gzx1yvD&timestamp=1592483007",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        }
-      ]
-    },
-    {
-      "title": "The Case for a European Data Economy",
+      "participants": [{
+          "name": "European Commission speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "The case for a European data economy",
       "text": "A group discussion setting out a positive vision for Europe’s data economy, looking at data spaces and trusts, the concept of data sovereignty and the European Commission’s key initiatives in this space. We will focus on opportunities for Europe to build more equitable economic models by harnessing innovation, entrepreneurship and standard-setting powers.",
-      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "url": "",
       "event": {
         "start": "2020-09-28T11:00:00+02:00",
-        "end": "2020-09-28T12:00:00+02:00",
-        "timezone": "Europe/Amsterdam"
+        "end": "2020-09-28T11:50:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
       },
-      "participants": [
-        {
-          "name": "Olivier Bringer",
-          "image": "/img/speakers/Olivier_Bringer.jpeg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Prof. Ingrid Schneider",
-          "image": "/img/speakers/Ingrid_Schneider.png",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Prof. Sylvie Delacroix",
-          "image": "/img/speakers/Sylvie_Delacroix.jpeg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Thomas Zerdick",
-          "image": "/img/speakers/Thomas_Zerdick.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Jaya Klara Brekke",
-          "image": "/img/speakers/Jaya_Klara_Brekke.png",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        }
-      ]
-    },
-    {
-      "title": "A Roadmap for Digital Policy: Defining Europe’s Role After COVID-19",
+      "participants": [{
+          "name": "Olivier Bringer ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Prof. Ingrid Schneider ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Prof. Sylvie Delacroix ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Jaya Klara Brekke ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "A digital roadmap for 2030: defining Europe’s role after COVID-19",
       "text": "A scene-setting panel discussion of current and upcoming digital policy proposals from across Europe and MS. This will also serve to map out the road to 2030, looking at some of the big policy problems that will need to be resolved over the coming years, including on the conference’s main topics.",
-      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "url": "",
       "event": {
-        "start": "2020-09-28T12:15:00+02:00",
+        "start": "2020-09-28T12:00:00+02:00",
         "end": "2020-09-28T13:00:00+02:00",
-        "timezone": "Europe/Amsterdam"
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
       },
-      "participants": [
-        {
-          "name": "Axel Voss",
-          "image": "/img/speakers/Axel_Voss.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Anu Bradford",
-          "image": "/img/speakers/Anu_Bradford.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Mara Balestrini",
-          "image": "https://iaac.net/wp-content/uploads/2015/09/mara-ok.png",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Ben Cerveny",
-          "image": "https://sonarplusd.com/system/attached_images/28261/medium/Ben_Cerveny.jpg?1560427621",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        }
-      ]
-    },
-    {
-      "title": "Workshop: Public Control over AI - Part 1: The Why & How of Accountable AI",
-      "text": "AI is a technology of strategic importance. Provided it is designed in a human-centric, ethical and sustainable way, respecting fundamental rights and values, AI offers many benefits for citizens, companies and society as a whole. How can we exert the right controls to make sure that transparency and fair use are guaranteed? Join us for an expert Q&A exploring procurement guidelines, registry, and data-ethics decision aid, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace.",
-      "url": "https://edgeryders.eu/t/registration-ngi-village-exhibition/12741",
+      "participants": [{
+          "name": "Axel Voss ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Anu Bradford ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Mara Balestrini ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Thomas Zerdick ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Decentralising the Internet: The 'Blockchains for Social Good' Prize",
+      "text": "With the 'Blockchains for Social Good' Prize, the European Innovatoin Council (EIC) recognises and supports the recent efforts of developers and civil society to decentralise and apply blockchains for social innovation. Meet the winners of €5 million award and join us for a brief look at the six challenge areas that our innovators are tackling: traceability and fair trade, financial inclusion, decentralised circular economy, transparency of public processes, participation in democratic decision-making, and management of public records.",
+      "url": "",
       "event": {
-        "start": "2020-09-29T12:15:00+02:00",
-        "end": "2020-09-29T13:00:00+02:00",
-        "timezone": "Europe/Amsterdam"
+        "start": "2020-09-28T14:00:00+02:00",
+        "end": "2020-09-28T14:45:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
       },
-      "participants": [
-        {
-          "name": "Matthias Vermeulen",
-          "image": "https://lsts.research.vub.be/sites/default/files/styles/large/public/thumbnails/image/mathias_vermeulen_2-170x227.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Amba Kak",
-          "image": "https://pbs.twimg.com/profile_images/1176565482901692417/bSHgLnc8_400x400.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        },
-        {
-          "name": "Roel Dobbe",
-          "image": "https://pbs.twimg.com/profile_images/1252562086246432770/UDcxl2_n_400x400.jpg",
-          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/burgemeester/cv-femke-halsema/"
-        }
-      ]
-    }
-  ]
+      "participants": [{
+          "name": "Marco Zappalorto ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "European Commission speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] Digital identity",
+      "text": "The Netherlands has recently developed a vision for digital identity that allows for experimentation. In this workshop, presented by officials from the Dutch Ministry of the Interior, participants will learn about this vision and opportunities for international cooperation in the realm of Self Sovereign Identity. We will also discuss an international use case in the European Blockchain Partnership.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T14:45:00+02:00",
+        "end": "2020-09-28T15:30:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Andreas de Kok ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Wouter Welling ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] Biometrics and facial recognition in cities",
+      "text": "Across the EU, highly intrusive and legally questionable biometric processing technologies, including facial recognition, are quietly becoming ubiquitous in our public and publicly-accessible spaces. In this special session with European Digital Rights (EDRi), a network of 44 civil society digital rights organisations, we will provide an update on the present situation, and together with policy makers from across Europe, discuss different scenarios for the role that biometrics might play in cities in the near future. We will explore whether cities can actually use such technologies in a privacy-friendly way or if they should abolish them altogether. The goal of this session is to involve policy thinkers and decision makers in a productive conversation on privacy in cities.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T14:45:00+02:00",
+        "end": "2020-09-28T16:15:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Tamas Erkelens ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Ella Jakubowska ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] Data-sharing in cities",
+      "text": "A workshop for city and regional stakeholders about applying digital rights in local data-sharing platforms throughout planning, implementation, and evolution. Includes case studies from Toronto, Zaragoza, Berlin, Newcastle, Rennes, Bordeaux, and Helsinki. In this session, we will discuss how city data-sharing platforms are created from different building blocks, which consist of different policies, processes, infrastructures, and actions, that are key in the overall task of extracting value from urban big data.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T16:15:00+02:00",
+        "end": "2020-09-28T17:45:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Malcolm Bain ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Daniel Sarasa Funes ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "City speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "City speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] AI and public control I: the why and how of accountable AI",
+      "text": "AI is a technology of strategic importance. Provided it is designed in a human-centric, ethical and sustainable way, respecting fundamental rights and values, AI offers many benefits for citizens, companies and society as a whole. How can we exert the right controls to make sure that transparency and fair use are guaranteed? Join us for an expert Q&A exploring procurement guidelines, registry, and data-ethics decision aid, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T09:30:00+02:00",
+        "end": "2020-09-29T10:15:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Matthias Vermeulen ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Amba Kak ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Roel Dobbe ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] AI and public control II: tools for AI accountability",
+      "text": "AI is a technology of strategic importance. Provided it is designed in a human-centric, ethical and sustainable way, respecting fundamental rights and values, AI offers many benefits for citizens, companies and society as a whole. How can we exert the right controls to make sure that transparency and fair use are guaranteed? Join us for an expert Q&A exploring procurement guidelines, registry, and data-ethics decision aid, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T10:15:00+02:00",
+        "end": "2020-09-29T11:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Meeri Haataja ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Jeroen Naves ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Mirko Tobias Schäfer ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Iris Muis ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] What future internet do we want?",
+      "text": "Join Nesta Italia for an immersive futures workshop, in which our audience gets to decide on key design principles for the internet, and explores what future scenarios their decisions might yield.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T11:00:00+02:00",
+        "end": "2020-09-29T11:45:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Giacomo Mariotti ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Simona Bielli ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Have I still got news for you? Preserving trust, journalism and the public sphere",
+      "text": "Join us for a thought-provoking conversation about the future of journalism and what Europe can do to avert the continued erosion of public trust in the digital sphere.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T13:00:00+02:00",
+        "end": "2020-09-29T13:45:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Rasmus Kleis Nielsen ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Anna-Sophie Harling ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Geert-Jan Bogaerts ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "The twin transition: ceating a sustainable digital future",
+      "text": "The defining challenge of this decade will be the twin transition towards a more sustainable and connected future. Join us for a conversation about the internet's hidden environmental costs and what Europe can do to address it.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T14:00:00+02:00",
+        "end": "2020-09-29T14:45:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Asim Hussain ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Solutions or solutionism? The role of technology in times of crisis",
+      "text": "Join us for an examination of the role that the internet and emerging technologies can play in responding to crises. What can we do to better prepare ourselves for future systemic shocks? And how do we ensure that technology targets complex problems effectively, without excluding people or causing unintended harm?",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T14:50:00+02:00",
+        "end": "2020-09-29T15:35:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Charlton McIlwain ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Frederike Kaltheuner ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Tricia Wang ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "City Coalition for Digital Rights: Tackling the City Challenge",
+      "text": "From ensuring the fairness of AI-assisted decisionmaking to the sustainability IoT-enabled smart city concepts - the Next Generation Internet will be central to the daily lives of city dwellers. Join us for the launch of the City Coalition for Digital Rights (CC4DR) Challenge and an interactive look at some of the European cities that are already pursuing meaningful digital transformation by putting people and their environment first.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T15:40:00+02:00",
+        "end": "2020-09-29T16:25:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "City of Milan speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "City of Berlin speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "City of Bordeaux speaker (tbc) ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "City of Barcelona speaker (tbc ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Who is who? The future of digital identity, trust and privacy",
+      "text": "Questions of identity, trust, privacy and data ownership are at the core of many of the internet's oldest and still most formidable challenges. Join us for a look at the development of identity, trust and data models in Europe and beyond - looking at nascent use cases and the challenges still in front of us.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T16:30:00+02:00",
+        "end": "2020-09-29T17:20:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Toomas Hendrik Ilves ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Eva Kaili ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Lalana Kagal ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        },{
+          "name": "Gus Hosein ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Towards a more inclusive internet: a call to action",
+      "text": "Join us for our interactive closing session, and explore with us how the internet of the future can drive inclusion and social empowerment - both in Europe and at a global scale.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T17:30:00+02:00",
+        "end": "2020-09-29T18:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": ""
+      },
+      "participants": [{
+          "name": "Payal Arora ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=22&h=22&facepad=3",
+          "url": ""
+        }]
+    }  ]
 }
