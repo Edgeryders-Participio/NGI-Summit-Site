@@ -43,8 +43,8 @@
           "image": "http://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Heba Amin",
-          "image": "http://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Heba Amin ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -141,7 +141,7 @@
         }]
     },{
       "title": "[Workshop] Digital identity",
-      "text": "The Netherlands has recently developed a vision for digital identity that allows for experimentation. In this workshop, presented by officials from the Dutch Ministry of the Interior, participants will learn about this vision and opportunities for international cooperation in the realm of Self Sovereign Identity. We will also discuss an international use case in the European Blockchain Partnership.",
+      "text": "The Netherlands has recently developed a vision for digital identity that allows for experimentation. In this workshop, presented by officials from the Dutch Ministry of the Interior, participants will learn about this vision and opportunities for international cooperation in the realm of Self-Sovereign Identity (SSI). We will also discuss an international use case in the European Blockchain Partnership.",
       "url": "",
       "event": {
         "start": "2020-09-28T14:45:00+02:00",
@@ -189,7 +189,7 @@
         }]
     },{
       "title": "[Workshop] Data-sharing in cities",
-      "text": "A workshop for city and regional stakeholders about applying digital rights in local data-sharing platforms throughout planning, implementation, and evolution. Includes case studies from Toronto, Zaragoza, Berlin, Newcastle, Rennes, Bordeaux, and Helsinki. In this session, we will discuss how city data-sharing platforms are created from different building blocks, which consist of different policies, processes, infrastructures, and actions, that are key in the overall task of extracting value from urban big data.",
+      "text": "Join us for a workshop for city and regional stakeholders that explores the application of digital rights in local data-sharing platforms throughout planning, implementation, and evolution. Looking at case studies from Toronto, Zaragoza, Berlin, Newcastle, Rennes, Bordeaux, and Helsinki, we will discuss how city platforms for data-sharing are created from different building blocks (policies, processes, infrastructures, and actions) to extract value from urban big data.",
       "url": "",
       "event": {
         "start": "2020-09-28T16:15:00+02:00",
@@ -299,7 +299,7 @@
         "type": ""
       },
       "participants": [{
-          "name": "Rasmus Nielsen",
+          "name": "Rasmus Kleis Nielsen",
           "image": "http://ngisummit.imgix.net/Rasmus Kleis Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{

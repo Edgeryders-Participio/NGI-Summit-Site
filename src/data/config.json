@@ -196,7 +196,7 @@
 }, {
 "id": 6,
 "name": "Eva Kaili",
-"excerpt": "Eva's work includes promoting innovation as a driving force of the establishment of the European Digital Single Market. She has also been the draftsperson of multiple pieces of legislation in the fields of blockchain technology, online platforms, big data, fintech, AI and cybersecurity.",
+"excerpt": "Eva Kaili is a Member of the European Parliament. Her work includes promoting innovation as a driving force of the establishment of the European Digital Single Market. She has also been the draftsperson of multiple pieces of legislation in the fields of blockchain technology, online platforms, big data, fintech, AI and cybersecurity.",
 "image": "http://ngisummit.imgix.net/Eva_Kaili.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 7,
@@ -261,7 +261,7 @@
 }, {
 "id": 19,
 "name": "Lalana Kagal",
-"excerpt": "Lalana is a Principal Research Scientist at MIT CSAIL and co-directs the Decentralized Information Group (DIG). She is also a Web Science Research Institute Research Fellow and an Editor-in-Chief of the Journal of Web Semantics. Her research focuses on modeling how social norms and legal rules work in society in order to automate the compliance of policy in information systems.",
+"excerpt": "Lalana’s research is at the intersection of technology, society, and policy. She leads the DIG group at the MIT Computer Science and Artificial Intelligence Lab that is focused on improving the trustworthiness of digital systems, developing a user-centric architecture for the Web and designing policy-compliant frameworks.",
 "image": "http://ngisummit.imgix.net/Lalana_Kagal.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 20,
@@ -270,66 +270,71 @@
 "image": "http://ngisummit.imgix.net/Paul_Keller2.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 21,
+"name": "Rasmus Kleis Nielsen",
+"excerpt": "Rasmus Kleis Nielsen is Director of the Reuters Institute for the Study of Journalism. His work focuses on changes in the news media, political communication, and the role of digital technologies in both.",
+"image": "http://ngisummit.imgix.net/Rasmus%20Kleis%20Nielsen.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 22,
 "name": "Juha Leppänen",
 "excerpt": "Juha Leppänen is the Chief Executive of Demos Helsinki, leading independent Nordic think tank. Juha is social scientist and previously worked as theme area lead at Demos Helsinki. At Demos, Juha has lead multiple strategy, foresight and innovation processes for both public and private institutions. Juha is an experienced speaker and advisor on strategy, policy and innovation and serves as a Royal Society of Arts Fellow.",
 "image": "http://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 22,
+"id": 23,
 "name": "Marleen Stikker",
 "excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
 "image": "http://ngisummit.imgix.net/Marleen_Stikker.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 23,
+"id": 24,
 "name": "Bill Thompson",
 "excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online.  A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio.  He is an Adjunct Professor at Southampton University.",
 "image": "http://ngisummit.imgix.net/Bill_Thompson.JPG?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 24,
+"id": 25,
 "name": "Tricia Wang",
 "excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it.  She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
 "image": "http://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 25,
+"id": 26,
 "name": "Marco Zappalorto",
 "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
 "image": "http://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 26,
+"id": 27,
 "name": "Thomas Zerdick",
 "excerpt": "Thomas is Head of the Technology and Privacy Unit in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
 "image": "http://ngisummit.imgix.net/Thomas_Zerdick.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 27,
+"id": 28,
 "name": "Harry Armstrong",
 "excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
 "image": "http://ngisummit.imgix.net/Harry_Armstrong.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 28,
+"id": 29,
 "name": "Katja Bego",
 "excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
 "image": "http://ngisummit.imgix.net/Katja_Bego.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 29,
+"id": 30,
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
 "image": "http://ngisummit.imgix.net/Olivier_Bringer.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 30,
+"id": 31,
 "name": "Meeri Haataja",
 "excerpt": "Meeri is the CEO and Co-Founder of Saidot, a start-up providing technology & services on AI transparency. Saidot helps public and private organizations operate their AI registers and communicate openly of their AI. Meeri is also the chair of IEEE’s Ethics Certification Program, and an affiliate of the Berkman Klein Center for Internet & Society at Harvard University.",
 "image": "http://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 31,
+"id": 32,
 "name": "Ella Jakubowska",
 "excerpt": "Ella works in the policy team at EDRi, a coalition of civil society organisations protecting fundamental rights in the digital age. She focuses on biometics and mass surveillance, and has a background researching the intersection of social and technical systems. She previously worked in digital business transformation.",
 "image": "http://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 32,
+"id": 33,
 "name": "Mathias Vermeulen",
 "excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
 "image": "http://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 33,
+"id": 34,
 "name": "Wouter Welling",
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "http://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
