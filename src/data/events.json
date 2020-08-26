@@ -1,7 +1,7 @@
 {
   "data": [{
       "title": "Welcome to the NGI Policy Summit 2020",
-      "text": "Join us for a brief welcome from our Dutch hosts and the City of Amsterdam. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe.",
+      "text": "Join us for a brief welcome from our partners at the City of Amsterdam and the Ministry of the Interior and Kingdom Relations of the Netherlands. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe. ",
       "url": "",
       "event": {
         "start": "2020-09-28T09:30:00+02:00",
@@ -15,8 +15,8 @@
           "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Government minister (tbc) ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Raymond Knops",
+          "image": "http://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -171,19 +171,31 @@
         "type": ""
       },
       "participants": [{
-          "name": "Tamas Erkelens ",
-          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
-        },{
           "name": "Ella Jakubowska",
           "image": "http://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Speaker (tbc) ",
+          "name": "Diego Naranjo ",
           "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Speaker (tbc) ",
+          "name": "Roel Raterink ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Aik van Eemeren ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Theo Blackwell ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Areeq Chowdhury ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Ido Nap ",
           "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
@@ -327,11 +339,11 @@
           "image": "http://ngisummit.imgix.net/Asim_Hussain.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Speaker (tbc) ",
+          "name": "Janet Gunter ",
           "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Speaker (tbc) ",
+          "name": "Bas van Abel ",
           "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
