@@ -1,14 +1,14 @@
 <template>
   <div class="section px-5 md:px-0 md:section-md md:my-10 events" id="events" :style="containerStyle(data.style)">
-    <List v-if="$mq=='sm'" :header="data.title" :items="eventsData.data" image="image_url" title="title" info="text" filter="id" url="url" :search="true" type="event" :share="true" />
+    <List v-if="$mq=='sm'" :header="data.title" :items="eventsData.data.events" image="image_url" title="title" info="text" filter="title" url="url" :search="true" type="event" :share="true" />
 
     <div v-else class="wrapper md:wrapper-md bg-gray-100 rounded-lg overflow-hidden">
       <div class="events_title" :style="textStyle('title', data.style)" :class="titleClassSize(data.style)">{{data.title}}</div>
+      <p class="timezone">All times set to {{Intl.DateTimeFormat().resolvedOptions().timeZone}} timezone</p>
       <div class="flex">
-      <Timeline :custom="data" :filters="getEventFilters()" :globalStyle="globalStyle" :items="eventsData.data" :data="eventsData.data" />
+      <Timeline :custom="filtered" :filters="eventsData.data.config.filters" :globalStyle="globalStyle" :items="filtered" :data="filtered" />
       <div class="w-full flex flex-col border-l events_sidebar">
-        <Search v-if="isView('search') || $mq == 'sm'" :stylesheet="data.style" :globalStyle="globalStyle"/>
-        <Filters  :stylesheet="data.style" :items="events" :filters="getEventFilters()" :globalStyle="globalStyle" />
+        <Filters  :filters="eventsData.data.config.filters" />
       </div>
       </div>
     </div>
@@ -20,7 +20,6 @@ import axios from "axios";
 import moment from "moment";
 import List from "@/components/ui/List.vue";
 import Timeline from "@/components/ui/Timeline.vue";
-import Search from "@/components/ui/Search.vue";
 import Filters from "@/components/ui/Filters.vue";
 import { bus } from '@/main';
 
@@ -33,12 +32,12 @@ export default {
       eventsData,
       view: null,
       events: [],
+      type: null
     };
   },
    components: {
     List,
     Timeline,
-    Search,
     Filters
   },
   methods: {
@@ -115,6 +114,20 @@ export default {
   },
   created() {
     this.getEvents(this.data.tag);
+  },
+  mounted() {
+    bus.$on('filterType', (data) => {
+      this.type = data;
+    })
+  },
+  computed: {
+    filtered() {
+      if (this.type !== null) {
+        return this.eventsData.data.events.filter(x => x.event.type == this.type)
+      } else {
+        return this.eventsData.data.events
+      }
+    }
   }
 };
 </script>
@@ -128,6 +141,17 @@ export default {
     @apply text-3xl font-bold;
     color: rgb(46, 164, 138);
 
-  padding: 20px 30px !important;
+  padding: 30px 30px 0 !important;
+}
+
+.timezone {
+  @apply text-base font-bold;
+    color: black;
+
+  padding: 10px 30px 20px !important;
+}
+
+.events .wrapper, .timeline_container-md, .filters {
+  min-height: 500px;
 }
 </style>
