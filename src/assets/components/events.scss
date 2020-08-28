@@ -8,9 +8,29 @@
   }
 
   .timeline .time {
-    @apply hidden pr-3 py-4 text-xs flex-col justify-center items-center;
+    @apply hidden pr-3 text-xs flex-col items-center justify-center;
       width: 60px !important;
       flex-shrink: 0;
+      p {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      .start, .end {
+        font-weight: bold;
+      }
+  }
+
+  .item_link {
+    @apply p-2 px-3 mt-1 inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background: #2ea48a;
+    font-weight: bold;
+    &:hover {
+      cursor: pointer
+    }
   }
 
   .timeline .time-md {
@@ -137,7 +157,7 @@
     }
 
     .excerpt {
-      @apply pt-2 pb-2;
+      @apply pt-2 pb-2 text-sm pr-8;
       p {
         @apply m-0;
         &:first-child {
