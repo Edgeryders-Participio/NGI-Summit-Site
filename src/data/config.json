@@ -215,14 +215,14 @@
 "image": "https://ngisummit.imgix.net/Charlton_McIlwain.png?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 10,
+"name": "Touria Meliani",
+"excerpt": "",
+"image": "https://ngisummit.imgix.net/Touria_Meliani.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 11,
 "name": "Axel Voss",
 "excerpt": "Axel Voss has been a Member of the European Parliament since 2009. In his capacity as coordinator in the Committee on Legal Affairs, he focuses on digital policy, including data protection and artificial intelligence.",
 "image": "https://ngisummit.imgix.net/Axel_Voss.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 11,
-"name": "Ingrid Schneider",
-"excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of  Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
-"image": "https://ngisummit.imgix.net/Ingrid_Schneider.png?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 12,
 "name": "Mara Balestrini",
@@ -285,61 +285,76 @@
 "image": "https://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 24,
+"name": "Ingrid Schneider",
+"excerpt": "Ingrid Schneider is Professor of Political Science in the Center for Ethics in Information Technology in the Department of Informatics at the University of  Hamburg. Her research fields are technology assessment, governance, law, economy, and ethics of information technology on which she published numerous publications.",
+"image": "https://ngisummit.imgix.net/Ingrid_Schneider.png?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 25,
 "name": "Marleen Stikker",
 "excerpt": "Marleen Stikker founded and leads Waag, a social enterprise that consists of a research institute for creative technologies and social innovation and Waag Products, that launched companies like Fairphone, the first fair smartphone in the world. She is also founder of 'De Digitale Stad' (The Digital City) in 1993, the first virtual community introducing free public access to the Internet in Amsterdam.",
 "image": "https://ngisummit.imgix.net/Marleen_Stikker.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 25,
+"id": 26,
 "name": "Bill Thompson",
 "excerpt": "Bill Thompson is the Head of Future Value Research in BBC Research & Development, looking at how the BBC can deliver its public service mission online.  A well-known technology journalist, Bill appears regularly on Digital Planet on BBC World Service radio.  He is an Adjunct Professor at Southampton University.",
 "image": "https://ngisummit.imgix.net/Bill_Thompson.JPG?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 26,
+"id": 27,
 "name": "Tricia Wang",
 "excerpt": "Tricia is a global tech ethnographer living at the intersection of data, design, and digital. Her passion is to help organizations uncover how our bias towards the quantifiable comes at the expense of profits and people, and how to fix it.  She is the co-founder of Sudden Compass, a consulting firm that helps enterprises move at the speed of their customers by unlocking new growth opportunities in their big data with human insights in their digital transformation.",
 "image": "https://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 27,
+"id": 28,
 "name": "Marco Zappalorto",
 "excerpt": "Marco is the Chief Executive of Nesta Italia and Director of the Social Innovation Design BA at IAAD University. Marco joined Nesta in 2011 and before setting up Nesta Italia he was Head of European Development and he contributed to the set-up of Challenge Prize Centre, and led most of the Centre’s European and international work.",
 "image": "https://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 28,
+"id": 29,
 "name": "Thomas Zerdick",
 "excerpt": "Thomas is Head of the Technology and Privacy Unit in the office of the European Data Protection Supervisor. Previously, Thomas was Member of Cabinet for the European Commission's First Vice-President Timmermans with responsibilities in particular for issues relating to the Rule of Law and Fundamental Rights (including personal data protection).",
 "image": "https://ngisummit.imgix.net/Thomas_Zerdick.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 29,
+"id": 30,
 "name": "Harry Armstrong",
 "excerpt": "Harry currently leads Nesta’s futures and emerging technology work. His work explores the potential impacts of new technology and innovations, like Artificial Intelligence (AI), on industry, society and the economy with a goal to supporting responsible innovation in a wide range of sectors.",
 "image": "https://ngisummit.imgix.net/Harry_Armstrong.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 30,
+"id": 31,
 "name": "Katja Bego",
 "excerpt": "Katja Bego is a Principal Researcher and data scientist in Nesta’s technology futures and explorations team. She leads the European Commission-funded NGI Forward project, tasked with helping shape the funding and research agenda of the Next Generation Internet initiative.",
 "image": "https://ngisummit.imgix.net/Katja_Bego.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 31,
+"id": 32,
 "name": "Olivier Bringer",
 "excerpt": "Olivier is Head of the NGI Unit at DG Connect, European Commission.",
 "image": "https://ngisummit.imgix.net/Olivier_Bringer.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 32,
+"id": 33,
 "name": "Meeri Haataja",
 "excerpt": "Meeri is the CEO and Co-Founder of Saidot, a start-up providing technology & services on AI transparency. Saidot helps public and private organizations operate their AI registers and communicate openly of their AI. Meeri is also the chair of IEEE’s Ethics Certification Program, and an affiliate of the Berkman Klein Center for Internet & Society at Harvard University.",
 "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 33,
+"id": 34,
 "name": "Ella Jakubowska",
 "excerpt": "Ella works in the policy team at EDRi, a coalition of civil society organisations protecting fundamental rights in the digital age. She focuses on biometics and mass surveillance, and has a background researching the intersection of social and technical systems. She previously worked in digital business transformation.",
 "image": "https://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 34,
+"id": 35,
+"name": "Giacomo Mariotti",
+"excerpt": "Giacomo leads the Tech for Good innovation area at Nesta Italia, where he designs and runs innovation programs on a local, national and international scale to promote the use of emerging technologies to address social challenges and create tangible impact. Before joining Nesta Italia in 2020, he worked as a consultant for QuantumBlack, the advanced analytics arm of McKinsey.",
+"image": "https://ngisummit.imgix.net/Giacomo_Mariotti.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 36,
+"name": "Cristina Pozzi",
+"excerpt": "Impactscool co-founder and CEO, Cristina is a social entrepreneur engaged in the future of education and in education about the future, giving students, citizens and organizations the tools to responsibly shape the most desirable future for society and individuals.",
+"image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 37,
 "name": "Mathias Vermeulen",
 "excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
 "image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 35,
+"id": 38,
 "name": "Wouter Welling",
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
