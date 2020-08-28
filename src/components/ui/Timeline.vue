@@ -4,29 +4,18 @@
   <div class="timeline"  id="events_container">
 
     <div class="ml-8">
-    <div class="filters md:filters-md mb-4 w-full" v-if="filtered()">
-      <div class="filter_icon"></div>
-      <div class="filter type" v-if="type" @click="clear('type')">
-        <p class="key">type</p><p>{{type}}</p>
-      </div>
-      <div class="filter type" v-if="selectedDate" @click="clear('selectedDate')">
-        <p class="key">date</p><p>{{selectedDate | formatDate}}</p>
-      </div>
-      <div class="filter location" v-if="location" @click="clear(location)">
-        <p class="key">location</p><p>{{location}}</p>
-      </div>
-      <div class="filter search" v-if="search" @click="search = ''">
-        <p class="key">search</p><p>{{search}}</p>
-      </div>
-    </div>
 
     <transition-group name="list" tag="div" class="events_list">
-    <div v-for="(item, index) in filteredItems" :key='index' class="day md:day-md" :class="{active: isActive(item.event.start) }" :style="textStyle('paragraph', custom.style)">
+    <div v-for="(item, index) in items" :key='index' class="day md:day-md" :class="{active: isActive(item.event.start) }" :style="textStyle('paragraph', custom.style)">
       <h4 v-if="newDate(index, item.event.start)" class="md:pb-4 font-bold" :class="{'first_date': index == 0}" :id="'day-' + dateId(item.event.start)">{{item.event.start | formatDate}}</h4>
       <div class="event md:event-md">
-        <div class="time md:time-md">{{item.event.start | formatTime}}</div>
+        <div class="time md:time-md">
+          <p class="start">{{item.event.start | formatTime}} </p>
+          <p>to</p>
+          <p class="end"> {{item.event.end | formatTime}}</p>
+        </div>
 
-        <div class="info md:info-md" :style="hoverStyle(custom.style)">
+        <div class="info md:info-md" :style="{borderColor: getColor(item.event.type)}">
           <div class="block ml-4 mr-6">
             <p class="event_title">{{item.title}}</p>
             <div class="participants block w-full">
@@ -39,9 +28,9 @@
           </div>
           <div class="description md:description-md">
             <div class="excerpt" v-if="item.text">
-              <p>{{item.event.start | formatDate}} at {{item.event.start | formatTime}}</p>
+              <p>{{item.event.start | formatDate}} - from {{item.event.start | formatTime}} to {{item.event.end | formatTime}} ({{Intl.DateTimeFormat().resolvedOptions().timeZone}})</p>
               <p class="mt-2 pb-2 mt-6 w-full">{{item.text}}</p>
-              <a class="read_more" v-if="item.url" :href="item.url" target="_blank" :style="uiStyle('highlight', custom.style)">Find out more</a>
+              <a class="item_link" v-if="item.link" :href="item.link.url" target="_blank">{{item.link.text}}</a>
             </div>
           </div>
         </div>
@@ -94,17 +83,14 @@ export default {
       }
       return obj;
     },
-    getTags(tags){
-      let array = tags.map(function(tag) {
-        return tag.name
-      })
-      return array
+    getColor(type) {
+      return this.filters.filter(x => x.type == type)[0].color
     },
     clear(key){
       this[key] = null;
     },
     newDate(index, date){
-      var prevIndex = this.filteredItems[index-1];
+      var prevIndex = this.items[index-1];
       if (index == 0 || moment(prevIndex.event.start).format("YYYY-MM-DD") !== moment(date).format("YYYY-MM-DD")) {
       return true;
       } else {
@@ -192,40 +178,6 @@ export default {
       } else {
         return null
       }
-    },
-    filteredItems() {
-
-      let filtered = this.items;
-
-      if (this.selectedDate != null) {
-           filtered = filtered.filter(e => moment(e.event.start).format("YYYYMMDD") == this.selectedDate);
-      }
-
-      if (this.search != "") {
-           filtered = filtered.filter(e => e.title.toLowerCase().includes(this.search.toLowerCase()))
-      }
-
-      if (this.location != null) {
-           filtered = filtered.filter(e => e.location == this.location)
-      }
-
-      if (this.type != null) {
-        var type = this.type;
-        var self = this;
-
-        var test = filtered.filter(function(obj) {
-          var tags = self.getTags(obj.tags);
-          var x = tags.includes(type);
-          if (x) {
-            return obj
-          }
-        })
-
-        filtered = test;
-      }
-
-      return filtered
-
     }
   },
   watch: {
@@ -322,6 +274,7 @@ export default {
 .event {
   width: 100%;
   .info {
+    border-left-width: 5px;
     transition: border .4s ease;
   }
   .title a {
@@ -398,8 +351,11 @@ a.read_more {
   border-top: 1px dashed rgba(0,0,0,0.08);
 }
 .participant {
-  @apply inline-flex items-center mr-4 text-sm ;
+  @apply inline-flex items-center mr-4 text-sm mt-1 ;
   font-weight: 100;
+  p {
+    margin: 0
+  }
   .avatar {
     @apply float-left inline-block mr-2;
     width: 22px;

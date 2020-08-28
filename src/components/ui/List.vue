@@ -39,9 +39,9 @@
         <button class="list_back_toggle"></button>
         <h3 v-if="type == 'user'">{{selected[title]}}</h3>
         <div class="share_links mr-4" v-if="share">
-          <a class="social twitter" :href="'https://twitter.com/intent/tweet?url=' + selected[url] + '&text=' + selected[title]"></a>
-          <a class="social facebook" :href="'https://www.facebook.com/sharer/sharer.php?u=' + selected[url]"></a>
-          <a class="social email" :href="'mailto:?subject=' + selected[title] + '&body=' + selected[url]"></a>
+          <a class="social twitter" :href="'https://twitter.com/intent/tweet?url=https://summit.ngi.eu/&text=' + selected[title] + ' Regster at - https://summit.ngi.eu'" target="_blank"></a>
+          <a class="social facebook" :href="'https://www.facebook.com/sharer/sharer.php?u=https://summit.ngi.eu'" target="_blank"></a>
+          <a class="social email" :href="'mailto:?subject=' + selected[title] + '&body=' + selected[title] + 'Register at https://summit.ngi.eu'" target="_blank"></a>
         </div>
       </div>
       <div v-if="selected" class="list_item_info">
@@ -50,8 +50,24 @@
           <h3>{{selected[title]}}</h3>
           <p v-if="selected.event">{{ formatDate(selected.event.start) }} at {{ formatTime(selected.event.start) }}</p>
         </div>
-        <p class="list_item_description">{{selected[info]}}</p>
-        <a v-if="url && type=='event'" class="event_url" :href="selected[url]" target="_blank">Find out more</a>
+        <div class="list_item_description">
+
+          {{selected[info]}}
+
+        
+          <div class="speakers" v-if="selected.participants">
+              <h3>Speakers</h3>
+           <div class="participant" v-for="(person, index) in selected.participants" :key="index">
+                <div class="avatar" v-if="person.image !== null" :style="{background: 'url(' + person.image + ')'}"></div>
+                <a :href="person.url" target="_blank" v-if="person.url">{{person.name}}</a>
+                <p v-else>{{person.name}}</p>
+              </div>
+          </div>
+
+
+        </div>
+
+        <a v-if="selected.link && type=='event'" class="event_url" :href="selected.link.url" target="_blank">{{selected.link.text}}</a>
         <a v-if="url && selected[url] && type!='event'" class="list_item_url mt-4" :href="selected[url]" target="_blank">Read More</a>
 
       </div>
@@ -121,6 +137,36 @@ export default {
 .mobile_list {
   @apply relative;
   width: 100%;
+}
+
+.speakers {
+  h3 {
+    @apply font-bold mb-2 border-b pb-3 mt-4 mb-0;
+  }
+  .participant {
+    @apply border-b flex items-center py-4;
+    &:last-child {
+    border: none
+  }
+    .avatar {
+      @apply mr-4;
+      width: 30px;
+      height: 30px;
+      background-size: cover !important;
+      border-radius: 100px;
+      display: inline-block;
+    }
+    p, a {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    @apply text-base;
+  }
+  }
+}
+
+.list_container {
+  overflow: scroll;
 }
 
 .list_container, .list_slide {
