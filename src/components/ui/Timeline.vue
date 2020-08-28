@@ -84,7 +84,11 @@ export default {
       return obj;
     },
     getColor(type) {
+      if (this.filters.filter(x => x.type == type)[0]) {
       return this.filters.filter(x => x.type == type)[0].color
+    } else {
+      return 'black'
+    }
     },
     clear(key){
       this[key] = null;
