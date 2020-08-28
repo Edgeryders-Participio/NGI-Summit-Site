@@ -340,21 +340,36 @@
 "image": "https://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 35,
+"name": "Amba Kak",
+"excerpt": "Amba is currently Director of Global Policy & Programs at AI Now Institute at New York University where she develops and leads the Institute’s global policy engagement, programs, and partnerships. She is also a fellow at the NYU Law School, on the Strategy Advisory Committee for the Mozilla Foundations and a former Google policy fellow.",
+"image": "https://ngisummit.imgix.net/Amba_Kak.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 36,
 "name": "Giacomo Mariotti",
 "excerpt": "Giacomo leads the Tech for Good innovation area at Nesta Italia, where he designs and runs innovation programs on a local, national and international scale to promote the use of emerging technologies to address social challenges and create tangible impact. Before joining Nesta Italia in 2020, he worked as a consultant for QuantumBlack, the advanced analytics arm of McKinsey.",
 "image": "https://ngisummit.imgix.net/Giacomo_Mariotti.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 36,
+"id": 37,
+"name": "Iris Muis",
+"excerpt": "Iris is Coordinator of the Data Ethics Decision Aid (DEDA) at Utrecht Data School. DEDA is a tool for assessing the ethical implications of data projects within public management. Utrecht Data School is a research and teaching platform within the Humanities Faculty at Utrecht University. Iris' research focuses mainly on qualitatively studying the implementation of data ethics within Dutch government institutions.",
+"image": "https://ngisummit.imgix.net/Iris_Muis.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 38,
 "name": "Cristina Pozzi",
 "excerpt": "Impactscool co-founder and CEO, Cristina is a social entrepreneur engaged in the future of education and in education about the future, giving students, citizens and organizations the tools to responsibly shape the most desirable future for society and individuals.",
 "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 37,
+"id": 39,
+"name": "Mirko Tobias Schäfer",
+"excerpt": "Mirko is Associate Professor at Utrecht University's research area on Governing the Digital Society. He is co-founder and project leader of the Utrecht Data School. Mirko's research interest revolves around the socio-political impact of (media) technology. With the Utrecht Data School and the Datafied Society research platform, he investigates the impact of data practices and algorithms on public management, public media and public space.",
+"image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 40,
 "name": "Mathias Vermeulen",
 "excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
 "image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 38,
+"id": 41,
 "name": "Wouter Welling",
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
