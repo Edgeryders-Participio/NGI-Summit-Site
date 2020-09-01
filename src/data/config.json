@@ -360,44 +360,49 @@
 "image": "https://ngisummit.imgix.net/Iris_Muis.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
 "id": 39,
-"name": "Cristina Pozzi",
-"excerpt": "Impactscool co-founder and CEO, Cristina is a social entrepreneur engaged in the future of education and in education about the future, giving students, citizens and organizations the tools to responsibly shape the most desirable future for society and individuals.",
-"image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 40,
-"name": "Iskander Smit",
-"excerpt": "Iskander is Innovation Director at INFO, an agency in Amsterdam that crafts connected digital products and services. Iskander is responsible for research and development and leading LABS. He is also Visiting Professor at Delft University of Technology Faculty of Industrial Design, researching Cities of Things. He is Chairman of the Dutch chapter of Thingscon.",
-"image": "https://ngisummit.imgix.net/Iskander_Smit3.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 41,
-"name": "Mirko Tobias Schäfer",
-"excerpt": "Mirko is Associate Professor at Utrecht University's research area on Governing the Digital Society. He is co-founder and project leader of the Utrecht Data School. Mirko's research interest revolves around the socio-political impact of (media) technology. With the Utrecht Data School and the Datafied Society research platform, he investigates the impact of data practices and algorithms on public management, public media and public space.",
-"image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 42,
-"name": "Mathias Vermeulen",
-"excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
-"image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 43,
-"name": "Wouter Welling",
-"excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
-"image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
-}, {
-"id": 44,
 "name": "Diego Naranjo",
 "excerpt": "Diego joined EDRi in October 2014 where he works as Head of Policy. He leads the policy team work for the protection of citizens' fundamental rights and freedoms online in the fields of data protection, surveillance and copyright and other dossiers.",
 "image": "https://ngisummit.imgix.net/Diego_Naranjo.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 45,
+"id": 40,
+"name": "Cristina Pozzi",
+"excerpt": "Impactscool co-founder and CEO, Cristina is a social entrepreneur engaged in the future of education and in education about the future, giving students, citizens and organizations the tools to responsibly shape the most desirable future for society and individuals.",
+"image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 41,
 "name": "Roel Raterink",
 "excerpt": "Roel is EU Advisory for Innovation at the City of Amsterdam. He believes cities worldwide can play a role in defending the interests of citizens in the digital world, and in ending the trading of personal data for commercial purposes.",
 "image": "https://ngisummit.imgix.net/Roel_Raterink.jpg?fit=facearea&w=400&h=400&facepad=3"
 }, {
-"id": 46,
+"id": 42,
+"name": "Iskander Smit",
+"excerpt": "Iskander is Innovation Director at INFO, an agency in Amsterdam that crafts connected digital products and services. Iskander is responsible for research and development and leading LABS. He is also Visiting Professor at Delft University of Technology Faculty of Industrial Design, researching Cities of Things. He is Chairman of the Dutch chapter of Thingscon.",
+"image": "https://ngisummit.imgix.net/Iskander_Smit3.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 43,
+"name": "Mirko Tobias Schäfer",
+"excerpt": "Mirko is Associate Professor at Utrecht University's research area on Governing the Digital Society. He is co-founder and project leader of the Utrecht Data School. Mirko's research interest revolves around the socio-political impact of (media) technology. With the Utrecht Data School and the Datafied Society research platform, he investigates the impact of data practices and algorithms on public management, public media and public space.",
+"image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 44,
 "name": "Aik van Eemeren",
 "excerpt": "Aik is the PublicTech Lead at the Chief Technology Office of the City of Amsterdam. The PublicTech program studies the impact of new technology in the city, trials new technology and invests in knowledge and skills to analyse risk.",
 "image": "https://ngisummit.imgix.net/Aik_van_Eemeren.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 45,
+"name": "Mathias Vermeulen",
+"excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
+"image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 46,
+"name": "Wouter Welling",
+"excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
+"image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 47,
+"name": "Roberta Cocco",
+"excerpt": "Roberta is Municipal Deputy Mayor for Digital Transformation and Services to Citizens of Milan. She is a Professor of Brand Management at the University LIUC in Castellanza. She began her career with Microsoft Italia, where she moved through a series of increasingly strategic roles.",
+"image": "https://ngisummit.imgix.net/Roberta_Cocco.jpg?fit=facearea&w=400&h=400&facepad=3"
 }],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
