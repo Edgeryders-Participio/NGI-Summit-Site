@@ -383,6 +383,21 @@
 "name": "Wouter Welling",
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 44,
+"name": "Diego Naranjo",
+"excerpt": "Diego joined EDRi in October 2014 where he works as Head of Policy. He leads the policy team work for the protection of citizens' fundamental rights and freedoms online in the fields of data protection, surveillance and copyright and other dossiers.",
+"image": "https://ngisummit.imgix.net/Diego_Naranjo.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 45,
+"name": "Roel Raterink",
+"excerpt": "Roel is EU Advisory for Innovation at the City of Amsterdam. He believes cities worldwide can play a role in defending the interests of citizens in the digital world, and in ending the trading of personal data for commercial purposes.",
+"image": "https://ngisummit.imgix.net/Roel_Raterink.jpg?fit=facearea&w=400&h=400&facepad=3"
+}, {
+"id": 46,
+"name": "Aik van Eemeren",
+"excerpt": "Aik is the PublicTech Lead at the Chief Technology Office of the City of Amsterdam. The PublicTech program studies the impact of new technology in the city, trials new technology and invests in knowledge and skills to analyse risk.",
+"image": "https://ngisummit.imgix.net/Aik_van_Eemeren.jpg?fit=facearea&w=400&h=400&facepad=3"
 }],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
