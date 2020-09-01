@@ -198,8 +198,8 @@
           "image": "https://ngisummit.imgix.net/Aik_van_Eemeren.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Theo Blackwell ",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Theo Blackwell",
+          "image": "https://ngisummit.imgix.net/Theo_Blackwell.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Areeq Chowdhury ",
@@ -208,6 +208,34 @@
         },{
           "name": "Ido Nap ",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] Learnings from critical making - Good Things for the Next Generation Internet",
+      "text": "",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T15:30:00+02:00",
+        "end": "2020-09-28T16:15:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Fringe"
+      },
+      "participants": [{
+          "name": "Iskander Smit",
+          "image": "http://ngisummit.imgix.net/Iskander_Smit3.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Simon Höher",
+          "image": "http://ngisummit.imgix.net/Simon_Hoeher.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Andrea Krajewski",
+          "image": "http://ngisummit.imgix.net/Andrea-Krajewski.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Lorna Goulden ",
+          "image": "http://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -258,8 +286,12 @@
           "image": "https://ngisummit.imgix.net/Amba_Kak.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Roel Dobbe ",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Roel Dobbe",
+          "image": "https://ngisummit.imgix.net/Roel_Dobbe.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Meeri Haataja",
+          "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
