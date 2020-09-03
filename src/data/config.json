@@ -40,11 +40,11 @@
       },
       "title": "Next Generation Internet <br>Policy Summit",
       "text": {
-        "content": "<p><strong>Register your interest now</strong> for the NGI Policy Summit 2020, hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong><br><p>Online</p><p>Free of charge</p>",
+        "content": "<p><strong>Register now</strong> for the NGI Policy Summit 2020, hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong><br><p>Online</p><p>Free of charge</p>",
         "align": "left",
         "buttons": [
           {
-            "text": "Register interest",
+            "text": "Register",
             "url": "https://summit.ngi.eu/register/",
             "background": "rgb(255, 219, 106)",
             "color": "#333"
@@ -82,7 +82,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>Bringing together a coalition of internet changemakers from 28-29 September, the Summit will lay out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. <a href=\"https://summit.ngi.eu/register/\" class=\"underline\">Register your interest now to join us online</a>.</p><p align=\"center\"><iframe style=\"height: 41vw;width: 100%;max-width: 800px;max-height: 450px;\" src=\"https://www.youtube-nocookie.com/embed/ASAuRjT71N8?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>",
+        "content": "<p>Bringing together a coalition of internet changemakers from 28-29 September, the Summit will lay out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. <a href=\"https://summit.ngi.eu/register/\" class=\"underline\">Register now to join us online</a>.</p><p align=\"center\"><iframe style=\"height: 41vw;width: 100%;max-width: 800px;max-height: 450px;\" src=\"https://www.youtube-nocookie.com/embed/ASAuRjT71N8?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>",
         "position": "left",
         "buttons": []
       }
