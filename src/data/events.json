@@ -9,7 +9,7 @@
           "type": "Keynote",
           "color": "#68e190"
         }  ,      {
-          "type": "Fringe",
+          "type": "Practical session",
           "color": "#ece571"
         }
       ]
@@ -23,14 +23,14 @@
         "end": "2020-09-28T09:55:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Touria Meliani, City Of Amsterdam",
           "image": "https://ngisummit.imgix.net/Touria_Meliani.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Raymond Knops, Government of Netherlands",
+          "name": "Raymond Knops, Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
@@ -43,7 +43,7 @@
         "end": "2020-09-28T10:30:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Katja Bego, Nesta",
@@ -83,7 +83,7 @@
         "end": "2020-09-28T11:50:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Olivier Bringer, DG Connect",
@@ -111,7 +111,7 @@
         "end": "2020-09-28T13:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Axel Voss, European Parliament",
@@ -139,7 +139,7 @@
         "end": "2020-09-28T14:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Marco Zappalorto, Nesta Italia",
@@ -159,7 +159,7 @@
         "end": "2020-09-28T15:30:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Wouter Welling, Ministry of the Interior and Kingdom Relations",
@@ -175,7 +175,7 @@
         "end": "2020-09-28T16:15:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Ella Jakubowska, European Digital Rights (EDRi)",
@@ -211,7 +211,7 @@
         "end": "2020-09-28T16:15:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Iskander Smit, INFO",
@@ -243,7 +243,7 @@
         "end": "2020-09-28T17:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Malcolm Bain, Across Legal",
@@ -271,7 +271,7 @@
         "end": "2020-09-29T10:15:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Mathias Vermeulen, Mozilla Foundation",
@@ -299,7 +299,7 @@
         "end": "2020-09-29T11:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Meeri Haataja, Saidot",
@@ -327,7 +327,7 @@
         "end": "2020-09-29T11:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Fringe"
+        "type": "Practical session"
       },
       "participants": [{
           "name": "Giacomo Mariotti, Nesta Italia",
@@ -347,7 +347,7 @@
         "end": "2020-09-29T13:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Rasmus Kleis Nielsen, Reuters Institute",
@@ -371,7 +371,7 @@
         "end": "2020-09-29T14:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Asim Hussain, Microsoft",
@@ -399,7 +399,7 @@
         "end": "2020-09-29T15:35:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Charlton McIlwain, NYU Steinhardt",
@@ -410,7 +410,7 @@
           "image": "https://ngisummit.imgix.net/Frederike_Kaltheuner.jpeg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Tricia Wang, University of Harvard",
+          "name": "Tricia Wang, Harvard University",
           "image": "https://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
@@ -423,7 +423,7 @@
         "end": "2020-09-29T16:25:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Roberta Cocco, City of Milan",
@@ -451,7 +451,7 @@
         "end": "2020-09-29T17:20:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Plenary"
+        "type": "Vision"
       },
       "participants": [{
           "name": "Toomas Hendrik Ilves, Hoover Institution",
