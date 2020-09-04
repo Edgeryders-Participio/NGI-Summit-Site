@@ -3,7 +3,7 @@
     "config": {
       "filters": [
         {
-          "type": "Plenary",
+          "type": "Vision",
           "color": "#4aa69d"
         }   ,     {
           "type": "Keynote",
