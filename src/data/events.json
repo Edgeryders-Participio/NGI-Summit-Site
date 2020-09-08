@@ -28,11 +28,11 @@
       "participants": [{
           "name": "Touria Meliani, City Of Amsterdam",
           "image": "https://ngisummit.imgix.net/Touria_Meliani.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/touriameliani"
         },{
           "name": "Raymond Knops, Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/raymondknops"
         }]
     },{
       "title": "Visions for the future Internet: what if?",
@@ -48,15 +48,15 @@
       "participants": [{
           "name": "Katja Bego, Nesta",
           "image": "https://ngisummit.imgix.net/Katja_Bego.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/katjabego"
         },{
           "name": "Marleen Stikker, WAAG",
           "image": "https://ngisummit.imgix.net/Marleen_Stikker.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/marleenstikker"
         },{
           "name": "Juha Leppänen, Demos Helsinki",
           "image": "https://ngisummit.imgix.net/Juha_Leppanen.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/juhaleppanen"
         }]
     },{
       "title": "Keynote: European Commission",
@@ -92,15 +92,15 @@
         },{
           "name": "Ingrid Schneider, University of Hamburg",
           "image": "https://ngisummit.imgix.net/Ingrid_Schneider.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/schneideringrid"
         },{
           "name": "Sylvie Delacroix, Birmingham Law School",
           "image": "https://ngisummit.imgix.net/Sylvie_Delacroix.jpeg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/SylvieDelacroix"
         },{
           "name": "Jaya Klara Brekke, University of Durham",
           "image": "https://ngisummit.imgix.net/Jaya_Klara_Brekke.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/jayapapaya"
         }]
     },{
       "title": "A digital roadmap for 2030: defining Europe’s role after COVID-19",
@@ -116,27 +116,27 @@
       "participants": [{
           "name": "Axel Voss, European Parliament",
           "image": "https://ngisummit.imgix.net/Axel_Voss.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/AxelVossMdEP"
         },{
           "name": "Anu Bradford, Columbia Law School",
           "image": "https://ngisummit.imgix.net/Anu_Bradford.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/anubradford"
         },{
           "name": "Mara Balestrini, Mara Balestrini",
           "image": "https://ngisummit.imgix.net/Mara_Balestrini.webp?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/marabales"
         },{
-          "name": "Speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "name": "Thomas Zerdick, European Data Protection Supervisor",
+          "image": "https://ngisummit.imgix.net/Thomas_Zerdick.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/tzerdick"
         }]
     },{
       "title": "Decentralising the internet: the 'Blockchains for Social Good' prize",
       "text": "With the 'Blockchains for Social Good' Prize, the European Innovatoin Council (EIC) recognises and supports the recent efforts of developers and civil society to decentralise and apply blockchains for social innovation. Meet the winners of €5 million award and join us for a brief look at the six challenge areas that our innovators are tackling: traceability and fair trade, financial inclusion, decentralised circular economy, transparency of public processes, participation in democratic decision-making, and management of public records.",
       "url": "",
       "event": {
-        "start": "2020-09-28T14:00:00+02:00",
-        "end": "2020-09-28T14:45:00+02:00",
+        "start": "2020-09-28T13:00:00+02:00",
+        "end": "2020-09-28T13:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Vision"
@@ -144,7 +144,7 @@
       "participants": [{
           "name": "Marco Zappalorto, Nesta Italia",
           "image": "https://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/MarcoZapp"
         },{
           "name": "European Commission speaker (tbc)",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
@@ -164,7 +164,7 @@
       "participants": [{
           "name": "Wouter Welling, Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/wouterwelling"
         }]
     },{
       "title": "[Workshop] Biometrics and facial recognition in cities",
@@ -180,26 +180,30 @@
       "participants": [{
           "name": "Ella Jakubowska, European Digital Rights (EDRi)",
           "image": "https://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/ellajakubowska1"
         },{
           "name": "Diego Naranjo, European Digital Rights (EDRi)",
           "image": "https://ngisummit.imgix.net/Diego_Naranjo.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/dnbsevilla"
         },{
           "name": "Roel Raterink, City Of Amsterdam",
           "image": "https://ngisummit.imgix.net/Roel_Raterink.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/roelraterink"
         },{
           "name": "Aik van Eemeren, City Of Amsterdam",
           "image": "https://ngisummit.imgix.net/Aik_van_Eemeren.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/aikvaneemeren"
         },{
           "name": "Theo Blackwell, Greater London Authority",
           "image": "https://ngisummit.imgix.net/Theo_Blackwell.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/ldn_cdo"
         },{
           "name": "Areeq Chowdhury",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Ido Nap, Dutch Police",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -216,23 +220,23 @@
       "participants": [{
           "name": "Iskander Smit, INFO",
           "image": "https://ngisummit.imgix.net/Iskander_Smit3.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/iskandr"
         },{
           "name": "Simon Höher, zero360",
           "image": "https://ngisummit.imgix.net/Simon_Hoeher.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/jimmiehu"
         },{
           "name": "Andrea Krajewski, University of Applied Sciences Darmstadt",
           "image": "https://ngisummit.imgix.net/Andrea-Krajewski.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/krajewski"
         },{
           "name": "Lorna Goulden, Lumo Labs",
           "image": "https://ngisummit.imgix.net/Lorna_Goulden.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/lornagoulden"
         },{
           "name": "Peter Bihr, The Waving Cat",
           "image": "https://ngisummit.imgix.net/Peter_Bihr.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/peterbihr"
         }]
     },{
       "title": "[Workshop] Data-sharing in cities",
@@ -276,19 +280,19 @@
       "participants": [{
           "name": "Mathias Vermeulen, Mozilla Foundation",
           "image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/mathver"
         },{
           "name": "Amba Kak, New York University",
           "image": "https://ngisummit.imgix.net/Amba_Kak.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/ambaonadventure"
         },{
           "name": "Roel Dobbe, TU Delft",
           "image": "https://ngisummit.imgix.net/Roel_Dobbe.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/roeldobbe"
         },{
           "name": "Meeri Haataja, Saidot",
           "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/meerihaataja"
         }]
     },{
       "title": "[Workshop] AI and public control II: tools for AI accountability",
@@ -304,15 +308,15 @@
       "participants": [{
           "name": "Meeri Haataja, Saidot",
           "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/meerihaataja"
         },{
           "name": "Jeroen Naves, Pels Rijcken",
           "image": "https://ngisummit.imgix.net/Jeroen_Naves.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/jeroennaves"
         },{
           "name": "Mirko Tobias Schäfer, Utrecht Data School",
           "image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/mirkoschaefer"
         },{
           "name": "Iris Muis, Utrecht Data School",
           "image": "https://ngisummit.imgix.net/Iris_Muis.jpg?fit=facearea&w=100&h=100&facepad=3",
@@ -332,11 +336,11 @@
       "participants": [{
           "name": "Giacomo Mariotti, Nesta Italia",
           "image": "https://ngisummit.imgix.net/Giacomo_Mariotti.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/mariotti_gm"
         },{
           "name": "Cristina Pozzi, Impactscool",
           "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/cripozzi81"
         }]
     },{
       "title": "Have I still got news for you? Preserving trust, journalism and the public sphere",
@@ -352,15 +356,15 @@
       "participants": [{
           "name": "Rasmus Kleis Nielsen, Reuters Institute",
           "image": "https://ngisummit.imgix.net/Rasmus_Kleis_Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/rasmus_kleis"
         },{
           "name": "Anna-Sophie Harling, NewsGuard",
           "image": "https://ngisummit.imgix.net/Anna_Sophie_Harling.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/asharling"
         },{
           "name": "Geert-Jan Bogaerts, PublicSpaces",
           "image": "https://ngisummit.imgix.net/Geert_Jan_Bogaerts.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/gjbogaerts"
         }]
     },{
       "title": "Europe's twin transition: creating a sustainable digital future ",
@@ -376,15 +380,15 @@
       "participants": [{
           "name": "Asim Hussain, Microsoft",
           "image": "https://ngisummit.imgix.net/Asim_Hussain.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/jawache"
         },{
           "name": "Janet Gunter, Restart Project",
           "image": "https://ngisummit.imgix.net/Janet_Gunter.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/JanetGunter"
         },{
           "name": "Bas van Abel, De Clique",
           "image": "https://ngisummit.imgix.net/Bas_van_Abel.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/basvanabel"
         },{
           "name": "Speaker (tbc)",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
@@ -404,15 +408,15 @@
       "participants": [{
           "name": "Charlton McIlwain, NYU Steinhardt",
           "image": "https://ngisummit.imgix.net/Charlton_McIlwain.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/cmcilwain"
         },{
           "name": "Frederike Kaltheuner, Mozilla",
           "image": "https://ngisummit.imgix.net/Frederike_Kaltheuner.jpeg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/F_Kaltheuner"
         },{
           "name": "Tricia Wang, Harvard University",
           "image": "https://ngisummit.imgix.net/Tricia_Wang.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/triciawang"
         }]
     },{
       "title": "Tackling the city challenge: cities for digital rights",
@@ -428,11 +432,11 @@
       "participants": [{
           "name": "Roberta Cocco, City of Milan",
           "image": "https://ngisummit.imgix.net/Roberta_Cocco.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/robi_cocco"
         },{
           "name": "Maarten Sukel, City Of Amsterdam",
           "image": "https://ngisummit.imgix.net/Maarten_Sukel.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/maartensukel"
         },{
           "name": "City of Bordeaux speaker (tbc)",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
@@ -456,11 +460,11 @@
       "participants": [{
           "name": "Toomas Hendrik Ilves, Hoover Institution",
           "image": "https://ngisummit.imgix.net/Toomas_Ilves.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/IlvesToomas"
         },{
           "name": "Eva Kaili, European Parliament",
           "image": "https://ngisummit.imgix.net/Eva_Kaili.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/evakaili"
         },{
           "name": "Lalana Kagal, Massachusetts Institute of Technology",
           "image": "https://ngisummit.imgix.net/Lalana_Kagal.jpg?fit=facearea&w=100&h=100&facepad=3",
@@ -468,7 +472,7 @@
         },{
           "name": "Gus Hosein, Privacy International",
           "image": "https://ngisummit.imgix.net/Gus_Hosein.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/gushosein"
         }]
     },{
       "title": "Towards a more inclusive internet: a call to action",
@@ -484,7 +488,7 @@
       "participants": [{
           "name": "Payal Arora, Erasmus University Rotterdam",
           "image": "https://ngisummit.imgix.net/Payal_Arora.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/3lmantra"
         }]
     }  ]
 }}
