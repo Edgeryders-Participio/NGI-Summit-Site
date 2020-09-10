@@ -104,7 +104,7 @@
         }]
     },{
       "title": "A digital roadmap for 2030: defining Europe’s role after COVID-19",
-      "text": "A scene-setting panel discussion of current and upcoming digital policy proposals from across Europe and MS. This will also serve to map out the road to 2030, looking at some of the big policy problems that will need to be resolved over the coming years, including on the conference’s main topics.",
+      "text": "A scene-setting panel discussion of current and upcoming digital policy proposals from across Europe and Member States. This will also serve to map out the road to 2030, looking at some of the big policy problems that will need to be resolved over the coming years, including on the conference’s main topics.",
       "url": "",
       "event": {
         "start": "2020-09-28T12:00:00+02:00",
@@ -122,7 +122,7 @@
           "image": "https://ngisummit.imgix.net/Anu_Bradford.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/anubradford"
         },{
-          "name": "Mara Balestrini, Mara Balestrini",
+          "name": "Mara Balestrini, Independent Advisor",
           "image": "https://ngisummit.imgix.net/Mara_Balestrini.webp?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/marabales"
         },{
@@ -132,7 +132,7 @@
         }]
     },{
       "title": "Decentralising the internet: the 'Blockchains for Social Good' prize",
-      "text": "With the 'Blockchains for Social Good' Prize, the European Innovatoin Council (EIC) recognises and supports the recent efforts of developers and civil society to decentralise and apply blockchains for social innovation. Meet the winners of €5 million award and join us for a brief look at the six challenge areas that our innovators are tackling: traceability and fair trade, financial inclusion, decentralised circular economy, transparency of public processes, participation in democratic decision-making, and management of public records.",
+      "text": "With the 'Blockchains for Social Good' Prize, the European Innovation Council (EIC) recognises and supports the recent efforts of developers and civil society to decentralise and apply blockchains for social innovation. Meet the winners of €5 million award and join us for a brief look at the six challenge areas that our innovators are tackling: traceability and fair trade, financial inclusion, decentralised circular economy, transparency of public processes, participation in democratic decision-making, and management of public records.",
       "url": "",
       "event": {
         "start": "2020-09-28T13:00:00+02:00",
@@ -155,8 +155,8 @@
       "text": "The Netherlands has recently developed a vision for digital identity that allows for experimentation. In this workshop, presented by officials from the Dutch Ministry of the Interior, participants will learn about this vision and opportunities for international cooperation in the realm of Self-Sovereign Identity (SSI). We will also discuss an international use case in the European Blockchain Partnership.",
       "url": "",
       "event": {
-        "start": "2020-09-28T14:45:00+02:00",
-        "end": "2020-09-28T15:30:00+02:00",
+        "start": "2020-09-28T14:00:00+02:00",
+        "end": "2020-09-28T15:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -171,8 +171,8 @@
       "text": "Across the EU, highly intrusive and legally questionable biometric processing technologies, including facial recognition, are quietly becoming ubiquitous in our public and publicly-accessible spaces. In this special session with European Digital Rights (EDRi), a network of 44 civil society digital rights organisations, we will provide an update on the present situation, and together with policy makers from across Europe, discuss different scenarios for the role that biometrics might play in cities in the near future. We will explore whether cities can actually use such technologies in a privacy-friendly way or if they should abolish them altogether. The goal of this session is to involve policy thinkers and decision makers in a productive conversation on privacy in cities.",
       "url": "",
       "event": {
-        "start": "2020-09-28T14:45:00+02:00",
-        "end": "2020-09-28T16:15:00+02:00",
+        "start": "2020-09-28T14:00:00+02:00",
+        "end": "2020-09-28T16:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -211,8 +211,8 @@
       "text": "By connecting products to the internet — by adding a data layer to the physical world, and by physically manifesting the internet — we change the very nature of the things themselves. And for the last decade or two, just about everything has been connected in one way or another. At ThingsCon, we’ve been exploring how to do so more responsibly, and…better. 'Critical making' is a crucial part of the mix of gathering understanding in connected products over the years. ThingsCon has built a reputation to mix critical making with policy thinking and in this session, we would like to share what we've learned from years of involving the makers’ community to foster the creation of a responsible IoT. Making as a way of understanding and grounding, or just as a way to bring home the policy discussions. ",
       "url": "",
       "event": {
-        "start": "2020-09-28T15:30:00+02:00",
-        "end": "2020-09-28T16:15:00+02:00",
+        "start": "2020-09-28T14:00:00+02:00",
+        "end": "2020-09-28T16:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -243,8 +243,8 @@
       "text": "Join us for a workshop for city and regional stakeholders that explores the application of digital rights in local data-sharing platforms throughout planning, implementation, and evolution. Looking at case studies from Toronto, Zaragoza, Berlin, Newcastle, Rennes, Bordeaux, and Helsinki, we will discuss how city platforms for data-sharing are created from different building blocks (policies, processes, infrastructures, and actions) to extract value from urban big data.",
       "url": "",
       "event": {
-        "start": "2020-09-28T16:15:00+02:00",
-        "end": "2020-09-28T17:45:00+02:00",
+        "start": "2020-09-28T16:00:00+02:00",
+        "end": "2020-09-28T18:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -267,12 +267,12 @@
           "url": ""
         }]
     },{
-      "title": "[Workshop] AI and public control I: the why and how of accountable AI",
-      "text": "AI offers many benefits for citizens, companies and society as a whole - provided it is designed in a human-centric, ethical and sustainable way, with respect for fundamental rights and values. How can we control this technology,to ensure transparency and fair use? Join us for an expert Q&A, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace, in which we explore procurement guidelines, registry, and data-ethics decisions.",
+      "title": "[Workshop] Public control over AI: the how and why of accountable AI",
+      "text": "AI is a strategic technology that could offer many benefits for citizens, companies and society as a whole — provided it is people-centric, accountable, sustainable and respects fundamental rights and values. How can we exert the right controls to make sure that these tools are only used in ways that are transparent, just, and accountable? Join this session for lightning talks by civil society groups, research institutes, and non profit organizations with their ‘big ideas’ for public oversight and control over AI.",
       "url": "",
       "event": {
-        "start": "2020-09-29T09:30:00+02:00",
-        "end": "2020-09-29T10:15:00+02:00",
+        "start": "2020-09-29T10:00:00+02:00",
+        "end": "2020-09-29T11:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -295,12 +295,12 @@
           "url": "https://twitter.com/meerihaataja"
         }]
     },{
-      "title": "[Workshop] AI and public control II: tools for AI accountability",
+      "title": "[Workshop] Public control over AI: a public AI register",
       "text": "AI offers many benefits for citizens, companies and society as a whole - provided it is designed in a human-centric, ethical and sustainable way, with respect for fundamental rights and values. How can we control this technology,to ensure transparency and fair use? Join us for an expert Q&A, co-hosted by the AINow Institute, Mozilla, Nesta and Ada Lovelace, in which we explore procurement guidelines, registry, and data-ethics decisions.",
       "url": "",
       "event": {
-        "start": "2020-09-29T10:15:00+02:00",
-        "end": "2020-09-29T11:00:00+02:00",
+        "start": "2020-09-29T11:00:00+02:00",
+        "end": "2020-09-29T12:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -323,12 +323,12 @@
           "url": ""
         }]
     },{
-      "title": "[Workshop] What future internet do we want?",
-      "text": "In this immersive futures workshop, hosted by Nesta Italia, our audience gets to decide on key design principles for the internet, and explores what future scenarios their decisions might yield. ",
+      "title": "[Workshop] (Dis)connected future: an immersive simulation",
+      "text": "In this immersive futures workshop we will tackle the key design choices for the future internet. We will collectively shape the evolution of the next generation internet letting our audience drive the simulation and exploring what future scenarios their decisions might yield. Join us to peek into the future!",
       "url": "",
       "event": {
-        "start": "2020-09-29T11:00:00+02:00",
-        "end": "2020-09-29T11:45:00+02:00",
+        "start": "2020-09-29T12:00:00+02:00",
+        "end": "2020-09-29T13:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Policy in practice"
@@ -341,30 +341,6 @@
           "name": "Cristina Pozzi, Impactscool",
           "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/cripozzi81"
-        }]
-    },{
-      "title": "Have I still got news for you? Preserving trust, journalism and the public sphere",
-      "text": "Join us for a thought-provoking conversation about the future of journalism and what Europe can do to avert the continued erosion of public trust in the digital sphere.",
-      "url": "",
-      "event": {
-        "start": "2020-09-29T13:00:00+02:00",
-        "end": "2020-09-29T13:45:00+02:00",
-        "timezone": "Europe/Amsterdam",
-        "location": "",
-        "type": "Vision"
-      },
-      "participants": [{
-          "name": "Rasmus Kleis Nielsen, Reuters Institute",
-          "image": "https://ngisummit.imgix.net/Rasmus_Kleis_Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/rasmus_kleis"
-        },{
-          "name": "Anna-Sophie Harling, NewsGuard",
-          "image": "https://ngisummit.imgix.net/Anna_Sophie_Harling.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/asharling"
-        },{
-          "name": "Geert-Jan Bogaerts, PublicSpaces",
-          "image": "https://ngisummit.imgix.net/Geert_Jan_Bogaerts.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/gjbogaerts"
         }]
     },{
       "title": "Europe's twin transition: creating a sustainable digital future ",
