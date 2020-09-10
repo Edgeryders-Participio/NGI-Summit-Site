@@ -9,7 +9,7 @@
           "type": "Keynote",
           "color": "#68e190"
         }  ,      {
-          "type": "Practical session",
+          "type": "Policy in practice",
           "color": "#ece571"
         }
       ]
@@ -159,7 +159,7 @@
         "end": "2020-09-28T15:30:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Wouter Welling, Ministry of the Interior and Kingdom Relations",
@@ -175,7 +175,7 @@
         "end": "2020-09-28T16:15:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Ella Jakubowska, European Digital Rights (EDRi)",
@@ -215,7 +215,7 @@
         "end": "2020-09-28T16:15:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Iskander Smit, INFO",
@@ -247,7 +247,7 @@
         "end": "2020-09-28T17:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Malcolm Bain, Across Legal",
@@ -275,7 +275,7 @@
         "end": "2020-09-29T10:15:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Mathias Vermeulen, Mozilla Foundation",
@@ -303,7 +303,7 @@
         "end": "2020-09-29T11:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Meeri Haataja, Saidot",
@@ -331,7 +331,7 @@
         "end": "2020-09-29T11:45:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
-        "type": "Practical session"
+        "type": "Policy in practice"
       },
       "participants": [{
           "name": "Giacomo Mariotti, Nesta Italia",
