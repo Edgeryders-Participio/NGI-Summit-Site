@@ -267,6 +267,26 @@
           "url": ""
         }]
     },{
+      "title": "[Workshop] Privacy and trust: trends in experiments in EU-US research and innovation",
+      "text": "Collaboration on privacy, trust and decentralised data governance is key to improving EU-US research and generating impacts at a pan-European level. Within this space, NGIAtlantic.eu has funded six projects aiming to increase privacy and trust by leveraging AI, blockchain, 5G, big data and IoT technologies. This workshop will provide policymakers with an overview of the major trends and trajectories in EU-US research collaboration and provides important context for NGI-related policy development. NGIAtlantic.eu’s projects will pitch their experiments, present their initial results and showcase the Twinning Lab, an on-line space for researchers, innovators and start-ups to establish complementary partnerships with transatlantic actors to address NGI challenges.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T18:00:00+02:00",
+        "end": "2020-09-28T19:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": " NGIAtlantic.eu",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": " Trust-IT",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
       "title": "[Workshop] Public control over AI: the how and why of accountable AI",
       "text": "AI is a strategic technology that could offer many benefits for citizens, companies and society as a whole — provided it is people-centric, accountable, sustainable and respects fundamental rights and values. How can we exert the right controls to make sure that these tools are only used in ways that are transparent, just, and accountable? Join this session for lightning talks by civil society groups, research institutes, and non profit organizations with their ‘big ideas’ for public oversight and control over AI.",
       "url": "",
@@ -293,6 +313,26 @@
           "name": "Meeri Haataja, Saidot",
           "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/meerihaataja"
+        }]
+    },{
+      "title": "[Workshop] Ethnography and the internet: collective intelligence insights for digital policy",
+      "text": "NGI Forward will present how they use community-building and Semantic Social Network Analysis to inform policy research for the Next Generation Internet. We will then move into a hands-on workshop and teach participants how to explore network visualisations for novelty and policy insights, based on community discussions about the future internet on the Edgeryders online platform.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T10:00:00+02:00",
+        "end": "2020-09-29T11:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Amelia Hassoun",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Alberto Cottica",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "[Workshop] Public control over AI: a public AI register",
@@ -341,6 +381,50 @@
           "name": "Cristina Pozzi, Impactscool",
           "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/cripozzi81"
+        }]
+    },{
+      "title": "Mapping the tech world and supporting policy with text-mining",
+      "text": "Cutting through the noise of daily news and identifying the most important policy issues can be a major challenge. In this workshop, we present simple text-mining tools developed in the NGI Forward project and explore recent trends in tech news. Through a series of deep dives into our data, we will discuss some of the most pressing tech challenges on people's minds, such as Ethical AI or contact-tracing. For a sneak peek at our research, visit: https://fwd.delabapps.eu/ and https://covid.delabapps.eu/",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T12:00:00+02:00",
+        "end": "2020-09-29T13:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Kristóf Gyódi",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": " DELab University of Warsaw",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "Have I still got news for you? Preserving trust, journalism and the public sphere",
+      "text": "Join us for a thought-provoking conversation about the future of journalism and what Europe can do to avert the continued erosion of public trust in the digital sphere.",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T13:00:00+02:00",
+        "end": "2020-09-29T14:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Vision"
+      },
+      "participants": [{
+          "name": "Rasmus Kleis Nielsen, Reuters Institute",
+          "image": "https://ngisummit.imgix.net/Rasmus_Kleis_Nielsen.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/rasmus_kleis"
+        },{
+          "name": "Anna-Sophie Harling, NewsGuard",
+          "image": "https://ngisummit.imgix.net/Anna_Sophie_Harling.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/asharling"
+        },{
+          "name": "Geert-Jan Bogaerts, PublicSpaces",
+          "image": "https://ngisummit.imgix.net/Geert_Jan_Bogaerts.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/gjbogaerts"
         }]
     },{
       "title": "Europe's twin transition: creating a sustainable digital future ",
