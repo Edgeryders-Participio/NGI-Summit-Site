@@ -11,6 +11,9 @@
         }  ,      {
           "type": "Policy in practice",
           "color": "#ece571"
+        },      {
+          "type": "Evening programme",
+          "color": "#0c2e49"
         }
       ]
     },
