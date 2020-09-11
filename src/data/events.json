@@ -19,7 +19,7 @@
     },
     "events": [{
       "title": "Welcome to the NGI Policy Summit 2020",
-      "text": "Join us for a brief welcome from our partners at the City of Amsterdam and the Ministry of the Interior and Kingdom Relations of the Netherlands. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe. ",
+      "text": "Join us for a brief welcome from our partners at the City of Amsterdam and the Ministry of the Interior and Kingdom Relations of the Netherlands. Together, we'll take a look back at Amsterdam's role in the early days of the internet - and the challenges that lie ahead for all of Europe. \ntest",
       "url": "",
       "event": {
         "start": "2020-09-28T09:30:00+02:00",
