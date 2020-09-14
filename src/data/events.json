@@ -107,7 +107,7 @@
         }]
     },{
       "title": "A digital roadmap for 2030: defining Europe’s role after COVID-19",
-      "text": "A scene-setting panel discussion of current and upcoming digital policy proposals from across Europe and Member States. This will also serve to map out the road to 2030, looking at some of the big policy problems that will need to be resolved over the coming years, including on the conference’s main topics.",
+      "text": "A scene-setting panel discussion of the challenges and opportunities facing Europe and the Internet in the next decade. What does the Next Generation Europe agenda mean for digital policy and regulation? What geopolitical considerations should inform our approach to emerging technologies and markets? Join us as we map out the road to 2030 and touch on some of the Summit’s biggest questions, from data sovereignty to digital life after COVID-19.",
       "url": "",
       "event": {
         "start": "2020-09-28T12:00:00+02:00",
@@ -201,12 +201,16 @@
           "image": "https://ngisummit.imgix.net/Theo_Blackwell.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/ldn_cdo"
         },{
-          "name": "Areeq Chowdhury",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "name": "Areeq Chowdhury, WebRoots Democracy",
+          "image": "https://ngisummit.imgix.net/Areeq_Chowdhury.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/AreeqChowdhury"
         },{
           "name": "Ido Nap, Dutch Police",
           "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Evin Incir, European Parliament",
+          "image": "https://ngisummit.imgix.net/Evin_Incir.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -261,8 +265,8 @@
           "image": "https://ngisummit.imgix.net/Daniel_Sarasa_Funes.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "City speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Johanna Pasilkar, City of Helsinki",
+          "image": "https://ngisummit.imgix.net/Johanna_Pasilkar.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City speaker (tbc)",
