@@ -74,7 +74,7 @@
       },
       "participants": [{
           "name": "Pearse O'Donohue, European Commission",
-          "image": "https://ngisummit.imgix.net/Pearse O'Donohue.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "image": "https://ngisummit.imgix.net/Pearse_ODonohue.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -203,7 +203,7 @@
         },{
           "name": "Areeq Chowdhury, WebRoots Democracy",
           "image": "https://ngisummit.imgix.net/Areeq_Chowdhury.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/AreeqChowdhury"
+          "url": ""
         },{
           "name": "Ido Nap, Dutch Police",
           "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
@@ -211,7 +211,7 @@
         },{
           "name": "Evin Incir, European Parliament",
           "image": "https://ngisummit.imgix.net/Evin_Incir.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://www.socialistsanddemocrats.eu/meps/incir-evin-0"
         }]
     },{
       "title": "[Workshop] Learning from 'critical making' - Good Things for the Next Generation Internet",
@@ -285,8 +285,8 @@
           "image": "https://ngisummit.imgix.net/Johanna_Pasilkar.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "City speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Ryan Kurtzman, City of Long Beach, California",
+          "image": "https://ngisummit.imgix.net/Ryan_Kurtzman.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -319,7 +319,7 @@
       "participants": [{
           "name": "Denis Roio, Dyne.org",
           "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://jaromil.dyne.org/"
         }]
     },{
       "title": "[Workshop] Privacy and trust: trends in experiments in EU-US research and innovation",
