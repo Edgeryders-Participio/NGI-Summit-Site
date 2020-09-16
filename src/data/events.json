@@ -203,7 +203,7 @@
         },{
           "name": "Areeq Chowdhury, WebRoots Democracy",
           "image": "https://ngisummit.imgix.net/Areeq_Chowdhury.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/AreeqChowdhury"
         },{
           "name": "Ido Nap, Dutch Police",
           "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
@@ -260,6 +260,10 @@
           "name": "Marieke van Putten, Dutch Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Marieke_Van_Putten.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
+        },{
+          "name": "Elena Deambrogio",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "[Workshop] Data-sharing in cities",
@@ -303,6 +307,22 @@
       "participants": [{
           "name": "Fabrice Clari",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Evening programme] What your face reveals - the story of HowNormalAmI.eu",
+      "text": "In this session, Dutch media artist Tijmen Schep will launch his latest work - an online interactive documentary that judges you through your webcam, and explains how face detection algorithms are invisibly pervading our lives. Can we really asses someone's beauty, BMI or even life expectancy from just a photo of their face? After experiencing his creation, we'll dive into the 'making of' and emerge with a better understanding of what face detection AI can - and cannot -  do.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T17:00:00+02:00",
+        "end": "2020-09-28T18:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Evening programme"
+      },
+      "participants": [{
+          "name": "Tijmen Schep, Pineapplejazz Design",
+          "image": "https://ngisummit.imgix.net/Tijmen_Schep.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -393,21 +413,25 @@
           "image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/mathver"
         },{
-          "name": "Amba Kak, New York University",
-          "image": "https://ngisummit.imgix.net/Amba_Kak.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/ambaonadventure"
+          "name": "Pasi Rautio, City of Helsinki",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         },{
           "name": "Roel Dobbe, TU Delft",
           "image": "https://ngisummit.imgix.net/Roel_Dobbe.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/roeldobbe"
         },{
-          "name": "Meeri Haataja, Saidot",
-          "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/meerihaataja"
+          "name": "Linda van de Fliert",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         },{
           "name": "Jennie Brennan, Ada Lovelace Institute",
           "image": "https://ngisummit.imgix.net/Jenny_Brennan.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
+        },{
+          "name": "Matthias Spielkamp, Algorithm Watch",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/spielkamp"
         }]
     },{
       "title": "[Workshop] Ethnography and the internet: collective intelligence insights for digital policy",
@@ -585,8 +609,8 @@
           "image": "https://ngisummit.imgix.net/Bas_van_Abel.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/basvanabel"
         },{
-          "name": "Speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Anne Currie, Container Solutions",
+          "image": "https://ngisummit.imgix.net/Anne_Currie.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
