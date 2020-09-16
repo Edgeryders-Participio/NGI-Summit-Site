@@ -310,7 +310,7 @@
 "id": 24,
 "name": "Pearse O'Donohue",
 "excerpt": "Pearse O'Donohue is Director for the Future Networks Directorate of DG CONNECT, European Commission, dealing with policy development and research as regards 5G networks, IoT, cloud and data flows, service platforms and next generation Internet.",
-"image": "https://ngisummit.imgix.net/Pearse%20O%27Donohue.jpg?fit=facearea&w=400&h=400&facepad=3",
+"image": "https://ngisummit.imgix.net/Pearse_ODonohue.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
 "id": 25,
@@ -558,6 +558,12 @@
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/wouterwelling/"
+}, {
+"id": 66,
+"name": "Ryan Kurtzman",
+"excerpt": "Ryan's experience includes developing community programs and policies that leverage technology to improve connectivity, mobility, digital equity, and economic outcomes for all residents. He also leads the City's open data and data governance programs.",
+"image": "https://ngisummit.imgix.net/Ryan_Kurtzman.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
 }],
       "views": ["custom_ngi_people"],
       "tag": "webcontent-ngi-summit-2020-bio",
