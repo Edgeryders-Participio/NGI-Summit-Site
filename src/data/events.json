@@ -33,7 +33,7 @@
           "image": "https://ngisummit.imgix.net/Touria_Meliani.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/touriameliani"
         },{
-          "name": "Raymond Knops, Ministry of the Interior and Kingdom Relations",
+          "name": "Raymond Knops, Dutch Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/raymondknops"
         }]
@@ -73,8 +73,8 @@
         "type": "Keynote"
       },
       "participants": [{
-          "name": "European Commission speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Pearse O'Donohue, European Commission",
+          "image": "https://ngisummit.imgix.net/Pearse O'Donohue.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -165,7 +165,7 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": "Wouter Welling, Ministry of the Interior and Kingdom Relations",
+          "name": "Wouter Welling, Dutch Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/wouterwelling"
         }]
@@ -246,6 +246,22 @@
           "url": "https://twitter.com/peterbihr"
         }]
     },{
+      "title": "[Workshop] Digital transformation in the public sector: challenge based public private partnership and cooperation",
+      "text": "The public sector is key to digital transformation. Public authorities are a major partner in solving societal challenges. Public private partnerships are very common in areas such as care, energy and mobility and in the use key technologies (Artificial Intelligence). Another type of cooperation is challenging SME’s to come up with solutions for public tasks. Cities are at the forefront of new forms of interaction with private partners due to the variety of  public tasks. Turino is a city in Italy with an excellent track in innovation in the public sector. Turino uses pre commercial procurement and public procurement of innovation in the Torino city lab, linking the role of testing/co-development at the pre-commercial phase and PPI. The ministry of the Interior and Kingdom Relations has a link to digital society and uses pre commercial procurement to stimulate solving societal challenges with key technologies (Blockchain and AI). Marieke van Putten and Elena Deambrogio give presentations on how their organizations stimulate (digital) innovation. They challenge the participants in how to use the potential of private enterprises and the best way to realize deployment/implementation. Session produced and hosted by: Dutch Ministry of the Interior",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T15:00:00+02:00",
+        "end": "2020-09-28T16:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Marieke van Putten, Dutch Ministry of the Interior and Kingdom Relations",
+          "image": "https://ngisummit.imgix.net/Marieke_Van_Putten.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
       "title": "[Workshop] Data-sharing in cities",
       "text": "Join us for a workshop for city and regional stakeholders that explores the application of digital rights in local data-sharing platforms throughout planning, implementation, and evolution. Looking at case studies from Toronto, Zaragoza, Berlin, Newcastle, Rennes, Bordeaux, and Helsinki, we will discuss how city platforms for data-sharing are created from different building blocks (policies, processes, infrastructures, and actions) to extract value from urban big data.",
       "url": "",
@@ -274,6 +290,38 @@
           "url": ""
         }]
     },{
+      "title": "[Workshop] Transatlantic crossings: the future of EU-US data flows",
+      "text": "Personal data privacy management across the Atlantic is among the core topics tackled by the Think NEXUS project. Together with experts from both Europe and the US, we explore the impact of  the latest European decision on the EU-US Privacy Shield agreement. Session produced and hosted by: Think NEXUS and GAC Group",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T17:00:00+02:00",
+        "end": "2020-09-28T18:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Fabrice Clari",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] Zenroom: cryptography and smart contracts in human language",
+      "text": "Zenroom is a tiny secure execution environment that integrates into any platform and application, even on a chip or a web page. It can authenticate, authorise access and execute human-readable smart contracts for blockchains, databases and much more. It helps to develop cryptography by keeping it simple, understandable and maintainable. Session produced and hosted by: Dyne.org",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T18:00:00+02:00",
+        "end": "2020-09-28T19:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Denis Roio, Dyne.org",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
       "title": "[Workshop] Privacy and trust: trends in experiments in EU-US research and innovation",
       "text": "Collaboration on privacy, trust and decentralised data governance is key to improving EU-US research and generating impacts at a pan-European level. Within this space, NGIAtlantic.eu has funded six projects aiming to increase privacy and trust by leveraging AI, blockchain, 5G, big data and IoT technologies. This workshop will provide policymakers with an overview of the major trends and trajectories in EU-US research collaboration and provides important context for NGI-related policy development. NGIAtlantic.eu’s projects will pitch their experiments, present their initial results and showcase the Twinning Lab, an on-line space for researchers, innovators and start-ups to establish complementary partnerships with transatlantic actors to address NGI challenges. Session produced and hosted by: NGIAtlantic.eu",
       "url": "",
@@ -292,6 +340,42 @@
           "name": " Trust-IT",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
+        }]
+    },{
+      "title": "[Evening programme] Futurotheque – a trip to the future",
+      "text": "Augmented reality artist Sander Veenhof and Leonieke Verhoog, program manager PublicSpaces are taking you on a trip to the future with their speculative fiction installation, the Futurotheque. Our future will be filled with augmented reality applications in phones, glasses, lenses and other devices. Imagine going around with glasses that help you with all your information and entertainment needs, that can guide you wherever you are, and that can make decisions for you. What does that mean for our daily life? It is not so much about how we are going to respond to those new tech tools, as well as how they will respond to us. What agency do we keep, and what do we hand over to these new systems? Enter the Futurotheque to be inspired, amazed or appalled – and make up your own mind.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T18:00:00+02:00",
+        "end": "2020-09-28T19:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Evening programme"
+      },
+      "participants": [{
+          "name": "Sander Veenhof",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Evening programme] Ask me anything",
+      "text": "In this session, you can ask the CTOs of two major European cities anything – get their view on tech developments, policy decisions, smart cities, face recognition, budgets, staff, training, audience participation and anything else you want to ask.",
+      "url": "",
+      "event": {
+        "start": "2020-09-28T20:00:00+02:00",
+        "end": "2020-09-28T21:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Evening programme"
+      },
+      "participants": [{
+          "name": "Ger Baron, City Of Amsterdam",
+          "image": "https://ngisummit.imgix.net/Ger_Baron.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/GerBaron"
+        },{
+          "name": "Theo Blackwell, Greater London Authority",
+          "image": "https://ngisummit.imgix.net/Theo_Blackwell.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/ldn_cdo"
         }]
     },{
       "title": "[Workshop] Public control over AI: the how and why of accountable AI",
@@ -320,6 +404,10 @@
           "name": "Meeri Haataja, Saidot",
           "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/meerihaataja"
+        },{
+          "name": "Jennie Brennan, Ada Lovelace Institute",
+          "image": "https://ngisummit.imgix.net/Jenny_Brennan.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "[Workshop] Ethnography and the internet: collective intelligence insights for digital policy",
@@ -356,6 +444,42 @@
           "name": "Meeri Haataja, Saidot",
           "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/meerihaataja"
+        }]
+    },{
+      "title": "[Workshop] Public control over AI: Procurement conditions for AI and algorithms",
+      "text": "Procurement conditions is a very powerful and practical instrument for the public sector to assure AI-enabled systems comply with fundamental rights and democratic values. That’s why the City of Amsterdam asked ICT Law specialist Jeroen Naves, together with other experts, to draft the very first standard contractual clauses for AI and algorithms. Jeroen Naves will answer all your questions about how these legal definitions and provisions can help us gain public control over AI.  Session produced and hosted by: Pels Rijcken",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T11:00:00+02:00",
+        "end": "2020-09-29T12:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Jeroen Naves, Pels Rijcken",
+          "image": "https://ngisummit.imgix.net/Jeroen_Naves.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/jeroennaves"
+        }]
+    },{
+      "title": "[Workshop] Public control over AI: Data Ethics Decision Aid (DEDA)",
+      "text": "Get ready for a crash course in data ethics decision making. DEDA helps data analysts, project managers and policy makers to recognize ethical issues in data projects, data management and data policies. DEDA is a tool-kit facilitating initial brainstorming sessions to map ethical issues in data projects, documenting the deliberation process and furthering accountability towards the various stakeholders and the public.  Session produced and hosted by: Utrecht Data School",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T11:00:00+02:00",
+        "end": "2020-09-29T12:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Iris Muis, Utrecht Data School",
+          "image": "https://ngisummit.imgix.net/Iris_Muis.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Mirko Tobias Schäfer, Utrecht Data School",
+          "image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/mirkoschaefer"
         }]
     },{
       "title": "[Workshop] (Dis)connected future: an immersive simulation",
@@ -395,6 +519,22 @@
         },{
           "name": "Michał Paliński, DELab UW",
           "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
+      "title": "[Workshop] Beyond trust: our information ecosystem under pressure",
+      "text": "This interactive workshop outlines how AI, the Internet of Everything and profiling (your new identity) lead to alternative realities and truths. The core of our information ecosystem is globalized and digitized, governed by algorithms, with no one in control or accountable. Many point out that this system of which we are all part is increasingly corrupted. How can we preserve trust? Attendees will be asked to share and discuss (their) ideas. Session produced and hosted by: Dutch Police",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T12:00:00+02:00",
+        "end": "2020-09-29T13:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Manon den Dunnen, Dutch National Police",
+          "image": "https://ngisummit.imgix.net/Manon_den_Dunnen.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
