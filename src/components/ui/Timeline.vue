@@ -9,7 +9,8 @@
        <span class="circle" :style="getCircleColor(item)">
          <svg v-if="selectedFilter == item" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><g fill='white' fill-rule="nonzero"><path  d="M29 9a20 20 0 11-40 0 20 20 0 0140 0zM-5 9a14 14 0 1028 0A14 14 0 00-5 9z"/><path d="M13 9l4 4a3 3 0 01-4 4l-4-4-4 4a3 3 0 01-4-4l4-4-4-4a3 3 0 014-4l4 4 4-4a3 3 0 014 4l-4 4z"/></g></svg>
        </span>
-       {{item}}
+       {{ item }}
+       
        </div>
       </div>
     </div>
@@ -339,15 +340,15 @@ export default {
       return obj;
     },
     getColor(type) {
-      if (this.filters.filter(x => x.type == type)[0]) {
-      return this.filters.filter(x => x.type == type)[0].color
+      if (this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0]) {
+      return this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0].color
     } else {
       return 'white'
     }
     },
     getCircleColor(type) {
-      if (this.filters.filter(x => x.type == type)[0]) {
-      return "background-color: " +  this.filters.filter(x => x.type == type)[0].color
+      if (this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0]) {
+      return "background-color: " +  this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0].color
     } else {
       return 'border: 1px solid rgba(0,0,0,0.3); background-color: white'
     }
