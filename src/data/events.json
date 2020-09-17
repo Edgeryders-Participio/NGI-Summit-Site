@@ -171,7 +171,7 @@
         }]
     },{
       "title": "[Workshop] Biometrics and facial recognition in cities",
-      "text": "Across the EU, highly intrusive and legally questionable biometric processing technologies, including facial recognition, are quietly becoming ubiquitous in our public and publicly-accessible spaces. In this special session with European Digital Rights (EDRi), a network of 44 civil society digital rights organisations, we will provide an update on the present situation, and together with policy makers from across Europe, discuss different scenarios for the role that biometrics might play in cities in the near future. We will explore whether cities can actually use such technologies in a privacy-friendly way or if they should abolish them altogether. The goal of this session is to involve policy thinkers and decision makers in a productive conversation on privacy in cities. Session produced and hosted by: City of Amsterdam and European Digital Rights (EDRi)",
+      "text": "Across the EU, facial recognition and other biometric processing technologies are increasingly being used in public spaces across cities, with risks that they can violate people's fundamental rights. In this special session with European Digital Rights (EDRi) - a network of 44 civil society digital rights organisations – we will explore the present situation, and together with policy makers across Europe, discusses different scenarios of the roles that biometrics might play in cities in the near future. We will discuss whether cities can actually use such technologies in a privacy-friendly way or if they should abolish them altogether. We will also explore the impact on other fundamental rights, such as non-discrimination, and freedoms to assemble and express ourselves. The goal of this meeting is to update policymakers and involve them into a productive conversation on privacy in cities. Session produced and hosted by: City of Amsterdam and European Digital Rights (EDRi)",
       "url": "",
       "event": {
         "start": "2020-09-28T14:00:00+02:00",
@@ -291,7 +291,7 @@
         },{
           "name": "Ryan Kurtzman, City of Long Beach, California",
           "image": "https://ngisummit.imgix.net/Ryan_Kurtzman.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://www.linkedin.com/in/rkurtzman/"
         }]
     },{
       "title": "[Workshop] Transatlantic crossings: the future of EU-US data flows",
@@ -353,11 +353,11 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": " NGIAtlantic.eu",
+          "name": "Jim Clarke",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": " Trust-IT",
+          "name": "Sara Pittonet",
           "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
@@ -414,7 +414,7 @@
           "url": "https://twitter.com/mathver"
         },{
           "name": "Pasi Rautio, City of Helsinki",
-          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "image": "https://ngisummit.imgix.net/Pasi_Rautio.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Roel Dobbe, TU Delft",
