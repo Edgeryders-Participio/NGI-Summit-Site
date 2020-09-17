@@ -1,0 +1,91 @@
+{
+  "category": 237,
+  "baseUrl": "https://edgeryders.eu",
+  "style": {
+  	"fonts": ["Roboto:400,700,900"],
+    "title": {
+      "width": ["90%", "75%"],
+      "padding": ["0 0 10px"],
+      "align": ["center", "left"],
+      "font": ["Roboto"],
+      "weight": ["bold"],
+      "size": ["text-2xl", "text-3xl"]
+    },
+    "paragraph": {
+      "font": ["Roboto"]
+    },
+    "wrapper": {
+      "width": ["90%", "75%"],
+      "padding": ["15px 15px 0", "10px 0 0"]
+    },
+    "toggle": {
+		"background": ["black"]
+    },
+    "action": {
+		"background": ["black"],
+		"color": ["white"]
+	},
+	"highlight": {
+		"background": ["black"],
+		"color": ["white"]
+	}
+  },
+  "sections": [
+    {
+      "type": "Hero",
+      "path": "./components/core/Hero.vue",
+      "summit": "true",
+      "background": {
+        "url": "summit%20hero%20image.jpg",
+        "color": "linear-gradient(63.1deg,#009c8e 9.02%,#ffdb6a 90.81%)"
+      },
+      "title": "Next Generation Internet <br>",
+      "text": {
+        "content": "<p><strong>Register your interest now</strong> for the NGI Policy Summit 2020, hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong> - Main conference <br><strong>30 September</strong> - Fringe Day</p><br><p>Online and at Het Sieraad, Amsterdam</p><p>Free of charge</p>",
+        "align": "left",
+        "buttons": [
+          {
+            "text": "Register interest",
+            "url": "https://www.surveygizmo.com/s3/5366792/NGI-Policy-Summit-2020-Register",
+            "background": "rgb(255, 219, 106)",
+            "color": "#333"
+          }
+        ]
+      },
+      "image": {
+        "url": "",
+        "width": 0
+      }
+    },
+    {
+      "type": "Custom",
+      "title": "About the Summit",
+      "path": "./components/core/Custom.vue",
+      "id": "about",
+      "style": {
+        "container": {
+          "padding": ["0"]
+        },
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
+        },
+        "paragraph": {
+        	"font": ["serif"]
+        }
+      },
+      "image": {
+        "url": "",
+        "width": 420
+      },
+      "video": {
+        "src": "",
+        "poster": ""
+      },
+      "text": {
+        "content": "<p>From 28 to 30 September, the NGI Policy Summit will bring together Europe&rsquo;s leading policymakers and changemakers to set out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. Register your interest now to join us online or live in Amsterdam.</p>",
+        "position": "left",
+        "buttons": []
+      }
+    }
+  ]
+}

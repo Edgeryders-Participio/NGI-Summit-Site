@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu:400,700&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+*:focus {
+    outline: none;
+}
+
+button:focus {outline:0;}
+
+
+@import 'ui/core.scss';
+@import 'ui/cards.scss';
+@import 'ui/slider.scss';
+@import 'ui/icons.scss';
+
+@import 'components/hero.scss';
+@import 'components/events.scss';
+@import 'components/users.scss';
+
+@import 'custom/ngi.scss';
+
+
+.wrapper .list {
+	@apply mr-10 mt-4;
+	max-height: 500px;
+	width: 100%;
+	border: 1px solid #efefef;
+	border-radius: 10px;
+	overflow: scroll;
+}
+
+.list_item {
+	@apply border-gray-200 border-b py-4 px-5;
+}
+.list_item:hover {
+	@apply bg-gray-100;
+	cursor: pointer;
+}
+.list_item.active {
+	@apply bg-black text-white;
+}
+
+
+.section_terms {
+	@apply w-full bg-black text-left flex;
+}
+
+@responsive {
+	
+	
+
+}

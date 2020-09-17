@@ -1,0 +1,98 @@
+@responsive {
+  
+  .hero {
+    @apply w-full flex flex-col justify-center mb-8 pb-0 relative items-center overflow-hidden bg-gray-100;
+  }
+
+  .hero-md {
+    @apply py-10 pb-0 flex-col;
+  }
+
+  .hero .content_wrapper {
+    @apply inline-block;
+  }
+  .hero .content_wrapper-md {
+    @apply flex;
+    max-width: 75%;
+  }
+
+  .hero_image {
+    @apply w-full mr-0 mb-5;
+  }
+
+  .hero_title {
+    @apply flex font-display text-3xl font-bold text-left pl-0 pb-1 mb-4;
+    line-height: 2.2rem;
+  }
+
+  .hero_title-md {
+    @apply inline-block pl-1 text-4xl;
+  }
+
+  .hero_text {
+    @apply font-display text-left;
+    border: none !important;
+  }
+
+  .hero_text p {
+    font-size: 1.15rem;
+  }
+
+  .hero_text-md {
+    @apply font-display pl-1 text-left leading-relaxed
+  }
+
+  .action_container {
+    @apply mt-6;
+  }
+
+  a.action {
+    @apply p-3 mr-2 rounded-lg;
+  }
+
+  .hero_image-md {
+    @apply mr-6 mb-0;
+    flex-shrink: 0;
+  }
+
+  .hero .hero_.video {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+  }
+
+  .hero .video video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .hero_stats {
+    @apply flex flex-col items-start w-full mt-2 w-full;
+  }
+
+  .hero_stats-md {
+    @apply flex-row;
+  }
+
+  .hero_stats p {
+    @apply mr-3 rounded-lg border border-gray-200 inline-flex bg-white items-center overflow-hidden;
+    height: 40px;
+  }
+
+  .hero_stats p span {
+    @apply px-3;
+    font-size: 14px;
+  }
+
+  .hero_stats p span.key {
+    @apply bg-gray-100 h-full flex items-center font-bold px-3
+  }
+}
