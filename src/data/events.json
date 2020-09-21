@@ -35,9 +35,7 @@
         },{
           "name": "Raymond Knops, Dutch Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/raymondknops",
-"Twitter": "https://twitter.com/raymondknops",
-"Linkedin": "https://twitter.com/raymondknops"
+          "url": "https://twitter.com/raymondknops"
         }]
     },{
       "title": "Visions for the future Internet: what if?",
@@ -355,12 +353,12 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": "Jim Clarke",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "James Clarke, Waterford Institute of Technology",
+          "image": "https://ngisummit.imgix.net/James_Clarke.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Sara Pittonet",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Sara Pittonet Gaiarin, Trust-IT",
+          "image": "https://ngisummit.imgix.net/Sara_Pittonet_Gaiarin.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -398,6 +396,26 @@
           "name": "Theo Blackwell, Greater London Authority",
           "image": "https://ngisummit.imgix.net/Theo_Blackwell.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/ldn_cdo"
+        }]
+    },{
+      "title": "[Workshop] (Dis)connected future: an immersive simulation",
+      "text": "In this immersive futures workshop we will tackle the key design choices for the future internet. We will collectively shape the evolution of the next generation internet letting our audience drive the simulation and exploring what future scenarios their decisions might yield. Join us to peek into the future! Session produced and hosted by: Nesta Italia",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T09:00:00+02:00",
+        "end": "2020-09-29T10:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Giacomo Mariotti, Nesta Italia",
+          "image": "https://ngisummit.imgix.net/Giacomo_Mariotti.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/mariotti_gm"
+        },{
+          "name": "Cristina Pozzi, Impactscool",
+          "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/cripozzi81"
         }]
     },{
       "title": "[Workshop] Public control over AI: the how and why of accountable AI",
@@ -447,8 +465,8 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": "Amelia Hassoun",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Amelia Hassoun, Edgeryders",
+          "image": "https://ngisummit.imgix.net/Amelia_Hassoun.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "Alberto Cottica",
@@ -506,26 +524,6 @@
           "name": "Mirko Tobias Schäfer, Utrecht Data School",
           "image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/mirkoschaefer"
-        }]
-    },{
-      "title": "[Workshop] (Dis)connected future: an immersive simulation",
-      "text": "In this immersive futures workshop we will tackle the key design choices for the future internet. We will collectively shape the evolution of the next generation internet letting our audience drive the simulation and exploring what future scenarios their decisions might yield. Join us to peek into the future! Session produced and hosted by: Nesta Italia",
-      "url": "",
-      "event": {
-        "start": "2020-09-29T12:00:00+02:00",
-        "end": "2020-09-29T13:00:00+02:00",
-        "timezone": "Europe/Amsterdam",
-        "location": "",
-        "type": "Policy in practice"
-      },
-      "participants": [{
-          "name": "Giacomo Mariotti, Nesta Italia",
-          "image": "https://ngisummit.imgix.net/Giacomo_Mariotti.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/mariotti_gm"
-        },{
-          "name": "Cristina Pozzi, Impactscool",
-          "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/cripozzi81"
         }]
     },{
       "title": "[Workshop] Mapping the tech world and supporting policy with text-mining",
@@ -613,7 +611,7 @@
         },{
           "name": "Anne Currie, Container Solutions",
           "image": "https://ngisummit.imgix.net/Anne_Currie.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "url": "https://twitter.com/anne_e_currie"
         }]
     },{
       "title": "Solutions or solutionism? The role of technology in times of crisis",
