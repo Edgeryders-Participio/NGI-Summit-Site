@@ -771,6 +771,18 @@
           "outlet": "Nesta Italia",
           "url": " https://www.nestaitalia.org/en/",
           "logo": "/img/partners/Nesta_Italia.png"
+        },
+        {
+          "title": "Dyne.org",
+          "outlet": "Dyen.org",
+          "url": " https://www.dyne.org",
+          "logo": "/img/partners/Dyne.png"
+        },
+        {
+          "title": "Zenroom",
+          "outlet": "Zenroom",
+          "url": " https://www.zenroom.org",
+          "logo": "/img/partners/Zenroom.png"
         }
       ]
     },
