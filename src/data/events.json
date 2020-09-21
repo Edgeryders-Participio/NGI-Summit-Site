@@ -31,7 +31,9 @@
       "participants": [{
           "name": "Touria Meliani, City Of Amsterdam",
           "image": "https://ngisummit.imgix.net/Touria_Meliani.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/touriameliani"
+          "url": "https://twitter.com/touriameliani",
+         "twitter": "https://twitter.com/touriameliani",
+         "linkedin": "https://twitter.com/touriameliani"
         },{
           "name": "Raymond Knops, Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
