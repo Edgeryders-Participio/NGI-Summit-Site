@@ -13,7 +13,7 @@
           "color": "#ece571"
         },      {
           "type": "Evening programme",
-          "color": "#0c2e49"
+          "color": "#caf7eb"
         }
       ]
     },
@@ -35,7 +35,9 @@
         },{
           "name": "Raymond Knops, Dutch Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Raymond_Knops.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://twitter.com/raymondknops"
+          "url": "https://twitter.com/raymondknops",
+"Twitter": "https://twitter.com/raymondknops",
+"Linkedin": "https://twitter.com/raymondknops"
         }]
     },{
       "title": "Visions for the future Internet: what if?",
@@ -542,7 +544,7 @@
           "url": ""
         },{
           "name": "Michał Paliński, DELab UW",
-          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "image": "https://ngisummit.imgix.net/Michal_Palinski.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
