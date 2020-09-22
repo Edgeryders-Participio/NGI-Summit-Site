@@ -602,66 +602,72 @@
 "url": ""
 }, {
 "id": 73,
+"name": "Kate Sim",
+"excerpt": "Kate is a qualitative researcher studying the intersection of gender, technology, and justice. Her PhD research at the Oxford Internet Institute examines the ethical, legal, and sociopolitical implications of data- and AI-driven reporting systems for sexual violence.",
+"image": "https://ngisummit.imgix.net/Kate_Sim.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": "https://www.katejsim.com/"
+}, {
+"id": 74,
 "name": "Iskander Smit",
 "excerpt": "Iskander is Innovation Director at INFO, an agency in Amsterdam that crafts connected digital products and services. Iskander is responsible for research and development and leading LABS. He is also Visiting Professor at Delft University of Technology Faculty of Industrial Design, researching Cities of Things. He is Chairman of the Dutch chapter of Thingscon.",
 "image": "https://ngisummit.imgix.net/Iskander_Smit3.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.tudelft.nl/en/ide/about-ide/people/smit-ir/"
 }, {
-"id": 74,
+"id": 75,
 "name": "Maarten Sukel",
 "excerpt": "Maarten is the AI Lead of the City of Amsterdam and a researcher at the University of Amsterdam. He has recently worked on a system that automatically routes services requests and the urban Object Detection Kit, a system capable of detecting issues on the streets of the city.",
 "image": "https://ngisummit.imgix.net/Maarten_Sukel.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/maarten-sukel-78427b58/"
 }, {
-"id": 75,
+"id": 76,
 "name": "Mirko Tobias Schäfer",
 "excerpt": "Mirko is Associate Professor at Utrecht University's research area on Governing the Digital Society. He is co-founder and project leader of the Utrecht Data School. Mirko's research interest revolves around the socio-political impact of (media) technology. With the Utrecht Data School and the Datafied Society research platform, he investigates the impact of data practices and algorithms on public management, public media and public space.",
 "image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "http://mtschaefer.net/personal/"
 }, {
-"id": 76,
+"id": 77,
 "name": "Linda van de Fliert",
 "excerpt": "Linda is part of the Chief Technology Office of the City of Amsterdam, working together with other Dutch government bodies towards responsible use of technology. She’s the lead for several projects on fair and transparent AI.",
 "image": "https://ngisummit.imgix.net/Linda_Van_De_Fliert.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 77,
+"id": 78,
 "name": "Sebastiaan van der Lans",
 "excerpt": "Since 2006, Sebastiaan has worked full-time in open-source. He has a strong passion for building a trustworthy internet. Solutions created by his teams are actively being used by over 100.000 organizations. Let’s build the Trusted Web, together!",
 "image": "https://ngisummit.imgix.net/Sebastiaan_van_der_Lans.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 78,
+"id": 79,
 "name": "Aik van Eemeren",
 "excerpt": "Aik is the PublicTech Lead at the Chief Technology Office of the City of Amsterdam. The PublicTech program studies the impact of new technology in the city, trials new technology and invests in knowledge and skills to analyse risk.",
 "image": "https://ngisummit.imgix.net/Aik_van_Eemeren.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/aikvaneemeren"
 }, {
-"id": 79,
+"id": 80,
 "name": "Marieke van Putten",
 "excerpt": "Marieke has worked for the Ministry of the Interior and Kingdom Relations since 2018, focusing on digital government and key technologies. She has also worked as a business consultant for the public sector and has developed and managed several innovation programmes. These include on innovation procurement and stimulating economic opportunities in the Amsterdam area.",
 "image": "https://ngisummit.imgix.net/Marieke_Van_Putten.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 80,
+"id": 81,
 "name": "Mathias Vermeulen",
 "excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
 "image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/mathias-vermeulen-34a3544/"
 }, {
-"id": 81,
+"id": 82,
 "name": "Wouter Welling",
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/wouterwelling/"
 }, {
-"id": 82,
+"id": 83,
 "name": "Nick Williams",
 "excerpt": "Nick is the cofounder of Sempo, a startup reimagining cash aid for vulnerable people. Nick has a background in Astrophysics and Humanitarian Engineering. In April 2020 he was named on Forbes’s 30 Under 30 list.",
 "image": "https://ngisummit.imgix.net/Nick_Williams.png?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 83,
+"id": 84,
 "name": "Tuukka Ylälahti",
 "excerpt": "Tuukka is a startup entrepreneur, business angel, advisor and a mentor specialising in platform strategies with global reach and impact. He is a graduate of the University of Technology, Sydney, co-founder of Cabforce.com, Wahwa Research, and Mesensei.",
 "image": "https://ngisummit.imgix.net/Tuukka_Ylalahti.png?fit=facearea&w=400&h=400&facepad=3",
