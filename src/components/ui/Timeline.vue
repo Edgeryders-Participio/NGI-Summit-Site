@@ -54,11 +54,11 @@
           <div class="participant_name">
             <img :src="item.image" />
             <div>
-              <a class="name" :href="item.url" v-if="item.url && item.url !== ''">{{item.name}}</a>
+              <a class="name" :href="item.url" target="_blank" v-if="item.url && item.url !== ''">{{item.name}}</a>
               <h4 v-else>{{item.name}}</h4>
               <div class="social">
-                <a class="twitter" v-if="item.twitter">Twitter</a>
-                <a class="linkedin" v-if="item.linkedin">LinkedIn</a>
+                <a class="twitter" v-if="item.twitter" :href="item.twitter" target="_blank">Twitter</a>
+                <a class="linkedin" v-if="item.linkedin" :href="item.linkedin" target="_blank">LinkedIn</a>
               </div>
             </div>
           </div>
@@ -185,9 +185,12 @@ export default {
       var millis = endDate - startDate;
       var minutes = millis/1000/60;
 
+ 
+
       if (isOdd(index) == 1 && minutes > 30 && this.columnCount > 1) {
-        row = " [time-" + start + "] 1fr";
+        row = " [time-" + start + "] auto";
       }
+
 
       if (minutes < 30) {
         row = " [time-" + start + "] auto";
@@ -423,13 +426,13 @@ export default {
         var pr = i - 1;
         var col = "";
         if (i == 1) {
-          col = '[track-' + i + '-start] 1fr';
+          col = '[track-' + i + '-start] auto';
         }
         if (i !== 1 && i !== this.columnCount+2) {
-          col = '[track-' + pr + '-end track-' + i + '-start] 1fr';
+          col = '[track-' + pr + '-end track-' + i + '-start] auto';
         }
         if (i == this.columnCount+2) {
-          col = '[track-' + pr + '-end] 1fr';
+          col = '[track-' + pr + '-end] auto';
         }
        columns.push(col)
       }
@@ -588,7 +591,7 @@ perspective: 1000px;
         display: inline-block;
         min-width: 300px;
         border-bottom: 1px solid rgba(0,0,0,0.07);
-          padding: 0rem 0 .5rem;
+          padding: 0rem 0 1rem;
           margin-bottom: 1rem;
         a.name {
           text-decoration: underline;
@@ -597,16 +600,19 @@ perspective: 1000px;
         .participant_name {
           @apply pb-0;
           display: flex;
-          align-items: center;
+          align-items: start;
           width: 100%;
           .social {
+            display: block;
+            margin-top: 0px;
             a {
               border-bottom: 1px dashed #ddd;
-              padding: 0 0px 5px;
+              padding: 0 0 2px;
+              margin-top: 0;
               margin-right: 10px;
               font-weight: bold;
               color: rgba(0,0,0,0.8);
-              font-size: 12px;
+              font-size: 13px;
               &:hover {
                 color: black;
                 cursor: pointer;
@@ -616,7 +622,7 @@ perspective: 1000px;
           }
         }
         .participant_info {
-          margin-top: 1rem;
+          margin-top: 0rem;
           font-size: .9rem;
         }
   
