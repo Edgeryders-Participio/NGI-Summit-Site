@@ -132,6 +132,10 @@
           "name": "Thomas Zerdick, European Data Protection Supervisor",
           "image": "https://ngisummit.imgix.net/Thomas_Zerdick.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/tzerdick"
+        },{
+          "name": "Bill Thompson, BBC",
+          "image": "https://ngisummit.imgix.net/Bill_Thompson.JPG?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/billt"
         }]
     },{
       "title": "Decentralising the internet: the 'Blockchains for Social Good' prize",
@@ -149,8 +153,8 @@
           "image": "https://ngisummit.imgix.net/Marco_Zappalorto.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/MarcoZapp"
         },{
-          "name": "European Commission speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Pearse O'Donohue, European Commission",
+          "image": "https://ngisummit.imgix.net/Pearse_ODonohue.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -247,7 +251,7 @@
         }]
     },{
       "title": "[Workshop] Digital transformation in the public sector: challenge based public private partnership and cooperation",
-      "text": "The public sector is key to digital transformation. Public authorities are a major partner in solving societal challenges. Public private partnerships are very common in areas such as care, energy and mobility and in the use key technologies (Artificial Intelligence). Another type of cooperation is challenging SME’s to come up with solutions for public tasks. Cities are at the forefront of new forms of interaction with private partners due to the variety of  public tasks. Turino is a city in Italy with an excellent track in innovation in the public sector. Turino uses pre commercial procurement and public procurement of innovation in the Torino city lab, linking the role of testing/co-development at the pre-commercial phase and PPI. The ministry of the Interior and Kingdom Relations has a link to digital society and uses pre commercial procurement to stimulate solving societal challenges with key technologies (Blockchain and AI). Marieke van Putten and Elena Deambrogio give presentations on how their organizations stimulate (digital) innovation. They challenge the participants in how to use the potential of private enterprises and the best way to realize deployment/implementation. Session produced and hosted by: Dutch Ministry of the Interior",
+      "text": "Public authorities are a major partner in solving societal challenges and public-private partnerships are common in areas such as care, energy and mobility and in the use key technologies such as Artificial Intelligence. Another type of cooperation is challenging SMEs to come up with solutions for public tasks. Cities are at the forefront of new forms of interaction with private partners due to the variety of  public tasks. The Italian city of Torino uses pre commercial procurement and public procurement of innovation in the Torino City Lab, linking the role of testing/co-development at the pre-commercial phase and PPI. Learn how Torino and the Dutch Government both stimulate digital innovation and try your hand at using the potential of private enterprises to realise deployment. Session produced and hosted by: Dutch Ministry of the Interior",
       "url": "",
       "event": {
         "start": "2020-09-28T15:00:00+02:00",
@@ -295,7 +299,7 @@
         }]
     },{
       "title": "[Workshop] Transatlantic crossings: the future of EU-US data flows",
-      "text": "Personal data privacy management across the Atlantic is among the core topics tackled by the Think NEXUS project. Together with experts from both Europe and the US, we explore the impact of  the latest European decision on the EU-US Privacy Shield agreement. Session produced and hosted by: Think NEXUS and GAC Group",
+      "text": "Personal data privacy management across the Atlantic is among the core topics tackled by the Think NEXUS project. Together with experts from both Europe and the US, we explore the impact of the latest European decision on the EU-US Privacy Shield agreement. Session produced and hosted by: Think NEXUS and GAC Group",
       "url": "",
       "event": {
         "start": "2020-09-28T17:00:00+02:00",
@@ -337,9 +341,9 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": " Dyne.org",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
+          "name": "Andrea D'Intino, Dyne.org",
+          "image": "https://ngisummit.imgix.net/Andrea_Dintino.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/dyneorg"
         }]
     },{
       "title": "[Workshop] Privacy and trust: trends in experiments in EU-US research and innovation",
