@@ -136,6 +136,10 @@
           "name": "Bill Thompson, BBC",
           "image": "https://ngisummit.imgix.net/Bill_Thompson.JPG?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/billt"
+        },{
+          "name": "Federico Ast, Kleros",
+          "image": "https://ngisummit.imgix.net/Federico_Ast.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "Decentralising the internet: the 'Blockchains for Social Good' prize",
@@ -155,6 +159,30 @@
         },{
           "name": "Pearse O'Donohue, European Commission",
           "image": "https://ngisummit.imgix.net/Pearse_ODonohue.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Alex D'Elia, PROSUME",
+          "image": "https://ngisummit.imgix.net/Alex_DElia.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Tuukka Ylälahti, Mesensei",
+          "image": "https://ngisummit.imgix.net/Tuukka_Ylalahti.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Federico Ast, Kleros",
+          "image": "https://ngisummit.imgix.net/Federico_Ast.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Sebastiaan van der Lans, WordProof",
+          "image": "https://ngisummit.imgix.net/Sebastiaan_van_der_Lans.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Jessi Baker, provenance.org",
+          "image": "https://ngisummit.imgix.net/Jessi_Baker.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Nick Williams, Sempo",
+          "image": "https://ngisummit.imgix.net/Nick_Williams.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
