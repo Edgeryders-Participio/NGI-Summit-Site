@@ -337,9 +337,9 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": "Denis Roio, Dyne.org",
-          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
-          "url": "https://jaromil.dyne.org/"
+          "name": " Dyne.org",
+          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "[Workshop] Privacy and trust: trends in experiments in EU-US research and innovation",
@@ -382,8 +382,8 @@
       "text": "In this session, you can ask the CTOs of two major European cities anything – get their view on tech developments, policy decisions, smart cities, face recognition, budgets, staff, training, audience participation and anything else you want to ask.",
       "url": "",
       "event": {
-        "start": "2020-09-28T20:00:00+02:00",
-        "end": "2020-09-28T21:00:00+02:00",
+        "start": "2020-09-28T19:00:00+02:00",
+        "end": "2020-09-28T20:00:00+02:00",
         "timezone": "Europe/Amsterdam",
         "location": "",
         "type": "Evening programme"
@@ -469,8 +469,8 @@
           "image": "https://ngisummit.imgix.net/Amelia_Hassoun.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
-          "name": "Alberto Cottica",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Hugi Asgeirsson, Edgeryders",
+          "image": "https://ngisummit.imgix.net/Hugi_Asgeirsson.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -657,8 +657,8 @@
           "image": "https://ngisummit.imgix.net/Maarten_Sukel.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/maartensukel"
         },{
-          "name": "City of Bordeaux speaker (tbc)",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Antoine Bidegain, Bordeaux Métropole",
+          "image": "https://ngisummit.imgix.net/Antoine_Bidegain.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         },{
           "name": "City of Barcelona speaker (tbc)",
