@@ -510,6 +510,22 @@
           "url": "https://twitter.com/katejsim"
         }]
     },{
+      "title": "[Workshop] Follow us OFF Facebook: decent alternatives for interacting with citizens",
+      "text": "Despite the incessant outcry over social media giants’ disrespect of privacy and unaccountable influence on society, any public sector organisation wanting to reach citizens feels forced to be present on their enormous platforms. But through its presence, an organisation legitimises these platforms’ practices, treats them like public utilities, subjects its content to their opaque filters and ranking, and compels citizens to be on them too — thus further strengthening their dominance. In this workshop, we explore the alternative of decentralised social media, which lets an organisation keep full control by hosting its content on its own site, and lets users choose whichever providers and apps they prefer, because these can all interoperate via standardised web protocols like ActivityPub. How do we make governments aware of this possibility, their responsibility and example role? How could legislation help avoid having to choose between either reaching or respecting citizens — and, for citizens, between either clicking ‘Accept’ to unnegotiable terms or being left out of democratic participation? Session produced and hosted by: Redecentralize",
+      "url": "",
+      "event": {
+        "start": "2020-09-29T10:00:00+02:00",
+        "end": "2020-09-29T11:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Gerben van den Broeke, Redecentralize.org",
+          "image": "https://ngisummit.imgix.net/Gerben_van_den_Broeke.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        }]
+    },{
       "title": "[Workshop] Public control over AI: a public AI register",
       "text": "Join us for a Q&A with Meeri Haataja of Saidot, a platform enabling AI transparency and accountability. Meeri Haataja will demonstrate the algorithmic and AI registers of the cities of Amsterdam and Helsinki that Saidots platform made possible, and you can ask her anything about what is needed to realize AI transparency within your own organisation. Session produced and hosted by: Saidot",
       "url": "",
