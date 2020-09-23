@@ -184,6 +184,10 @@
           "name": "Nick Williams, Sempo",
           "image": "https://ngisummit.imgix.net/Nick_Williams.png?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
+        },{
+          "name": "Niamh Carty, Oxfam",
+          "image": "https://ngisummit.imgix.net/Niamh_Carty.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "[Workshop] Digital identity",
@@ -200,6 +204,26 @@
           "name": "Wouter Welling, Dutch Ministry of the Interior and Kingdom Relations",
           "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://twitter.com/wouterwelling"
+        }]
+    },{
+      "title": "[Workshop] Digital transformation in the public sector: challenge based public private partnership and cooperation",
+      "text": "The public sector is key to digital transformation. Public authorities are a major partner in solving societal challenges. Public private partnerships are very common in areas such as care, energy and mobility and in the use key technologies (Artificial Intelligence). Another type of cooperation is challenging SME’s to come up with solutions for public tasks. Cities are at the forefront of new forms of interaction with private partners due to the variety of  public tasks. Torino is a city in Italy with an excellent track in innovation in the public sector. Through Torino City Lab the city uses 'Calls for challenge' and 'experimentation contracts' to promote the co-development and testing of innovative solutions of public interest by the private sector. This of course is a way to constantly gather market intelligence,  linking the role of testing/co-development at the pre-commercial phase and PPI.The ministry of the Interior and Kingdom Relations has a link to digital society and uses pre commercial procurement to stimulate solving societal challenges with key technologies (Blockchain and AI). Marieke van Putten and Elena Deambrogio give presentations on how their organizations stimulate (digital) innovation. They challenge the participants in how to use the potential of private enterprises and the best way to realize deployment/implementation. Session produced and hosted by: Dutch Ministry of the Interior",
+      "url": "https://app.hopin.to/events/next-generation-internet-policy-summit/sessions/6410f287-4de4-4230-b38a-99da6051f789",
+      "event": {
+        "start": "2020-09-28T15:00:00+02:00",
+        "end": "2020-09-28T16:00:00+02:00",
+        "timezone": "Europe/Amsterdam",
+        "location": "",
+        "type": "Policy in practice"
+      },
+      "participants": [{
+          "name": "Marieke van Putten, Dutch Ministry of the Interior and Kingdom Relations",
+          "image": "https://ngisummit.imgix.net/Marieke_Van_Putten.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Elena Deambrogio, Turin City Council",
+          "image": "https://ngisummit.imgix.net/Elena_Deambrogio.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
         }]
     },{
       "title": "[Workshop] Biometrics and facial recognition in cities",
@@ -278,26 +302,6 @@
           "url": "https://twitter.com/peterbihr"
         }]
     },{
-      "title": "[Workshop] Digital transformation in the public sector: challenge based public private partnership and cooperation",
-      "text": "The public sector is key to digital transformation. Public authorities are a major partner in solving societal challenges. Public private partnerships are very common in areas such as care, energy and mobility and in the use key technologies (Artificial Intelligence). Another type of cooperation is challenging SME’s to come up with solutions for public tasks. Cities are at the forefront of new forms of interaction with private partners due to the variety of  public tasks. Torino is a city in Italy with an excellent track in innovation in the public sector. Through Torino City Lab the city uses 'Calls for challenge' and 'experimentation contracts' to promote the co-development and testing of innovative solutions of public interest by the private sector. This of course is a way to constantly gather market intelligence,  linking the role of testing/co-development at the pre-commercial phase and PPI.The ministry of the Interior and Kingdom Relations has a link to digital society and uses pre commercial procurement to stimulate solving societal challenges with key technologies (Blockchain and AI). Marieke van Putten and Elena Deambrogio give presentations on how their organizations stimulate (digital) innovation. They challenge the participants in how to use the potential of private enterprises and the best way to realize deployment/implementation. Session produced and hosted by: Dutch Ministry of the Interior",
-      "url": "https://app.hopin.to/events/next-generation-internet-policy-summit/sessions/6410f287-4de4-4230-b38a-99da6051f789",
-      "event": {
-        "start": "2020-09-28T15:00:00+02:00",
-        "end": "2020-09-28T16:00:00+02:00",
-        "timezone": "Europe/Amsterdam",
-        "location": "",
-        "type": "Policy in practice"
-      },
-      "participants": [{
-          "name": "Marieke van Putten, Dutch Ministry of the Interior and Kingdom Relations",
-          "image": "https://ngisummit.imgix.net/Marieke_Van_Putten.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
-        },{
-          "name": "Elena Deambrogio, Turin City Council",
-          "image": "https://ngisummit.imgix.net/Elena_Deambrogio.jpg?fit=facearea&w=100&h=100&facepad=3",
-          "url": ""
-        }]
-    },{
       "title": "[Workshop] Data-sharing in cities",
       "text": "Join us for a workshop for city and regional stakeholders that explores the application of digital rights in local data-sharing platforms throughout planning, implementation, and evolution. Looking at case studies from Toronto, Zaragoza, Berlin, Newcastle, Rennes, Bordeaux, and Helsinki, we will discuss how city platforms for data-sharing are created from different building blocks (policies, processes, infrastructures, and actions) to extract value from urban big data.",
       "url": "https://app.hopin.to/events/next-generation-internet-policy-summit/sessions/b3351cbe-3a26-4365-8c3d-7bfdcaf6005b",
@@ -324,6 +328,10 @@
           "name": "Ryan Kurtzman, City of Long Beach, California",
           "image": "https://ngisummit.imgix.net/Ryan_Kurtzman.jpg?fit=facearea&w=100&h=100&facepad=3",
           "url": "https://www.linkedin.com/in/rkurtzman/"
+        },{
+          "name": "Emily Royall, City of San Antonio",
+          "image": "https://ngisummit.imgix.net/Emily_Royall.jpg?fit=facearea&w=100&h=100&facepad=3",
+          "url": "https://twitter.com/emily_royall"
         }]
     },{
       "title": "[Workshop] Transatlantic crossings: the future of EU-US data flows",
@@ -337,8 +345,8 @@
         "type": "Policy in practice"
       },
       "participants": [{
-          "name": "Fabrice Clari",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Fabrice Clari, GAC Group",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
@@ -405,14 +413,18 @@
         "type": "Evening programme"
       },
       "participants": [{
-          "name": "Sander Veenhof",
-          "image": "https://ngisummit.imgix.net/person.png?fit=facearea&w=100&h=100&facepad=3",
+          "name": "Sander Veenhof, Gerrit Rietveld Academie",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
+          "url": ""
+        },{
+          "name": "Leonieke Verhoog, PublicSpaces",
+          "image": "https://ngisummit.imgix.net/?fit=facearea&w=100&h=100&facepad=3",
           "url": ""
         }]
     },{
       "title": "[Evening programme] Ask me anything",
       "text": "In this session, you can ask the CTOs of two major European cities anything – get their view on tech developments, policy decisions, smart cities, face recognition, budgets, staff, training, audience participation and anything else you want to ask.",
-      "url": "",
+      "url": "https://app.hopin.to/events/next-generation-internet-policy-summit/sessions/96b46587-cff4-429a-91c3-c56bc2dcfa5c",
       "event": {
         "start": "2020-09-28T19:00:00+02:00",
         "end": "2020-09-28T20:00:00+02:00",
