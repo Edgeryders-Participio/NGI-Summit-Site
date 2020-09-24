@@ -381,7 +381,7 @@
 }, {
 "id": 36,
 "name": "Ben Cerveny",
-"excerpt": "",
+"excerpt": "Ben is the co-founder and president of the Foundation for Public Code, a non-profit helping public organizations build sustainable, adaptive, and open software infrastructure together.  For over 25 years he has worked as an executive, strategist, and designer in the context of operating systems, media applications, web services, products, the built environment, and digital games.",
 "image": "https://ngisummit.imgix.net/Ben_Cerveny.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://publiccode.net/team/ben-cerveny.html"
 }, {
@@ -434,264 +434,306 @@
 "url": ""
 }, {
 "id": 45,
+"name": "Rob van Kranenburg",
+"excerpt": "In a world with ever increasing levels of disruption, not least in the world of technology, Rob van Kranenburg is on the frontline on communicating and innovating the Internet of Things (IoT). In 2009, he founded the Internet of Things Council, creating a hub for the practice and implementation for IoT related technologies.  Rob van Kranenburg is published by the European Cybersecurity Journal, the Strategic Studies of the American War College and numerous web sources. As Ecosystem manager in various FP7 and Horizon 2020 projects, Rob s part of the  3 year Strategy CSA NGI FORWARD (-2022). Rob van Kranenburg has been wondering what is going on for the past thirty years and is wondering still about what the lack of reciprocity in TCP-OP, WWW and IoT is doing the world in which we grew up in full of standalone things.",
+"image": "https://ngisummit.imgix.net/Rob_van_Kranenburg.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
+}, {
+"id": 46,
 "name": "Nick Williams",
 "excerpt": "Nick is the cofounder of Sempo, a startup reimagining cash aid for vulnerable people. Nick has a background in Astrophysics and Humanitarian Engineering. In April 2020 he was named on Forbes’s 30 Under 30 list.",
 "image": "https://ngisummit.imgix.net/Nick_Williams.png?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 46,
+"id": 47,
 "name": "Tuukka Ylälahti",
 "excerpt": "Tuukka is a startup entrepreneur, business angel, advisor and a mentor specialising in platform strategies with global reach and impact. He is a graduate of the University of Technology, Sydney, co-founder of Cabforce.com, Wahwa Research, and Mesensei.",
 "image": "https://ngisummit.imgix.net/Tuukka_Ylalahti.png?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 47,
+"id": 48,
 "name": "Hugi Asgeirsson",
 "excerpt": "Hugi is an expert in participatory processes, from distributed online organisations to grassroots placemaking. He is also a software developer with a passion for networks and graphs, and develops tools for participatory culture and organisations.",
 "image": "https://ngisummit.imgix.net/Hugi_Asgeirsson.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://hugi.se/"
 }, {
-"id": 48,
+"id": 49,
 "name": "Malcolm Bain",
 "excerpt": "Malcolm has provided legal advice in the areas of information technologies and intellectual property for over 20 years, specialising in open source software and content, privacy, digital platforms and software licensing. He has been working for the last 3 years with Barcelona’s open digital transformation programme, and participates in the City Coalition for Digital Rights.",
 "image": "https://ngisummit.imgix.net/Malcolm_Bain.png?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://acrosslegal.com/en/people/malcolm-bain/"
 }, {
-"id": 49,
+"id": 50,
+"name": "Caroline Barelle",
+"excerpt": "Caroline' research focus is on the development of digital solutions for Health, Wellbeing and Ageing. Her work sits at the intersection of technology, wellbeing and ethics. Caroline is the coordinator of the ONTOCHAIN initiative.",
+"image": "https://ngisummit.imgix.net/Caroline_Barelle.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
+}, {
+"id": 51,
 "name": "Ger Baron",
 "excerpt": "As Amsterdam's first Chief Technology Officer, Ger Baron is on a mission to solve the city's challenges with innovative solutions, data driven decision making and responsible technology.",
 "image": "https://ngisummit.imgix.net/Ger_Baron.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/gerbaron/"
 }, {
-"id": 50,
+"id": 52,
 "name": "Peter Bihr",
 "excerpt": "Peter explores how emerging technologies can have a positive social impact. At the core of his work is the mission to align emerging technologies and citizen empowerment.",
 "image": "https://ngisummit.imgix.net/Peter_Bihr.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://peterbihr.com/"
 }, {
-"id": 51,
+"id": 53,
 "name": "Theo Blackwell",
 "excerpt": "Appointed in 2017 as London's first Chief Digital Officer, Theo leads on London-wide digital transformation, data and smart city initiatives at City Hall. Theo’s role involves strategic leadership on the digital transformation agenda for London's public services.",
 "image": "https://ngisummit.imgix.net/Theo_Blackwell.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.london.gov.uk/people/mayoral/theo-blackwell-mbe"
 }, {
-"id": 52,
-"name": "Jennie Brennan",
+"id": 54,
+"name": "Jenny Brennan",
 "excerpt": "Jenny is a Researcher at the Ada Lovelace Institute, working at the intersection of AI and data-driven technology, policy and society. Her research includes AI in the public sector, ways of assessing and inspecting algorithmic systems, as well as the impact of facial recognition and biometrics.",
 "image": "https://ngisummit.imgix.net/Jenny_Brennan.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 53,
+"id": 55,
 "name": "Areeq Chowdhury",
 "excerpt": "Areeq is the founder and director of the think tank, WebRoots Democracy, which is focused on progressive and inclusive technology policy. He recently authored the report ‘Unmasking Facial Recognition’ which explores the racial bias aspects of the police's use of facial recognition technology and argues for a ‘generational ban’.",
 "image": "https://ngisummit.imgix.net/Areeq_Chowdhury.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 54,
+"id": 56,
 "name": "James Clarke",
 "excerpt": "James is a Programme Manager at the Telecommunications Software and Systems Group (TSSG) of Waterford Institute of Technology (WIT) in Ireland. He has been at WIT since 2005 and is the coordinator of the NGIatlantic.eu project within the NGI initiative.",
 "image": "https://ngisummit.imgix.net/James_Clarke.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 55,
+"id": 57,
 "name": "Andrea D'Intino",
 "excerpt": "Andrea is a software developer and technology sales expert. He works with video game and software development, 3D scanners, 3D printers and cryptography.",
 "image": "https://ngisummit.imgix.net/Andrea_Dintino.png?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/andrea-d-intino/"
 }, {
-"id": 56,
+"id": 58,
 "name": "Elena Deambrogio",
 "excerpt": "Elena has worked for Turin City Council for 15 years, delivering cross sectoral innovation in line with EC trends and policies, accessing and managing EU funds, including structural funds, and shaping the territory as an 'open living lab'. Since 2016 she managed local living labs and is currently programme manager of Turin City Lab.",
 "image": "https://ngisummit.imgix.net/Elena_Deambrogio.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 57,
+"id": 59,
 "name": "Roel Dobbe",
 "excerpt": "Roel studies the integration of data-driven and algorithmic technologies in safety-critical infrastructure and societal institutions. A control and intelligent systems engineer by training, he addresses the development practices of AI systems and develops new forms of supervision to improve democratic oversight and participation. Roel actively works on applications in the energy and public administration domains.",
 "image": "https://ngisummit.imgix.net/Roel_Dobbe.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://ainowinstitute.org/people/roel-dobbe.html"
 }, {
-"id": 58,
+"id": 60,
 "name": "Lorna Goulden",
 "excerpt": "Lorna has 20+ years’ experience working across industries from smart city developments to customer-centric digital innovations, with particular focus on the impact on society. She organizes the Eindhoven Internet of Things Meetup and is a UX team lead and Steering Group member of a non-profit foundation developing an SDK for decentralized identity+data as a foundation for COVID19 applications.",
 "image": "https://ngisummit.imgix.net/Lorna_Goulden.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "http://www.lumolabs.io/team/lorna-goulden/"
 }, {
-"id": 59,
+"id": 61,
 "name": "Kristóf Gyódi",
 "excerpt": "Kristóf is a PhD candidate at the Faculty of Economic Sciences and researcher at DELab UW at the University of Warsaw. His research interests include the digitalisation of the economy, services provided by online platforms and the sharing economy.",
 "image": "https://ngisummit.imgix.net/Kristof_Gyodi.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 60,
+"id": 62,
 "name": "Meeri Haataja",
 "excerpt": "Meeri is the CEO and Co-Founder of Saidot, a start-up providing technology & services on AI transparency. Saidot helps public and private organizations operate their AI registers and communicate openly of their AI. Meeri is also the chair of IEEE’s Ethics Certification Program, and an affiliate of the Berkman Klein Center for Internet & Society at Harvard University.",
 "image": "https://ngisummit.imgix.net/Meeri_Haataja.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.saidot.ai/about-us-copy"
 }, {
-"id": 61,
+"id": 63,
 "name": "Amelia Hassoun",
 "excerpt": "Amelia is an anthropologist with a research focus on the social impacts of digital technologies. She is currently a doctoral researcher at the Oxford Internet Institute, analysing community-based civic technology initiatives, ethnographically examining how community members creatively interact with and rework “smart” urban technologies.",
 "image": "https://ngisummit.imgix.net/Amelia_Hassoun.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.ameliahassoun.com/"
 }, {
-"id": 62,
+"id": 64,
 "name": "Simon Höher",
 "excerpt": "Simon leads the Hybrid City Lab, the public design unit of Berlin-based innovation firm zero360, and has co-chaired ThingsCon since 2014. In his work, he explores systemic concepts of technology, culture, and society in a global context. As a serial entrepreneur and strategy consultant, he works with organizations to co-create their future, fosters connections between people, ideas, and products.",
 "image": "https://ngisummit.imgix.net/Simon_Hoeher.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://simonhoeher.com/"
 }, {
-"id": 63,
+"id": 65,
 "name": "Evin Incir",
 "excerpt": "Evin is an MEP from the Swedish Social Democratic Party. She is a member of the LIBE, AFET and DEVE committees and focuses primarily on democracy, human rights and the respect for the common values of the union. Before her election to the European Parliament she was the secretary general for the International Union of Socialist Youth and deputy secretary general for the Swedish Social democrats international office.",
 "image": "https://ngisummit.imgix.net/Evin_Incir.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://twitter.com/evinincir"
 }, {
-"id": 64,
+"id": 66,
 "name": "Ella Jakubowska",
 "excerpt": "Ella works in the policy team at EDRi, a coalition of civil society organisations protecting fundamental rights in the digital age. She focuses on biometics and mass surveillance, and has a background researching the intersection of social and technical systems. She previously worked in digital business transformation.",
 "image": "https://ngisummit.imgix.net/Ella_Jakubowska.png?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://uk.linkedin.com/in/ellajakubowska"
 }, {
-"id": 65,
+"id": 67,
 "name": "Andrea Krajewski",
 "excerpt": "Andrea is an industrial designer, speaker and blogger, fascinated by the changing role of design in innovation processes. In 2002, she was appointed as a professor for the Design of Interactive Media Systems at the University of Applied Sciences Darmstadt. Here she established the UX-Lab and the THINGS-Lab – the current centres of her research.",
 "image": "https://ngisummit.imgix.net/Andrea-Krajewski.png?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://andreakrajewski.com/about/"
 }, {
-"id": 66,
+"id": 68,
 "name": "Ryan Kurtzman",
 "excerpt": "Ryan's experience includes developing community programs and policies that leverage technology to improve connectivity, mobility, digital equity, and economic outcomes for all residents. He also leads the City's open data and data governance programs.",
 "image": "https://ngisummit.imgix.net/Ryan_Kurtzman.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/rkurtzman/"
 }, {
-"id": 67,
+"id": 69,
 "name": "Giacomo Mariotti",
 "excerpt": "Giacomo leads the Tech for Good innovation area at Nesta Italia, where he designs and runs innovation programs on a local, national and international scale to promote the use of emerging technologies to address social challenges and create tangible impact. Before joining Nesta Italia in 2020, he worked as a consultant for QuantumBlack, the advanced analytics arm of McKinsey.",
 "image": "https://ngisummit.imgix.net/Giacomo_Mariotti.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.nestaitalia.org/en/team/giacomo-mariotti/"
 }, {
-"id": 68,
+"id": 70,
 "name": "Iris Muis",
 "excerpt": "Iris is Coordinator of the Data Ethics Decision Aid (DEDA) at Utrecht Data School. DEDA is a tool for assessing the ethical implications of data projects within public management. Utrecht Data School is a research and teaching platform within the Humanities Faculty at Utrecht University. Iris' research focuses mainly on qualitatively studying the implementation of data ethics within Dutch government institutions.",
 "image": "https://ngisummit.imgix.net/Iris_Muis.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/iris-muis/"
 }, {
-"id": 69,
+"id": 71,
 "name": "Diego Naranjo",
 "excerpt": "Diego joined EDRi in October 2014 where he works as Head of Policy. He leads the policy team work for the protection of citizens' fundamental rights and freedoms online in the fields of data protection, surveillance and copyright and other dossiers.",
 "image": "https://ngisummit.imgix.net/Diego_Naranjo.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://edri.org/diego/"
 }, {
-"id": 70,
+"id": 72,
 "name": "Jeroen Naves",
 "excerpt": "Jeroen is a lawyer specialized in technology and law. He advises and litigates on IT contracts, data, privacy and new technologies. Jeroen has been closely involved in the development of the Standard Clauses for Municipalities for Fair Use of Algorithmic Applications.",
 "image": "https://ngisummit.imgix.net/Jeroen_Naves.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.pelsrijcken.nl/en/people/jeroen-naves"
 }, {
-"id": 71,
+"id": 73,
 "name": "Michał Paliński",
 "excerpt": "Michał is a PhD candidate at the Faculty of Economic Sciences at the University of Warsaw and researcher at DELab UW. Michał’s research interests focus on the digital economy, especially on valuation of online privacy and the role online platforms are playing in solving market failures.",
 "image": "https://ngisummit.imgix.net/Michal_Palinski.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 72,
+"id": 74,
+"name": "Thanasis Papaioannou",
+"excerpt": "Thanasis is Senior Researcher in the STEcon Lab at Athens University of Economics and Business and Lecturer at University of Thessaly, Greece. He has worked on 21 European projects and authored more than 75 papers. His interests are in incentive mechanisms, trust, blockchains, techno-economics and more.",
+"image": "https://ngisummit.imgix.net/Thanasis_Papaioannou.png?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
+}, {
+"id": 75,
 "name": "Johanna Pasilkar",
 "excerpt": "Johanna is the Project Manager of the City-as-MyData-Operator project led by the City of Helsinki. The project is funded by the Finnish Ministry of Finance and brings together four major cities in Helsinki, Espoo, Turku and Oulu to develop MyData capabilities both in technical and policy level for residents, cities themselves and other urban actors such as NGOs and third sector.",
 "image": "https://ngisummit.imgix.net/Johanna_Pasilkar.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 73,
+"id": 76,
 "name": "Sara Pittonet Gaiarin",
 "excerpt": "Sara is a Senior Project manager at Trust-IT, responsible for the management and implementation of complex digital marketing strategies in the context of EU Open Science communications R&D projects. She combines Project and Resource Management skills with an experienced copywriter background in R&D projects as well as private, commercial and industry customers.",
 "image": "https://ngisummit.imgix.net/Sara_Pittonet_Gaiarin.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 74,
+"id": 77,
 "name": "Cristina Pozzi",
 "excerpt": "Impactscool co-founder and CEO, Cristina is a social entrepreneur engaged in the future of education and in education about the future, giving students, citizens and organizations the tools to responsibly shape the most desirable future for society and individuals.",
 "image": "https://ngisummit.imgix.net/Cristina_Pozzi.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://it.linkedin.com/in/pozzicristina"
 }, {
-"id": 75,
+"id": 78,
 "name": "Roel Raterink",
 "excerpt": "Roel is EU Advisory for Innovation at the City of Amsterdam. He believes cities worldwide can play a role in defending the interests of citizens in the digital world, and in ending the trading of personal data for commercial purposes.",
 "image": "https://ngisummit.imgix.net/Roel_Raterink.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/roel-raterink-90a51651/"
 }, {
-"id": 76,
+"id": 79,
 "name": "Pasi Rautio",
 "excerpt": "Pasi leads Helsinki’s AI development plan. Helsinki’s vision is to be the world’s most functional city that makes the best use of digitalization. Recently he has specifically focused on leading the development of AI and the definition of ethical principles.",
 "image": "https://ngisummit.imgix.net/Pasi_Rautio.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 77,
+"id": 80,
 "name": "Emily Royall",
 "excerpt": "Emily is a data professional and urban planner working towards equity in smart cities. She is currently the Smart City Coordinator at the Office of Innovation for the City of San Antonio. Formerly, Emily worked in Singapore at the smart cities think tank, City Form Labs, and the Massachusetts Office of Information Technology (MassIT). She has several years of public sector experience in digital services, community engagement, and smart city strategy.",
 "image": "https://ngisummit.imgix.net/Emily_Royall.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/emilybroyall/"
 }, {
-"id": 78,
+"id": 81,
 "name": "Daniel Sarasa Funes",
 "excerpt": "Daniel is Smart City Program Manager at Zaragoza City Council, where he has planned and deployed projects such as the municipal wireless networks, or the ecosystem of public start-up incubators. Daniel is one of the core team members that launched Etopia Center for Arts and Technology in 2013, where he now leads its Open Urban Lab, the co-creation lab of the Smart City.",
 "image": "https://ngisummit.imgix.net/Daniel_Sarasa_Funes.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.mchmaster.com/faculty/daniel-sarasa-funes/"
 }, {
-"id": 79,
+"id": 82,
 "name": "Tijmen Schep",
 "excerpt": "Tijmen helps citizens, designers and policymakers understand new chances and challenges in our data-driven society. He does this mainly through PineappleJazz, a consultancy where he helps organizations think strategically about technology and the future.",
 "image": "https://ngisummit.imgix.net/Tijmen_Schep.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 80,
+"id": 83,
 "name": "Kate Sim",
 "excerpt": "Kate is a qualitative researcher studying the intersection of gender, technology, and justice. Her PhD research at the Oxford Internet Institute examines the ethical, legal, and sociopolitical implications of data- and AI-driven reporting systems for sexual violence.",
 "image": "https://ngisummit.imgix.net/Kate_Sim.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.katejsim.com/"
 }, {
-"id": 81,
+"id": 84,
 "name": "Iskander Smit",
 "excerpt": "Iskander is Innovation Director at INFO, an agency in Amsterdam that crafts connected digital products and services. Iskander is responsible for research and development and leading LABS. He is also Visiting Professor at Delft University of Technology Faculty of Industrial Design, researching Cities of Things. He is Chairman of the Dutch chapter of Thingscon.",
 "image": "https://ngisummit.imgix.net/Iskander_Smit3.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.tudelft.nl/en/ide/about-ide/people/smit-ir/"
 }, {
-"id": 82,
+"id": 85,
+"name": "Matthias Spielkamp",
+"excerpt": "Matthias is co-founder and executive director of AlgorithmWatch. He serves on the governing board of the German section of Reporters Without Borders and the advisory councils of Stiftung Warentest and the Whistleblower Network. He has written and edited books on digital journalism and Internet governance and was named one of 15 architects building the data-driven future by Silicon Republic.",
+"image": "https://ngisummit.imgix.net/Matthias_Spielkamp.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": "https://algorithmwatch.org/en/team/matthias-spielkamp/"
+}, {
+"id": 86,
+"name": "Vlado Stankovski",
+"excerpt": "Vlado focuses on Semantic Web, Grid, Cloud, Fog and Edge Computing technologies. He has been involved in various Horizon 2020 projects including the SWITCH, ENTICE, DECENTER and ONTOCHAIN projects.",
+"image": "https://ngisummit.imgix.net/Vlado_Stankovski.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
+}, {
+"id": 87,
 "name": "Mirko Tobias Schäfer",
 "excerpt": "Mirko is Associate Professor at Utrecht University's research area on Governing the Digital Society. He is co-founder and project leader of the Utrecht Data School. Mirko's research interest revolves around the socio-political impact of (media) technology. With the Utrecht Data School and the Datafied Society research platform, he investigates the impact of data practices and algorithms on public management, public media and public space.",
 "image": "https://ngisummit.imgix.net/Mirko_Schaefer.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "http://mtschaefer.net/personal/"
 }, {
-"id": 83,
+"id": 88,
 "name": "Linda van de Fliert",
 "excerpt": "Linda is part of the Chief Technology Office of the City of Amsterdam, working together with other Dutch government bodies towards responsible use of technology. She’s the lead for several projects on fair and transparent AI.",
 "image": "https://ngisummit.imgix.net/Linda_Van_De_Fliert.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 84,
+"id": 89,
 "name": "Gerben van den Broeke",
 "excerpt": "Gerben is a Brussels-based public interest technologist and free software developer. Through Redecentralize.org he advocates for interoperability and decentralisation of digital technology.",
 "image": "https://ngisummit.imgix.net/Gerben_van_den_Broeke.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 85,
+"id": 90,
 "name": "Aik van Eemeren",
 "excerpt": "Aik is the PublicTech Lead at the Chief Technology Office of the City of Amsterdam. The PublicTech program studies the impact of new technology in the city, trials new technology and invests in knowledge and skills to analyse risk.",
 "image": "https://ngisummit.imgix.net/Aik_van_Eemeren.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/aikvaneemeren"
 }, {
-"id": 86,
+"id": 91,
 "name": "Marieke van Putten",
 "excerpt": "Marieke has worked for the Ministry of the Interior and Kingdom Relations since 2018, focusing on digital government and key technologies. She has also worked as a business consultant for the public sector and has developed and managed several innovation programmes. These include on innovation procurement and stimulating economic opportunities in the Amsterdam area.",
 "image": "https://ngisummit.imgix.net/Marieke_Van_Putten.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": ""
 }, {
-"id": 87,
+"id": 92,
+"name": "Sander Veenhof",
+"excerpt": "Since 2010, Dutch creative technologist Sander Veenhof has been exploring the phenomenon of augmented reality. He is currently working on hands-on creative research in how we're becoming part of the semi-digital ecosystem through A.R.",
+"image": "https://ngisummit.imgix.net/Sander_Veenhof.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
+}, {
+"id": 93,
+"name": "Leonieke Verhoog",
+"excerpt": "Leonieke loves to think, write and profit from all of the aspects of the digital revolution, from augmented reality to multiplatform storytelling, from online art to offline games and fun.",
+"image": "https://ngisummit.imgix.net/Leonieke_Verhoog.jpg?fit=facearea&w=400&h=400&facepad=3",
+"url": ""
+}, {
+"id": 94,
 "name": "Mathias Vermeulen",
 "excerpt": "Mathias is a strategic advisor for the Mozilla Foundation and recently co-founded AWO, a new data rights agency. Mathias has been working for more than a decade on the intersection of digital rights and tech policy, including at the European Parliament, the United Nations, academia and civil society.",
 "image": "https://ngisummit.imgix.net/Mathias_Vermeulen.jpg?fit=facearea&w=400&h=400&facepad=3",
 "url": "https://www.linkedin.com/in/mathias-vermeulen-34a3544/"
 }, {
-"id": 88,
+"id": 95,
 "name": "Wouter Welling",
 "excerpt": "Wouter works as a coordinating policy advisor on digital identity at the Dutch Ministry of the Interior. In the past he has worked on several large governmental IT projects and complex policy questions. He is well known in international discussion on the future of digital identity. He worked as a policy advisor, IT product owner and IT consultant in the past.",
 "image": "https://ngisummit.imgix.net/Wouter_Welling2.jpg?fit=facearea&w=400&h=400&facepad=3",
