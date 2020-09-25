@@ -1,45 +1,80 @@
 <template>
-  <div class="timeline_container md:timeline_container-md" :style="customFont">
+  <div :style="customFont">
+    <div class="navigation">
+      <div class="dates">
+      <div v-for="(item, index) in eventDates" class="date" :key="index" @click="selectDate(item)" :class="{active: selectedDate == item}">{{ item }}</div>
+      </div>
+      <div class="filters_options" :class="{'active': selectedFilter !== null }">
+       <div v-for="(item, index) in getFilters" :key="index" @click="selectFilter(item)" class="filter" :class="{active: selectedFilter == item}" :style="selectedFilter == item ? 'background-color: ' + getColor(item) : 'background-color: white'">
+       <span class="circle" :style="getCircleColor(item)">
+         <svg v-if="selectedFilter == item" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><g fill='white' fill-rule="nonzero"><path  d="M29 9a20 20 0 11-40 0 20 20 0 0140 0zM-5 9a14 14 0 1028 0A14 14 0 00-5 9z"/><path d="M13 9l4 4a3 3 0 01-4 4l-4-4-4 4a3 3 0 01-4-4l4-4-4-4a3 3 0 014-4l4 4 4-4a3 3 0 014 4l-4 4z"/></g></svg>
+       </span>
+       {{ item }}
+       
+       </div>
+      </div>
+    </div>
 
-  <div class="timeline"  id="events_container">
 
-    <div class="ml-8">
+<!--          {{getRowStyle()}}
+    <div v-for="(item, index) in filteredItems" :key='index' :class="'session'" :style="'grid-column: track-1; grid-row: ' + getRow(item.event)">
+     {{ getRow(item.event) }}
+      {{ item.event.start }}
+    </div>
+     -->
 
-    <transition-group name="list" tag="div" class="events_list">
-    <div v-for="(item, index) in items" :key='index' class="day md:day-md" :class="{active: isActive(item.event.start) }" :style="textStyle('paragraph', custom.style)">
-      <h4 v-if="newDate(index, item.event.start)" class="md:pb-4 font-bold" :class="{'first_date': index == 0}" :id="'day-' + dateId(item.event.start)">{{item.event.start | formatDate}}</h4>
-      <div class="event md:event-md">
-        <div class="time md:time-md">
-          <p class="start">{{item.event.start | formatTime}} </p>
-          <p>to</p>
-          <p class="end"> {{item.event.end | formatTime}}</p>
-        </div>
 
-        <div class="info md:info-md" :style="{borderColor: getColor(item.event.type)}">
-          <div class="block ml-4 mr-6">
-            <p class="event_title">{{item.title}}</p>
-            <div class="participants block w-full">
-              <div class="participant" v-for="(person, index) in item.participants" :key="index">
-                <div class="avatar" v-if="person.image" :style="{background: 'url(' + person.image + ')'}"></div>
-                <a :href="person.url" target="_blank" v-if="person.url">{{person.name}}</a>
-                <p v-else>{{person.name}}</p>
+   <div class="schedule" aria-labelledby="schedule-heading" :style="getRowStyle()">
+
+  <div v-for="item in filteredItems" :key='item.title' :style="'background-color: ' + getColor(item.event.type) + '; grid-column: track-' + item.column + '; grid-row: ' + getRow(item.event)" class="session" @click="toggleLightbox(item)">
+      <h4>{{ item.title }}</h4>
+      <p>{{ item.event.start | formatHour }} - {{ item.event.end | formatHour }}</p>
+  </div>
+
+
+    <div class="time" v-for="(item, index) in getRowTimes()" :key="index" :style="'grid-column-start: track-1; grid-column-end: track-4; grid-row: time-' + getRowPlace(item)">
+        <p>{{ getHour(item) }}</p>
+    </div>
+  </div>
+
+<transition name="fade">
+<div class="lightbox" v-if="activeEvent">
+  <div class="event_info">
+      <div class="close" @click="toggleLightbox()"></div>
+
+      
+    <a class="title" :href="activeEvent.link.url" target="_blank" v-if="activeEvent.link && activeEvent.link.url !== ''">{{activeEvent.title}}</a>
+      <h3 v-else>{{activeEvent.title}}</h3>
+      <p><b>{{activeEvent.event.start | formatDate }}</b> from <b>{{ activeEvent.event.start | formatHour }}</b> to <b>{{ activeEvent.event.end | formatHour }}</b></p>
+         <p>{{activeEvent.type}}</p>
+
+    <p>{{activeEvent.text}}</p>
+        <h4 class="text-xl font-bold border-b pb-3">Participants</h4>
+
+      <div class="participants">
+        <div class="participant" v-for="(item, index) in activeEvent.participants" :key="index">
+          <div class="participant_name">
+            <img :src="item.image" />
+            <div>
+              <a class="name" :href="item.url" target="_blank" v-if="item.url && item.url !== ''">{{item.name}}</a>
+              <h4 v-else>{{item.name}}</h4>
+               <div class="social" v-if="item.twitter || item.linkedin">
+                <a class="twitter" v-if="item.twitter" :href="item.twitter" target="_blank">Twitter</a>
+                <a class="linkedin" v-if="item.linkedin" :href="item.linkedin" target="_blank">LinkedIn</a>
               </div>
             </div>
           </div>
-          <div class="description md:description-md">
-            <div class="excerpt" v-if="item.text">
-              <p>{{item.event.start | formatDate}} - from {{item.event.start | formatTime}} to {{item.event.end | formatTime}} ({{Intl.DateTimeFormat().resolvedOptions().timeZone}})</p>
-              <p class="mt-2 pb-2 mt-6 w-full">{{item.text}}</p>
-              <a class="item_link" v-if="item.link" :href="item.link.url" target="_blank">{{item.link.text}}</a>
-            </div>
+          <div class="participant_info" v-if="item.text">
+            <p>{{item.text}}</p>
           </div>
         </div>
       </div>
-    </div>
-  </transition-group>
   </div>
-  </div>
+
 </div>
+</transition>
+
+  </div>
 </template>
 
 <script>
@@ -50,14 +85,240 @@ export default {
   data () {
     return {
       search: "",
+      columnCount: 0,
+      eventDates: [],
+      selectedFilter: null,
+      drawn: null,
+      times: [],
+      times2: {},
+      times3: {},
+      rows: null,
+      columns_drawn: null,
+      gridItems: null,
+      columns: 1,
       created: false,
       location: null,
       expand: null,
       type: null,
-      selectedDate: null
+      dates: null,
+      selectedDate: null,
+      activeEvent: null
     }
   },
   methods: {
+    selectDate(item) {
+      this.selectedDate = item;
+      this.selectedFilter = null;
+      this.getColumnCount();
+    },
+    toggleLightbox(item) {
+      if (this.activeEvent == null) {
+        this.activeEvent = item;
+      } else {
+        this.activeEvent = null;
+      }
+      
+    },
+    selectFilter(item) {
+      
+      if (this.selectedFilter == item) {
+        this.selectedFilter = null
+      } else {
+        this.selectedFilter = item;
+
+      }
+    },
+    getLine(event) {
+      var start = moment(event.start).format("HH:mm");
+      if (start.endsWith(0) || start.endsWith(5)) {
+        return moment(event.start).format("HH:mm")
+      }
+
+    },
+    gridItem(item, index) {
+      var prevIndex = this.items[index-1];
+      var column = 1;
+      var self = this;
+
+      if (index !== 0 && moment(item.event.start) >= moment(prevIndex.event.start) && moment(item.event.start) < moment(prevIndex.event.end)) {
+        column = prevIndex.column + 1;
+        self.columns++;
+      }
+
+      if (index == 0 || moment(prevIndex.event.start).format("DD-MM-YY") !== moment(item.event.start).format("DD-MM-YY")) {
+        this.eventDates.push(moment(item.event.start).format("dddd, MMMM Do"));
+      } 
+
+      if (index == 0) {
+        this.selectedDate = moment(item.event.start).format("dddd, MMMM Do");
+      }
+
+
+      item["column"] = column
+      return item
+    },
+    getRow(event) {
+      var start = moment(event.start).format("HHmm");
+      return "time-" + start + " / " +  "time-" + moment(event.end).format("HHmm");
+    },
+    drawRow(time, space, index) {
+      var start = moment(time).format("HHmm");
+      function isOdd(num) { return num % 2;}
+      var row = "";
+      var next = this.eventTimes()[index + 1];
+
+      if (isOdd(index) == 0) {
+        row = " [time-" + start + "] " + space;
+      } 
+
+      if (isOdd(index) == 1) {
+        row = " [time-" + start + "] auto";
+      }
+
+      var start_hour = moment(time).format("HH");
+      var start_minutes = moment(time).format("mm");
+
+      var end_hour = moment(next).format("HH");
+      var end_minutes = moment(next).format("mm");
+
+      var startDate = new Date(0,0,0,start_hour, start_minutes);
+      var endDate = new Date(0,0,0,end_hour, end_minutes);
+
+      var millis = endDate - startDate;
+      var minutes = millis/1000/60;
+
+ 
+
+      if (isOdd(index) == 1 && minutes > 30 && this.columnCount > 1) {
+        row = " [time-" + start + "] auto";
+      }
+
+
+      if (minutes < 30) {
+        row = " [time-" + start + "] auto";
+      }
+
+      return row
+      
+    },
+    drawRow2(item, index) {
+      var start = null;
+      if (item.start) {
+        start = moment(item.start).format("HHmm");
+      }
+      var end = moment(item.end).format("HHmm");
+      if (!item.start) {
+        return "1fr [time-" + end + "] ";
+      } else if (index == 0) {
+        return "[time-" + start + "] ";
+      } else {
+        return "auto [time-" + start + "] 1fr [time-" + end + "] ";
+      }
+      
+    },
+    getHour(time) {
+      return moment(time).format("HH:mm")
+    },
+    getRowPlace(time) {
+      return moment(time).format("HH:mm").replace(":", '')
+    },
+    getRowTimes() {
+      return this.eventTimes(true).filter((x, index) => this.getHour(x).endsWith(0) || this.getHour(x).endsWith(5) || index == 0)
+    },
+    getRowLines() {
+      return this.eventTimes().map((x, index) => this.drawRow(x, '1fr', index)).sort().join(" ");
+    },
+    getRowLines2() {
+      return this.eventTimes2().map((x, index) => this.drawRow2(x, index)).join(" ");
+    },
+    getTime(event) {
+      var start = moment(event.start).format("HH:mm");
+
+      // var time = "[time-" + start  + " " +  "time-" + moment(event.end).format("HHmm") + ']';
+      // array.push(time);
+                  // var end = moment(event.end).format("HHmm");
+
+     
+      if (!this.times.includes(start) && (start.endsWith(0) || start.endsWith(5))) {
+          this.times.push(start);
+      }
+    },
+    getTime2(event) {
+      var start = moment(event.start).format("DD-MM-YY");
+
+      // var time = "[time-" + start  + " " +  "time-" + moment(event.end).format("HHmm") + ']';
+      // array.push(time);
+                  // var end = moment(event.end).format("HHmm");
+
+      if (!this.times2[start]) {
+        this.times2[start] = [];
+      }
+      if (!this.times3[start]) {
+        this.times3[start] = [];
+      }
+      if (this.times2[start] && !this.times2[start].includes(event.start)) {
+        this.times2[start].push(event.start);
+      }
+      if (this.times3[start] && !this.times3[start].includes(event.start)) {
+        this.times3[start].push(event.start);
+      }
+      if (this.times3[start] && !this.times3[start].includes(event.end)) {
+        this.times3[start].push(event.end);
+      }
+     
+    },
+    eventTimes(start) {
+
+      // var time = "[time-" + start  + " " +  "time-" + moment(event.end).format("HHmm") + ']';
+      // array.push(time);
+                  // var end = moment(event.end).format("HHmm");
+      var array = [];
+      var i;
+
+      for (i = 0; i < this.filteredItems.length; i++) { 
+        if (!array.includes(this.filteredItems[i].event.start)) {
+          array.push(this.filteredItems[i].event.start);
+        }
+        if (!start && !array.includes(this.filteredItems[i].event.end)) {
+          array.push(this.filteredItems[i].event.end);
+        }
+      }
+
+      return array.sort()
+     
+    },
+    eventTimes2() {
+
+      // var time = "[time-" + start  + " " +  "time-" + moment(event.end).format("HHmm") + ']';
+      // array.push(time);
+                  // var end = moment(event.end).format("HHmm");
+      var array = [];
+      var i;
+
+      for (i = 0; i < this.filteredItems.length; i++) { 
+        var obj = {}
+        if (i !== 0 && this.filteredItems[i-1].event.end && this.filteredItems[i-1].event.end == this.filteredItems[i].event.start) {
+          obj['end'] = this.filteredItems[i].event.end;
+        } else {
+          obj['start'] = this.filteredItems[i].event.start;
+          obj['end'] = this.filteredItems[i].event.end;
+        }
+        array.push(obj);
+      }
+
+      return array.sort()
+     
+    },
+    getColumn(event, index) {
+      var prevIndex = this.items[index-1];
+      if (index !== 0) {
+        if (moment(event.start) >= moment(prevIndex.event.start) && moment(event.start) < moment(prevIndex.event.end)) {
+          return true
+        }
+      } else {
+        return false
+      }
+    },
     toggleEvent(index){
       if (this.$mq !== "md") {
         if (this.expand == index) {
@@ -84,10 +345,17 @@ export default {
       return obj;
     },
     getColor(type) {
-      if (this.filters.filter(x => x.type == type)[0]) {
-      return this.filters.filter(x => x.type == type)[0].color
+      if (this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0]) {
+      return this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0].color
     } else {
-      return 'black'
+      return 'white'
+    }
+    },
+    getCircleColor(type) {
+      if (this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0]) {
+      return "background-color: " +  this.filters.filter(x => x.type.toLowerCase() == type.toLowerCase())[0].color
+    } else {
+      return 'border: 1px solid rgba(0,0,0,0.3); background-color: white'
     }
     },
     clear(key){
@@ -126,8 +394,62 @@ export default {
         return false
       }
     },
+    createRow(time, index){
+ 
+      var height = "auto";
+      var length = this.times[index + 1] - time;
+      if (length > 30) {
+        height = "100px"
+      }
+   
+      return ' [time-' + time + '] ' + height
+    },
+    drawColumn(item, index) {
+      var prevIndex = this.filteredItems[index-1];
+      if (index !== 0 && moment(item.event.start) >= moment(prevIndex.event.start) && moment(item.event.start) < moment(prevIndex.event.end)) {
+        this.columnCount++;
+      }
+    },
+    getColumnCount() {
+      this.columnCount = 0;
+      this.filteredItems.map((x, index) => this.drawColumn(x, index))
+    },
+    getFormattedDate(value) {
+      return moment(value).format("dddd, MMMM Do");
+    },
+    getRowStyle() {
+      var columns = ["[times] 4em"];
+      var i;
+      var count = 3;
+      if (this.columnCount > 1) {
+        count = this.columnCount+2;
+      }
+      for (i = 1; i < count; i++) { 
+        var pr = i - 1;
+        var col = "";
+        if (i == 1) {
+          col = '[track-' + i + '-start] auto';
+        }
+        if (i !== 1 && i !== this.columnCount+2) {
+          col = '[track-' + pr + '-end track-' + i + '-start] auto';
+        }
+        if (i == this.columnCount+2) {
+          col = '[track-' + pr + '-end] auto';
+        }
+       columns.push(col)
+      }
+
+      this.columns_drawn = columns.join(" ");
+
+
+      // var cols = "[times] 4em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end];"
+      // var rows = this.times.slice(0,12).map((x, index) => this.createRow(x, index)).join(' ');
+      this.drawn = this.getRowLines();
+     return "grid-template-rows: " + this.drawn + "; grid-template-columns: " + this.columns_drawn;
+    }
   },
   created() {
+
     bus.$on('setDate', (data) => {
       this.selectedDate = data;
     })
@@ -161,6 +483,9 @@ export default {
   },
   filters: {
     formatTime: function(value) {
+      return "time-" + moment(value).format("HHmm");
+    },
+    formatHour: function(value) {
       return moment(value).format("HH:mm");
     },
     formatDate: function(value) {
@@ -169,11 +494,29 @@ export default {
   },
   mounted() {
     this.created = true;
+        this.gridItems = this.items.map((x, index) => this.gridItem(x, index));
+    this.gridItems.map((x, index) => this.getTime(x.event, index));
+      this.gridItems.map((x, index) => this.getTime2(x.event, index));
+
+    this.getColumnCount();
+
   },
   computed: {
     getHoverColor(){
       return this.uiStyle('highlight', this.stylesheet.highlight)['backgroundColor']
     },  
+    getFilters(){
+      var events = this.gridItems.filter(x => moment(x.event.start).format("dddd, MMMM Do") == this.selectedDate);
+      var types = events.map(x => x.event.type.toLowerCase());
+      return [...new Set(types)];
+    },  
+    filteredItems() {
+      var events = this.gridItems.filter(x => moment(x.event.start).format("dddd, MMMM Do") == this.selectedDate);
+      if (this.selectedFilter) {
+        events = events.filter(x => x.event.type.toLowerCase() == this.selectedFilter);
+      }
+      return events
+    },
     customFont() {
       if (this.stylesheet && this.stylesheet.font) {
         return {
@@ -199,188 +542,413 @@ export default {
 
 <style lang="scss" scoped>
 
-.filters {
-  @apply w-full flex items-center border-b pb-2;
-  background-size: 25px;
-  width: auto;
-  height: 50px;
-  .icon {
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 75'%3E%3Cpath fill='rgba(0,0,0,0.3)' d='M54 11H6l-1 1v8l18 12v16a1 1 0 001 1h1l11-3 1-1V32l18-12v-8l-1-1z'/%3E%3C/svg%3E") no-repeat 0 0;
-      width: 25px;
-      margin-top: 6px;
-      margin-right: 7px;
-      height: 25px;
-  }
-  p {
-    @apply flex items-center px-3;
-    height: 100%;
-    font-size: 14px;
-  }
-  .filter {
-    height: 33px;
-    width: auto;
-    @apply flex items-center p-0 bg-white mr-2 my-4 border;
-    overflow: hidden;
-    border-radius: 4px;
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transform: translateY(0px) translateZ(0px);
+perspective: 1000px;
+  .event_info {
+    padding: 4rem 6rem;
+    width: 70%;
+    height: 80%;
+    overflow: scroll;
+    position: relative;
+    background-color: white;
+    transition: all .5s ease;
+     transform: translateY(0px) translateZ(0px);
+    color: black;
+    .close {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 60px;
+      height: 60px;
+      display: block;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 33.8'%3E%3Cpath fill='%232EA48A' d='M16.3 13l10-10A1.8 1.8 0 1023.8.5l-10 10-10-10C3-.2 1.9-.2 1.3.5c-.7.7-.7 1.8 0 2.5l10 10-10 10a1.8 1.8 0 102.5 2.5l10-10 10 10a1.8 1.8 0 002.5-2.5l-10-10z' fill-rule='evenodd'/%3E%3C/svg%3E") center 60% #efefef;
+      background-repeat: no-repeat;
+      background-size: 20px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+     h3, a.title {
+      @apply inline-block font-bold text-3xl border-b pb-2 mb-3;
+    }
+    a.title:hover {
+      cursor: pointer;
+      color: #2EA48A;
+    }
+    .participants {
+      width: 100%;
+      column-count: 2;
+      column-gap: 50px;
+      padding: 0rem 0rem;
+      margin-top: 1.5rem;
 
+      .participant {
+        display: inline-block;
+        min-width: 300px;
+        border-bottom: 1px solid rgba(0,0,0,0.07);
+          padding: 0rem 0 1rem;
+          margin-bottom: 1rem;
+        a.name {
+          text-decoration: underline;
+          font-weight: bold;
+        }
+        .participant_name {
+          @apply pb-0;
+          display: flex;
+          align-items: start;
+          width: 100%;
+          .social {
+            display: block;
+            margin-top: 0px;
+            a {
+              border-bottom: 1px dashed #ddd;
+              padding: 0 0 2px;
+              margin-top: 0;
+              margin-right: 10px;
+              font-weight: bold;
+              color: rgba(0,0,0,0.8);
+              font-size: 13px;
+              &:hover {
+                color: black;
+                cursor: pointer;
+              }
+            }
+           
+          }
+        }
+        .participant_info {
+          margin-top: 0rem;
+          font-size: .9rem;
+        }
+  
+        img {
+          border-radius: 10px;
+          height: 50px;
+          margin-right: .75rem;
+          border: .5px solid rgba(0,0,0,0.1);
+        }
+        h4 {
+          @apply font-bold text-base;
+        }
+      }
+    }
+  }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  .event_info {
+    opacity: 0;
+    transform: scale(0.2) translateY(5px) translateZ(-10px);
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px 0px;
+.dates {
+  display: flex;
+  padding-top: 10px;
+  top: 20px;
+    border-bottom: 1px solid #efefef;
+
+}
+  .date {
+    color: #2EA48A;
+    margin-right: 10px;
+    text-decoration: underline;
+    font-size: 1rem;
+          padding: 12px 12px;
+      margin-bottom: -1px;
+      border: 1px solid rgba(0,0,0,0);
+
+          font-weight: bold;
     &:hover {
       cursor: pointer;
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 40'%3E%3Cpath fill='black' d='M16 2a14 14 0 100 28 14 14 0 000-28zm6 18a1.5 1.5 0 11-2 2l-4-3.9-4 4a1.5 1.5 0 01-2 0c-.6-.6-.6-1.6 0-2.2l3.9-3.9-4-4a1.5 1.5 0 112.2-2l3.9 3.9 4-4a1.5 1.5 0 112 2.2L18.2 16l4 4z'/%3E%3C/svg%3E") no-repeat 7px 65% rgba(0,0,0,0.04) !important;
-      background-size: 14px !important;
-      padding-left: 14px;
-
-      .key {
-        display: none;
-      }
     }
-    p.key {
-      @apply font-bold;
-      text-transform: uppercase;
-      font-size: 10px;
-      padding-top: 1px;
-    }
-    p {
-      @apply m-0 py-0;
-      font-size: 12px;
-      @apply font-bold;
+    &.active {
+      color: rgba(0,0,0,0.9);
+      text-decoration: none;
+      border: 1px solid #efefef;
+      border-bottom: 1px solid #fff;
+      z-index: 999;
     }
   }
 }
-
-.timeline {
-  flex-basis: 100%;
-  min-width: 100% !important;
-  flex-shrink: 0;
-  width: 100% !important;
-  max-height: 500px;
-  overflow: scroll;
-}
-.list-enter-active, .list-leave-active {
-  transition: all .3s ease;
-}
-.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
-  opacity: 0;
-  transform: translateY(200px);
-}
-.day {
-  transition: padding .3s ease;
-  h4 {
-    @apply font-bold mt-6 text-xl;
+.filters_options {
+  display: flex;
+  padding-top: 13px;
+  align-items: center;
+  h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px !important;
+    margin-right: 10px;
   }
   &.active {
-    width: 90%;
-    &.last {
-      @apply pb-6;
+    .filter {
+      opacity: 0.6;
     }
   }
 }
 
-.event {
-  width: 100%;
-  .info {
-    border-left-width: 5px;
-    transition: border .4s ease;
+@keyframes scale {
+  0% {
+    transform: scale(0)
   }
-  .title a {
-    @apply pb-1 mb-0;
-  }
-
-
-  .title {
-    transition: padding 0s ease;
-    .marker {
-      
-    }
-    &:hover {
-      .options {
-        opacity: 1;
-        transform: translateX(0px);
-      }
-    }
-    .options {
-      .icon {
-        width: 23px;
-        height: 23px !important;
-        display: inline-block;
-        border-radius: 4px;
-        background: #000;
-        margin-right: 5px;
-        border: .5px solid #efefef;
-        background-color: #fff !important;
-        &:hover {
-          border: .5px solid #000;
-        }
-        &.information {
-          background: url("data:image/svg+xml,%3Csvg width='17' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 6c0 1.7-.6 3-1.7 4.2a5.6 5.6 0 01-4.1 1.8c-1.7 0-3-.6-4.2-1.8A5.8 5.8 0 015.3 6c0-1.6.6-3 1.7-4.2A5.6 5.6 0 0111.2 0c1.6 0 3 .6 4 1.8A5.9 5.9 0 0117 6zm-.6 39.5l-4 1.9c-1.1.4-2.3.6-3.7.6-2 0-3.7-.6-4.8-1.9a6.6 6.6 0 01-1.7-4.7 20.2 20.2 0 01.5-4.8L5 27.3a51.1 51.1 0 00.6-4.7c0-1.1-.2-2-.6-2.4-.4-.5-1.1-.7-2.3-.7a5 5 0 00-1.7.3c-.6.2-.9-2.3-.9-2.3l4-1.8c1.3-.5 2.5-.7 3.7-.7 2 0 3.7.6 4.8 1.8a6.7 6.7 0 011.7 4.8 32.2 32.2 0 01-.6 4.9l-2.1 9.2a29.2 29.2 0 00-.7 4.7c0 1.2.2 2 .7 2.5.4.4 1.2.6 2.3.6.5 0 1.1 0 1.8-.3.6-.2.8 2.3.8 2.3z' fill='%23000' fill-rule='nonzero'/%3E%3C/svg%3E") no-repeat center 65% #fff;
-          background-size: 17% !important;
-        }
-        &.email {
-          background: url("data:image/svg+xml,%3Csvg width='320' height='256' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M114 134C23 68 24 68 0 49V24C0 11 11 0 24 0h272c13 0 24 11 24 24v25c-24 19-23 19-114 85-11 8-32 26-46 26-15 0-35-18-46-26zm206-44v142c0 13-11 24-24 24H24c-13 0-24-11-24-24V90l95 70c14 10 38 32 65 32s51-22 65-32l95-70z' fill='%23000' fill-rule='nonzero'/%3E%3C/svg%3E") no-repeat center 51% #fff;
-          background-size: 50% !important;
-        }
-        &.twitter {
-          background: url("data:image/svg+xml,%3Csvg aria-hidden='true' data-prefix='fab' data-icon='twitter' class='svg-inline--fa fa-twitter fa-w-16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='currentColor' d='M459 152l1 13c0 139-106 299-299 299-59 0-115-17-161-47a217 217 0 00156-44c-47-1-85-31-98-72l19 1c10 0 19-1 28-3-48-10-84-52-84-103v-2c14 8 30 13 47 14A105 105 0 0136 67c51 64 129 106 216 110-2-8-2-16-2-24a105 105 0 01181-72c24-4 47-13 67-25-8 24-25 45-46 58 21-3 41-8 60-17-14 21-32 40-53 55z'/%3E%3C/svg%3E") no-repeat center 51% #fff;
-          background-size: 50% !important;
-        }
-        &.facebook {
-          background: url("data:image/svg+xml,%3Csvg aria-hidden='true' data-prefix='fab' data-icon='facebook-f' class='svg-inline--fa fa-facebook-f fa-w-10' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='currentColor' d='M279 288l14-93h-89v-60c0-25 13-50 53-50h40V6s-37-6-72-6c-73 0-121 44-121 125v70H23v93h81v224h100V288z'/%3E%3C/svg%3E") no-repeat center 54% #fff;
-          background-size: 30% !important;
-        }
-      }
-    }
+  100% {
+    transform: scale(1)
   }
 }
-.find_out {
-  background: #2EA48A;
-  color: white;
-  border: none;
-}
+.filter {
+      border-radius: 6px;
 
-.info:hover {
-  border-color: var(--hover-border-color);
-}
-
-.info-md:hover {
-  border-color: var(--hover-border-color);
-}
-
-a.read_more {
-  height: 27px;
-  @apply inline-flex px-2 rounded-sm items-center;
-  color: white;
-}
-
-.participants {
-  @apply pt-2 mt-2;
-  border-top: 1px dashed rgba(0,0,0,0.08);
-}
-.participant {
-  @apply inline-flex items-center mr-4 text-sm mt-1 ;
-  font-weight: 100;
-  p {
-    margin: 0
+  padding: 7px 8px;
+  background: white;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all .1s ease;
+  &:hover {
+    background: rgba(0,0,0,0.04) !important;
   }
-  .avatar {
-    @apply float-left inline-block mr-2;
-    width: 22px;
-    height: 22px;
+  .circle {
+    width: 14px;
+    height: 14px;
     border-radius: 100px;
-    background-size: cover !important;
+    float: left;
+    margin-right: 7px;
   }
-  a:hover {
-    text-decoration: underline;
+  &.active {
+    background-color: rgba(0,0,0,.05) !important;
+    opacity: 1 !important;
+    .circle {
+      opacity: 1;
+      display: flex;
+      position: relative;
+      animation: scale .2s ease;
+      svg {
+        transform: scale(0.3);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+      }
+    }
   }
-
 }
 
-p.event_title {
-  margin: 1rem 0 0;
-  font-weight: 400;
-  @apply text-base;
+.time {
+  width: 100%;
+  height: 1px;
+  margin-top: 1px;
+  border-bottom: 1px dashed rgba(0,0,0,0.2);
+  position: relative;
+  z-index: -1;
+  p {
+    position: absolute;
+    left: -50px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+    top: -10px;
+    font-size: 13px;
+  }
+}
+/*************************
+ * GRID SCHEDULE LAYOUT
+ *************************/
+@media screen and (min-width:700px) {
+    .schedule {
+        display: grid;
+        position: relative;
+        grid-row-gap: .2rem;
+        min-width: 70vw;
+            /* Note 1:
+            Use 24hr time for gridline names for simplicity
+
+            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+            */
+        
+    }
 }
 
-.day h4.first_date {
-  margin: 0 !important;
+.time-slot {
+    grid-column: times;
 }
 
+.track-slot {
+    display: none; /* hidden on small screens and browsers without grid support */
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width:700px) {
+        .track-slot {
+            display: block;
+            padding: 10px 5px 5px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255,255,255,.9);
+        }
+    }
+}
+
+
+/* Small-screen & fallback styles */
+.session {
+    margin-bottom:  1em;
+    h4, p {
+      font-weight: bold;
+      font-size: 12px;
+    }
+    p {
+      color: rgba(0,0,0,0.7)
+    }
+  
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width: 700px) {
+        .session {
+            margin: 0;
+        }   
+    }
+}
+
+/*************************
+ * VISUAL STYLES
+ * Design-y stuff ot particularly important to the demo
+ *************************/
+
+
+
+@keyframes fadein {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+      transform: translateY(0px);
+
+    opacity: 1
+  }
+}
+
+.session {
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 14px;
+border: 1px solid rgba(0,0,0,0.2);
+margin: .5rem .5rem 0 0;
+z-index: 2;
+background: white;
+position: relative;
+&:hover {
+  cursor: pointer;
+}
+}
+
+.session-title,
+.session-time,
+.session-track,
+.session-presenter {
+    display: block;
+}
+
+.session-title,
+.time-slot {
+    margin: 0;
+    font-size: 1em;
+}
+
+.session-title a {
+    color: #fff;
+    text-decoration-style: dotted;
+    
+    &:hover {
+        font-style: italic;
+    }
+    
+    &:focus {
+        outline: 2px dotted rgba(255,255,255,.8);
+    }
+}
+
+.track-slot,
+.time-slot {
+    font-weight: bold;
+    font-size:.75em;
+}
+
+.track-1 {
+    background-color: #1259B2;
+    color: #fff;
+}
+
+.track-2 {
+    background-color: #687f00;
+    color: #fff;
+}
+
+.track-3 {
+    background-color: #544D69;
+    color: #fff;
+}
+
+.track-4 {
+    background-color: #c35500;
+    color: #fff;
+}
+
+.track-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    color: #000;
+    box-shadow: none;
+}
+
+.text {
+    max-width: 750px;
+    font-size: 18px;
+    margin: 0 auto 50px;
+}
+
+.meta {
+    color: #555;
+    font-style: italic;
+}
+
+.meta a {
+    color: #555;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
