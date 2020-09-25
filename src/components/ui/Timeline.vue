@@ -1,5 +1,7 @@
 <template>
   <div :style="customFont">
+
+
     <div class="navigation">
       <div class="dates">
       <div v-for="(item, index) in eventDates" class="date" :key="index" @click="selectDate(item)" :class="{active: selectedDate == item}">{{ item }}</div>
@@ -145,6 +147,11 @@ export default {
         self.columns++;
       }
 
+      if (index !== 0 && prevIndex.column > 1 ) {
+        column = 0;
+      }
+
+
       if (index == 0 || moment(prevIndex.event.start).format("DD-MM-YY") !== moment(item.event.start).format("DD-MM-YY")) {
         this.eventDates.push(moment(item.event.start).format("dddd, MMMM Do"));
       } 
@@ -223,7 +230,7 @@ export default {
       return moment(time).format("HH:mm").replace(":", '')
     },
     getRowTimes() {
-      return this.eventTimes(true).filter((x, index) => this.getHour(x).endsWith(0) || this.getHour(x).endsWith(5) || index == 0)
+      return this.eventTimes(true).filter((x, index) => this.getHour(x).endsWith(0) && !this.getHour(x).endsWith(30) || this.getHour(x).endsWith(5) || index == 0)
     },
     getRowLines() {
       return this.eventTimes().map((x, index) => this.drawRow(x, '1fr', index)).sort().join(" ");
