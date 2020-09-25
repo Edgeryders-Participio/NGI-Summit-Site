@@ -42,7 +42,9 @@
   <div class="event_info">
       <div class="close" @click="toggleLightbox()"></div>
 
-    <h3>{{activeEvent.title}}</h3>
+      
+    <a class="title" :href="activeEvent.link.url" target="_blank" v-if="activeEvent.link && activeEvent.link.url !== ''">{{activeEvent.title}}</a>
+      <h3 v-else>{{activeEvent.title}}</h3>
       <p><b>{{activeEvent.event.start | formatDate }}</b> from <b>{{ activeEvent.event.start | formatHour }}</b> to <b>{{ activeEvent.event.end | formatHour }}</b></p>
          <p>{{activeEvent.type}}</p>
 
@@ -56,7 +58,7 @@
             <div>
               <a class="name" :href="item.url" target="_blank" v-if="item.url && item.url !== ''">{{item.name}}</a>
               <h4 v-else>{{item.name}}</h4>
-              <div class="social">
+               <div class="social" v-if="item.twitter || item.linkedin">
                 <a class="twitter" v-if="item.twitter" :href="item.twitter" target="_blank">Twitter</a>
                 <a class="linkedin" v-if="item.linkedin" :href="item.linkedin" target="_blank">LinkedIn</a>
               </div>
@@ -577,8 +579,12 @@ perspective: 1000px;
         cursor: pointer;
       }
     }
-    h3 {
-      @apply font-bold text-3xl border-b pb-2 mb-3;
+     h3, a.title {
+      @apply inline-block font-bold text-3xl border-b pb-2 mb-3;
+    }
+    a.title:hover {
+      cursor: pointer;
+      color: #2EA48A;
     }
     .participants {
       width: 100%;
