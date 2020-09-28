@@ -44,7 +44,7 @@
         "align": "left",
         "buttons": [
           {
-            "text": "Register for your free ticket",
+            "text": "Join the Summit (now live)",
             "url": "https://hopin.to/events/next-generation-internet-policy-summit",
             "background": "rgb(255, 219, 106)",
             "color": "#333"
