@@ -48,6 +48,11 @@
             "url": "https://hopin.to/events/next-generation-internet-policy-summit",
             "background": "rgb(255, 219, 106)",
             "color": "#333"
+          }    ,      {
+            "text": "Read our Vision for the future internet",
+            "url": "https://research.ngi.eu/working-paper-a-vision-for-the-future-internet/",
+            "background": "rgb(0, 156, 142)",
+            "color": "#333"
           }
         ]
       },
