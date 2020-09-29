@@ -40,15 +40,10 @@
       },
       "title": "Next Generation Internet <br>Policy Summit",
       "text": {
-        "content": "<p><strong>Register now</strong> for the NGI Policy Summit 2020, hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong><br><p>Online</p><p>Free of charge</p>",
+        "content": "<p>The Summit has now come to an end. Thank you to all of our speakers and attendees. We will soon publish a report of the discussions.<br><br>Hosted by the City of Amsterdam and the European Commission’s Next Generation Internet (NGI) initiative.</p><br><p><strong>28 - 29 September</strong><br><p>Online</p><p>Free of charge</p>",
         "align": "left",
         "buttons": [
-          {
-            "text": "Join the Summit (now live)",
-            "url": "https://hopin.to/events/next-generation-internet-policy-summit",
-            "background": "rgb(255, 219, 106)",
-            "color": "#333"
-          }    ,      {
+        {
             "text": "Read our Vision for the future internet",
             "url": "https://research.ngi.eu/working-paper-a-vision-for-the-future-internet/",
             "background": "rgb(0, 156, 142)",
