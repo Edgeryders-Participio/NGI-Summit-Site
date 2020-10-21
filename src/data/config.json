@@ -82,7 +82,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>Bringing together a coalition of internet changemakers from 28-29 September, the Summit will lay out an <strong>ambitious European vision for the future internet</strong> and explore the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit is aimed at local, national and international policymakers but we also welcome researchers, innovators and civil society organisations who can share practical ideas for a more human-centric internet. <a href=\"https://hopin.to/events/next-generation-internet-policy-summit\" class=\"underline\">Register now to join us online</a>.</p><p align=\"center\"><iframe style=\"height: 41vw;width: 100%;max-width: 800px;max-height: 450px;\" src=\"https://www.youtube-nocookie.com/embed/ASAuRjT71N8?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>",
+        "content": "<p>Bringing together a coalition of internet changemakers from 28-29 September, the Summit laid out an <strong>ambitious European vision for the future internet</strong> and explored the <strong>policy interventions</strong> and <strong>technical solutions</strong> that can help get us there. The Summit was aimed at local, national and international policymakers but we also welcomed researchers, innovators and civil society organisations who shared practical ideas for a more human-centric internet.</p><p align=\"center\"><iframe style=\"height: 41vw;width: 100%;max-width: 800px;max-height: 450px;\" src=\"https://www.youtube-nocookie.com/embed/ASAuRjT71N8?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>",
         "position": "left",
         "buttons": []
       }
@@ -138,7 +138,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>The NGI Policy Summit is organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It forms part of the <strong>Next Generation Internet (NGI) programme</strong>, the Commission&#39;s flagship initiative to build a more democratic inclusive and resilient future internet. You can <a class=\"underline\" href=\"https://www.ngi.eu/about/\" rel=\"noopener noreferrer\" target=\"_blank\">learn more about the NGI here</a> and follow our policy and strategy work at the <a class=\"underline\" href=\"https://research.ngi.eu/\" rel=\"noopener noreferrer\" target=\"_blank\">NGI Policy Lab</a>.</p>",
+        "content": "<p>The NGI Policy Summit was organised by Nesta and the City of Amsterdam, in collaboration with the European Commission. It formed part of the <strong>Next Generation Internet (NGI) programme</strong>, the Commission&#39;s flagship initiative to build a more democratic inclusive and resilient future internet. You can <a class=\"underline\" href=\"https://www.ngi.eu/about/\" rel=\"noopener noreferrer\" target=\"_blank\">learn more about the NGI here</a> and follow our policy and strategy work at the <a class=\"underline\" href=\"https://research.ngi.eu/\" rel=\"noopener noreferrer\" target=\"_blank\">NGI Policy Lab</a>.</p>",
         "position": "left"
       },
       "style": {
@@ -195,7 +195,7 @@
       "view": "cards",
       "tag": "webcontent-ngi-summit-2020-topics",
       "text": {
-        "content": "<p>The NGI Policy Summit will explore <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics. Click a topic to find out more and join in a discussion on our Exchange Platform.</p>",
+        "content": "<p>The NGI Policy Summit explored <strong>visions for the future internet</strong>, as well as ways to <strong>empower policymakers</strong> and <strong>strengthen innovation ecosystems</strong> across five topics. Click a topic to find out more and join in a discussion on our Exchange Platform.</p>",
         "position": "left"
       },
       "sort_by": {
@@ -235,7 +235,7 @@
         "poster": ""
       },
       "text": {
-        "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation ahead of the Summit and connect with NGI innovators on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders. Registering for the platform is optional and separate from your registration for the event.</p>",
+        "content": "<p>What does it mean to build the Next Generation Internet? How should it be governed? What is Europe missing? Join the conversation and connect with NGI innovators on our exchange platform.</p><p>Sign up to create an account for the NGI exchange platform, hosted by Edgeryders.</p>",
         "position": "left",
         "buttons": [
           {
