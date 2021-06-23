@@ -63,7 +63,7 @@
     },
     {
       "type": "custom",
-      "title": "About the Summit",
+      "title": "About the Summit.",
       "id": "about",
       "style": {
         "container": {
